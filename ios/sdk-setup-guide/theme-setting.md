@@ -1,3 +1,9 @@
+---
+description: >-
+  Head over to Theming if you want to customize your SDK integration's typeface,
+  colors or fonts. It is done via simple key-value pairs in a plist file.
+---
+
 # Theme Setting
 
 {% hint style="info" %}
