@@ -1,0 +1,2 @@
+# Get FAQ Categories
+
