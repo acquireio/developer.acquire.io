@@ -1,9 +1,3 @@
----
-description: >-
-  Acquire is built and tested to work in the following web browsers. It may work
-  in other browsers but these are not officially supported.
----
-
 # Requirement For Acquire
 
 ### Client Requirements {#client-requirements}

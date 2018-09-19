@@ -1,9 +1,3 @@
----
-description: >-
-  This article explains how to enable push notifications in Acquire for iOS. If
-  you are new to push notifications in iOS.
----
-
 # iOS Push Notifications
 
 To enable push notifications in Acquire you first need to create a .p12 certificate file of your Apple Push Certificate and upload it to Acquire \(we support both production and development .p12 files\).

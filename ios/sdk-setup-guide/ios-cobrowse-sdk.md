@@ -1,9 +1,3 @@
----
-description: >-
-  We recommend installing the acquire.io SDK using Cocoapods. Add this to your
-  Podfile:
----
-
 # iOS Cobrowse SDK
 
 ## Setup

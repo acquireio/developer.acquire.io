@@ -1,9 +1,3 @@
----
-description: >-
-  You can initiate your chat box and integrate better snippet with your website
-  in a number of ways.
----
-
 # Description
 
 {% hint style="info" %}

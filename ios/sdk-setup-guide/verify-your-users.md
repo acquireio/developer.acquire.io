@@ -1,7 +1,3 @@
----
-description: Make sure your users are who they claim to be with identity verification.
----
-
 # Verify your users
 
 Enforce identity verification to prevent other from pretend to be \(third party\) for entertainment or fraud logged-in users.

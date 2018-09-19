@@ -1,7 +1,3 @@
----
-description: You need to get your chat box initiation code.
----
-
 # Installation
 
 Visit [acquire.io](https://www.acquire.io/) and click a Sign Up.  

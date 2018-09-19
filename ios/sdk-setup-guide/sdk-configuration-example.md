@@ -1,9 +1,3 @@
----
-description: >-
-  The Acquire SDKs can be configured with information such as account, options,
-  integration mode etc using the configuration mechanisms listed here.
----
-
 # SDK Configuration Example
 
 ### Swift Example
