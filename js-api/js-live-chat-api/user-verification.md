@@ -4,7 +4,7 @@
 
  Generate an **HMAC** with **SHA256** whenever a user logs into your app. Most web frameworks will have a method or library to help you do this. You'll need your app’s secret key and the email of the currently logged-in user.
 
-####  **Secret Key**
+#### **Secret Key**
 
  _\[YOUR\_SECRET\_KEY\]_
 
