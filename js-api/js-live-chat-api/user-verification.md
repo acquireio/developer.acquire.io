@@ -73,7 +73,7 @@ First, you need to add email id in `acquireIO.loginVisitor()` method in SDK for 
 acquireIO.loginVisitor('USER_HASH',{email:'user@example.com'})
 ```
 
-####  **Logout visitor**
+###  **Logout visitor**
 
 If you have set visitor hash \(**HMAC digest**\) and visitor just logged out from account and need to manage user integrity with agent, call method `logoutVisitor()` to remove all acquire data from your app related to visitorHash. This must call method to logout from acquireIO support:
 
@@ -81,7 +81,7 @@ If you have set visitor hash \(**HMAC digest**\) and visitor just logged out fro
 acquireIO.logoutVisitor()
 ```
 
-```text
 
-```
+
+
 
