@@ -63,7 +63,9 @@ OpenSSL::HMAC.hexdigest(
 {% endtab %}
 {% endtabs %}
 
+{% hint style="info" %}
 > **Note:** Keep your secret key safe! Never commit it directly to your repository, client-side code, or anywhere a third party can find it.
+{% endhint %}
 
 
 
