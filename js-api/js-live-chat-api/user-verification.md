@@ -64,10 +64,8 @@ OpenSSL::HMAC.hexdigest(
 {% endtabs %}
 
 {% hint style="info" %}
-> **Note:** Keep your secret key safe! Never commit it directly to your repository, client-side code, or anywhere a third party can find it.
+ **Note:** Keep your secret key safe! Never commit it directly to your repository, client-side code, or anywhere a third party can find it.
 {% endhint %}
-
-
 
 First, you need to add email id in `acquireIO.loginVisitor()` method in SDK for uniquely identify your users. Note that if you set only visitor hash and email is not set then acquire can't identify visitor. So you need this method to verify visitor hash.
 
