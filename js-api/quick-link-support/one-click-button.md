@@ -46,5 +46,33 @@ Copy the code on the right inside the body tag to customize a quick connection t
 
 {% file src="../../.gitbook/assets/get-agent-id-1.png" caption="Get AGENT\_ID" %}
 
+#### Example:
 
+```javascript
+<a href="javascript:acquireIO.max('text',12823)">Start the Chat With Som</a>
+```
+
+### Embedd Code For Video Call
+
+```javascript
+<a href="javascript:acquireIO.max('video',AGENT_ID)"> Start Video Call Now </a>
+```
+
+#### Example:
+
+```javascript
+<a href="javascript:acquireIO.max('video',12823)"> Start Video Call Now </a>
+```
+
+### Embedd Code For Audio Call
+
+```javascript
+<a href="javascript:acquireIO.max('audio',AGENT_ID)"> Start Audio Call Now </a>
+```
+
+#### Example:
+
+```javascript
+<a href="javascript:acquireIO.max('audio',12823)"> Start Audio Call Now </a>
+```
 
