@@ -1,0 +1,10 @@
+{
+    "gitbook": "2.x.x",
+    "plugins": ["youtube"],
+    "links": {
+        "sidebar": {
+            "Try For Free": "https://app.acquire.io/signup"
+        }
+    },
+    "pluginsConfig": {}
+}
