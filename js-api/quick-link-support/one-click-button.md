@@ -14,19 +14,19 @@ Copy the code on the right inside the body tag to customize a quick connection t
 
 ### Sample Code to embedd \( for video call \)
 
-```text
+```javascript
 <a href="javascript:acquireIO.max('video')"> Start Video Call Now </a>
 ```
 
 ### Sample Code to embedd \( for audio call \)
 
-```text
+```javascript
 <a href="javascript:acquireIO.max('audio')"> Start Audio Call Now </a>
 ```
 
 ### Sample Code to embedd \( for text chat \)
 
-```text
+```javascript
 <a href="javascript:acquireIO.max('text')"> Start Text Chat Now </a>
 ```
 
@@ -36,7 +36,7 @@ Copy the code on the right inside the body tag to customize a quick connection t
 
 ### Embedd Code For Text Chat
 
-```text
+```javascript
 <a href="javascript:acquireIO.max('text',AGENT_ID)">Start the Chat</a>
 ```
 
