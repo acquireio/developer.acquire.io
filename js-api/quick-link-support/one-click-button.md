@@ -44,7 +44,7 @@ Copy the code on the right inside the body tag to customize a quick connection t
 
  First login [Acquire dashboard](https://app.acquire.io/)  and open **Agents** and copy specific **`agent ID`**.
 
-{% file src="../../.gitbook/assets/get-agent-id-1.png" caption="Get AGENT\_ID" %}
+![Get Agent\_ID](../../.gitbook/assets/get-agent-id-1.png)
 
 #### Example:
 
