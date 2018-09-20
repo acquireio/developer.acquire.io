@@ -97,7 +97,7 @@ Our builder class provides following options :
 
  5. **`setHideStopButton(boolean hideStopButton)`** :
 
-
+![](../../.gitbook/assets/android-cobrowse.PNG)
 
 ```javascript
 /**
@@ -107,6 +107,8 @@ Our builder class provides following options :
 ```
 
  6. **`setConfirmStop(boolean enable)`** :
+
+![](../../.gitbook/assets/android-cobrowse-1.PNG)
 
 ```javascript
 /**
@@ -141,9 +143,23 @@ to register listeners.
 
 Here is the complete understanding of these callbacks:
 
-1. **`onCoBrowseConnect(String s)`** : Will be invoked when co browse session is connected and also you can get random id from its argument.
-2. **`onAgentConnected()`** : This is invoked when agent start connection by entering same random id which user has got.
-3. **`onCoBrowseDisconnect(String name)`** : this method is invoked when co browsing session is disconnected. Also it will tell you who \(agent/user\) has disconnected the session.
-4. **`onCoBrowseFailed()`** : will be invoked when socket connection fails to connect.
-5. **`onCoBrowseError()`** : will be invoked when socket gives any error while running session.
+1.**`onCoBrowseConnect(String s)`** : Will be invoked when co browse session is connected and also you can get random id from its argument.
+
+2.**`onCoBrowseConnect(String s)`** : Will be invoked when co browse session is connected and also you can get random id from its argument.
+
+![](../../.gitbook/assets/android-cobrowse-2.PNG)
+
+3.**`onAgentConnected()`** : This is invoked when agent start connection by entering same random id which user has got.  
+
+![](../../.gitbook/assets/android-cobrowse-3.PNG)
+
+4.**`onCoBrowseDisconnect(String name)`** : this method is invoked when co browsing session is disconnected. Also it will tell you who \(agent/user\) has disconnected the session.
+
+5. **`onCoBrowseFailed()`** : will be invoked when socket connection fails to connect.
+
+6.**`onCoBrowseError()`** : will be invoked when socket gives any error while running session.
+
+![](../../.gitbook/assets/android-cobrowse-4.PNG)
+
+7.**`logOut()`**: To flush out all acquire components call this method.But keep in mind , after calling logout no api of our sdk will work.
 

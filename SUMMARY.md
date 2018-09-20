@@ -50,7 +50,6 @@
   * [Acquire Chat Start](android/install-the-sdk/acquire-chat-start.md)
   * [Custom UI and server URL](android/install-the-sdk/custom-ui-and-server-url.md)
   * [API Explore](android/install-the-sdk/api-explore.md)
-  * [Support for Co-Browsing](android/install-the-sdk/support-for-co-browsing.md)
   * [Permissions](android/install-the-sdk/permissions.md)
   * [Verify Your Users](android/install-the-sdk/verify-your-users.md)
   * [Custom CallBack Events](android/install-the-sdk/custom-callback-events.md)

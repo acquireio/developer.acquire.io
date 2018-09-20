@@ -8,7 +8,7 @@ Follow the below steps to integrate Acquire with your existing app.
 
 In your project-level build.gradle build file:
 
-```java
+```javascript
 allprojects {
     repositories {
         maven {
@@ -21,7 +21,7 @@ allprojects {
 
  So the top level gradle file will look like this :
 
-```java
+```javascript
 buildscript {
    repositories {
        jcenter()
@@ -46,7 +46,7 @@ allprojects {
 
  In your app-level build.gradle file:
 
-```java
+```javascript
 dependencies {
  implementation fileTree(dir: 'libs', include: ['*.jar'])
 implementation 'com.android.support:design:27.1.1'
@@ -64,7 +64,7 @@ implementation 'com.acquireio:core:1.+'
 
  Your App level gradle file will look like this :
 
-```java
+```javascript
 android {
    compileSdkVersion 26
    buildToolsVersion "26.0.2"

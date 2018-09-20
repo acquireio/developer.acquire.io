@@ -14,7 +14,7 @@ If not included these below lines then add it manually on your AndroidManifest.x
 
 #### **1. Service:**
 
-```java
+```javascript
 <service
 		android:name="com.acquireio.socket.SocketBackgroundService"
 		android:exported="true" />
@@ -22,7 +22,7 @@ If not included these below lines then add it manually on your AndroidManifest.x
 
  **2. Activities:**
 
-```java
+```javascript
 <activity   android:name="com.acquireio.sdk.activities.AQR_ChatListActivity"
 		android:launchMode="singleInstance"
 		android:screenOrientation="portrait" />

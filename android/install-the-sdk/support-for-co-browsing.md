@@ -1,4 +1,0 @@
-# Support for Co-Browsing
-
-
-

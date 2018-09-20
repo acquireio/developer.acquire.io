@@ -4,7 +4,7 @@
 
 We include the INTERNET permission by default as we need it to make network requests :
 
-```java
+```javascript
 <uses-permission android:name="android.permission.INTERNET"/>
 ```
 
@@ -14,7 +14,7 @@ We include the INTERNET permission by default as we need it to make network requ
 
 * To make Audio/Video calls camera and record audio permissions are needed so it will ask in marshmallow and above devices. Before marshmallow it is granted by default as mentioned in **AndroidManifest**.
 
-```java
+```javascript
 <uses-permission android:name="android.permission.CAMERA" /> 
 <uses-permission android:name="android.permission.RECORD_AUDIO" />
 ```
@@ -23,7 +23,7 @@ We include the INTERNET permission by default as we need it to make network requ
 
 * To share attachments from device Read and Write External Storage permissions are needed so it will ask in marshmallow and above devices. Before marshmallow it is granted by default as mentioned in AndroidManifest.
 
-```java
+```javascript
 <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 ```

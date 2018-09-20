@@ -18,7 +18,7 @@ Your google-services.json should automatically download. You’ll need to move t
 
 In your apps build.gradle you will need to add the following lines to your dependencies:
 
-```java
+```javascript
 dependencies {
 
     compile 'io.acquire.android:acquire-sdk-fcm:4.+'
@@ -42,7 +42,7 @@ Open your Acquire app’s settings and select **‘Acquire for Android’**. The
 
 If you want to add a custom icon for your notifications, just add an image named chat\_icon\_aqr\_white.png to each of your supported densities. Please note that vector drawables cannot be used here. For example:
 
-```java
+```javascript
 /res/drawable-xxhdpi/chat_icon_aqr_white.png 
 /res/drawable-xhdpi/chat_icon_aqr_white.png 
 /res/drawable-hdpi/chat_icon_aqr_white.png 

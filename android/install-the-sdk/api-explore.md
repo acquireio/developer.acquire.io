@@ -19,7 +19,7 @@ You can customize visitor’s identification by calling our sdk’s method setVi
 * **`@param phone`**  - the phone you want to display for the visitor
 * **`@param fields`**  - pass the extra fields within a `JSONObject` e.g.
 
-```java
+```javascript
  JSONObject jsonObject = new JSONObject();
        try {
                jsonObject.put([name] : "sample", [value] :"sucess");
@@ -50,7 +50,7 @@ If set to true then FloatingActionButton will be added to all your activities wh
  **Note:** Use this method before Activity's **`setContentView()`** method. On click of the button chat will open by default. By default, it’s set to false.
 {% endhint %}
 
-```java
+```javascript
 Usage :
   @Override
    protected void onCreate(Bundle savedInstanceState) {
@@ -67,7 +67,7 @@ Show Floating Video \(PIP mode\) everywhere in your app\(Optional\)
 
 To use this feature you will need to extend your Activity to our **`BaseActivity`** \(Full Identifier : **`com.acquireio.sdk.activities.BaseActivity)`**`*`
 
-\`\`
+![](../../.gitbook/assets/api-explore.jpg)
 
 {% hint style="info" %}
  **\*Note :** By extending to our **BaseActivity** will result to change your view with required content. It will not manipulate your UI or remove anything, it will just add **FloatingActionButton** to your existing layout if option is turned ON.
@@ -101,7 +101,7 @@ You can get unread messages count by implementing this interface **UnreadMessage
 
 ### Upload files directly to the acquire server {#upload-files-directly-to-the-acquire-server}
 
-```java
+```javascript
 uploadFileToAcquire(Activity context, String filePath, UploadFileListener uploadFileListener)
 ```
 
@@ -115,7 +115,7 @@ This method will upload file to our server directly.
 
 This method will reset visitor’s all data and stops all connections to the agent including ongoing call.
 
-```java
+```javascript
 AcquireApp.logOut();
 ```
 
