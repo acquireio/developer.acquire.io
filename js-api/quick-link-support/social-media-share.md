@@ -24,7 +24,7 @@ Replace "_www.yourdomain.com_" with your website URL.
 <a href="https://www.yourdomain.com/#start-chat"> Start the Chat </a>
 ```
 
-Replace the \[AGENT\_ID\] with one of above agent's id and yourdomain.com with your website address where you use chat box.
+Replace the **`[AGENT_ID]`** with one of above agent's id and **`yourdomain.com`** with your website address where you use chat box.
 
 #### Get AGENT\_ID
 
