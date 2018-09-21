@@ -33,7 +33,7 @@ The zip file `AcquireIO.framework` contains
 | `new_message.aiff` | Sound file for agent message alert ringtone |
 | `AcquireIOTheme/` | Folder containing theme configuration to match the design of your app |
 
-{% youtube src="[https://www.youtube.com/watch?v=45bhaS4iUq4](https://www.youtube.com/watch?v=45bhaS4iUq4)" %}{% endyoutube %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/45bhaS4iUq4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ### Add the latest stable SDK
 
