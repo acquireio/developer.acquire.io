@@ -18,7 +18,16 @@ Set the widget margin for vertical to 35 pixels for bottom**.**
 <script>
      window.acquire = window.acquire || [];
      acquire.push(function(app){
-         app.ui.setVerticalMargin(35);
+         var setUIConfogFn = function(){
+                    if(app) {
+                        app.ui.setVerticalMargin(35);
+                    }
+                }
+         app.on('ui_reloaded', (socket, cr, sr) => {
+                    setUIConfogFn();
+                });
+
+        setUIConfogFn();
      });
 </script>
 ```
@@ -39,9 +48,18 @@ Set the widget margin for horizontal to 35 pixels for left/right
 
 ```javascript
 <script>
-     window.acquire = window.acquire || [];
+    window.acquire = window.acquire || [];
      acquire.push(function(app){
-         app.ui.setHorizontalMargin(35);
+         var setUIConfogFn = function(){
+                    if(app) {
+                        app.ui.setHorizontalMargin(35);
+                    }
+                }
+         app.on('ui_reloaded', (socket, cr, sr) => {
+                    setUIConfogFn();
+                });
+
+        setUIConfogFn();
      });
 </script>
 ```
