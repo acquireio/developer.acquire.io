@@ -64,6 +64,38 @@ Set the widget margin for horizontal to 35 pixels for left/right
 </script>
 ```
 
+### Set Custom z-index
+
+Set the widget custom z-index value
+
+#### **Parameters**
+
+| **Method** | Parameters | Type | Description |
+| :--- | :--- | :--- | :--- |
+| `customZindex` | value | `number` | Sets the stack order of the element. Negative numbers are allowed |
+
+**Sample Code**
+
+Set z-index value for widget element 999.
+
+```javascript
+<script>
+    window.acquire = window.acquire || [];
+     acquire.push(function(app){
+         var setUIConfogFn = function(){
+                    if(app) {
+                        app.ui.customZindex(999);
+                    }
+                }
+         app.on('ui_reloaded', (socket, cr, sr) => {
+                    setUIConfogFn();
+                });
+
+        setUIConfogFn();
+     });
+</script>
+```
+
 ### Check Widget Status
 
 Widget status is maximize if true.
