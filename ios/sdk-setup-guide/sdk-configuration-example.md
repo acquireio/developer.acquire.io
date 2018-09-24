@@ -85,6 +85,7 @@ Note: These config options optional key.
 * `ShowLocalNotificationBackgroundState` - Show local notification when app is in background state.. Default value @YES.
 * `ShowLocalNotificationInApp` - Show in-app notification when app state is active state.. Default value @YES.
 * `ButtonImageName` - This is init key for initialize AcquireIO chat with system button bottom right Set image name should be put in main bundle of app. Image size 30x30 px, 60x60 px for @2x. Default value nil.
+* `ShowDefaultStopButton` - After session is connected you can choose to show our stop button or not. Set @YES to hide the stop button.
 
 ## Set Visitor Data
 
