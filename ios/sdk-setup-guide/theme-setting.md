@@ -10,6 +10,8 @@ For example: If the app uses UIAppearance to change the color of Navigation Bar 
 if you don't want to use AcquireIOConfig.plist properties to SDK the use init method attribute option to '`UseDefaultTheme`' to `@YES`.
 {% endhint %}
 
+![](../../.gitbook/assets/navigationbar.png)
+
 ### Introduction {#introduction}
 
 Head over to Theming if you want to customize your SDK integration's typeface, colors or fonts. It is done via simple key-value pairs in a plist file.
@@ -41,8 +43,6 @@ These attributes control the looks of in-app support over many screens.
 | `BAR_TINTCOLOR` | The tint color to apply to the navigation bar background. This color is not made translucent by default unless you set the isTranslucent property to true. Default `BAR_TINTCOLOR` is `#FFFFFF` |
 | `TINT_COLOR` | The tint color is navigation title and back and other bar button items color. For more see image bellow. Default color is `#000000` |
 
-[![](https://developers.acquire.io/media/data/article/e8608c12-1a29-47c9-95c5-984a0ca17bce.png)](https://developers.acquire.io/media/data/article/e8608c12-1a29-47c9-95c5-984a0ca17bce.png)
-
 ### System Button Attributes {#system-button-attributes}
 
 These attributes applies on default bottom right support button.
@@ -66,19 +66,19 @@ These attributes applies on default bottom right support button notification bad
 
 Add the font to your project. Edit your app's plist file and add a key `"Fonts provided by application"` to it. Under the key, list out file names of all the fonts you want to use in your app and in support. If you've already listed such fonts, skip this step.
 
-[![](https://developers.acquire.io/media/data/article/font-screen.png)](https://developers.acquire.io/media/data/article/font-screen.png)
+![](../../.gitbook/assets/font-screen.png)
 
 **Step 2:** Copy the font's full name. To do this, select the font in Finder and hit **`COMMAND`** `⌘+I` \(Get Info\).
 
-[![](https://developers.acquire.io/media/data/article/fontName-screen.png)](https://developers.acquire.io/media/data/article/fontName-screen.png)
+![](../../.gitbook/assets/fontname-screen.png)
 
 **Step 3:** Paste the font name into `AcquireIOConfig.plist`, wherever necessary
 
-[![](https://developers.acquire.io/media/data/article/AcquireIOConfigPlistFont.png)](https://developers.acquire.io/media/data/article/AcquireIOConfigPlistFont.png)
+![](../../.gitbook/assets/acquireioconfigplistfont-1.png)
 
 **Step 4:** Test the font and theme in simulator. If font couldn't load by SDK then it will show error —
 
-[![](https://developers.acquire.io/media/data/article/sdk-theme.png)](https://developers.acquire.io/media/data/article/sdk-theme.png)
+![](../../.gitbook/assets/sdk-theme.png)
 
 ### Orientation support {#orientation-support}
 

@@ -88,7 +88,7 @@ Note: These config options optional key.
 
 ## Set Visitor Data
 
-### Visitor Identifier
+### Identifier
 
 Set an visitor identifier for your visitor.
 
@@ -122,7 +122,7 @@ AcquireIO.support().setVisitorIdentifier("123456");
 {% endtab %}
 {% endtabs %}
 
-### Visitor Detail
+### Basic Detail
 
 Set the name, phone and email of the app visitor.
 
@@ -156,7 +156,7 @@ AcquireIO.support().setVisitor("Name of visitor or nil", phone:"Phone of visitor
 {% endtab %}
 {% endtabs %}
 
-### Visitor Custom Fields
+### Custom Fields
 
 Set the extra detail of the app visitor.
 
@@ -200,6 +200,34 @@ AcquireIO.support().setVisitorExtraField(custom_fields)
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
+
+### Verified Hash
+
+{% page-ref page="verify-your-users.md" %}
+
+### Logout
+
+If you have set visitor hash \(HMAC digest\) and visitor just logged out from account and need to manage user integrity with agent, call method logoutVisitor to remove all acquire data from app related to visitorHash.
+
+{% hint style="info" %}
+This should be called when visit logged out. Available in SDK version 1.0.8 or later
+{% endhint %}
+
+**Sample Code**
+
+{% tabs %}
+{% tab title="Objective C" %}
+```text
+[[AcquireIO support] logoutVisitor];
+```
+{% endtab %}
+
+{% tab title="Swift" %}
+```text
+AcquireIO.support().logoutVisitor();
+```
 {% endtab %}
 {% endtabs %}
 
