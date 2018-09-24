@@ -1,5 +1,15 @@
 # iOS Cobrowse SDK
 
+Acquire has this feature called Co-browsing which is unique in its sense, as it allows an agent to browse the session with the customer so that he/she can get the desired product/services on their website to purchase.
+
+To use Cobrowse in your own app, you'll need to add our Native SDKs. We've made this as simple as possible, with just a few lines of code.
+
+Once the Native SDKs are added to your app, everything else is done through our web dashboard in any browser - no plugins or installs needed.
+
+{% hint style="info" %}
+Even more he can add overlays or highlight on the customer's device in real time.
+{% endhint %}
+
 ## Setup
 
 ```objectivec
