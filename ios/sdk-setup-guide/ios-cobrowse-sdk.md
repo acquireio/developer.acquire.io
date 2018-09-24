@@ -193,6 +193,10 @@ AcquireIO.support().startSharing()
 
 End the cobrowse session. Calling endSharing initiates the process of ending the session.
 
+Show prompt message for end confirmation, see:
+
+![End sharing prompt message for user](../../.gitbook/assets/screen-shot-2018-09-24-at-1.11.07-pm.png)
+
 **Parameter**
 
 | **Parameter** | Type | Description |
@@ -219,6 +223,8 @@ AcquireIO.support().endSharing(false)
 
 After session is connected you can choose to show our stop button or not.
 
+![ShowDefaultStopButton](../../.gitbook/assets/showdefaultstopbutton.png)
+
 Add key `@"ShowDefaultStopButton"` for stop sharing button. Set Value `@NO` to hide the stop button.
 
 Also check about how to add key in config dictionary, see this:
@@ -227,7 +233,7 @@ Also check about how to add key in config dictionary, see this:
 
 ## Example app
 
-There is an example app provided [here](https://github.com/acquireio/acquireio-cobrowse-ios) for both Objective-C and Swift.
+If you want a sample app for cobrowse\_only SDK version , you can download the sample app with integrated our SDK from Github. Example app provided [here](https://github.com/acquireio/acquireio-cobrowse-ios) for both Objective-C.
 
 Next: How to configure Acquire SDK in App, See this:
 
