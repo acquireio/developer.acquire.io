@@ -35,8 +35,6 @@ The zip file `AcquireIO.framework` contains
 
 [![Anomalize](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LMa9C05MmCnAr03_v9O%2F-LMub2gKcBgCoPPk0Uuy%2F-LMub9UX2CtWgRlpeOX2%2Fmanual-vid-img.png?alt=media&token=965d176e-e21b-4e08-bdae-a14f50fca6f1)](http://www.youtube.com/watch?feature=player_embedded&v=45bhaS4iUq4)
 
-{% youtube url="https://www.youtube.com/watch?v=45bhaS4iUq4" %}{% endyoutube %}
-
 ### Add the latest stable SDK
 
 **Add the latest stable SDK release to your project**
@@ -67,15 +65,15 @@ Open the file in your project named `info.plist`, right click it, opening as Sou
 Remember to write your description why you ask for this authorization, between `<string>` and `</string>`, or your app will be rejected by apple:
 
 ```markup
-<!-- Camera -->
+<!-- Allow Camera -->
 <key>NSCameraUsageDescription</key>
 <string>$(PRODUCT_NAME) use camera for video chat</string>
 
-<!-- Microphone -->
+<!-- Allow Microphone -->
 <key>NSMicrophoneUsageDescription</key>
 <string>$(PRODUCT_NAME) use microphone for voice chat</string>
 
-<!-- Photo Library -->
+<!-- Allow Photo Library -->
 <key>NSPhotoLibraryUsageDescription</key>
 <string>$(PRODUCT_NAME) send photo/video to agent</string>
 ```
