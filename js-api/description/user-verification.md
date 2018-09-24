@@ -12,7 +12,7 @@
 
 {% tabs %}
 {% tab title="PHP" %}
- Your code to generate an HMAC for your app is:
+Your code to generate an HMAC for your app is:
 
 ```javascript
 hash_hmac(

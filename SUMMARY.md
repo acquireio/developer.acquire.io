@@ -78,6 +78,7 @@
   * [Config](rest-apis/configuration-1/configuration.md)
 * [Profiles API](rest-apis/profiles-api/README.md)
   * [User](rest-apis/profiles-api/user.md)
+  * [Thread](rest-apis/profiles-api/thread.md)
   * [Feedback](rest-apis/profiles-api/feedback.md)
   * [Profile Details](rest-apis/profiles-api/profile-details.md)
   * [Message](rest-apis/profiles-api/message.md)
