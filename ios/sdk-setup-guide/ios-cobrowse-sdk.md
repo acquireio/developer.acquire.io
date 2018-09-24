@@ -219,7 +219,7 @@ AcquireIO.support().endSharing(false)
 
 After session is connected you can choose to show our stop button or not.
 
-Add key `@"ShowDefaultStopButton"` for stop sharing button. Set Value `@YES` to hide the stop button.
+Add key `@"ShowDefaultStopButton"` for stop sharing button. Set Value `@NO` to hide the stop button.
 
 Also check about how to add key in config dictionary, see this:
 
