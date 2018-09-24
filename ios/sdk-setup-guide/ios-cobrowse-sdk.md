@@ -31,7 +31,7 @@ The zip file `AcquireIO.framework` contains
 
 \*\*\*\*
 
-* Unzip the sdk & drag-drop `acquireIO.framework` files into your Xcode project.
+* Unzip the SDK & drag-drop `acquireIO.framework` files into your Xcode project.
 * In `Build Phases`, verify that `AcquireIO.framework` is in the `Link Binary with Libraries` and the AcquireIO resources are in `Copy Bundle Resources`
 * Add the following frameworks to `Link Binary with Libraries` -
   * `CoreFoundation`
@@ -39,7 +39,167 @@ The zip file `AcquireIO.framework` contains
   * `QuartzCore`
   * `UIKit`
 
-### Example app
+## Methods
+
+### Get Cobrowse Code
+
+Get visitor cobrowse code, when acquire session ready to connect
+
+If acquire support session not started then it will return -1, otherwise session code to start cobrowse session with agent.
+
+{% hint style="info" %}
+Available in SDK version 1.0.9 or later
+{% endhint %}
+
+**Sample code**
+
+{% tabs %}
+{% tab title="Objective C" %}
+```objectivec
+NSInteger code = [[AcquireIO support] getCobrowseCode];
+```
+{% endtab %}
+
+{% tab title="Swift" %}
+```swift
+let code = AcquireIO.support().getCobrowseCode()
+```
+{% endtab %}
+{% endtabs %}
+
+### Add Mask on View
+
+Adds a UIView to mask during the cobrowse session.
+
+| Parameter | Type | Description |
+| :--- | :--- | :--- |
+| `view` | `id <UIView>` |  instance to mask _`required`_ |
+
+Sample Code
+
+{% tabs %}
+{% tab title="Objective C" %}
+```objectivec
+//Mask UIImageView
+[[AcquireIO support] addMaskedView:self.imageView];
+
+//Mask UITextField
+[[AcquireIO support] addMaskedView:self.textfield];
+
+//Mask UITextView
+[[AcquireIO support] addMaskedView:self.textview];
+```
+{% endtab %}
+
+{% tab title="Swift" %}
+```text
+//Mask UIImageView
+AcquireIO.support().addMaskedView(self.imageView);
+
+//Mask UITextField
+AcquireIO.support().addMaskedView(self.textfield);
+
+//Mask UITextView
+AcquireIO.support().addMaskedView(self.textview);
+```
+{% endtab %}
+{% endtabs %}
+
+### Remove Masked View
+
+Remove a UIView from being masked during a cobrowse session.
+
+**Sample Code**
+
+{% tabs %}
+{% tab title="Objective C" %}
+```objectivec
+[[AcquireIO support] removeMaskedView:self.yourMaskedView];
+```
+{% endtab %}
+
+{% tab title="Swift" %}
+```swift
+AcquireIO.support().removeMaskedView(self.yourMaskedView);
+```
+{% endtab %}
+{% endtabs %}
+
+### Mask Keyboard
+
+Masks the keyboard from being shown `(Default: NO)`
+
+**Sample Code**
+
+{% tabs %}
+{% tab title="Objective C" %}
+```objectivec
+[[AcquireIO support] maskKeyboard:YES]
+```
+{% endtab %}
+
+{% tab title="Swift" %}
+```swift
+AcquireIO.support().maskKeyboard(true)
+```
+{% endtab %}
+{% endtabs %}
+
+### Pause Sharing
+
+Pause an active cobrowse session
+
+**Sample Code**
+
+{% tabs %}
+{% tab title="Objective C" %}
+```objectivec
+[[AcquireIO support] pauseSharing];
+```
+{% endtab %}
+
+{% tab title="Swift" %}
+```swift
+AcquireIO.support().pauseSharing()
+```
+{% endtab %}
+{% endtabs %}
+
+### Start Sharing
+
+Start a cobrowse session with a agent. Note that for Visitor sessions already start sharing when agent start cobrowse session via code. You can Pause and start sharing again.
+
+{% hint style="warning" %}
+**init: no need to call first time. After pause then you can call this method**
+{% endhint %}
+
+**Sample Code**
+
+{% tabs %}
+{% tab title="Objective C" %}
+```objectivec
+[[AcquireIO support] startSharing];
+```
+{% endtab %}
+
+{% tab title="Swift" %}
+```swift
+AcquireIO.support().startSharing()
+```
+{% endtab %}
+{% endtabs %}
+
+### End Sharing
+
+End the cobrowse session. Calling endSharing initiates the process of ending the session.
+
+**Parameter**
+
+| **Parameter** | Type | Description |
+| :--- | :--- | :--- |
+| `showPrompt` | `boolean` |  |
+
+## Example app
 
 There is an example app provided [here](https://github.com/acquireio/acquireio-cobrowse-ios) for both Objective-C and Swift.
 
