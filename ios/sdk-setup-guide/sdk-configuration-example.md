@@ -1,6 +1,6 @@
 # SDK Configuration Example
 
-### Swift Example
+## Swift Example
 
 ```swift
 import AcquireIO
@@ -29,7 +29,7 @@ import AcquireIO
 AcquireIO.support().showSupport(self)
 ```
 
-### Objective-C Example
+## Objective-C Example
 
 ```objectivec
 #import <AcquireIO/AcquireIO.h>
@@ -60,7 +60,7 @@ AcquireIO.support().showSupport(self)
 [[AcquireIO support] showSupport:self];
 ```
 
-### Configuration Options Dictionary {#configuration-options-dictionary}
+## Configuration Options Dictionary
 
 ```objectivec
 //Objective C
@@ -86,7 +86,124 @@ Note: These config options optional key.
 * `ShowLocalNotificationInApp` - Show in-app notification when app state is active state.. Default value @YES.
 * `ButtonImageName` - This is init key for initialize AcquireIO chat with system button bottom right Set image name should be put in main bundle of app. Image size 30x30 px, 60x60 px for @2x. Default value nil.
 
-### Methods {#methods}
+## Set Visitor Data
+
+### Visitor Identifier
+
+Set an visitor identifier for your visitor.
+
+This is part of additional visitor configuration. The user identifier will be passed through to the admin dashboard as "User ID" under customer info.
+
+{% hint style="info" %}
+Available in SDK version 1.0.0 or later
+{% endhint %}
+
+**Parameters**
+
+| Parameter | Type | Description |
+| :--- | :--- | :--- |
+| `visitorIdentifier` | `String` | A string to identify your visitor. |
+
+#### Sample Code
+
+If you want to identify your visitor with any remarkable identity like reference identity from your db or any id, i.e. your visitor is logged in app user account and id is 123456, so you can identify your actual user in your acquire support.
+
+{% tabs %}
+{% tab title="Objective C" %}
+```objectivec
+[[AcquireIO support] setVisitorIdentifier:@"123456"];
+```
+{% endtab %}
+
+{% tab title="Swift" %}
+```swift
+AcquireIO.support().setVisitorIdentifier("123456");
+```
+{% endtab %}
+{% endtabs %}
+
+### Visitor Detail
+
+Set the name, phone and email of the app visitor.
+
+This is part of additional visitor configuration. If this is provided through the api, user will not be prompted to re-enter this information again. Pass nil values for both name and email to clear out old existing values.
+
+{% hint style="info" %}
+Available in SDK version 1.0.0 or later
+{% endhint %}
+
+**Parameters**
+
+| **Parameter** | Type | Description |
+| :--- | :--- | :--- |
+| `name` | `String` | The name of the user. |
+| `phone` | `String` | The phone of the user. |
+| `email` | `String` | The name of the user. |
+
+#### Sample Code
+
+{% tabs %}
+{% tab title="Objective C" %}
+```objectivec
+[[AcquireIO support] setVisitor:@"Name of visitor or nil" phone:@"Phone of visitor or nil" andEmail:@"Email of visitor or nil"];
+```
+{% endtab %}
+
+{% tab title="Swift" %}
+```text
+AcquireIO.support().setVisitor("Name of visitor or nil", phone:"Phone of visitor or nil", "Email of visitor or nil");
+```
+{% endtab %}
+{% endtabs %}
+
+### Visitor Custom Fields
+
+Set the extra detail of the app visitor.
+
+This is part of additional visitor configuration. If this is provided through the api, user will not be prompted to re-enter this information again. Pass nil values for data to clear out old existing values.
+
+**Parameters**
+
+| **Parameter** | Type | Description |
+| :--- | :--- | :--- |
+| `fields` | `Array` | array of field. field dictionary format: `{"n":"FIELD_KEY","v":"FIELD_VALUE"}.` |
+
+#### Sample Code
+
+Set extra custom field for zip, branch and company. see below:
+
+{% tabs %}
+{% tab title="Objective C" %}
+```objectivec
+NSArray *custom_fields = @[
+                               @{@"n":@"zipcode", @"v": @"54321"},
+                               @{@"n":@"acbranch", @"v": @"XXX"},
+                               @{@"n":@"company", @"v": @"XYZ Company"}
+                               ];
+  
+    
+[[AcquireIO support] setVisitorExtraField:custom_fields];
+```
+{% endtab %}
+
+{% tab title="Swift" %}
+{% code-tabs %}
+{% code-tabs-item title="Swift" %}
+```swift
+let custom_fields = [
+            ["n":"zipcode", "v":"54321"],
+            ["n":"acbranch", "v": "XXX"],
+            ["n":"company", "v": "XYZ Company"]
+        ]
+        
+AcquireIO.support().setVisitorExtraField(custom_fields)
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
+
+## Methods
 
 * `setAccount: withOptions:` - This is init method for initialize AcquireIO chat. When you calling setAccount method you must pass one accountUID parameter Option can be nil.
 * `setVisitorIdentifier:` - Set an visitor identifier for your visitor, can be tracked by admin in remark.
@@ -96,7 +213,7 @@ Note: These config options optional key.
 * `getUnreadCount` - Total unread count of message\(s\).
 * `getAvailableAgentCount` - Total unread count of message\(s\).
 
-### Protocol {#protocol}
+## Protocol
 
 ```text
 @Optional
