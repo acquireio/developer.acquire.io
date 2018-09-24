@@ -35,7 +35,7 @@ The zip file `AcquireIO.framework` contains
 
 [![Anomalize](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LMa9C05MmCnAr03_v9O%2F-LMub2gKcBgCoPPk0Uuy%2F-LMub9UX2CtWgRlpeOX2%2Fmanual-vid-img.png?alt=media&token=965d176e-e21b-4e08-bdae-a14f50fca6f1)](http://www.youtube.com/watch?feature=player_embedded&v=45bhaS4iUq4)
 
-{% youtube src="https://www.youtube.com/watch?v=45bhaS4iUq4" %}{% endyoutube %}
+{% youtube url="https://www.youtube.com/watch?v=45bhaS4iUq4" %}{% endyoutube %}
 
 ### Add the latest stable SDK
 
