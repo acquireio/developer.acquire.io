@@ -4,15 +4,21 @@ To enable push notifications in Acquire you first need to create a .p12 certific
 
 ### Step 1: Create App ID and APNS SSL Certificate {#step-1--create-app-id-and-apns-ssl-certificate}
 
-Login to [Apple developer account](https://developer.apple.com/account) and click Certificates, Identifiers and Profiles[![](https://developers.acquire.io/media/data/article/apn/crt-id-generate.png)](https://developers.acquire.io/media/data/article/apn/crt-id-generate.png)
+Login to [Apple developer account](https://developer.apple.com/account) and click Certificates, Identifiers and Profile
 
-Select iOS from dropdown, select App IDs from side menu and create a new App ID[![](https://developers.acquire.io/media/data/article/apn/crt-profiles.png)](https://developers.acquire.io/media/data/article/apn/crt-profiles.png)
+![](../../.gitbook/assets/crt-id-generate.png)
 
-Specify App name, Bundle ID and select Push Notifications, then Continue[![](https://developers.acquire.io/media/data/article/apn/create-ios-app-developer.png)](https://developers.acquire.io/media/data/article/apn/create-ios-app-developer.png)
+Select iOS from dropdown, select App IDs from side menu and create a new App I
+
+![](../../.gitbook/assets/crt-profiles.png)
+
+Specify App name, Bundle ID and select Push Notifications, then Continue
+
+![](../../.gitbook/assets/create-ios-app-developer.png)
 
 Click Register, then Done to complete app registration
 
-[![](https://developers.acquire.io/media/data/article/apn/push-crt-configurable.png)](https://developers.acquire.io/media/data/article/apn/push-crt-configurable.png)
+![](../../.gitbook/assets/push-crt-configurable.png)
 
 Now, you can see the app listed in App IDs
 
@@ -20,43 +26,55 @@ Now, you can see the app listed in App IDs
 
 Launch the Keychain Access application in your Mac OS X and Select Keychain Access -&gt; Certificate Assistant -&gt; Request a Certificate From a Certificate Authority.
 
-[![](https://developers.acquire.io/media/data/article/apn/csr-authority.png)](https://developers.acquire.io/media/data/article/apn/csr-authority.png)
+![](../../.gitbook/assets/csr-authority.png)
 
-Enter email address and check the ‘Saved to disk’ option, then click Continue[![](https://developers.acquire.io/media/data/article/apn/save-csr.png)](https://developers.acquire.io/media/data/article/apn/save-csr.png)
+Enter email address and check the ‘Saved to disk’ option, then click Continue
+
+![](../../.gitbook/assets/save-csr.png)
 
 Save certificate
 
-[![](https://developers.acquire.io/media/data/article/apn/save-csr-final.png)](https://developers.acquire.io/media/data/article/apn/save-csr-final.png)
+![](../../.gitbook/assets/save-csr-final.png)
 
 **Generate a Development Certificate**
 
-Go back to developer account and select app from App IDs and click Edit[![](https://developers.acquire.io/media/data/article/apn/edit-app-apn.png)](https://developers.acquire.io/media/data/article/apn/edit-app-apn.png)
+Go back to developer account and select app from App IDs and click Edit
 
-Scroll Down to Development SSL certificates and click Create Certificate [![](https://developers.acquire.io/media/data/article/apn/create-apn-crt.png)](https://developers.acquire.io/media/data/article/apn/create-apn-crt.png)
+![](../../.gitbook/assets/edit-app-apn.png)
+
+Scroll Down to Development SSL certificates and click Create Certificate
+
+![](../../.gitbook/assets/create-apn-crt.png)
 
 Click Continue
 
-[![](https://developers.acquire.io/media/data/article/apn/upload-csr-file.png)](https://developers.acquire.io/media/data/article/apn/upload-csr-file.png)
+![](../../.gitbook/assets/upload-csr-file.png)
 
-Choose certificate file created from Keychain Access in previous section and click Continue[![](https://developers.acquire.io/media/data/article/apn/choose-csr-file.png)](https://developers.acquire.io/media/data/article/apn/choose-csr-file.png)
+Choose certificate file created from Keychain Access in previous section and click Continue
 
-Download Development Certificate and click Done to finish process[![](https://developers.acquire.io/media/data/article/apn/save-apn-cer.png)](https://developers.acquire.io/media/data/article/apn/save-apn-cer.png)
+![](../../.gitbook/assets/choose-csr-file.png)
+
+Download Development Certificate and click Done to finish process
+
+![](../../.gitbook/assets/save-apn-cer.png)
 
 **Generate APNS .p12 certificate**
 
 Double click Development certificate generated in previous step to add it to Keychain Access. Go to Keychain Access, select login keychain and My Certificate from side menu. Find app certificate and right click to export it
 
-[![](https://developers.acquire.io/media/data/article/apn/apn-cer-export.png)](https://developers.acquire.io/media/data/article/apn/apn-cer-export.png)
+![](../../.gitbook/assets/apn-cer-export.png)
 
 Enter certificate name and click Save
 
-[![](https://developers.acquire.io/media/data/article/apn/apn-cer-export-p12.png)](https://developers.acquire.io/media/data/article/apn/apn-cer-export-p12.png)
+![](../../.gitbook/assets/apn-cer-export-p12.png)
 
-Enter password for certificate and click OK
+Enter password for certificate and click Ok
 
-[![](https://developers.acquire.io/media/data/article/apn/save-p12-passphrase.png)](https://developers.acquire.io/media/data/article/apn/save-p12-passphrase.png)
+![](../../.gitbook/assets/save-p12-passphrase.png)
 
-Enter your computer admin password to finish the process[![](https://developers.acquire.io/media/data/article/apn/save-p12-mac-credential2.png)](https://developers.acquire.io/media/data/article/apn/save-p12-mac-credential2.png)
+Enter your computer admin password to finish the process
+
+![](../../.gitbook/assets/save-p12-mac-credential2.png)
 
 ### Step 3: Upload .p12 file to Acquire
 
