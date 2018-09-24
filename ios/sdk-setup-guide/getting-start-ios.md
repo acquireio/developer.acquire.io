@@ -33,10 +33,7 @@ The zip file `AcquireIO.framework` contains
 | `new_message.aiff` | Sound file for agent message alert ringtone |
 | `AcquireIOTheme/` | Folder containing theme configuration to match the design of your app |
 
-[![Anomalize](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LMa9C05MmCnAr03_v9O%2F-LMub2gKcBgCoPPk0Uuy%2F-LMub9UX2CtWgRlpeOX2%2Fmanual-vid-img.png?alt=media&token=965d176e-e21b-4e08-bdae-a14f50fca6f1)](http://www.youtube.com/watch?feature=player_embedded&v=45bhaS4iUq4)
-
-
-{% youtube src="https://www.youtube.com/watch?v=9bZkp7q19f0" %}{% endyoutube %}
+{% embed data="{\"url\":\"https://www.youtube.com/watch?v=45bhaS4iUq4\",\"type\":\"video\",\"title\":\"\",\"icon\":{\"type\":\"icon\",\"url\":\"https://www.youtube.com/yts/img/favicon\_144-vfliLAfaB.png\",\"width\":144,\"height\":144,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://i.ytimg.com/vi/45bhaS4iUq4/maxresdefault.jpg\",\"width\":1280,\"height\":720,\"aspectRatio\":0.5625},\"embed\":{\"type\":\"player\",\"url\":\"https://www.youtube.com/embed/45bhaS4iUq4?rel=0&showinfo=0\",\"html\":\"<div style=\\\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2493%;\\\"><iframe src=\\\"https://www.youtube.com/embed/45bhaS4iUq4?rel=0&amp;showinfo=0\\\" style=\\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\\" allowfullscreen scrolling=\\\"no\\\"></iframe></div>\",\"aspectRatio\":1.7778}}" %}
 
 ### Add the latest stable SDK
 
