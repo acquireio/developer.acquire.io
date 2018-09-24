@@ -14,7 +14,7 @@ Acquire is built and tested to work in the various web browsers. It may work in 
 
 ## JS API
 
-Loading the Acquire JavaScript library provides an Acquire JavaScript object that responds to a few methods. Use our powerful, fully-documented API for client side and [agent side](js-api/backend-js-sdk/) to automate some of your Acquire activities and create custom integrations with your own systems. These [JS APIs](js-api/description/) allow you to update users without a page refresh and interact with the widget UI.   
+Loading the Acquire JavaScript library provides an Acquire JavaScript object that responds to a few methods. Use our powerful, fully-documented API for client side and [agent side](js-api/backend-js-sdk/setup-backend-js-sdk.md) to automate some of your Acquire activities and create custom integrations with your own systems. These [JS APIs](js-api/description/) allow you to update users without a page refresh and interact with the widget UI.   
 
 
 ## Cobrowse API
