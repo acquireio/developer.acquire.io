@@ -14,7 +14,7 @@
 {% tab title="PHP" %}
  Your code to generate an HMAC for your app is:
 
-```php
+```javascript
 hash_hmac(
   'sha256', // hash function
   $user->email, // user's id
@@ -26,7 +26,7 @@ hash_hmac(
 {% tab title="Rails" %}
  Your code to generate an HMAC for your app is:
 
-```ruby
+```javascript
 OpenSSL::HMAC.hexdigest(
   'sha256', # hash function
   '', # secret key (keep safe!)
@@ -38,7 +38,7 @@ OpenSSL::HMAC.hexdigest(
 {% tab title="Python" %}
  Your code to generate an HMAC for your app is:
 
-```python
+```javascript
 import hmac
 import hashlib
 
