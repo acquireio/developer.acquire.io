@@ -8,5 +8,5 @@ description: >-
 
 This tester in XHR \(AJAX\) Connectivity and Web Socket Connectivity checks facilities available.
 
-![Speed Test](../../.gitbook/assets/speedtest.png)
+[![Speed Test](https://github.com/acquireio/developer.acquire.io/raw/master/.gitbook/assets/speedtest.png)](https://devtools.acquire.io/acquire-speed-test/)
 
