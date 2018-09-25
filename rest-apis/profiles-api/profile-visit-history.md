@@ -32,6 +32,47 @@ Acquire Profile Visit History API body parameter in add id and header in Authori
 #### **Sample Code**
 
 {% tabs %}
+{% tab title="Node" %}
+```javascript
+var qs = require("querystring");
+	var http = require("http");
+
+	var options = {
+		"method": "POST",
+		"hostname": [
+			"app",
+			"acquire",
+			"io" 
+		],
+		"path": [
+			"profile",
+			"lead",
+			"visits"
+			],
+		"headers": {
+			"Authorization": "Bearer [YOUR_API_AUTH_TOKEN]",
+			"Content-Type": "application/x-www-form-urlencoded"
+		}
+	};
+
+	var req = http.request(options, function (res) {
+	var chunks = [];
+
+	res.on("data", function (chunk) {
+		chunks.push(chunk);
+	});
+
+	res.on("end", function () {
+    var body = Buffer.concat(chunks);
+		console.log(body.toString());
+		});
+	});
+
+	req.write(qs.stringify({ id: '186' }));
+	req.end();
+```
+{% endtab %}
+
 {% tab title="PHP" %}
 ```javascript
  $curl = curl_init();
@@ -127,47 +168,6 @@ var settings = {
 		response = requests.request("POST", url, data=payload, headers=headers)
 
 	print(response.text)
-```
-{% endtab %}
-
-{% tab title="Node" %}
-```javascript
-var qs = require("querystring");
-	var http = require("http");
-
-	var options = {
-		"method": "POST",
-		"hostname": [
-			"app",
-			"acquire",
-			"io" 
-		],
-		"path": [
-			"profile",
-			"lead",
-			"visits"
-			],
-		"headers": {
-			"Authorization": "Bearer [YOUR_API_AUTH_TOKEN]",
-			"Content-Type": "application/x-www-form-urlencoded"
-		}
-	};
-
-	var req = http.request(options, function (res) {
-	var chunks = [];
-
-	res.on("data", function (chunk) {
-		chunks.push(chunk);
-	});
-
-	res.on("end", function () {
-    var body = Buffer.concat(chunks);
-		console.log(body.toString());
-		});
-	});
-
-	req.write(qs.stringify({ id: '186' }));
-	req.end();
 ```
 {% endtab %}
 {% endtabs %}
