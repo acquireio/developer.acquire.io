@@ -21,7 +21,7 @@
   * [Social Media Share](js-api/quick-link-support/social-media-share.md)
 * [Backend JS SDK](js-api/backend-js-sdk/README.md)
   * [Setup Backend JS SDK](js-api/backend-js-sdk/setup-backend-js-sdk.md)
-* [Demo Backend SDK](js-api/demo-backend-sdk.md)
+  * [Demo Backend SDK](js-api/backend-js-sdk/demo-backend-sdk.md)
 * [Advanced](js-api/advanced/README.md)
   * [Widget UI](js-api/advanced/widget-ui.md)
   * [Reference](js-api/advanced/reference.md)
