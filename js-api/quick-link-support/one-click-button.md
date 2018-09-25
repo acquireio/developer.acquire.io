@@ -1,6 +1,8 @@
 # One Click Button
 
-> Start video, audio and chat support with one click of button.
+{% hint style="info" %}
+Start video, audio and chat support with one click of button.
+{% endhint %}
 
 Copy the code on the right inside the body tag to customize a quick connection to support.
 
