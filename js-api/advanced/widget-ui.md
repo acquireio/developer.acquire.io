@@ -40,7 +40,7 @@ Set the horizontal offset of the chat button from the edge of the browser window
 
 |  Method | Parameters | Type | Description |
 | :--- | :--- | :--- | :--- |
-|  `setHorizontalMargin` | `distance` | `Integer` |  Distance from the edge of the browser window, in pixels \(number\) |
+| `setHorizontalMargin` | `distance` | `Integer` |  Distance from the edge of the browser window, in pixels \(number\) |
 
 #### **Sample code**
 
