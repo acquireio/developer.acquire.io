@@ -6,7 +6,7 @@ Chat Tag API body parameter in add your timezone, date start, date end and filte
 
 **Chat Tag**
 
-[![](https://developers.acquire.io/media/data/article/analytics-tag.PNG)](https://developers.acquire.io/media/data/article/analytics-tag.PNG)
+![](../../.gitbook/assets/analytics-tag.PNG)
 
 | Parameter | Value |
 | :--- | :--- |

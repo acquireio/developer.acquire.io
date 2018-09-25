@@ -4,11 +4,9 @@ Acquire live chat dashboard gives your team leader an overview of agent activity
 
 Conversion Rate API parameter in add your timezone, date start, date end, filter\_type and conversion. Filter Type in today, yesterday, daily, weekly and monthly parameter available.
 
-**Conversion Rate**
+**Conversion Rat**
 
-[![](https://developers.acquire.io/media/data/article/conversion-rate.PNG)](https://developers.acquire.io/media/data/article/conversion-rate.PNG)
-
-
+![](../../.gitbook/assets/conversion-rate.PNG)
 
 | Parameter | Value |
 | :--- | :--- |

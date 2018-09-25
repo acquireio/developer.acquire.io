@@ -4,17 +4,17 @@ Acquire live chat dashboard gives your team leader an overview of agent activity
 
 Chat Statistics api parameter in Select your timezone, date start, date end, and filter\_type. Filter Type in today, yesterday, daily, weekly and monthly parameter available.
 
-**Chat Statistics**
+**Chat Statistic**
 
-[![](https://developers.acquire.io/media/data/article/chat-statistics.PNG)](https://developers.acquire.io/media/data/article/chat-statistics.PNG)
+![](../../.gitbook/assets/chat-statistics.PNG)
 
-**Average Chat time**
+**Average Chat tim**
 
-[![](https://developers.acquire.io/media/data/article/average-chat-time.PNG)](https://developers.acquire.io/media/data/article/average-chat-time.PNG)
+![](../../.gitbook/assets/average-chat-time.PNG)
 
-**Customer Satisfaction**
+**Customer Satisfactio**
 
-[![](https://developers.acquire.io/media/data/article/customer-satisfaction.PNG)](https://developers.acquire.io/media/data/article/customer-satisfaction.PNG)
+![](../../.gitbook/assets/customer-satisfaction.PNG)
 
 | Parameter | Value |
 | :--- | :--- |

@@ -4,9 +4,9 @@ Acquire live chat dashboard gives your team leader an overview of agent activity
 
 Team Analytics API body parameter in Select your timezone, date start, date end, filter\_type and agent\_id. Filter Type in today, yesterday, daily, weekly and monthly parameter available.
 
-**Team Analytics**
+**Team Analytic**
 
-[![](https://developers.acquire.io/media/data/article/agents-analytics.PNG)](https://developers.acquire.io/media/data/article/agents-analytics.PNG)
+![](../../.gitbook/assets/agents-analytics.PNG)
 
 | Parameter | Value |
 | :--- | :--- |
