@@ -2,7 +2,7 @@
 
 ## Welcome to Acquire Developers Hub
 
-Welcome to the Acquire Documentation, where you'll find guides and community support to help you start working with ReadMe as quickly as possible!
+Welcome to the Acquire Documentation, where you'll find guides and community support to help you start working as quickly as possible!
 
 ## API Reference
 
