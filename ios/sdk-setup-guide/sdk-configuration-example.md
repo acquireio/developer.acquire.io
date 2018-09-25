@@ -2,7 +2,7 @@
 
 ## Swift Example
 
-```swift
+```javascript
 import AcquireIO
 
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
@@ -21,7 +21,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 #### Use in Controller {#use-in-controller}
 
-```swift
+```javascript
 import AcquireIO
 
 //Call this method to open support view
@@ -31,7 +31,7 @@ AcquireIO.support().showSupport(self)
 
 ## Objective-C Example
 
-```objectivec
+```javascript
 #import <AcquireIO/AcquireIO.h>
     
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
@@ -52,7 +52,7 @@ AcquireIO.support().showSupport(self)
 
 #### Use in Controller: {#use-in-controller-}
 
-```objectivec
+```javascript
 #import 
     
 //Call this method to open support view
@@ -62,7 +62,7 @@ AcquireIO.support().showSupport(self)
 
 ## Configuration Options Dictionary
 
-```objectivec
+```javascript
 //Objective C
 NSDictionary *options = @{@"OptionKey":Value};
 ```
@@ -175,7 +175,7 @@ Set extra custom field for zip, branch and company. see below:
 
 {% tabs %}
 {% tab title="Objective C" %}
-```objectivec
+```javascript
 NSArray *custom_fields = @[
                                @{@"n":@"zipcode", @"v": @"54321"},
                                @{@"n":@"acbranch", @"v": @"XXX"},
@@ -190,7 +190,7 @@ NSArray *custom_fields = @[
 {% tab title="Swift" %}
 {% code-tabs %}
 {% code-tabs-item title="Swift" %}
-```swift
+```javascript
 let custom_fields = [
             ["n":"zipcode", "v":"54321"],
             ["n":"acbranch", "v": "XXX"],
