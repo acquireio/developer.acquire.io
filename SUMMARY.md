@@ -75,8 +75,6 @@
 * [OAuth](rest-apis/oauth/README.md)
   * [Authorization](rest-apis/oauth/authorization.md)
   * [Tracklog](rest-apis/oauth/tracklog.md)
-* [Configuration](rest-apis/configuration-1/README.md)
-  * [Config](rest-apis/configuration-1/configuration.md)
 * [Profiles API](rest-apis/profiles-api/README.md)
   * [User](rest-apis/profiles-api/user.md)
   * [Thread](rest-apis/profiles-api/thread.md)
