@@ -10,6 +10,3 @@ This tester in XHR \(AJAX\) Connectivity and Web Socket Connectivity checks faci
 
 ![Speed Test](../../.gitbook/assets/speedtest.png)
 
-  
-
-
