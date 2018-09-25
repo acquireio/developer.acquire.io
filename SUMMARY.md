@@ -4,9 +4,9 @@
 
 ## Acquire
 
-* [Acquire Build Requirement](acquire/acquire-build-requirement-1/README.md)
-  * [Requirement For Acquire](acquire/acquire-build-requirement-1/acquire-build-requirement.md)
-  * [Acquire Speedtest](acquire/acquire-build-requirement-1/acquire-speedtest.md)
+* [Acquire Build Requirement](acquire/acquire-build-requirement/README.md)
+  * [Requirement For Acquire](acquire/acquire-build-requirement/requirement-for-acquire.md)
+  * [Acquire Speedtest](acquire/acquire-build-requirement/acquire-speedtest.md)
 
 ## JS API
 
