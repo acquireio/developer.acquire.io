@@ -94,12 +94,12 @@ This example shows that, if a visitor types a query to the Bot, then this exampl
         {
             "id": 1249,
             "question": "how does co browsing work",
-            "formatted": "how does co browsing work"
+            "formatted": "<strong>how</strong> does co browsing work"
         },
         {
             "id": 1251,
             "question": "bot work flow",
-            "formatted": "bot work flow"
+            "formatted": "<strong>bot</strong> work flow"
         }
     ]
 }

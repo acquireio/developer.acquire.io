@@ -107,6 +107,7 @@
 
 * [Chat Bot](chatbot-api/chat-bot/README.md)
   * [Integrate Your Chatbot](chatbot-api/chat-bot/integrate-your-chatbot.md)
+  * [Dialog Flow Chat-Bot](chatbot-api/chat-bot/dialog-flow-chat-bot.md)
 
 ## Knowledge Base APIs
 
