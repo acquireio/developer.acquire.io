@@ -8,13 +8,11 @@ You can use Acquire as platform, by creating your own Bot with API endpoint that
 
 1. Here you can setup you Bot’s Basic Details:
 
-![](../../.gitbook/assets/chat-bot.jpg)
+![](../../.gitbook/assets/setup_bot1.PNG)
 
  2. Here you can setup you Bot Interaction API with any dynamic parameters:
 
-![](../../.gitbook/assets/chat-bot-1.jpg)
-
-
+![](../../.gitbook/assets/setup_bot2.PNG)
 
 #### **About ‘type’ Parameter:**
 
