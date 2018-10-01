@@ -1,7 +1,5 @@
 # Custom CallBack Events
 
-
-
 ### Custom CallBack Events
 
 1. **`onSessionConnected();`** executed when socket connection is established. One can open chat module after this event.
