@@ -1,14 +1,14 @@
 # WebRTC Related Events
 
-Acquire WebRTC related event in you can use multiple events and manage custom easily. When you conect video or voice call after all events call.
+Acquire WebRTC related event in you can use multiple events and manage custom easily. When you connect video or voice call after all events call.
 
 ### WebRTC Related Events 
 
-**`1. rtcroom-incall: true/false`** Acquire WebRTC event type **`"rtcroom-incall"`** uers  video or voice call  after this api given user's response true or false. if you want to use video or voice call connect and disconnect after action then use this event.
+**`1. rtcroom-incall: true/false`** Acquire WebRTC event type **`"rtcroom-incall"`** user  video or voice call  after this api given user's response true or false. if you want to use video or voice call connect and disconnect after action then use this event.
 
 **`2. rtcroom`**
 
-Event **`"rtcroom"`** in two type parameter using first **RTCRoom object**, and second  **RTCRoomUser object**. This event will give **rtcroom object** whenver gets ready and **RTCRoomUse**r which is current's user's object and is responsible for making calls and picking calls.
+Event **`"rtcroom"`** in two type parameter using first **RTCRoom object**, and second  **RTCRoomUser object**. This event will give **rtcroom object** whenever gets ready and **RTCRoomUse**r which is current's user's object and is responsible for making calls and picking calls.
 
 RTCRoomUser Object RTCRoomUser Object have following methods.
 
@@ -28,5 +28,5 @@ Above two functions allow anyone to mute or get status of mute of audio or video
 
 **stopRTCCall\(\);**
 
-using this function by apis you can disconnect call.
+using this function by APIs you can disconnect call.
 
