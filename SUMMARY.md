@@ -31,6 +31,10 @@
 * [Acquire Co Browse](co-browse-apis/acquire-co-browse/README.md)
   * [Co Browse API](co-browse-apis/acquire-co-browse/api.md)
 
+## Acquire API Events
+
+* [WebRTC Related Events](acquire-api-events/webrtc-related-events.md)
+
 ## iOS
 
 * [SDK Setup Guide](ios/sdk-setup-guide/README.md)
