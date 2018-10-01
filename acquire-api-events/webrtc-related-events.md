@@ -52,11 +52,11 @@ If you want to track call position then use this event status and manage your ac
 
 **`video_mute();`**
 
-**`'video_mute();'`** in pass true then video call mute and this pass false then video call unmute. You can use your action on this event easily.
+**`'video_mute();'`** in pass true then video call mute and pass false then video call unmute. You can use your action on this event easily.
 
 **`audio_mute();`**
 
-**`'audio_mute();'`** in pass true then audio/voice call mute and this pass false then audio/voice call unmute this is working same as video\_mute. You can use your action on this event easily. When you send true, it will be mute or send false then unmute and if you return send work as same type.
+**`'audio_mute();'`** in pass true then audio/voice call mute and pass false then audio/voice call unmute this is working same as video\_mute. You can use your action on this event easily. When you send true, it will be mute or send false then unmute and if you return send work as same type.
 
 **`stopRTCCall();`**
 
