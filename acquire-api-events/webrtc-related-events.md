@@ -27,10 +27,10 @@ Event **`'rtcroom'`** in two type parameter using first RTCRoom object, and seco
 ```javascript
 <script>
     window.acquire.push(function(app){
-        app.on("rtcroom", function (rtcroom,rtcroom1) {
+        app.on("rtcroom", function (rtcroom,rtcroom_user) {
             console.log("rtcroom", rtcroom);
             //console only for example
-            console.log("rtcroom1", rtcroom1);
+            console.log("rtcroom1", rtcroom_user);
         });
     });
 </script>
