@@ -1,4 +1,4 @@
-# SDK Guide
+# CONTENTS
 
 {% page-ref page="getting-started.md" %}
 
