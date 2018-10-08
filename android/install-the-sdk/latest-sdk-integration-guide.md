@@ -60,7 +60,7 @@ public void onCreate() {
 }
 ```
 
-For more info about init method [click here](https://developer.acquire.io/android/install-the-sdk/initialization). 
+For more info about init method [click here](https://developer.acquire.io/android/install-the-sdk/manage-dependencies). 
 
 To handle events manually [click here](https://developer.acquire.io/android/install-the-sdk/acquire-chat-start). 
 

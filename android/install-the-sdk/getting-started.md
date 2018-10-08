@@ -1,4 +1,4 @@
-# Getting Start Android
+# Getting Started
 
 ### Install the SDK using Gradle
 

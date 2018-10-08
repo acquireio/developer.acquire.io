@@ -49,9 +49,9 @@
 ## Android
 
 * [Install The SDK](android/install-the-sdk/README.md)
-  * [Getting Start Android](android/install-the-sdk/getting-start-android.md)
+  * [Getting Started](android/install-the-sdk/getting-started.md)
   * [Latest SDK Integration Guide](android/install-the-sdk/latest-sdk-integration-guide.md)
-  * [Manage Dependencies](android/install-the-sdk/integration-sdk.md)
+  * [Manage Dependencies](android/install-the-sdk/manage-dependencies.md)
   * [Initialization](android/install-the-sdk/initialization.md)
   * [Acquire Chat Start](android/install-the-sdk/acquire-chat-start.md)
   * [Customize acquire chat widget](android/install-the-sdk/customize-acquire-chat-widget.md)
