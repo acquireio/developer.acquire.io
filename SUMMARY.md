@@ -10,12 +10,12 @@
 
 ## JS API
 
-* [JS Live Chat API](js-api/description/README.md)
-  * [Description](js-api/description/description.md)
-  * [Installation](js-api/description/installation.md)
-  * [Visitor](js-api/description/visitor.md)
-  * [Thread](js-api/description/thread.md)
-  * [User Verification](js-api/description/user-verification.md)
+* [JS Live Chat API](js-api/js-live-chat-api/README.md)
+  * [Description](js-api/js-live-chat-api/description.md)
+  * [Installation](js-api/js-live-chat-api/installation.md)
+  * [Visitor](js-api/js-live-chat-api/visitor.md)
+  * [Thread](js-api/js-live-chat-api/thread.md)
+  * [User Verification](js-api/js-live-chat-api/user-verification.md)
 * [Quick Link Support](js-api/quick-link-support/README.md)
   * [One Click Button](js-api/quick-link-support/one-click-button.md)
   * [Social Media Share](js-api/quick-link-support/social-media-share.md)
