@@ -50,6 +50,7 @@
 
 * [Install The SDK](android/install-the-sdk/README.md)
   * [Getting Start Android](android/install-the-sdk/getting-start-android.md)
+  * [Latest SDK Integration Guide](android/install-the-sdk/latest-sdk-integration-guide.md)
   * [Integration SDK](android/install-the-sdk/integration-sdk.md)
   * [Initialization](android/install-the-sdk/initialization.md)
   * [Acquire Chat Start](android/install-the-sdk/acquire-chat-start.md)
@@ -61,6 +62,7 @@
   * [Android Push Notifications](android/install-the-sdk/android-push-notifications.md)
   * [Cross Platform Integrations](android/install-the-sdk/cross-platform-integrations.md)
   * [Android Cobrowse SDK](android/install-the-sdk/android-cobrowse-sdk.md)
+* [Customize acquire chat widget](android/customize-acquire-chat-widget.md)
 
 ## Webhook API
 
