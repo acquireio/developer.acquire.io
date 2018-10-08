@@ -11,9 +11,9 @@ AcquireApp.supportFAB = new SupportFAB.SupportFABBuilder()
 
 ```
 
+{% hint style="info" %}
 Call this code snippet before initialization of acquire SDK.
-
-Call this code snippet before initialization of acquire SDK.
+{% endhint %}
 
  Here is the list of methods to customize chat widget:
 
