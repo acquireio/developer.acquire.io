@@ -1,1 +1,4 @@
 root: ./
+
+redirects:
+  js-api/js-live-chat-api: js-api/js-live-chat-api/description.md
