@@ -48,7 +48,7 @@
 
 ## Android
 
-* [Install The SDK](android/install-the-sdk/README.md)
+* [SDK Guide](android/install-the-sdk/README.md)
   * [Getting Started](android/install-the-sdk/getting-started.md)
   * [Latest SDK Integration Guide](android/install-the-sdk/latest-sdk-integration-guide.md)
   * [Manage Dependencies](android/install-the-sdk/manage-dependencies.md)
