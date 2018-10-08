@@ -66,5 +66,5 @@ To handle events manually [click here](https://developer.acquire.io/android/inst
 
 To remove widget call our SDK  method **`removeFAB();`** 
 
-To Customize our widget click here.
+To Customize our widget [click here](https://developer.acquire.io/android/install-the-sdk/customize-acquire-chat-widget).
 
