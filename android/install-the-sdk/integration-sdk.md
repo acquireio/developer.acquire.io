@@ -1,4 +1,4 @@
-# Integration SDK
+# Manage Dependencies
 
 ### Steps to integrate sdk to your app
 
