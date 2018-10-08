@@ -64,7 +64,9 @@ For more info about init method [click here](https://developer.acquire.io/androi
 
 To handle events manually [click here](https://developer.acquire.io/android/install-the-sdk/acquire-chat-start). 
 
-To remove widget call our SDK  method **`removeFAB();`** 
+To temporarily remove widget call our sdk method **`removeFAB();`** 
+
+To permanent disable our chat widget call **`setShowDefaultFAB(false);`**
 
 To Customize our widget [click here](https://developer.acquire.io/android/install-the-sdk/customize-acquire-chat-widget).
 
