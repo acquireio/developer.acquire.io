@@ -62,7 +62,7 @@
   * [Android Push Notifications](android/install-the-sdk/android-push-notifications.md)
   * [Cross Platform Integrations](android/install-the-sdk/cross-platform-integrations.md)
   * [Android Cobrowse SDK](android/install-the-sdk/android-cobrowse-sdk.md)
-* [Customize acquire chat widget](android/customize-acquire-chat-widget.md)
+  * [Customize acquire chat widget](android/install-the-sdk/customize-acquire-chat-widget.md)
 
 ## Webhook API
 
