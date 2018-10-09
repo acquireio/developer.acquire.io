@@ -39,7 +39,7 @@ To change default buttons behavior pass as per application requirement.
 initCobrowse(Application application, String accId, CoBrowse coBrowse)
 ```
 
-To know more about cobrowse [click here](https://developer.acquire.io/~/edit/drafts/-LOIEbmu5jEwcJkDe2Mk/android/getting-started/cobrowse).
+To know more about cobrowse [click here](cobrowse.md).
 
 ### Permissions Description {#permissions-description}
 

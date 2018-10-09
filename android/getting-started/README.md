@@ -15,8 +15,8 @@
 
  Or, follow these simple steps to add Acquire in-app support to your Android app right away :
 
-* [Integration Guide](https://developer.acquire.io/~/edit/drafts/-LOIEbmu5jEwcJkDe2Mk/android/getting-started/integration-guide)
-* [Start using Acquire](start-using-acquire.md)
-* [Permissions needed by Acquire SDK](https://developer.acquire.io/~/drafts/-LOIEbmu5jEwcJkDe2Mk/primary/android/getting-started/start-using-acquire#permissions-description)
+* [Integration Guide](integration-guide.md#steps-to-integrate-acquire-android-sdk-are-as-follows)
+* [Start using Acquire](start-using-acquire.md#initialize-acquire-sdk)
+* [Permissions needed by Acquire SDK](start-using-acquire.md#permissions-description)
 * [Co-Browse SDK](cobrowse.md)
 

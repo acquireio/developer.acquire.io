@@ -50,13 +50,13 @@ public void onCreate() {
 }
 ```
 
-To know more about initialization options [click here](start-using-acquire.md). 
+To know more about initialization options [click here](start-using-acquire.md#initialize-acquire-sdk). 
 
 {% hint style="success" %}
 After successful integration of acquire sdk you will find a chat widget on your app at bottom right position.
 {% endhint %}
 
-To handle chat events manually [click here](https://developer.acquire.io/~/drafts/-LOIEbmu5jEwcJkDe2Mk/primary/android/acquire-apis#chat-apis). 
+To handle chat events manually [click here](../acquire-apis.md#chat-apis). 
 
 To customize our chat widget [click here](../custom-ui-widget.md#customize-chat-widget).
 
