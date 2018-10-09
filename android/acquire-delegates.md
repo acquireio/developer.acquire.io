@@ -1,6 +1,12 @@
-# Custom CallBack Events
+# Acquire Delegates
 
-### Custom CallBack Events
+### Session Delegates 
+
+#### To set session listener call sdk method :
+
+```java
+AcquireApp.getInstance().setSessionListner(this);
+```
 
 1. **`onSessionConnected();`** executed when socket connection is established. One can open chat module after this event.
 2. **`onSessionDisconnected(String reason);`** executed when socket connection is closed and chat is no longer available. ‘reason’ will give the reason for disconnection of the socket.
@@ -14,4 +20,22 @@
 10. **`onChatClosed();`** executed when agent closes the chat. Use only if required.
 11. **`onChatWidgetClose();`**  executed when user closes the chat screen. Use only if required.
 12. **`onTagChange(JSONObject tagJsonObject);`** executed whenever tag is changed from agent.
+
+### Co-Browse Event Delegates
+
+#### To set co-browse event listener call sdk method :
+
+```java
+AcquireApp.getInstance().setCoBrowseSessionListner(this);
+```
+
+1.**`onCoBrowseConnect(String s)`** : Will be invoked when co browse session is connected and also you can get random id from its argument.
+
+3.**`onAgentConnected()`** : This is invoked when agent start connection by entering same random id which user has got.  
+
+4.**`onCoBrowseDisconnect(String name)`** : this method is invoked when co browsing session is disconnected. Also it will tell you who \(agent/user\) has disconnected the session.
+
+5. **`onCoBrowseFailed()`** : will be invoked when socket connection fails to connect.
+
+6.**`onCoBrowseError()`** : will be invoked when socket gives any error while running session.
 

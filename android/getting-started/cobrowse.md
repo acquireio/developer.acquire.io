@@ -1,4 +1,4 @@
-# Android Cobrowse SDK
+# Cobrowse
 
 Acquire has this feature called Co-browsing which is unique in its sense, as it allows an agent to browse the session with the customer so that he/she can get the desired product/services on their website to purchase.
 
@@ -8,11 +8,11 @@ Once the Native SDKs are added to your app, everything else is done through our 
 
 ### Features {#features}
 
-{% hint style="info" %}
+{% hint style="success" %}
  With Co-Browse any Agent can not only see his customer's screen but also he can access device with mouse and for text input, an Agent can type on customer device using his hardware keyboard. Isn't it fantastic!
 {% endhint %}
 
-{% hint style="info" %}
+{% hint style="success" %}
  Even more he can add overlays or highlight on the customer's device in real time.
 {% endhint %}
 
@@ -22,7 +22,9 @@ If you want a sample app for cobrowse\_only sdk version , you can download the s
 
 {% embed data="{\"url\":\"https://www.youtube.com/watch?v=sptkhM5n3Vc\",\"type\":\"video\",\"title\":\"\",\"icon\":{\"type\":\"icon\",\"url\":\"https://www.youtube.com/yts/img/favicon\_144-vfliLAfaB.png\",\"width\":144,\"height\":144,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://i.ytimg.com/vi/sptkhM5n3Vc/maxresdefault.jpg\",\"width\":1280,\"height\":720,\"aspectRatio\":0.5625},\"embed\":{\"type\":\"player\",\"url\":\"https://www.youtube.com/embed/sptkhM5n3Vc?rel=0&showinfo=0\",\"html\":\"<div style=\\\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2493%;\\\"><iframe src=\\\"https://www.youtube.com/embed/sptkhM5n3Vc?rel=0&amp;showinfo=0\\\" style=\\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\\" allowfullscreen scrolling=\\\"no\\\"></iframe></div>\",\"aspectRatio\":1.7778}}" %}
 
-First of all you will need to add our maven link to your project gradle file.
+### Steps to integrate Cobrowse only sdk
+
+First of all you will need to add our maven link to your project **build.gradle** file.
 
 ```javascript
 allprojects {
@@ -35,9 +37,7 @@ allprojects {
 }
 ```
 
- You need to add following dependencies to your app level gradle file :
-
- If co browse only mode is activated in your account then you can use our specific android-sdk version for it.
+Now you will need to add following dependencies to your app level **build.gradle** file :
 
 ```javascript
 implementation 'com.acquireio:cobrowse_only:1.+'*
@@ -48,15 +48,17 @@ implementation('io.socket:socket.io-client:1.0.0') {
 }
 ```
 
-Initialization of the sdk is same as normal integration.
+\*`com`.acquireio:cobrowse\_only  is a compact library with only co-browse facility.
 
-[Follow this steps for this.](https://developers.acquire.io/initialization-android)
+{% hint style="info" %}
+ All these features are included to our **core** library too.​[Follow these steps for this.](https://developer.acquire.io/~/edit/drafts/-LOIEbmu5jEwcJkDe2Mk/android/getting-started/integration-guide)
+{% endhint %}
 
 {% embed data="{\"url\":\"https://www.youtube.com/watch?v=m532XviU0aI\",\"type\":\"video\",\"title\":\"\",\"icon\":{\"type\":\"icon\",\"url\":\"https://www.youtube.com/yts/img/favicon\_144-vfliLAfaB.png\",\"width\":144,\"height\":144,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://i.ytimg.com/vi/m532XviU0aI/maxresdefault.jpg\",\"width\":1280,\"height\":720,\"aspectRatio\":0.5625},\"embed\":{\"type\":\"player\",\"url\":\"https://www.youtube.com/embed/m532XviU0aI?rel=0&showinfo=0\",\"html\":\"<div style=\\\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2493%;\\\"><iframe src=\\\"https://www.youtube.com/embed/m532XviU0aI?rel=0&amp;showinfo=0\\\" style=\\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\\" allowfullscreen scrolling=\\\"no\\\"></iframe></div>\",\"aspectRatio\":1.7778}}" %}
 
-If you want to customize cobrowse settings then you can use our builder class.
+If you want to customize cobrowse settings then you can use our CobrowseBuilder class.
 
-Our builder class provides following options :
+### CobrowseBuilder class provides following options :
 
 1. **`setMAX_UPDATE_TIME(long MAX_UPDATE_TIME)`** :
 
@@ -119,49 +121,36 @@ Our builder class provides following options :
  */
 ```
 
+#### e.g.
+
 ```javascript
 Create CoBrowse cobrowse = new CoBrowse.CobrowseBuilder().setConfirmStop(false).setBITMAP_QUALITY(10).build();
 ```
 
- And then pass it to initCobrowse method :
+ And then pass it to **initCobrowse** method :
 
 ```javascript
 AcquireApp.initCobrowse(Application, [Your Account Id],cobrowse);
 ```
-
-
 
 After initialization you can use both events callbacks :
 
 * **OnSessionEvents** And
 * **OnCoBrowseEvent**
 
-From `OnSessionEvents` , you can start co-browsing by calling **`AcquireApp.getInstance().startSupportChat();`** Within **`onSessionConnected()`**
+**To get full understanding of all delegates** [**click here**](../acquire-delegates.md)**.**
 
-For Cobrowse only mode you will get below callback events by setting up `OnCoBrowseEvent` listener. Use method **`AcquireApp.getInstance().setSessionListner(this);`**  
-**`AcquireApp.getInstance().setCoBrowseSessionListner(this);`**
+### **Useful methods to control the UI while co browsing.** 
 
-to register listeners.
-
-Here is the complete understanding of these callbacks:
-
-1.**`onCoBrowseConnect(String s)`** : Will be invoked when co browse session is connected and also you can get random id from its argument.
-
-2.**`onCoBrowseConnect(String s)`** : Will be invoked when co browse session is connected and also you can get random id from its argument.
+#### Add mask to user's private data
 
 ![](../../.gitbook/assets/android-cobrowse-2.PNG)
 
-3.**`onAgentConnected()`** : This is invoked when agent start connection by entering same random id which user has got.  
+#### Set masking view color
 
 ![](../../.gitbook/assets/android-cobrowse-3.PNG)
 
-4.**`onCoBrowseDisconnect(String name)`** : this method is invoked when co browsing session is disconnected. Also it will tell you who \(agent/user\) has disconnected the session.
-
-5. **`onCoBrowseFailed()`** : will be invoked when socket connection fails to connect.
-
-6.**`onCoBrowseError()`** : will be invoked when socket gives any error while running session.
+#### Set mouse icon which appears on user screen 
 
 ![](../../.gitbook/assets/android-cobrowse-4.PNG)
-
-7.**`logOut()`**: To flush out all acquire components call this method.But keep in mind , after calling logout no api of our sdk will work.
 

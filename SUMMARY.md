@@ -48,20 +48,15 @@
 
 ## Android
 
-* [CONTENTS](android/install-the-sdk/README.md)
-  * [Getting Started](android/install-the-sdk/getting-started.md)
-  * [Latest SDK Integration Guide](android/install-the-sdk/latest-sdk-integration-guide.md)
-  * [Manage Dependencies](android/install-the-sdk/manage-dependencies.md)
-  * [Initialization](android/install-the-sdk/initialization.md)
-  * [Acquire Chat Start](android/install-the-sdk/acquire-chat-start.md)
-  * [Customize acquire chat widget](android/install-the-sdk/customize-acquire-chat-widget.md)
-  * [API Explore](android/install-the-sdk/api-explore.md)
-  * [Permissions](android/install-the-sdk/permissions.md)
-  * [Verify Your Users](android/install-the-sdk/verify-your-users.md)
-  * [Custom CallBack Events](android/install-the-sdk/custom-callback-events.md)
-  * [Android Push Notifications](android/install-the-sdk/android-push-notifications.md)
-  * [Cross Platform Integrations](android/install-the-sdk/cross-platform-integrations.md)
-  * [Android Cobrowse SDK](android/install-the-sdk/android-cobrowse-sdk.md)
+* [Getting Started](android/getting-started/README.md)
+  * [Integration Guide](android/getting-started/integration-guide.md)
+  * [Start using Acquire](android/getting-started/start-using-acquire.md)
+  * [Cobrowse](android/getting-started/cobrowse.md)
+* [Acquire APIs](android/acquire-apis.md)
+* [Acquire Delegates](android/acquire-delegates.md)
+* [Custom UI/widget](android/custom-ui-widget.md)
+* [Android Push Notifications](android/android-push-notifications.md)
+* [Cross Platform Integrations](android/cross-platform-integrations.md)
 
 ## Webhook API
 

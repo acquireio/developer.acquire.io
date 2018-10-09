@@ -1,6 +1,22 @@
-# Customize acquire chat widget
+# Custom UI/widget
 
-Use our **`SupportFABBuilder`** class to customize our chat widget as per your requirement.
+### Change color of UI
+
+**How it works**
+
+Go to [https://app.acquire.io/widget/theme](https://app.acquire.io/widget/theme) - :
+
+![](../.gitbook/assets/theme_change%20%282%29.png)
+
+{% hint style="info" %}
+Whole Chat module will change according to this Background color.
+
+If not provided then it will use default primary colors of your app.
+{% endhint %}
+
+### Customize chat widget
+
+Use our**`SupportFABBuilder`** class to customize our **chat widget** as per your requirement.
 
 **e.g.**
 
