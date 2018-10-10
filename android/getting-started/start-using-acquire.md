@@ -39,7 +39,7 @@ To change default buttons behavior pass as per application requirement.
 initCobrowse(Application application, String accId, CoBrowse coBrowse)
 ```
 
-To know more about cobrowse [click here](cobrowse.md).
+To know more about cobrowse [click here](cobrowse-sdk.md).
 
 ### Permissions Description {#permissions-description}
 

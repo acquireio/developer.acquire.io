@@ -51,7 +51,7 @@
 * [Getting Started](android/getting-started/README.md)
   * [Integration Guide](android/getting-started/integration-guide.md)
   * [Start using Acquire](android/getting-started/start-using-acquire.md)
-  * [Cobrowse](android/getting-started/cobrowse.md)
+  * [Cobrowse SDK](android/getting-started/cobrowse-sdk.md)
 * [Acquire APIs](android/acquire-apis.md)
 * [Acquire Delegates](android/acquire-delegates.md)
 * [Custom UI/widget](android/custom-ui-widget.md)
