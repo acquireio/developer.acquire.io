@@ -73,6 +73,30 @@ First, you need to add email id in `acquireIO.loginVisitor()` method in SDK for 
 acquireIO.loginVisitor('USER_HASH',{email:'user@example.com'})
 ```
 
+### Visitor Authentication
+
+Visitor authentication in use acquire.push code snippet everywhere but this work only run-time not initialize time and use after page load and start time. You use this load email and acquire.push code snippet in add a new attribute **`user_hash`** and assign the **HMAC** code.
+
+#### Get HMAC code
+
+Login acquire dashboard and open this: [https://app.acquire.io/widget/customize](https://app.acquire.io/widget/customize) and Chat widget code in Choose Visitor authentication.
+
+{% hint style="info" %}
+**Important :** Use **HMAC** only Server side not use client side and Keep your secrete key safe! Never commit it directly to your repository.
+{% endhint %}
+
+```javascript
+<script type="text/javascript">
+	window.acquire=window.acquire||[];
+	acquire.push({
+		user_hash:'INSERT_HMAC_VALUE_HERE',
+		userDetails:{
+			email:'customer@example.com', //EMAIL
+		}
+	});
+</script>
+```
+
 ###  **Logout visitor**
 
 If you have set visitor hash \(**HMAC digest**\) and visitor just logged out from account and need to manage user integrity with agent, call method `logoutVisitor()` to remove all acquire data from your app related to visitorHash. This must call method to logout from acquireIO support:
