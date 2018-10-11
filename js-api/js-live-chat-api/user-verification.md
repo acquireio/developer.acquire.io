@@ -67,19 +67,13 @@ OpenSSL::HMAC.hexdigest(
  **Note:** Keep your secret key safe! Never commit it directly to your repository, client-side code, or anywhere a third party can find it.
 {% endhint %}
 
-First, you need to add email id in `acquireIO.loginVisitor()` method in SDK for uniquely identify your users. Note that if you set only visitor hash and email is not set then acquire can't identify visitor. So you need this method to verify visitor hash.
 
-```javascript
-acquireIO.loginVisitor('USER_HASH',{email:'user@example.com'})
-```
 
 ### Visitor Authentication
 
-Visitor authentication in use acquire.push code snippet everywhere but this work only run-time not initialize time and use after page load and start time. You use this load email and acquire.push code snippet in add a new attribute **`user_hash`** and assign the **HMAC** code.
+For visitor authentication you  can use this run following code asap you load acquire init.js script or before that, and add a new attribute **`user_hash`** and assign the **HMAC** code along with user's email or any other details to cofing object.
 
-#### Get HMAC code
-
-Login acquire dashboard and open this: [https://app.acquire.io/widget/customize](https://app.acquire.io/widget/customize) and Chat widget code in Choose Visitor authentication.
+_To get HMAC code, login acquire dashboard and open this:_ [_https://app.acquire.io/widget/customize_](https://app.acquire.io/widget/customize) _and Chat widget code in Choose Visitor authentication._
 
 {% hint style="info" %}
 **Important :** Use **HMAC** only Server side not use client side and Keep your secrete key safe! Never commit it directly to your repository.
@@ -105,7 +99,11 @@ If you have set visitor hash \(**HMAC digest**\) and visitor just logged out fro
 acquireIO.logoutVisitor()
 ```
 
+Once you've called logout visitor, it will destroy current user's session and start again guest user's session as it was before.
 
+in case you've already started acquire widget and guest visitor is already started its session, that case you can still use above code or also following function to make user login back.
 
-
+```javascript
+acquireIO.loginVisitor('USER_HASH',{email:'user@example.com'})
+```
 
