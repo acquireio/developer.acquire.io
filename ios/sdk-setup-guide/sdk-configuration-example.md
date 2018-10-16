@@ -76,16 +76,17 @@ let options:NSDictionary = ["OptionKey" : Value]
 Note: These config options optional key.
 {% endhint %}
 
-* `UseDefaultTheme` - If you want to use default theme of SDK, even ThemeConfig.plist exist. Default value @NO.
-* `ShowAvatar` - If you want to hide avatar image from chat list then use this method. Default value @NO.
-* `ScreenShareBorder` - this is optional key. If you want to show red color border when screen share with agent, then use this method. Default value @YES.
-* `ShowVideoButton` - Show video button in top tab list on visitor's main chat messages screen and its just hide button but video functionality will not affect by this option. Default value @YES.
-* `ShowAudioButton` - Show audio button in top tab list on visitor's main chat messages screen and its just hide button but audio functionality will not affect by this option. Default value @YES.
+* `UseDefaultTheme` - If you want to use default theme of SDK, even ThemeConfig.plist exist. Default value `@NO`.
+* `ShowAvatar` - If you want to hide avatar image from chat list then use this method. Default value `@NO`.
+* `ScreenShareBorder` - this is optional key. If you want to show red color border when screen share with agent, then use this method. Default value `@YES`.
+* `ShowVideoButton` - Show starting acquire chat button. Default value `@YES`.
+* `ShowVideoButton` - Show video button in top tab list on visitor's main chat messages screen and its just hide button but video functionality will not affect by this option. Default value `@YES`.
+* `ShowAudioButton` - Show audio button in top tab list on visitor's main chat messages screen and its just hide button but audio functionality will not affect by this option. Default value `@YES`.
 * `WebSocketServer` - Initialize AcquireIO chat with custom server, Websocket server ip or url to connect support socket server, this is optional, if not set default AcquireIO socket server will connect. Default value AcquireIO server.
-* `ShowLocalNotificationBackgroundState` - Show local notification when app is in background state.. Default value @YES.
-* `ShowLocalNotificationInApp` - Show in-app notification when app state is active state.. Default value @YES.
-* `ButtonImageName` - This is init key for initialize AcquireIO chat with system button bottom right Set image name should be put in main bundle of app. Image size 30x30 px, 60x60 px for @2x. Default value nil.
-* `ShowDefaultStopButton` - After session is connected you can choose to show our stop button or not. Set @NO to hide the stop button.
+* `ShowLocalNotificationBackgroundState` - Show local notification when app is in background state.. Default value `@YES`.
+* `ShowLocalNotificationInApp` - Show in-app notification when app state is active state.. Default value `@YES`.
+* `ButtonImageName` - This is init key for initialize AcquireIO chat with system button bottom right Set image name should be put in main bundle of app. Image size 30x30 px, 60x60 px for @2x. Default value `nil`.
+* `ShowDefaultStopButton` - After session is connected you can choose to show our stop button or not. Set `@NO` to hide the stop button.
 
 ## Set Visitor Data
 
