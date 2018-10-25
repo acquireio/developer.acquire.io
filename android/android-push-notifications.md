@@ -12,7 +12,7 @@ Once your project is set up, scroll down and select **‘Get started’** on the
 
 Enter your app’s package name and click **‘Add App’**.
 
-### Step 2. Setup client to receive push {#step-2--setup-client-to-receive-push}
+### Step 2. Setup client to receive push <a id="step-2--setup-client-to-receive-push"></a>
 
 Your google-services.json should automatically download. You’ll need to move that into the same directory as your application level build.gradle.
 
@@ -32,13 +32,13 @@ apply plugin: 'com.google.gms.google-services'
 
 It is important that this is at the very end of the file.
 
-### Step 3. Add your Server key to Acquire for Android settings {#step-3--add-your-server-key-to-acquire-for-android-settings}
+### Step 3. Add your Server key to Acquire for Android settings <a id="step-3--add-your-server-key-to-acquire-for-android-settings"></a>
 
 Finally, click the settings cog and select ‘Project settings’, then **‘Cloud Messaging’** and copy your Server key.
 
 Open your Acquire app’s settings and select **‘Acquire for Android’**. Then find the ‘Enable Google Cloud Messaging’ section. Here you'll be able to paste and save your Server API key.
 
-### Step 4. Setting your FCM icon {#step-4--setting-your-fcm-icon}
+### Step 4. Setting your FCM icon <a id="step-4--setting-your-fcm-icon"></a>
 
 If you want to add a custom icon for your notifications, just add an image named chat\_icon\_aqr\_white.png to each of your supported densities. Please note that vector drawables cannot be used here. For example:
 
@@ -55,7 +55,7 @@ Notifications icon design guidelines
 
 We recommend following these [material design guidelines](https://material.io/design/platform-guidance/android-notifications.html) for producing this icon.
 
-### Troubleshooting tips {#troubleshooting-tips}
+### Troubleshooting tips <a id="troubleshooting-tips"></a>
 
 If you’re having trouble getting FCM to work in your app, here's a list of things you should check:
 

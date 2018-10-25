@@ -1,6 +1,6 @@
 # Requirement For Acquire
 
-### Client Requirements {#client-requirements}
+### Client Requirements <a id="client-requirements"></a>
 
 Web browser support for the Acquire app:
 

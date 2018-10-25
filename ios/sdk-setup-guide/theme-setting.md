@@ -12,7 +12,7 @@ if you don't want to use `AcquireIOConfig ThemeOptions` properties to SDK the us
 
 ![](../../.gitbook/assets/navigationbar.png)
 
-### Introduction {#introduction}
+### Introduction <a id="introduction"></a>
 
 Head over to Theming if you want to customize your SDK integration's typeface, colors or fonts. It is done via simple key-value pairs in option dictionary.
 
@@ -53,7 +53,7 @@ NSDictionary *themeDict = [@{@"ACQUIREIO_GLOBAL": @{
                              };
 ```
 
-### Theme Setting {#theme-setting}
+### Theme Setting <a id="theme-setting"></a>
 
 To skin your app, make sure you add `AcquireIOConfig @"ThemeOptions"`.
 
@@ -62,7 +62,7 @@ To skin your app, make sure you add `AcquireIOConfig @"ThemeOptions"`.
 | `Colors` | Colors are specified in hexadecimal format, e.g. `#FFFFFF` is White. \# is required before code |
 | `Fonts` | Font names should be specified by their family name & style. For example, **CaviareDreams-Bold** refers to Caviare Dreams _family_ of bold _style_. See using custom fonts section for more details |
 
-### Global Attributes {#global-attributes}
+### Global Attributes <a id="global-attributes"></a>
 
 These attributes control the looks of in-app support over many screens.
 
@@ -72,7 +72,7 @@ These attributes control the looks of in-app support over many screens.
 | `FONT_NAME` | Global font face - applies to texts for sections list, Chat list, Offline form and all. Default font is system font with size according to requirement |
 | `BOLD_FONT_NAME` | Applies to headers on chat screen and title of pages. Default font is system bold font with size according to requirement |
 
-### Navigation Bar {#navigation-bar}
+### Navigation Bar <a id="navigation-bar"></a>
 
 | Property | Description |
 | :--- | :--- |
@@ -80,7 +80,7 @@ These attributes control the looks of in-app support over many screens.
 | `BAR_TINTCOLOR` | The tint color to apply to the navigation bar background. This color is not made translucent by default unless you set the isTranslucent property to true. Default `BAR_TINTCOLOR` is `#FFFFFF` |
 | `TINT_COLOR` | The tint color is navigation title and back and other bar button items color. For more see image bellow. Default color is `#000000` |
 
-### System Button Attributes {#system-button-attributes}
+### System Button Attributes <a id="system-button-attributes"></a>
 
 These attributes applies on default bottom right support button.
 
@@ -90,7 +90,7 @@ These attributes applies on default bottom right support button.
 | `BUTTON_INSET_BOTTOM` | Inset button from bottom in `NSNumber`. default bottom inset is 0. |
 | `BUTTON_INSET_RIGHT` | Inset button from right in `NSNumber`. default right inset is 0. |
 
-### System Button Badge Attributes {#system-button-badge-attributes}
+### System Button Badge Attributes <a id="system-button-badge-attributes"></a>
 
 These attributes applies on default bottom right support button notification badge.
 
@@ -99,7 +99,7 @@ These attributes applies on default bottom right support button notification bad
 | `BACKGROUND_COLOR` | Applies to background color of button badge. Default color is red |
 | `TEXT_COLOR` | Button badge color. Default color is `#ffffff`. |
 
-### Using Custom Fonts {#using-custom-fonts}
+### Using Custom Fonts <a id="using-custom-fonts"></a>
 
 Add the font to your project. Edit your app's plist file and add a key `"Fonts provided by application"` to it. Under the key, list out file names of all the fonts you want to use in your app and in support. If you've already listed such fonts, skip this step.
 
@@ -117,7 +117,7 @@ Add the font to your project. Edit your app's plist file and add a key `"Fonts p
 
 ![](../../.gitbook/assets/sdk-theme.png)
 
-### Orientation support {#orientation-support}
+### Orientation support <a id="orientation-support"></a>
 
 By default, the iOS SDK will follow the orientation of the app.
 

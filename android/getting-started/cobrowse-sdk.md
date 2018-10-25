@@ -6,7 +6,7 @@ To use Cobrowse in your own app, you'll need to add our Native SDKs. We've made 
 
 Once the Native SDKs are added to your app, everything else is done through our web dashboard in any browser - no plugins or installs needed.
 
-### Features {#features}
+### Features <a id="features"></a>
 
 {% hint style="success" %}
  With Co-Browse any Agent can not only see his customer's screen but also he can access device with mouse and for text input, an Agent can type on customer device using his hardware keyboard. Isn't it fantastic!
@@ -16,7 +16,7 @@ Once the Native SDKs are added to your app, everything else is done through our 
  Even more he can add overlays or highlight on the customer's device in real time.
 {% endhint %}
 
-### Android SDK Sample App {#android-sdk-sample-app}
+### Android SDK Sample App <a id="android-sdk-sample-app"></a>
 
 If you want a sample app for cobrowse\_only sdk version , you can download the sample app with integrated our sdk from Github: [Sample App](https://github.com/acquireio/co-browse-only-android)
 

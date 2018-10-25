@@ -19,7 +19,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 }
 ```
 
-#### Use in Controller {#use-in-controller}
+#### Use in Controller <a id="use-in-controller"></a>
 
 ```javascript
 import AcquireIO
@@ -50,7 +50,7 @@ AcquireIO.support().showSupport(self)
 }
 ```
 
-#### Use in Controller: {#use-in-controller-}
+#### Use in Controller: <a id="use-in-controller-"></a>
 
 ```javascript
 #import 

@@ -2,7 +2,7 @@
 
 To enable push notifications in Acquire you first need to create a .p12 certificate file of your Apple Push Certificate and upload it to Acquire \(we support both production and development .p12 files\).
 
-### Step 1: Create App ID and APNS SSL Certificate {#step-1--create-app-id-and-apns-ssl-certificate}
+### Step 1: Create App ID and APNS SSL Certificate <a id="step-1--create-app-id-and-apns-ssl-certificate"></a>
 
 Login to [Apple developer account](https://developer.apple.com/account) and click Certificates, Identifiers and Profile
 
@@ -22,7 +22,7 @@ Click Register, then Done to complete app registration
 
 Now, you can see the app listed in App IDs
 
-### Step 2: Generate APNS .p12 certificate {#step-2--generate-apns--p12-certificate}
+### Step 2: Generate APNS .p12 certificate <a id="step-2--generate-apns--p12-certificate"></a>
 
 Launch the Keychain Access application in your Mac OS X and Select Keychain Access -&gt; Certificate Assistant -&gt; Request a Certificate From a Certificate Authority.
 
@@ -90,7 +90,7 @@ You can skip this step if you have already configured your iOS app to support th
 4. In the Xcode Build Settings for your target, select the correct Code Signing Identify and Provisioning Profile.
 5. Install a build of the app on your iOS device.
 
-### Step 5: Register with APNS and register Device Tokens {#step-5--register-with-apns-and-register-device-tokens}
+### Step 5: Register with APNS and register Device Tokens <a id="step-5--register-with-apns-and-register-device-tokens"></a>
 
 As usual, you should also register with the Apple Push Notification Service \(APNS\) by adding this code to applicationDidBecomeActive if you haven't already:
 
@@ -155,7 +155,7 @@ At this stage you should make sure that you have enabled the Push Notifications 
 
 ![](https://developers.acquire.io/media/data/article/apn/compitibilty-push.png)
 
-### Step 6: Handling Acquire Push Notifications {#step-6--handling-acquire-push-notifications}
+### Step 6: Handling Acquire Push Notifications <a id="step-6--handling-acquire-push-notifications"></a>
 
 When your app receives a push notification Acquire for iOS checks to see if it is an Acquire push notification and opens the message if required. You do not need to implement any additional code in order to launch Acquire's UI once you have followed the instructions in step 5 above. To do this we safely swizzle the public methods in UIApplicationDelegate that handle receiving push notifications. We do not use any private APIs to do this.
 
@@ -189,7 +189,7 @@ func applicationDidBecomeActive(_ application: UIApplication) {
 Note: it is only necessary to do this if you decide to disable the automatic push notification handling.
 {% endhint %}
 
-### Step 7: Testing Acquire Push Notifications {#step-7--testing-acquire-push-notifications}
+### Step 7: Testing Acquire Push Notifications <a id="step-7--testing-acquire-push-notifications"></a>
 
 
 

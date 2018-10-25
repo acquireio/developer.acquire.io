@@ -1,10 +1,10 @@
 # Integrate Your Chatbot
 
-### Introduction {#introduction}
+### Introduction <a id="introduction"></a>
 
 You can use Acquire as platform, by creating your own Bot with API endpoint that describe within this document. You can also make your Bot public, by this other people can use your Bot as service. These are few examples that show how Acquire platform will accept the request and give response, from API Endpoint for Bot uses. You can make your own Web API and put that into below popup with given request format.
 
-### Screenshots {#screenshots}
+### Screenshots <a id="screenshots"></a>
 
 1. Here you can setup you Bot’s Basic Details:
 

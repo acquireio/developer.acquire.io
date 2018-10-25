@@ -41,7 +41,7 @@ initCobrowse(Application application, String accId, CoBrowse coBrowse)
 
 To know more about cobrowse [click here](cobrowse-sdk.md).
 
-### Permissions Description {#permissions-description}
+### Permissions Description <a id="permissions-description"></a>
 
 We include the **INTERNET** permission by default as we need it to make network requests :
 

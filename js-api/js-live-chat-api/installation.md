@@ -7,7 +7,7 @@ Once logged In then click on integration button and inside [widget section ](htt
 
 Copy the following sample widget code and paste it inside `<HEAD>` section of your webpage
 
-### Step 2: Reload Webpage {#step-2--reload-webpage}
+### Step 2: Reload Webpage <a id="step-2--reload-webpage"></a>
 
 Save your code and reload webpage.
 

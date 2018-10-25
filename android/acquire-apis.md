@@ -117,7 +117,7 @@ To use this feature you will need to extend your Activity to our **AQR\_BaseActi
 
 ![](../.gitbook/assets/api-explore.jpg)
 
-### Get unread messages count : {#get-unread-messages-count}
+### Get unread messages count : <a id="get-unread-messages-count"></a>
 
 Get unread messages count anywhere in your app \(Optional\)
 
@@ -135,7 +135,7 @@ AcquireApp.getInstance().setUnreadCountListner(this);
 **Note:** Remember to use **runOnUiThread\(\)** while updating UI.
 {% endhint %}
 
-### Upload files directly to the acquire server {#upload-files-directly-to-the-acquire-server}
+### Upload files directly to the acquire server <a id="upload-files-directly-to-the-acquire-server"></a>
 
 ```java
 AcquireApp.getInstance().uploadFileToAcquire(Activity context, String filePath, UploadFileListener uploadFileListener);

@@ -92,7 +92,7 @@ A convenience function to set multiple settings at once. Accepts a settings obje
 ```javascript
 <script>
    window.acquire=window.acquire||[];
-   acquire.push({
+   window.acquire.push({
                   userDetails:{
                       name:'Visitor',
                       phone:'0000000000',
@@ -131,7 +131,7 @@ Update visitor’s path with specific page url and title:
 <script>
     // update visitor's path with specific page url and title
     window.acquire=window.acquire||[];
-    acquire.push(function(app){
+    window.acquire.push(function(app){
       app.visitorPageUpdate('example title', 'http://example.com');
     });
 </script>
