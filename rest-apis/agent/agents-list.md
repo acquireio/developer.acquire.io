@@ -2,6 +2,8 @@
 
 Using acquire agent API for agents all details and get activities. You can do setup acquire backend on your own dashboard easily use this. Agent List API in all agents details available. Acquire Agent List API in you can get agent's **`'secret_key'`** and use anywhere but make sure secure this.
 
+![](../../.gitbook/assets/agent-list.PNG)
+
 | Parameter | Value |
 | :--- | :--- |
 | **Path** | https://app.acquire.io/account/agents |
