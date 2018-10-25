@@ -20,7 +20,7 @@ And run `pod install` or `pod update` to refresh your [cocoapods](https://cocoap
 
 Download the latest for the AcquireIO iOS SDK.
 
-### [`Download SDK v1.0.9`](https://developers.acquire.io/sdk/ios/acquireIO.zip)
+### [`Download SDK v1.0.11`](https://developers.acquire.io/sdk/ios/acquireIO.zip)
 
 The zip file `AcquireIO.framework` contains
 
