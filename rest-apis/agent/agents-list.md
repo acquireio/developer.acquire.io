@@ -1,14 +1,15 @@
 # Agents List
 
-Acquire dashboard in created your agents details get in this api.
+Using acquire agent API for agents all details and get activities. You can do setup acquire backend on your own dashboard easily use this. Agent List API in all agents details available. Acquire Agent List API in you can get agent's **`'secret_key'`** and use anywhere but make sure secure this.
 
 | Parameter | Value |
 | :--- | :--- |
 | **Path** | https://app.acquire.io/account/agents |
 | **Method** | POST |
+| **Authorization**  | **Bearer \[YOUR\_API\_AUTH\_TOKEN\]** |
 | **Content-type** | application/x-www-form-urlencoded |
 
-#### **Body**
+#### **Body \(**formdata**\)**
 
 | Parameter | Value |
 | :--- | :--- |
