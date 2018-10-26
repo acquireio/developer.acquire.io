@@ -15,7 +15,7 @@ Your Access Token can give access to your private Acquire data and should be tre
 {% endhint %}
 
 {% hint style="success" %}
-If you want to use auth token in API for makes a own dashboard then save anywhere and use server side.
+If you want to use auth token in API for makes a own dashboard then save anywhere secure and use server side.
 {% endhint %}
 
 
