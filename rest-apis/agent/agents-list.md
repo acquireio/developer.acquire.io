@@ -2,6 +2,24 @@
 
 Using acquire agent API for agents all details and get activities. You can do setup acquire backend on your own dashboard easily use this. Agent List API in all agents details available. Acquire Agent List API in you can get agent's **`'secret_key'`** and use anywhere but make sure secure this.
 
+#### **Get Auth Token**
+
+We provide an Access Token as soon as you create an app on your workspace. First login Acquire dashboard and Go **Setting &gt; API Token and Whitelist &gt; API Token** \( [https://app.acquire.io/setting/token](https://app.acquire.io/setting/token) \). Copy API token and use API header in **`auth_token`** parameter. If you want to new token generate click on button "**Generate New Token**".
+
+![](../../.gitbook/assets/api-auth-token-1.png)
+
+Your Access Token can give access to your private Acquire data and should be treated like a password. **If an app provider asks you for your Access Token, please do not provide it. Instead, let us know - apps are required to use OAuth rather than asking users for Access Tokens.**
+
+{% hint style="danger" %}
+ **API auth token  \[YOUR\_API\_AUTH\_TOKEN\]  do not use  public and make sure secure.**  
+{% endhint %}
+
+{% hint style="success" %}
+If you want to use auth token in API for makes a own dashboard then save anywhere and use server side.
+{% endhint %}
+
+
+
 ![](../../.gitbook/assets/agent-list.PNG)
 
 | Parameter | Value |
@@ -28,17 +46,17 @@ Using acquire agent API for agents all details and get activities. You can do se
     "data": {
         "rows": [
             {
-                "role_id": 14167,
-                "user_id": 15416,
-                "account_id": 10719,
-                "user_name": "John Deo",
-                "user_email": "johndeo@acquire.io",
+                "id": 5128,
+                "user_id": 3518,
+                "account_id": 4574,
+                "user_name": "Devid",
+                "user_email": "devidklok@acquire.io",
                 "allowed_ip": "",
                 "user_role_id": 1,
                 "role_name": "Administrator",
                 "role_status": "active",
                 "user_status": "active",
-                "secret_key": "[AGENT_SECRET_KEY]";,
+                "secret_key": "[AGENT_SECRET_KEY]",
                 "department_id": null,
                 "department_name": null
             }

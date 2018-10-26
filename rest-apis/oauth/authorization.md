@@ -22,7 +22,7 @@ We provide an Access Token as soon as you create an app on your workspace. First
 
 ![](../../.gitbook/assets/api-auth-token-1.png)
 
-Your Access Token can give access to your private Acqurie data and should be treated like a password. If an app provider asks you for your Access Token, please do not provide it. Instead, let us know - apps are required to use OAuth rather than asking users for Access Tokens.
+Your Access Token can give access to your private Acquire data and should be treated like a password. If an app provider asks you for your Access Token, please do not provide it. Instead, let us know - apps are required to use OAuth rather than asking users for Access Tokens.
 
 You should use OAuth if:
 
