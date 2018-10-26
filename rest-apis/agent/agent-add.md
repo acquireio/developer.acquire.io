@@ -14,7 +14,7 @@ Agents add API in you can create a new agent in your dashboard. Body parameter i
 
 | Parameter | Value |
 | :--- | :--- |
-| role | 1/2 \(**`Administrator`** = 1 AND **`Operator`** = 2\) |
+| role | 1/2 \(**`Administrator`** = 1 Or**`Operator`** = 2\) |
 | name | david |
 | email | devidklok@acquire.io |
 | password | 1234567 |
