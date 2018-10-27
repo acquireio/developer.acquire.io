@@ -20,9 +20,19 @@ Acquire Dashboard in top right corner in click on profile name and  you  see ACC
 
 ![](../../.gitbook/assets/get-agent-email-id%20%281%29.PNG)
 
-#### How to get Agents details using API
+#### How to get Agents details using API <a id="how-to-get-agents-details-using-api"></a>
 
-if want to get all agents details use acquire agents  **REST API**  [https://developer.acquire.io/rest-apis/agent](https://developer.acquire.io/rest-apis/agent) 
+if want to get all agents details use acquire agent **REST API** \([https://developer.acquire.io/rest-apis/agent](https://developer.acquire.io/rest-apis/agent) \). Agent API in you can get agents all details and make a own dashboard.
+
+**Setup Agent API**
+
+Acquire agent API setup process steps:
+
+1. first get acquire API token \([https://app.acquire.io/setting/token](https://app.acquire.io/setting/token) \) and  save in anywhere secure \(like : database\) after make functionality to get token use secure way.
+2. Use **agents list** API \([https://developer.acquire.io/rest-apis/agent/agents-list](https://developer.acquire.io/rest-apis/agent/agents-list)\) for all data show in a table view.
+3. If you want to create new agent use **agents add** API \([https://developer.acquire.io/rest-apis/agent/agent-add](https://developer.acquire.io/rest-apis/agent/agent-add)\) and make a form to save new agent.
+4.  For edit agent details use agent edit API \( [https://developer.acquire.io/rest-apis/agent/edit-get-agent](https://developer.acquire.io/rest-apis/agent/edit-get-agent) \) . Edit API in you can get particular agent details by id and show in input.
+5. After above process you use update API \([https://developer.acquire.io/rest-apis/agent/update](https://developer.acquire.io/rest-apis/agent/update)\) for edit agent's details save/ update.
 
 ### Step 4. Open HTML Page <a id="step-4--open-html-page"></a>
 
