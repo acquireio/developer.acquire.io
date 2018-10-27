@@ -31,8 +31,8 @@ Acquire agent API setup process steps:
 1. first get acquire API token \([https://app.acquire.io/setting/token](https://app.acquire.io/setting/token) \) and  save in anywhere secure \(like : database\) after make functionality to get token use secure way.
 2. Use **agents list** API \([https://developer.acquire.io/rest-apis/agent/agents-list](https://developer.acquire.io/rest-apis/agent/agents-list)\) for all data show in a table view.
 3. If you want to create new agent use **agents add** API \([https://developer.acquire.io/rest-apis/agent/agent-add](https://developer.acquire.io/rest-apis/agent/agent-add)\) and make a form to save new agent.
-4.  For edit agent details use agent edit API \( [https://developer.acquire.io/rest-apis/agent/edit-get-agent](https://developer.acquire.io/rest-apis/agent/edit-get-agent) \) . Edit API in you can get particular agent details by id and show in input.
-5. After above process you use update API \([https://developer.acquire.io/rest-apis/agent/update](https://developer.acquire.io/rest-apis/agent/update)\) for edit agent's details save/ update.
+4.  For edit agent details use **agent edit** API \( [https://developer.acquire.io/rest-apis/agent/edit-get-agent](https://developer.acquire.io/rest-apis/agent/edit-get-agent) \) . Edit API in you can get particular agent details by id and show in input.
+5. After above process you use **update API** \([https://developer.acquire.io/rest-apis/agent/update](https://developer.acquire.io/rest-apis/agent/update)\) for edit agent's details save/ update.
 
 ### Step 4. Open HTML Page <a id="step-4--open-html-page"></a>
 
