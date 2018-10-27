@@ -31,6 +31,14 @@ First login acquire dashboard \( [app.acquire.io](https://app.acquire.io/)\) and
 
 ![Get All Parameters](../../.gitbook/assets/get-agent-email-id.PNG)
 
+#### How to get Agents details using API
+
+if want to get all agents details use acquire agent  **REST API**  \([https://developer.acquire.io/rest-apis/agent](https://developer.acquire.io/rest-apis/agent) \). Agent API in you can get agents all details and make a own dashboard.   
+
+{% hint style="success" %}
+ [https://developer.acquire.io/rest-apis/agent](https://developer.acquire.io/rest-apis/agent) 
+{% endhint %}
+
 #### SDK Parameters
 
  _**`visitor_list:true/false (default: true)`**_

@@ -20,9 +20,15 @@ Acquire Dashboard in top right corner in click on profile name and  you  see ACC
 
 ![](../../.gitbook/assets/get-agent-email-id%20%281%29.PNG)
 
+#### How to get Agents details using API
+
+if want to get all agents details use acquire agents  **REST API**  [https://developer.acquire.io/rest-apis/agent](https://developer.acquire.io/rest-apis/agent) 
+
 ### Step 4. Open HTML Page <a id="step-4--open-html-page"></a>
 
 After all setup load HTML page in browser and see all live agents details. You can use this page as a iframe.
 
 ![](../../.gitbook/assets/backend-show-agent.PNG)
+
+
 
