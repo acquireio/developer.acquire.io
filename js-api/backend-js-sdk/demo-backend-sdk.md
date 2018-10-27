@@ -20,11 +20,11 @@ Acquire Dashboard in top right corner in click on profile name and  you  see ACC
 
 ![](../../.gitbook/assets/get-agent-email-id%20%281%29.PNG)
 
-#### How to get Agents details using API <a id="how-to-get-agents-details-using-api"></a>
+### How to get Agents details using API
 
 if want to get all agents details use acquire agent **REST API** \([https://developer.acquire.io/rest-apis/agent](https://developer.acquire.io/rest-apis/agent) \). Agent API in you can get agents all details and make a own dashboard.
 
-**Setup Agent API**
+**Setup Agent API :**
 
 Acquire agent API setup process steps:
 
