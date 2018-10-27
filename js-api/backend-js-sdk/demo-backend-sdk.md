@@ -22,7 +22,7 @@ Acquire Dashboard in top right corner in click on profile name and  you  see ACC
 
 ### How to get Agents details using API
 
-if want to get all agents details use acquire agent **REST API** \([https://developer.acquire.io/rest-apis/agent](https://developer.acquire.io/rest-apis/agent) \). Agent API in you can get agents all details and make a own dashboard.
+if you want to get all agents details use acquire agent **REST API** \([https://developer.acquire.io/rest-apis/agent](https://developer.acquire.io/rest-apis/agent) \). Agent API in you can get agents all details and make a own dashboard.
 
 **Setup Agent API :**
 
