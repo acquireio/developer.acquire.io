@@ -14,6 +14,8 @@ pod 'AcquireIO'            # For normal version
 
 And run `pod install` or `pod update` to refresh your [cocoapods](https://cocoapods.org/) dependencies.
 
+For issues installing CocoaPods, see [their website](https://cocoapods.org/) for help.
+
 {% hint style="info" %}
 **Explanation**: The AcquireIO SDK uses background mode `Audio` for when you are video/voice call to agent/visitor. If you have not enable then background voice will not work. When the `UIBackgroundModes` key contains the `audio` value, the system’s media frameworks automatically prevent the corresponding app from being suspended when it moves to the background. Go to `Project/Targets -> Capabilities -> Background Modes -> Audio, AirPlay (Check)`
 {% endhint %}
