@@ -39,6 +39,7 @@
 
 * [SDK Setup Guide](ios/sdk-setup-guide/README.md)
   * [Getting Start iOS](ios/sdk-setup-guide/getting-start-ios.md)
+  * [Manual Setup iOS](ios/sdk-setup-guide/manual-setup-ios.md)
   * [Acquire Account ID](ios/sdk-setup-guide/acquire-account-id.md)
   * [iOS Cobrowse SDK](ios/sdk-setup-guide/ios-cobrowse-sdk.md)
   * [SDK Configuration Example](ios/sdk-setup-guide/sdk-configuration-example.md)
