@@ -6,6 +6,12 @@ description: >-
 
 # Getting Start iOS
 
+## Initial setup
+
+The steps below use [CocoaPods](https://cocoapods.org/) to integrate the AcquireIO SDK.
+
+For more detail, you can also check out our [generated iOS docs ](https://devtools.acquire.io/sdk/ios/docs/html/index.html)or review the source code on [Github](https://github.com/acquireio/acquireio-ios).
+
 ## Integration using Cocoapods
 
 ```objectivec
