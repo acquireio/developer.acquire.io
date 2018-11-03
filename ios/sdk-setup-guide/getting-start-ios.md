@@ -24,15 +24,6 @@ Download the latest for the AcquireIO iOS SDK.
 
 The zip file `AcquireIO.framework` contains
 
-| File | Description |
-| :--- | :--- |
-| `AcquireIO.h` | AcquireIO main API header file |
-| `AcquireIOClient.h` | Support API methods header file |
-| `AcquireIO-Swift.h` | AcquireIO swift library for use Socket connection |
-| `call.aiff` | Sound file for agent call ringtone |
-| `new_message.aiff` | Sound file for agent message alert ringtone |
-| `AcquireIOTheme/` | Folder containing theme configuration to match the design of your app |
-
 {% embed url="https://www.youtube.com/watch?v=45bhaS4iUq4" %}
 
 ### Add the latest stable SDK
