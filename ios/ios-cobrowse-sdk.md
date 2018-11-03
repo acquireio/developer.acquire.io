@@ -18,37 +18,6 @@ pod 'AcquireIO-Cobrowse'            # For normal version
 
 And run `pod install` or `pod update` to refresh your [cocoapods](https://cocoapods.org/) dependencies.
 
-## Manual Integration
-
-### Get the latest SDK zip
-
-Download the latest for the AcquireIO iOS SDK.
-
-### [`Download SDK Latest`](https://developers.acquire.io/sdk/ios/1.0.9/cobrowse/acquireIO.zip)\`\`
-
-The zip file `AcquireIO.framework` contains
-
-| File | Description |
-| :--- | :--- |
-| `AcquireIO.h` | AcquireIO main API header file |
-| `AcquireIOClient.h` | Support API methods header file |
-| `AcquireIO-Swift.h` | AcquireIO swift library for use Socket connection |
-| `AcquireIOTheme/` | Folder containing theme configuration to match the design of your app |
-
-### Add the latest stable SDK
-
-**Add the latest stable SDK release to your project**
-
-\*\*\*\*
-
-* Unzip the SDK & drag-drop `acquireIO.framework` files into your Xcode project.
-* In `Build Phases`, verify that `AcquireIO.framework` is in the `Link Binary with Libraries` and the AcquireIO resources are in `Copy Bundle Resources`
-* Add the following frameworks to `Link Binary with Libraries` -
-  * `CoreFoundation`
-  * `CoreGraphics`
-  * `QuartzCore`
-  * `UIKit`
-
 ## Methods
 
 ### Get Cobrowse Code
@@ -205,7 +174,7 @@ End the cobrowse session. Calling endSharing initiates the process of ending the
 
 Show prompt message for end confirmation, see:
 
-![End sharing prompt message for user](../../.gitbook/assets/screen-shot-2018-09-24-at-1.11.07-pm.png)
+![End sharing prompt message for user](../.gitbook/assets/screen-shot-2018-09-24-at-1.11.07-pm.png)
 
 **Parameter**
 
@@ -233,7 +202,7 @@ AcquireIO.support().endSharing(false)
 
 After session is connected you can choose to show our stop button or not.
 
-![ShowDefaultStopButton](../../.gitbook/assets/showdefaultstopbutton.png)
+![ShowDefaultStopButton](../.gitbook/assets/showdefaultstopbutton.png)
 
 Add key `@"ShowDefaultStopButton"` for stop sharing button. Set Value `@NO` to hide the stop button.
 

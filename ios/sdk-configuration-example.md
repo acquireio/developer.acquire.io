@@ -1,5 +1,25 @@
 # SDK Configuration Example
 
+In iOS 10, Before you access privacy-sensitive data like Camera, Microphone, and so on, you must ask for the authorization, or your app will crash when you access them.
+
+Open the file in your project named `info.plist`, right click it, opening as Source Code, paste this code below to it. Or you can open `info.plist` as `Property List` by default, click the add button, Xcode will give you the suggest completions while typing Privacy - with the help of keyboard and
+
+Remember to write your description why you ask for this authorization, between `<string>` and `</string>`, or your app will be rejected by apple:
+
+```markup
+<!-- Allow Camera -->
+<key>NSCameraUsageDescription</key>
+<string>$(PRODUCT_NAME) use camera for video chat</string>
+
+<!-- Allow Microphone -->
+<key>NSMicrophoneUsageDescription</key>
+<string>$(PRODUCT_NAME) use microphone for voice chat</string>
+
+<!-- Allow Photo Library -->
+<key>NSPhotoLibraryUsageDescription</key>
+<string>$(PRODUCT_NAME) send photo/video to agent</string>
+```
+
 ## Swift Example
 
 ```javascript

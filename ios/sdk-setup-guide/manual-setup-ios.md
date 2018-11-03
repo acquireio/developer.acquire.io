@@ -34,3 +34,5 @@ Search `"Enable bitcode"` to `NO`
 
 ![Disable bitcode](../../.gitbook/assets/bitcode-no.png)
 
+{% embed url="https://www.youtube.com/watch?v=45bhaS4iUq4" caption="" %}
+

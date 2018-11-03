@@ -41,11 +41,11 @@
   * [Getting Start iOS](ios/sdk-setup-guide/getting-start-ios.md)
   * [Manual Setup iOS](ios/sdk-setup-guide/manual-setup-ios.md)
   * [Acquire Account ID](ios/sdk-setup-guide/acquire-account-id.md)
-  * [iOS Cobrowse SDK](ios/sdk-setup-guide/ios-cobrowse-sdk.md)
-  * [SDK Configuration Example](ios/sdk-setup-guide/sdk-configuration-example.md)
-  * [iOS Push Notifications](ios/sdk-setup-guide/ios-push-notifications.md)
-  * [Theme Setting](ios/sdk-setup-guide/theme-setting.md)
-  * [Verify your users](ios/sdk-setup-guide/verify-your-users.md)
+* [SDK Configuration Example](ios/sdk-configuration-example.md)
+* [iOS Cobrowse SDK](ios/ios-cobrowse-sdk.md)
+* [Theme Setting](ios/theme-setting.md)
+* [iOS Push Notifications](ios/ios-push-notifications.md)
+* [Verify your users](ios/verify-your-users.md)
 
 ## Android
 
