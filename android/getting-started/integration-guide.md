@@ -33,7 +33,7 @@ implementation 'com.android.support:customtabs:27.1.0'
 implementation ('io.socket:socket.io-client:1.0.0') {
    exclude group: 'org.json', module: 'json'
 }
-implementation 'com.acquireio:core:1.+' 
+implementation 'com.acquireio:core:2.+' 
 }
 ```
 
@@ -70,9 +70,9 @@ before initialization of sdk.
 {% hint style="info" %}
  To reduce apk size \(e.g. for release version\).
 
-Use **com.acquireio:core-arm-v7a:1.+** 
+Use **com.acquireio:core-arm-v7a:2.+** 
 
-instead of **com.acquireio:core:1.+**.
+instead of **com.acquireio:core:2.+**.
 
 It will support nearly all devices.
 {% endhint %}

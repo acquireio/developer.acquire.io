@@ -40,11 +40,11 @@ allprojects {
 Now you will need to add following dependencies to your app level **build.gradle** file :
 
 ```javascript
-implementation 'com.acquireio:cobrowse_only:1.+'*
+implementation 'com.acquireio:cobrowse_only:2.+'*
 implementation 'com.android.support:appcompat-v7:27.1.0' // if not added already
 implementation 'com.android.support:design:27.1.0' // if not added already
 implementation 'com.android.support:customtabs:27.1.0'
-implementation('io.socket:socket.io-client:1.0.0') {
+implementation ('io.socket:socket.io-client:1.0.0') {
    exclude group: 'org.json', module: 'json'
 }
 ```
