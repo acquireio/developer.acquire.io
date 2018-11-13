@@ -6,7 +6,7 @@ description: Setting up the SDK manually
 
 You can install our SDK manually using the steps below for iOS.
 
-First, [Download AcquireIO iOS SDK.](https://devtools.acquire.io/sdk/ios/2.0.0/acquireIO.zip)
+First, [Download AcquireIO iOS SDK.](https://devtools.acquire.io/sdk/ios/2.0.1/acquireIO.zip)
 
 {% hint style="info" %}
 Supports iOS 8.2 and above.
