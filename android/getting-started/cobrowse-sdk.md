@@ -125,7 +125,7 @@ If you want to customize cobrowse settings then you can use our CobrowseBuilder 
 #### e.g.
 
 ```javascript
-Create CoBrowse cobrowse = new CoBrowse.CobrowseBuilder().setConfirmStop(false).setBITMAP_QUALITY(10).build();
+CoBrowse cobrowse = new CoBrowse.CobrowseBuilder().setConfirmStop(false).setBITMAP_QUALITY(10).build();
 ```
 
  And then pass it to **initCobrowse** method :
