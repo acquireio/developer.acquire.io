@@ -21,7 +21,7 @@ Use our**`SupportFABBuilder`** class to customize our **chat widget** as per you
 **e.g.**
 
 ```javascript
-SupportFAB supportFAB = new SupportFAB.SupportFABBuilder()
+AcquireApp.supportFAB = new SupportFAB.SupportFABBuilder()
        .setFabIconPosition(SupportFAB.FAB_POSITION.BOTTOM_RIGHT)
        .setFABAnimation(true).setFabSize(0).setFabIconColor(Color.WHITE).build();
 
@@ -47,7 +47,7 @@ setFabIconPosition(FAB_POSITION fabIconPosition);
 /**
 * Set the FAB Position
 *
-* @param fabIconPosition - Pass the FAB icon position Start, Top ,End , Bottom
+* @param fabIconPosition - Pass the FAB icon position BOTTOM_LEFT, BOTTOM_RIGHT
 */
 ```
 
