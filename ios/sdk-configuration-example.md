@@ -188,7 +188,9 @@ This is part of additional visitor configuration. If this is provided through th
 
 | **Parameter** | Type | Description |
 | :--- | :--- | :--- |
-| `fields` | `Array` | array of field. field dictionary format: `{"n":"FIELD_KEY","v":"FIELD_VALUE"}.` |
+| `fields` | `Array` | array of field. field dictionary format: `{"n":"field_key","v":"field_value"}.` |
+
+![](../.gitbook/assets/custom-fields.png)
 
 #### Sample Code
 
