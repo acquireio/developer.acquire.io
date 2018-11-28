@@ -99,7 +99,7 @@ Note: These config options optional key.
 * `UseDefaultTheme` - If you want to use default theme of SDK, even ThemeConfig.plist exist. Default value `@NO`.
 * `ShowAvatar` - If you want to hide avatar image from chat list then use this method. Default value `@NO`.
 * `ScreenShareBorder` - this is optional key. If you want to show red color border when screen share with agent, then use this method. Default value `@YES`.
-* `ShowVideoButton` - Show starting acquire chat button. Default value `@YES`.
+* `ShowChatButton`  - Show starting acquire chat button. Default value `@YES`.
 * `ShowVideoButton` - Show video button in top tab list on visitor's main chat messages screen and its just hide button but video functionality will not affect by this option. Default value `@YES`.
 * `ShowAudioButton` - Show audio button in top tab list on visitor's main chat messages screen and its just hide button but audio functionality will not affect by this option. Default value `@YES`.
 * `WebSocketServer` - Initialize AcquireIO chat with custom server, Websocket server ip or url to connect support socket server, this is optional, if not set default AcquireIO socket server will connect. Default value AcquireIO server.
