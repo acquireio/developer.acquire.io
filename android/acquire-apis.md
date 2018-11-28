@@ -105,6 +105,8 @@ You can customize visitor’s identification by calling our sdk’s method **set
 
  Update these Details as per needed\(all optional\).
 
+![Use the field key to pass in the JSONObject.](../.gitbook/assets/image%20%281%29.png)
+
 {% hint style="info" %}
 **Note:** Use this method before initialization of sdk otherwise wont work.
 {% endhint %}
