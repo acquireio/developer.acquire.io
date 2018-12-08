@@ -1,6 +1,6 @@
 # Getting Started
 
-#### New to Acquire? Try out sample project on [github](https://github.com/acquireio/android-sdk-example).
+#### New to Acquire? Try out sample project on [github](https://github.com/acquireio/acquireio-android).
 
 ### Requirements
 
