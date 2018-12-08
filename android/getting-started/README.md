@@ -1,6 +1,6 @@
 # Getting Started
 
-#### New to Acquire? Try out sample project on [github](https://github.com/acquireio/acquireio-android).
+To know about our **android SDK** , check out our app on Google [play store](https://play.google.com/store/apps/details?id=com.acquire.sdk.app). Its source code is also available on [github](https://github.com/acquireio/acquireio-android).
 
 ### Requirements
 
