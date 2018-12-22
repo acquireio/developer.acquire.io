@@ -6,7 +6,7 @@ Knowledge Base Get Recent Article API in you get currently added article details
 
 | Parameter | Type |
 | :--- | :--- |
-| **`Path`** | [https://app.acquire.io/chatbot/api/get-recent-articles](https://app.acquire.io/chatbot/api/get-recent-articles) |
+| **`Path`** | https://app.acquire.io/chatbot/api/get-recent-articles |
 | **`Method`** | POST |
 | **`Content-type`** | application/x-www-form-urlencoded |
 

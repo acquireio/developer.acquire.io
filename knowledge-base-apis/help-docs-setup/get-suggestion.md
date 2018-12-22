@@ -2,7 +2,7 @@
 
 #### **Knowledge Base Get Suggestion API**
 
-Knowledge Base Get Suggestion API in you can show data records serching by user question related article.
+Knowledge Base Get Suggestion API in you can show data records searching by user question related article.
 
 | Parameter | Type |
 | :--- | :--- |

@@ -6,7 +6,7 @@ Knowledge Base Side List API in all Category and Category under article data in 
 
 | Parameter | Type |
 | :--- | :--- |
-| **`Path`** | [https://app.acquire.io/chatbot/api/side-list](https://app.acquire.io/chatbot/api/side-list) |
+| **`Path`** | https://app.acquire.io/chatbot/api/side-list |
 | **`Method`** | POST |
 | **`Content-type`** | application/x-www-form-urlencoded |
 

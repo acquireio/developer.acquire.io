@@ -4,8 +4,7 @@ Agents add API in you can create a new agent in your dashboard. Body parameter i
 
 | Parameter | Value |
 | :--- | :--- |
-| Path | [https://app.acquire.io/account/agents/add](%20https://app.acquire.io/account/agents/add
-) |
+| Path | https://app.acquire.io/account/agents/add |
 | Method | POST |
 | Authorization | Bearer **`[YOUR_API_AUTH_TOKEN]`** |
 | Content-type | application/x-www-form-urlencoded |

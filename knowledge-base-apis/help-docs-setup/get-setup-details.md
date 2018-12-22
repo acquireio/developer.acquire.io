@@ -6,7 +6,7 @@ Acquire Knowledge Base Setup api in your help docs setup in required data availa
 
 | Parameter | Type |
 | :--- | :--- |
-| **`Path`** | [https://app.acquire.io/chatbot/api/kb-setup](https://app.acquire.io/chatbot/api/kb-setup) |
+| **`Path`** | https://app.acquire.io/chatbot/api/kb-setup |
 | **`Method`** | POST |
 | **`Content-type`** | application/x-www-form-urlencoded |
 

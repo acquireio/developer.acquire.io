@@ -6,7 +6,7 @@ Knowledge Base Get Article API in you get a single article details using article
 
 | Parameter | Type |
 | :--- | :--- |
-| **`Path`** | [https://app.acquire.io/chatbot/api/get-article](https://app.acquire.io/chatbot/api/get-article) |
+| **`Path`** | https://app.acquire.io/chatbot/api/get-article |
 | **`Method`** | POST |
 | **`Content-type`** | application/x-www-form-urlencoded |
 

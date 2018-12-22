@@ -6,7 +6,7 @@ Knowledge Base in added your all faq-categories data available in this API. if y
 
 | Parameter | Type |
 | :--- | :--- |
-| **`Path`** | [https://app.acquire.io/chatbot/api/faq-categories](https://app.acquire.io/chatbot/api/faq-categories) |
+| **`Path`** | https://app.acquire.io/chatbot/api/faq-categories |
 | **`Method`** | POST |
 | **`Content-type`** | application/x-www-form-urlencoded |
 

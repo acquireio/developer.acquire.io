@@ -8,7 +8,7 @@ if you create own dashboard then first use agents **list** API and get **`id`** 
 
 | Parameter | Value |
 | :--- | :--- |
-| Path | [https://app.acquire.io/account/agents/edit](https://app.acquire.io/account/agents/edit) |
+| Path | https://app.acquire.io/account/agents/edit |
 | Method | POST |
 | Authorization | Bearer **`[YOUR_API_AUTH_TOKEN]`** |
 | Content-type | application/x-www-form-urlencoded |
