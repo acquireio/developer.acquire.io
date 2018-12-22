@@ -6,7 +6,7 @@ Knowledge Base Get Suggestion API in you can show data records serching by user 
 
 | Parameter | Type |
 | :--- | :--- |
-| **`Path`** | [https://app.acquire.io/chatbot/api/get-suggestion](https://app.acquire.io/chatbot/api/get-suggestion) |
+| **`Path`** | https://app.acquire.io/chatbot/api/get-suggestion |
 | **`Method`** | POST |
 | **`Content-type`** | application/x-www-form-urlencoded |
 
