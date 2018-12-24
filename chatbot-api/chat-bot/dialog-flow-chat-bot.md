@@ -78,7 +78,13 @@ We know how “Dialog Flow” is easy to use, now we make few things, that will 
 
 **5.**  Like: we have question in knowledge base is “Can I deploy the Chabot to Facebook messenger?” and we will add this in suggestion like “Deploy Chatbot to FB”.
 
+![](../../.gitbook/assets/suggestion-chips.png)
+
 **6.**  Whenever particular intent trigger response always come with those suggestion buttons. User simply click on one of those buttons and dialog flow will response on that query.
+
+![Response with suggestion buttons from &quot;Dialog Flow&quot; ](../../.gitbook/assets/chips-view-1.PNG)
+
+![New Response after clicking on one of suggestion ](../../.gitbook/assets/chips-view-2.PNG)
 
 ```
 
