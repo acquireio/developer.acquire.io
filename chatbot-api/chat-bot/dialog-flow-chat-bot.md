@@ -8,9 +8,9 @@
 
 Dialog flow has its own knowledge base section, where we can train own question and answer that helpful to Chat-Bot to handle our visitor. To bind **“Google’s Dialog Flow”** with **“Acquire Chat Widget”**, we need to pass few required parameters.  Everyone can install **“Dialog Flow Chat-Bot”** easily by following these few simple steps:
 
-#### • **Normal Q&N Chat:**
+#### • **Normal Q&A Chat:**
 
-**1.**First of all, we have an account on **“Dialog Flow”** Panel. Go to [https://console.dialogflow.com/api-client/\#/login](https://console.dialogflow.com/api-client/#/login) and use your Gmail ID to access Dialog Flow Panel. 
+**1.** First of all, we have an account on **“Dialog Flow”** Panel. Go to [https://console.dialogflow.com/api-client/\#/login](https://console.dialogflow.com/api-client/#/login) and use your Gmail ID to access Dialog Flow Panel. 
 
 ![](../../.gitbook/assets/1.PNG)
 
@@ -64,23 +64,23 @@ Dialog flow has its own knowledge base section, where we can train own question 
 
 #### 
 
-#### • Q&N with Suggestion chips\(Buttons\):
+#### • Q&A with Suggestion chips\(buttons\):
 
-We know how “Dialog Flow” is easy to use, now we make few things, that will make our chat more interactive. For this additional feature we have to attach a new thing named as “Google Assistant Tab” in “Response” section of that particular intent. It helps us to add Suggestions chips for any response, which can helpful to our user to get clear out on that topic. Let configure some suggestion chips \(buttons\) for a intent.
+We know how “Dialog Flow” is easy to use, now we make few things, that will make our chat more interactive. For this additional feature we have to attach a new thing, named as “Google Assistant Tab” in “Response” section of that particular intent. It helps us to add Suggestions chips for any response, which can helpful to our user to get clear out on that topic. Let configure some suggestion chips \(buttons\) for an intent.
 
 **1.**  First of all make a decent knowledge base for our Bot. Then go to that intent, where we want to add buttons.
 
-**2.**  You can see a tab named as “DEFAULT” in the “Response” section. For Buttons you have to add a new tab “GOOGLE ASSISTANT” by clicking on plus button.
+**2.**  You can see a tab named “DEFAULT” in the “Response” section. For Buttons you have to add a new tab “GOOGLE ASSISTANT” by clicking on '+' icon.
 
 **3.**  Under “GOOGLE ASSISTANT” Tab, click on “ADD RESPONSES” then after select “Suggestion Chips” from given list.
 
-**4.**  Now create few suggestions of questions that you have added in your knowledge base. Each suggestion chip accepts only 26 characters. So you have to put unique keywords of those questions.
+**4.**  Now create few suggestions of questions that you have added in your knowledge base. Each suggestion chip accepts only up to 26 characters. So you have to put unique keywords of those questions.
 
 **5.**  Like: we have question in knowledge base is “Can I deploy the Chabot to Facebook messenger?” and we will add this in suggestion like “Deploy Chatbot to FB”.
 
 ![](../../.gitbook/assets/suggestion-chips.png)
 
-**6.**  Whenever particular intent trigger response always come with those suggestion buttons. User simply click on one of those buttons and dialog flow will response on that query.
+**6.**  Whenever particular intent will be trigger, response always comes with those suggestion buttons. User simply click on one of those buttons and dialog flow will response on that query.
 
 ![Response with suggestion buttons from &quot;Dialog Flow&quot; ](../../.gitbook/assets/chips-view-1.PNG)
 
