@@ -20,7 +20,7 @@ Dialog flow has its own knowledge base section, where we can train own question 
 
 ![](../../.gitbook/assets/3.png)
 
-**4.** After pressing **“CREATE”** it may take a few seconds to prepare that agent. Then you will get an agent with empty phrases, now you have to put your all phrases that you want to train your Chat-Bot to answer all those queries that asked by visitors. To build a knowledge base you have to create **“Intents”** on it.
+**4.** After pressing **“CREATE”** it may take a few seconds to prepare that agent. Then you will get an agent with empty phrases, now you have to put your all the phrases that you want to train your Chat-Bot to answer all those queries that asked by visitors. To build a knowledge base you have to create **“Intents”** on it.
 
 ![](../../.gitbook/assets/4.png)
 
@@ -48,7 +48,7 @@ Dialog flow has its own knowledge base section, where we can train own question 
 
 ![](../../.gitbook/assets/10.png)
 
-**11.** All are setup, now we are good to go and press the install button.
+**11.** All are set up, now we are good to go and press the install button.
 
 ![](../../.gitbook/assets/11.png)
 
@@ -64,59 +64,59 @@ Dialog flow has its own knowledge base section, where we can train own question 
 
 ### Google Assistant Responses:
 
-This part describes various responses that Google Assistant provides. We know how “Dialog Flow” is easy to use, now we make few things, Like: Simple responses, Suggestion chips, Link out Suggestion, Carousel Card, Browse Carousel card etc., which will make our chat more interactive. For this additional feature we have to attach a new thing named as “Google Assistant Tab” in “Response” section of that particular intent.
+This part describes various responses that Google Assistant provides. We know how “Dialog Flow” is easy to use, now we make few things, Like: Simple responses, Suggestion chips, Link out Suggestion, Carousel Card, Browse Carousel card etc., which will make our chat more interactive. For this additional feature, we have to attach a new thing named as “Google Assistant Tab” in “Response” section of that particular intent.
 
 ![Google Assistant Tab](../../.gitbook/assets/google-assistant-tab.png)
 
 #### • Simple Response**:**
 
-This is the common response, that worked as simple text based response as we recent used in Installation part.
+This is the common response, that worked as simple text-based response as we recently used in Installation part.
 
 ![Creation of Simple Response](../../.gitbook/assets/simple-responses-configure.png)
 
-![Output of Simple Response ](../../.gitbook/assets/simple-responses-chat.PNG)
+![An output of Simple Response ](../../.gitbook/assets/simple-responses-chat.PNG)
 
 #### • Suggestion Chips**:**
 
-It helps us to add Suggestions chips for any response, which can helpful to our user to get clear out on that topic. It's easy to create chips for an intent, you have to create few suggestions of questions that you have added in your knowledge base. Each suggestion chip accepts only 26 characters. So you have to put unique keywords of those questions. Like: we have question in knowledge base is “Can I deploy the Chabot to Facebook messenger?” and we will add this in suggestion like “Deploy Chatbot to FB”.
+It helps us to add Suggestions chips for any response, which can help to our user to get clear out on that topic. It's easy to create chips for an intent, you have to create few suggestions of questions that you have added in your knowledge base. Each suggestion chip accepts only 26 characters. So you have to put unique keywords of those questions. Like: we have a question in knowledge base is “Can I deploy the Chabot to Facebook messenger?” and we will add this in a suggestion like “Deploy Chatbot to FB”.
 
 ![Creation of Suggestion Chips](../../.gitbook/assets/suggestion-chips.png)
 
-Whenever particular intent trigger response always come with those suggestion buttons. User simply click on one of those buttons and dialog flow will response on that query.
+Whenever particular intent trigger response always come with those suggestion buttons. A user simply clicks on one of those buttons and dialog flow will response on that query.
 
-![Output of Suggestion Chips](../../.gitbook/assets/chips-view-1.PNG)
+![An output of Suggestion Chips](../../.gitbook/assets/chips-view-1.PNG)
 
 ![After clicking on Suggestion Chips](../../.gitbook/assets/chips-view-2.PNG)
 
 #### • **Link-out** Suggestion**:**
 
-It helps us to redirect our user to a specific page. You have to pass a destination name \(that will visible as button to user\) and a URL \(that user will redirect on\).
+It helps us to redirect our user to a specific page. You have to pass a destination name \(that will visible as the button to a user\) and a URL \(that user will redirect on\).
 
 ![Creation of Link-out Suggestion](../../.gitbook/assets/linkout-suggestion-configure.png)
 
-![Output of Link-out Suggestion](../../.gitbook/assets/linkout-suggestion-chat.PNG)
+![An output of Link-out Suggestion](../../.gitbook/assets/linkout-suggestion-chat.PNG)
 
 #### • Carousel Card**:**
 
-The carousel displays as tiles format and allows for selecting one item.It helps user to see various product list with images and It has richer content than any other response. each tile that make up carousel are similar to the basic card with image. 
+The carousel displays as tiles format and allows for selecting one item. It helps a user to see various product list with images and It has richer content than any other response. each tile that make up carousel are similar to the basic card with an image. 
 
 ![](../../.gitbook/assets/carousel-card-configure1.png)
 
 ![Creation of Carousel Cards](../../.gitbook/assets/carousel-card-configure2.png)
 
-Selecting a tile from the carousel will simply generate a chat bubble as the response. It has limits of max 10 tiles and min 2 tiles in a intent**.**
+Selecting a tile from the carousel will simply generate a chat bubble as the response. It has limits of max 10 tiles and min 2 tiles in an intent**.**
 
-![Output of Carousel Cards](../../.gitbook/assets/carousel-card-chat.PNG)
+![An output of Carousel Cards](../../.gitbook/assets/carousel-card-chat.PNG)
 
 #### • **Browse** Carousel Card**:**
 
-It also allows rich response, similar to carousel card. it scrolls horizontally and allows users to select a tile. These are designed for redirect user to a specific web content by selecting any tile in a web browser.
+It also allows the rich response, similar to carousel card. it scrolls horizontally and allows users to select a tile. These are designed for redirect user to specific web content by selecting any tile in a web browser.
 
 ![](../../.gitbook/assets/browse-carousel-card-configure1.png)
 
 ![Creation of Browse Carousel Cards](../../.gitbook/assets/browse-carousel-card-configure2.png)
 
-![Output of Browse Carousel Cards](../../.gitbook/assets/browse-carousel-card-chat.PNG)
+![An output of Browse Carousel Cards](../../.gitbook/assets/browse-carousel-card-chat.PNG)
 
 Note: Till now, above all response type are supporting "Acquire Chat Widget", remain will be added soon.
 
