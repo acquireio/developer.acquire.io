@@ -11,6 +11,10 @@ Profiles Feedback API in header parameter Content-Type : application/x-www-form-
 | **Authorization** | Bearer **\[YOUR\_API\_AUTH\_TOKEN\]** |
 | **Content-type** | application/x-www-form-urlencoded |
 
+| Parameter | Value |
+| :--- | :--- |
+|  visitor\_id | 56501 |
+
 #### **Response JSON**
 
 ```javascript
@@ -18,7 +22,21 @@ Profiles Feedback API in header parameter Content-Type : application/x-www-form-
 {
     "success": true,
     "error": null,
-    "data": []
+    "data": [
+        {
+            "id": 214554,
+            "account_id": 457412,
+            "date_created": "2019-01-17 12:07:58",
+            "date_updated": "2019-01-17 12:08:26",
+            "feedback_rating": null,
+            "feedback_message": null,
+            "chat_date_created": null,
+            "chat_date_updated": null,
+            "user_id": 3518121,
+            "agents": "Devid",
+            "feedback": []
+        }
+    ]
 }
 ```
 

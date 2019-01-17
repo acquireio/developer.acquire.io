@@ -89,6 +89,8 @@
   * [Profile Delete](rest-apis/profiles-api/profile-delete.md)
   * [Profile Visit History](rest-apis/profiles-api/profile-visit-history.md)
   * [Sender Emails](rest-apis/profiles-api/sender-emails.md)
+* [Chat](rest-apis/chat/README.md)
+  * [Chat Notes](rest-apis/chat/chat-notes.md)
 * [Analytics](rest-apis/analytics/README.md)
   * [Chat Statistics](rest-apis/analytics/chat-statistics.md)
   * [Team Analytics](rest-apis/analytics/team-analytics.md)
