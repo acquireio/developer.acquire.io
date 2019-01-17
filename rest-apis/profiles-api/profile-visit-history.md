@@ -13,9 +13,9 @@ Acquire Profile Visit History API body parameter in add id and header in Authori
 
 #### **Body**
 
-| **id** | 186 |
-| :--- | :--- |
 | Parameter | Value |
+| :--- | :--- |
+| id | 186 |
 
 #### **Response JSON**
 
