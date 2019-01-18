@@ -11,18 +11,17 @@ Profiles Thread API body parameter in add **lead\_id**, **per\_page**, **chatid*
 | **Path** | https://app.acquire.io/profile/message/thread |
 | **Method** | POST |
 | **Authorization** | Bearer **\[YOUR\_API\_AUTH\_TOKEN\]** |
-| **Content-type** | application/x-www-form-urlencoded |
+| **Content-type** | application/json |
 
-#### **Body**
-
-\*\*\*\*
+#### **Body \(form-data\)**
 
 | Parameter | Value |
 | :--- | :--- |
 | **lead\_id** | 0 |
-| **per\_page** | 20 |
+| **limit** | 20 |
 | **chatid** | 197849 |
 | **visitor\_id** | 86602 |
+| **page** | 1 |
 
 **Response JSON**
 
