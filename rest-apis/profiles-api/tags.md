@@ -8,7 +8,7 @@ Profiles Tags API header parameter in Authorization: Bearer YOUR\_API\_AUTH\_TOK
 
 | Parameter | Value |
 | :--- | :--- |
-| **Path** | https://app.acquire.io/profile/lead/tag-account |
+| **Path** | https://app.acquire.io/api/profile/lead/tag-account |
 | **Method** | POST |
 | **Authorization** | Bearer YOUR\_API\_AUTH\_TOKEN |
 | **Content-type** | application/x-www-form-urlencoded |

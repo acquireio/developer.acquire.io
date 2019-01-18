@@ -6,7 +6,7 @@ Acquire Campaigns API body parameter in add thread\_id, visitor\_id, last\_chat\
 
 | Parameter | Value |
 | :--- | :--- |
-| **Path** | https://app.acquire.io/profile\_campaign/campaigns |
+| **Path** | https://app.acquire.io/api/profile\_campaign/campaigns |
 | **Method** | POST |
 | **Authorization** | Bearer \[YOUR\_API\_AUTH\_TOKEN\] |
 | **Content-type** | application/x-www-form-urlencoded |

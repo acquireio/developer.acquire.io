@@ -8,7 +8,7 @@ Profiles Thread API body parameter in add **lead\_id**, **per\_page**, **chatid*
 
 | Parameter | Value |
 | :--- | :--- |
-| **Path** | https://app.acquire.io/profile/message/thread |
+| **Path** | https://app.acquire.io/api/profile/message/thread |
 | **Method** | POST |
 | **Authorization** | Bearer **\[YOUR\_API\_AUTH\_TOKEN\]** |
 | **Content-type** | application/json |
@@ -39,6 +39,8 @@ Profiles Thread API body parameter in add **lead\_id**, **per\_page**, **chatid*
                 "thread_status": "open",
                 "chat_updated": null,
                 "chat_created": null,
+                "chat_duration": 36,
+                "chat_wait_time": 3,
                 "count_chat": 1,
                 "users": null,
                 "user_id": null,

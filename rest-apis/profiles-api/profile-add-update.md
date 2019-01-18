@@ -6,7 +6,7 @@ Profile Add Update API header parameter in Content-Type application/x-www-form-u
 
 | Parameter | Value |
 | :--- | :--- |
-| **Path** | https://app.acquire.io/profile/lead/add-update |
+| **Path** | https://app.acquire.io/api/profile/lead/add-update |
 | **Method** | POST |
 | **Authorization** | Bearer **\[YOUR\_API\_AUTH\_TOKEN\]** |
 | **Content-type** | application/x-www-form-urlencoded |

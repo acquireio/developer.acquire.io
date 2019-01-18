@@ -6,7 +6,7 @@ Acquire Profiles Sender Emails API header in Content-Type application/x-www-form
 
 | Parameter | Value |
 | :--- | :--- |
-| **Path** | https://app.acquire.io/setting/email-setting |
+| **Path** | https://app.acquire.io/api/setting/email-setting |
 | **Method** | POST |
 | **Authorization** | Bearer **\[YOUR\_API\_AUTH\_TOKEN\]** |
 | **Content-type** | application/x-www-form-urlencoded |

@@ -6,7 +6,7 @@ Profile Message API in header parameter Authorization: Bearer \[YOUR\_API\_AUTH\
 
 | Parameter | Value |
 | :--- | :--- |
-| **Path** | https://app.acquire.io/profile/lead/message |
+| **Path** | https://app.acquire.io/api/profile/lead/message |
 | **Method** | POST |
 | **Authorization** | Bearer **\[YOUR\_API\_AUTH\_TOKEN\]** |
 | **Content-type** | application/x-www-form-urlencoded |

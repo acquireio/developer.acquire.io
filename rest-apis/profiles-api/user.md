@@ -10,7 +10,7 @@ Profiles User API body parameter in add limit, page and filter\[master\]
 
 | Parameter | Value |
 | :--- | :--- |
-| **Path** | https://app.acquire.io/profile/lead/list |
+| **Path** | https://app.acquire.io/api/profile/lead/list |
 | **Method** | POST |
 | **Authorization** | Bearer **YOUR\_API\_AUTH\_TOKEN** |
 | **Content-type** | application/x-www-form-urlencode |

@@ -6,7 +6,7 @@ Profiles Feedback API in header parameter Content-Type : application/x-www-form-
 
 | Parameter | Value |
 | :--- | :--- |
-| **Path** | https://app.acquire.io/profile/lead/feedback |
+| **Path** | https://app.acquire.io/api/profile/lead/feedback |
 | **Method** | POST |
 | **Authorization** | Bearer **\[YOUR\_API\_AUTH\_TOKEN\]** |
 | **Content-type** | application/x-www-form-urlencoded |

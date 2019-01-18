@@ -6,7 +6,7 @@ Acquire Profile Visit History API body parameter in add id and header in Authori
 
 | Parameter | Value |
 | :--- | :--- |
-| **Path** | https://app.acquire.io/profile/lead/visits |
+| **Path** | https://app.acquire.io/api/profile/lead/visits |
 | **Method** | POST |
 | **Authorization** | Bearer **\[YOUR\_API\_AUTH\_TOKEN\]** |
 | **Content-type** | application/x-www-form-urlencode |

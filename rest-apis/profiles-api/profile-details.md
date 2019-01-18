@@ -8,7 +8,7 @@ Profile Details API in header parameter Authorization: Bearer **\[YOUR\_API\_AUT
 
 | Parameter | Value |
 | :--- | :--- |
-| **Path** | https://app.acquire.io/profile/lead/detail |
+| **Path** | https://app.acquire.io/api/profile/lead/detail |
 | **Method** | POST |
 | **Authorization** | Bearer **\[YOUR\_API\_AUTH\_TOKEN\]** |
 | **Content-type** | application/json |

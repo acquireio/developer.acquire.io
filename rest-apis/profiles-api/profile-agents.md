@@ -6,7 +6,7 @@ Profile Agents API in header parameter Authorization: Bearer \[YOUR\_API\_AUTH\_
 
 | Parameter | Value |
 | :--- | :--- |
-| **Path** | https://app.acquire.io/profile/lead/profile-agents |
+| **Path** | https://app.acquire.io/api/profile/lead/profile-agents |
 | **Method** | POST |
 | **Authorization** | Bearer **\[YOUR\_API\_AUTH\_TOKEN\]** |
 | **Content-type** | application/json |

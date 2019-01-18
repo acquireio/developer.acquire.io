@@ -22,7 +22,7 @@ Acquire live chat in you can use chat notes while chatting with visitor and chat
 | :--- | :--- |
 | chat\_id | 761160 |
 
-#### JSON Response 
+#### Response JSON 
 
 ```javascript
 {

@@ -10,7 +10,7 @@ User Delete Requests can be created via a **POST** to **https://app.acquire.io/p
 
 | Parameter | Value |
 | :--- | :--- |
-| **Path** | https://app.acquire.io/profile/lead/delete |
+| **Path** | https://app.acquire.io/api/profile/lead/delete |
 | **Method** | POST |
 | **Authorization** | Bearer **\[YOUR\_API\_AUTH\_TOKEN\]** |
 | **Content-type** | application/json |
