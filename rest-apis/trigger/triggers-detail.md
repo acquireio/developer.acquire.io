@@ -4,7 +4,7 @@ Trigger all details get using this api and trigger id send in body.
 
 | Parameter | Value |
 | :--- | :--- |
-| **Path** | https://app.acquire.io /account/triggers/edit |
+| **Path** | https://app.acquire.io /api/account/triggers/edit |
 | **Method** | POST |
 | **Authorization** | Bearer \[YOUR\_API\_AUTH\_TOKEN\] |
 | **Content-type** | application/x-www-form-urlencoded |

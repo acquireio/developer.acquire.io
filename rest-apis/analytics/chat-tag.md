@@ -10,7 +10,7 @@ Chat Tag API body parameter in add your timezone, date start, date end and filte
 
 | Parameter | Value |
 | :--- | :--- |
-| **Path** | https://app.acquire.io/analytics/general/chat-tag |
+| **Path** | https://app.acquire.io/api/analytics/general/chat-tag |
 | **Method** | POST |
 | **Authorization** | Bearer \[YOUR\_API\_AUTH\_TOKEN\] |
 | **Content-type** | application/x-www-form-urlencoded |

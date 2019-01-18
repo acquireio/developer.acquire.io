@@ -24,7 +24,7 @@ If you want to use auth token in API for makes a own dashboard then save anywher
 
 | Parameter | Value |
 | :--- | :--- |
-| **Path** | https://app.acquire.io/account/agents |
+| **Path** | https://app.acquire.io/api/account/agents |
 | **Method** | POST |
 | **Authorization**  | **Bearer \[YOUR\_API\_AUTH\_TOKEN\]** |
 | **Content-type** | application/x-www-form-urlencoded |

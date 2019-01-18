@@ -4,7 +4,7 @@ Using this api for get acquire app in created all triggers list.
 
 | Parameter | Value |
 | :--- | :--- |
-| **Path** | https://app.acquire.io /account/triggers/list |
+| **Path** | https://app.acquire.io /api/account/triggers/list |
 | **Method** | POST |
 | **Authorization** | Bearer \[YOUR\_API\_AUTH\_TOKEN\] |
 | **Content-type** | application/x-www-form-urlencoded |

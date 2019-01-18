@@ -10,7 +10,7 @@ Team Analytics API body parameter in Select your timezone, date start, date end,
 
 | Parameter | Value |
 | :--- | :--- |
-| **Path** | https://app.acquire.io/analytics/agent/overview |
+| **Path** | https://app.acquire.io/api/analytics/agent/overview |
 | **Method** | POST |
 | **Authorization** | Bearer \[YOUR\_API\_AUTH\_TOKEN\] |
 | **Content-type** | application/x-www-form-urlencoded |

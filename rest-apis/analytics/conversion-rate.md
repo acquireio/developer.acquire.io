@@ -10,7 +10,7 @@ Conversion Rate API parameter in add your timezone, date start, date end, filter
 
 | Parameter | Value |
 | :--- | :--- |
-| **Path** | https://app.acquire.io/analytics/general/conversion-rate |
+| **Path** | https://app.acquire.io/api/analytics/general/conversion-rate |
 | **Method** | POST |
 | **Authorization** | Bearer \[YOUR\_API\_AUTH\_TOKEN\] |
 | **Content-type** | application/x-www-form-urlencoded |

@@ -18,7 +18,7 @@ Chat Statistics api parameter in Select your timezone, date start, date end, and
 
 | Parameter | Value |
 | :--- | :--- |
-| **Path** | https://app.acquire.io/analytics/general/chat-statistics |
+| **Path** | https://app.acquire.io/api/analytics/general/chat-statistics |
 | **Method** | POST |
 | **Authorization** | Bearer \[YOUR\_API\_AUTH\_TOKEN\] |
 | **Content-type** | application/x-www-form-urlencoded |
