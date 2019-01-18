@@ -63,6 +63,8 @@ Profiles Thread API body parameter in add **lead\_id**, **per\_page**, **chatid*
                 "thread_status": "open",
                 "chat_updated": null,
                 "chat_created": null,
+                "chat_duration": 36,
+                "chat_wait_time": 3,
                 "count_chat": 3,
                 "users": "agent-15416",
                 "user_id": "15416",
