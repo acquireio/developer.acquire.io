@@ -11,6 +11,8 @@ Profiles Feedback API in header parameter Content-Type : application/x-www-form-
 | **Authorization** | Bearer **\[YOUR\_API\_AUTH\_TOKEN\]** |
 | **Content-type** | application/x-www-form-urlencoded |
 
+#### Body
+
 | Parameter | Value |
 | :--- | :--- |
 |  visitor\_id | 56501 |
