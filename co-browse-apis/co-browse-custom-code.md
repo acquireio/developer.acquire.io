@@ -37,7 +37,7 @@ After Acquire widget use this code and pass your 'CUSTOM\_ID'. This script in pa
 ```
 
 {% hint style="success" %}
-Custom Co Browse code work only run-time. Below  create a demo code view  you can use this as your need.
+Custom Co Browse code work only run-time. Below  create a demo code view and  you can use this as your need.
 {% endhint %}
 
 #### Demo
