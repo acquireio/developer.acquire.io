@@ -30,7 +30,6 @@
 
 * [Acquire Co Browse](co-browse-apis/acquire-co-browse/README.md)
   * [Co Browse API](co-browse-apis/acquire-co-browse/api.md)
-* [Co Browse Custom Code](co-browse-apis/co-browse-custom-code.md)
 
 ## Acquire API Events
 
