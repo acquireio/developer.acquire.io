@@ -1,8 +1,8 @@
-# User
+# Profile List
 
 Acquire live chat dashboard gives your team leader an overview of agent activity at any given time.
 
-Profiles User API body parameter in add limit, page and filter\[master\]
+Profiles List API body parameter in add limit, page and filter\[master\]
 
 #### **Profiles Use**
 
@@ -21,7 +21,7 @@ Profiles User API body parameter in add limit, page and filter\[master\]
 | :--- | :--- |
 | **limit** | 10 |
 | **page** | 1 |
-| **filter\[master\]** | chathistory |
+| **filter\[master\]** | chathistory \(Optional\) |
 
 #### **Response JSON Format**
 
