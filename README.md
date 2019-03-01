@@ -30,7 +30,7 @@ Acquire for iOS, for integrating Acquire into your iOS application. Get started 
 
 ## Android
 
-Bring real customer service to your mobile apps with ready-to-use chat widgets. In this documentation will cover embedding a mobile chat window in an Android application using [android native SDK]().
+Bring real customer service to your mobile apps with ready-to-use chat widgets. In this documentation will cover embedding a mobile chat window in an Android application using [android native SDK](https://developer.acquire.io/android/getting-started).
 
 ## Webhook API
 
