@@ -20,6 +20,9 @@ AcquireApp.getInstance().setSessionListner(this);
 10. **`onChatClosed();`** executed when agent closes the chat. Use only if required.
 11. **`onChatWidgetClose();`**  executed when user closes the chat screen. Use only if required.
 12. **`onTagChange(JSONObject tagJsonObject);`** executed whenever tag is changed from agent.
+13. **`noAgentAvailable();`** Executed when no agent is available.
+14. **`onWaitDialogAppear();`**executed when visitor sends a call request.
+15. **`onWaitDialogDisappear();`** executed when agent accepts call request.
 
 ### Co-Browse Event Delegates
 
