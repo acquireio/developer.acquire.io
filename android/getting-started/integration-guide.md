@@ -34,6 +34,7 @@ implementation ('io.socket:socket.io-client:1.0.0') {
    exclude group: 'org.json', module: 'json'
 }
 implementation 'com.acquireio:core:2.+' 
+implementation 'com.android.support:customtabs:28.0.0' // if want to give support for links
 }
 ```
 
