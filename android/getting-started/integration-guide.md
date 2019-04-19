@@ -70,10 +70,12 @@ before initialization of sdk.
 {% hint style="info" %}
  To reduce apk size \(e.g. for release version\).
 
-Use **com.acquireio:core-arm-v7a:2.+** 
+Use **apk split feature of android** 
 
-instead of **com.acquireio:core:2.+**.
+\*\*\*\*[**https://developer.android.com/studio/build/configure-apk-splits**](https://developer.android.com/studio/build/configure-apk-splits)\*\*\*\*
 
-It will support nearly all devices.
+for reference see below screenshot -&gt;
 {% endhint %}
+
+![](../../.gitbook/assets/image%20%281%29.png)
 
