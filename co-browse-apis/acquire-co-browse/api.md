@@ -12,7 +12,7 @@ Acquire Co browse API in you can use multiple events and manage custom easily.
 
 ####  1. cobrowse-request
 
-Acquire Co browse API event type 'cobrowse-request' uers request send after call and this api given user's response true or false.
+Acquire Co browse API event type 'cobrowse-request' user request send after call and this api given user's response true or false.
 
 **`verified`** : verified, means if request is confirmed by visitor
 

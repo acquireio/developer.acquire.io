@@ -50,7 +50,7 @@ You can make your own Web API and put that into below popup with given request f
 
 ## Knowlegebase API
 
-#### [Publish docs](knowledge-base-apis/help-docs-setup/) so customers can help themselves for FAQ and Knowledge base
+#### [Publish docs](knowledge-base-apis/help-docs-setup/) so customers can help themselves for FAQ and Knowledgebase
 
 Acquire Organize advice, answers, documentation, and more for help that’s always available on site, in app, and in your business.
 

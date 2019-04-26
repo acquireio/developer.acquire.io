@@ -78,7 +78,7 @@ These attributes control the looks of in-app support over many screens.
 | :--- | :--- |
 | `BAR_STYLE` | Use `UIBarStyleBlack` or `UIBarStyleDefault`. Default bar style is `UIBarStyleDefault` |
 | `BAR_TINTCOLOR` | The tint color to apply to the navigation bar background. This color is not made translucent by default unless you set the isTranslucent property to true. Default `BAR_TINTCOLOR` is `#FFFFFF` |
-| `TINT_COLOR` | The tint color is navigation title and back and other bar button items color. For more see image bellow. Default color is `#000000` |
+| `TINT_COLOR` | The tint color is navigation title and back and other bar button items color. For more see image below. Default color is `#000000` |
 
 ### System Button Attributes <a id="system-button-attributes"></a>
 

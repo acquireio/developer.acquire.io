@@ -1,7 +1,5 @@
 # Profile Add Update
 
-**Profile Add Update**
-
 Profile Add Update API header parameter in Content-Type application/x-www-form-urlencoded and body in Form data send.
 
 | Parameter | Value |

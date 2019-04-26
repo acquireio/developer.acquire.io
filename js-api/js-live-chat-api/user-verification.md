@@ -76,7 +76,7 @@ For visitor authentication you  can use this run following code asap you load ac
 _To get HMAC code, login acquire dashboard and open this:_ [_https://app.acquire.io/widget/customize_](https://app.acquire.io/widget/customize) _and Chat widget code in Choose Visitor authentication._
 
 {% hint style="info" %}
-**Important :** Use **HMAC** only Server side not use client side and Keep your secrete key safe! Never commit it directly to your repository.
+**Important :** Use **HMAC** only Server side not use client side and Keep your secret key safe! Never commit it directly to your repository.
 {% endhint %}
 
 ```javascript

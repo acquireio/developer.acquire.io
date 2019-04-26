@@ -22,7 +22,7 @@ Acquire WebRTC event type **`'cobrowse-request'`** users request send after call
 
 **`rtcroom`**
 
-Event **`'rtcroom'`** in two type parameter using first RTCRoom object, and second  RTCRoomUser object. This event will given **rtcroom object** whenver gets ready and RTCRoomUser which is current's user's object and is responsible for making calls and picking calls.
+Event **`'rtcroom'`** in two type parameter using first RTCRoom object, and second  RTCRoomUser object. This event will given **rtcroom object** whenever gets ready and RTCRoomUser which is current's user's object and is responsible for making calls and picking calls.
 
 ```javascript
 <script>

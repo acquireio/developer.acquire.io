@@ -37,7 +37,7 @@ Further if you are facing any difficulty then please contact us.
 
 ### React Native
 
-For React-Native also you can use our native andrtoid sdk.
+For React-Native also you can use our native android sdk.
 
 You can also check our [demo app](https://github.com/acquireio/acquireReactProject) built upon react-native platform to get an idea how to configure our android native sdk on to your react native project.
 
