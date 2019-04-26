@@ -48,7 +48,7 @@ You can use Acquire as platform, by creating your own Bot with API endpoint that
 
 You can make your own Web API and put that into below popup with given request format.
 
-## Knowlegebase API
+## Knowledgebase API
 
 #### [Publish docs](knowledge-base-apis/help-docs-setup/) so customers can help themselves for FAQ and Knowledgebase
 
