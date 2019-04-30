@@ -32,11 +32,17 @@ apply plugin: 'com.google.gms.google-services'
 
 It is important that this is at the very end of the file.
 
+Call below sdk method to pass the Firebase token :
+
+```text
+AcquireApp.setFireBaseToken([Firebase token]);
+```
+
 ### Step 3. Add your Server key to Acquire for Android settings <a id="step-3--add-your-server-key-to-acquire-for-android-settings"></a>
 
 Finally, click the settings cog and select ‘Project settings’, then **‘Cloud Messaging’** and copy your Server key.
 
-Open your Acquire app’s settings and select **‘Acquire for Android’**. Then find the ‘Enable Google Cloud Messaging’ section. Here you'll be able to paste and save your Server API key.
+Open your Acquire app’s settings and select **‘Push notifications’** under **App Settings** . Then find the ‘FCM Server key’ section. Here you'll be able to paste and save your Server API key.
 
 ### Step 4. Setting your FCM icon <a id="step-4--setting-your-fcm-icon"></a>
 
