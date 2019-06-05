@@ -21,13 +21,21 @@ AcquireApp.getInstance().startSupportChat(MainActivity.this, CallType.VIDEO);
 
 Use this method to start direct Audio/Video call request to agent. By this method , Audio/Video chat request will be visible to the agent and on answer to that chat will start Audio/Video call as soon as chat is connected.
 
+### **setShowDefaultFAB :**
+
+Use this method to show default FAB icon when SDK is connected. By calling below method before initialization. 
+
+```java
+AcquireApp.setShowDefaultFAB(true);
+```
+
 ### Verify your users:
 
 Make sure your users are who they claim to be with identity verification. Enforce identity verification to prevent other from pretend to be \(third party\) for entertainment or fraud logged-in users.
 
 Generate an HMAC with SHA256 whenever a user logs into your app. Most web frameworks will have a method or library to help you do this. You'll need your app’s secret key and the email of the currently logged-in user.
 
-#### **Secret Key**
+### **Secret Key**
 
 #### &lt;YOUR\_SECRET\_KEY&gt;
 
@@ -59,7 +67,7 @@ AcquireApp.setVisitorHash([STRING_YOUR_HMAC_EMAIL]);
 AcquireApp.setVisitorDetail([STRING_NAME], [STRING_EMAIL], [STRING_PHONE_NUMBER]);
 ```
 
-#### **Logout visitor**
+### **Logout visitor**
 
 If you have set visitor hash \(**HMAC digest**\) and visitor just logged out from account and need to manage user integrity with agent, call method **logOut\(\)** to remove all acquire data from your app related to **visitorHash** use method :
 
@@ -108,6 +116,14 @@ You can customize visitor’s identification by calling our sdk’s method **set
 {% hint style="info" %}
 **Note:** Use this method before initialization of sdk otherwise wont work.
 {% endhint %}
+
+###  **endCoBrowseSession :**
+
+This method is used to disconnect co-browse session if running. Call this method using current AcquireApp instance :
+
+```java
+AcquireApp.getInstance().endCoBrowseSession();
+```
 
 ### Show Floating Video \(PIP mode\):
 

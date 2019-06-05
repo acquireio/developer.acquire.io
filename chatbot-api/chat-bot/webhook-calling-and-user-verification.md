@@ -2,15 +2,15 @@
 
 ### **Widget Installation**
 
-First of all we have to setup our site with “Acquire” chat widget. You can get the “chat widget code” from “Installation” option under “Settings” menu.
+First of all we have to setup our site with **“Acquire”** chat widget. You can get the **“chat widget code”** from **“Installation”** option under **“Settings”** menu.
 
 ![](https://lh3.googleusercontent.com/WuJYbb-IJHldRmedvcJ-40kMsP3Zo5XImwws3QCMJcBN2cjUE7--IaKrsbhh_2ZQFhojsYX86FM2IgLsf2_OC9dJ57f4__xE3K1saZCruDFDbNNIqm7VuazbWjvBkk_0RQ)
 
-To identify every visitor, we have to put Visitor Authentication functionality with widget code. Authentication code will produce HMAC Code, that verify the identity of that visitor i.e. visitor\_id. HMAC code will be assigned with an attribute, named as user\_hash. Find more details on this link: [https://developer.acquire.io/js-api/js-live-chat-api/user-verification](https://developer.acquire.io/js-api/js-live-chat-api/user-verification.).
+To identify every visitor, we have to put Visitor Authentication functionality with widget code. Authentication code will produce **HMAC** Code, that verify the identity of that visitor i.e. visitor\_id. **HMAC** code will be assigned with an attribute, named as **user\_hash**. Find more details on this link: [https://developer.acquire.io/js-api/js-live-chat-api/user-verification](https://developer.acquire.io/js-api/js-live-chat-api/user-verification.).
 
 ### **Additional Setup**
 
-First of all, we create a hidden field in “chat form”, it will store visitor’s information, that will be helpful to identify that user. In screenshot we setup hidden field with name v\_id.
+First of all, we create a hidden field in **“chat form”**, it will store visitor’s information, that will be helpful to identify that user. In screenshot we setup hidden field with name **v\_id**.
 
 ![](https://lh3.googleusercontent.com/Ah6vzATYPuwj5n-Bs7dfy7_tF3l3_G6SSetXq-k8AIgYEyYdHdPULaUMFtXMauVOQOQrLYueKoAqnK1rEYagrdp_daxFuKcNWo-WA1h6FfKiCLj6VwAaTzMajwi8eYX8_w)
 
@@ -36,11 +36,11 @@ Now we make a webhook API, i.e. Get premium amount, Get expiry date & etc. Whene
 
 ![](https://lh3.googleusercontent.com/_jYkDLa7d3IatxZs7hcPAc9C5OcDIsPHsxYtmca5J7c2A_k2D7j2UG8jI9o5BuXCdpXQkHCAu5KnK0FweWLI87UeOZK8Syt8bStFieMn4vr5OfOrB8N-0JfsuZAoE-Du5w)
 
-We can use v\_id and hash in our webhook. Again we can make hash value $new\_hash from $v\_id by use of your secret key and match it with $init\_hash . If it matched with it then we able to know that this visitor is authenticated.
+We can use **v\_id** and **hash** in our webhook. Again we can make hash value **$new\_hash** from **$v\_id** by use of your **secret key** and match it with **$init\_hash** . If it matched with it then we able to know that this visitor is authenticated.
 
 ![](https://lh5.googleusercontent.com/keQmSLGD3gKbXoqkH3N1H67_QU4usAE5owIRqkcNO5Pmbtnh9swBYRt6hc2hmmwyxRitpfbIy3Iy5IgfpxeFhTvrNKEMNAL_nNaq1pSLJT9ZxRg6CXQJcWomhiGwJg16mQ)
 
-Now we add link of this webhook in Bot’s Webhook APIs Library with a variable name. Make sure you make variable name as you used in webhook. For example: we create a webhook API with response { ‘premium\_amount’ : ’Your premium amount is 5410 rs.’ } then in below popup box, we have to make variable name as premium\_amount. You can find this at “Chatbot &gt; Setting &gt; Webhook APIs”.
+Now we add link of this webhook in Bot’s Webhook APIs Library with a variable name. Make sure you make variable name as you used in webhook. For example: we create a webhook API with response **{ ‘premium\_amount’ : ’Your premium amount is 5410 rs.’ }** then in below popup box, we have to make variable name as **premium\_amount**. You can find this at **“Chatbot &gt; Setting &gt; Webhook APIs”**.
 
 ![](https://lh5.googleusercontent.com/ctDANQhemeCYsFEQGweYI0Cnmhxktwg4KcCEfftj_p5kPx6gofn7D8H47yI5Lp9SN81PNirAVQyTRabh741jJBapHPenbo3P5vLuiI5hVsZpkqFQmeFy4KDpyIIofgZNUA)
 
