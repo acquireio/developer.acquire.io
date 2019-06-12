@@ -33,6 +33,7 @@ implementation 'com.android.support:customtabs:27.1.0' // if want to give suppor
 implementation ('io.socket:socket.io-client:1.0.0') {
    exclude group: 'org.json', module: 'json'
 }
+implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.+'
 implementation 'com.amitshekhar.android:android-networking:1.0.2'
 implementation 'com.acquireio:core:2.+' 
 }
