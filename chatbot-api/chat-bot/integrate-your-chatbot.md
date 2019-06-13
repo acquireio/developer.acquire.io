@@ -175,16 +175,22 @@ This example illustrate the condition when Bot have not any response for visitor
 
 ### Example 5. Carousel Card:
 
-#### API Request :
+**`POST /bot_interaction`**
 
-```javascript
-{ 
-  ------ 
-  type: 'message',
-  message: 'show cards',
-  ------  
-} 
-```
+#### **Headers:**
+
+| Parameter | Type |
+| :--- | :--- |
+| **`Content-type`** | application/x-www-form-urlencoded |
+
+#### **body**
+
+| Parameter | Description |
+| :--- | :--- |
+| **`account_id`** | Account ID on which Bot is running. \(Internally managed\) |
+| **`chat_id`** | Chat ID/Session ID \(Internally managed\) |
+| **`type`** | message |
+| **`message`** | show cards |
 
 #### **API Response will be:**
 
@@ -203,7 +209,7 @@ This example illustrate the condition when Bot have not any response for visitor
           "desc": "<Item Description Here>",
           "imgUrl": "<Image URL Here>",
         },
-      ------ 
+        ------ 
       ]
     }
   },
@@ -212,16 +218,22 @@ This example illustrate the condition when Bot have not any response for visitor
 
 ### Example 6. Browse Carousel Card:
 
-#### API Request :
+**`POST /bot_interaction`**
 
-```javascript
-{ 
-  ------ 
-  type: 'message',
-  message: 'show cards',
-  ------  
-} 
-```
+#### **Headers:**
+
+| Parameter | Type |
+| :--- | :--- |
+| **`Content-type`** | application/x-www-form-urlencoded |
+
+#### **body**
+
+| Parameter | Description |
+| :--- | :--- |
+| **`account_id`** | Account ID on which Bot is running. \(Internally managed\) |
+| **`chat_id`** | Chat ID/Session ID \(Internally managed\) |
+| **`type`** | message |
+| **`message`** | show cards |
 
 #### **API Response will be:**
 
@@ -231,6 +243,7 @@ This example illustrate the condition when Bot have not any response for visitor
   data: {
     "id": "browse_carousel_card",
     "design": [
+       ------ 
       {
         "title": "<Item Title Here>",
         "desc": "<Item Description Here>",
@@ -238,6 +251,7 @@ This example illustrate the condition when Bot have not any response for visitor
         "openUrl": "<Website link here>",
         "imgUrl": "<Image URL Here>",
       },
+      ------ 
     ]
   }
 }
