@@ -216,5 +216,73 @@ When visitor asks a query and we have multiple actions or tasks with that respon
 }
 ```
 
+### Example 6. Carousel Card:
 
+#### API Request :
+
+```javascript
+{ 
+  ------ 
+  type: 'message',
+  message: 'show cards',
+  ------  
+} 
+```
+
+#### **API Response will be:**
+
+```javascript
+{
+  type: 'cards',
+  data: {
+    "id": "carousel_card",
+    "design": {
+      "title": "<Title Here>",
+      "subtitle": "<Subtitle Here>",
+      "items": [
+        ------ 
+        {
+          "title": "<Item Title Here>",
+          "desc": "<Item Description Here>",
+          "imgUrl": "<Image URL Here>",
+        },
+      ------ 
+      ]
+    }
+  },
+}
+```
+
+### Example 7. Browse Carousel Card:
+
+#### API Request :
+
+```javascript
+{ 
+  ------ 
+  type: 'message',
+  message: 'show cards',
+  ------  
+} 
+```
+
+#### **API Response will be:**
+
+```javascript
+{
+  type: 'cards',
+  data: {
+    "id": "browse_carousel_card",
+    "design": [
+      {
+        "title": "<Item Title Here>",
+        "desc": "<Item Description Here>",
+        "footer": "<Item Footer Here>",
+        "openUrl": "<Website link here>",
+        "imgUrl": "<Image URL Here>",
+      },
+    ]
+  }
+}
+```
 
