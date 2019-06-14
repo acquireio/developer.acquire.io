@@ -176,6 +176,8 @@ This example illustrate the condition when Bot have not any response for visitor
 
 ### Example 5. Quick Replies:
 
+Here we can give choices to our visitor. in this section, we pass a bunch of quick replies buttons along with response message. It will show message and buttons on the chat widget, customer can click on that button and bot will get this as a reply.
+
 **`POST /bot_interaction`**
 
 #### **Headers:**
@@ -197,16 +199,19 @@ This example illustrate the condition when Bot have not any response for visitor
 
 ```javascript
 {
-  type: 'quick-replies',
-  data: {
-      title: 'Are you sure?'
-      type: 'obj',                       //obj stands for Objectives, FIXED FOR NOW
-      quickReplies: [ 'Yes', 'No', ... ],
+  "success": true,
+  "type": 'quick-replies',
+  "data": {
+      "title": 'Are you sure?'
+      "type": 'obj',                       //obj stands for Objectives, FIXED FOR NOW
+      "quickReplies": [ 'Yes', 'No', ... ],
   },
 }
 ```
 
 ### Example 6. Carousel Card:
+
+In this section, you can give choices to your customer as quick-replies but in a visual format with Title, subtitle, lists of items with the picture. so the customer sees those visuals and it helps in his/her selection and Bot will get this as a reply.
 
 **`POST /bot_interaction`**
 
@@ -229,8 +234,9 @@ This example illustrate the condition when Bot have not any response for visitor
 
 ```javascript
 {
-  type: 'cards',
-  data: {
+  "success": true,
+  "type": "cards",
+  "data": {
     "id": "carousel_card",
     "design": {
       "title": "<Title Here>",
@@ -251,6 +257,8 @@ This example illustrate the condition when Bot have not any response for visitor
 
 ### Example 7. Browse Carousel Card:
 
+In this section, you can preview a bunch of items to your customer with title, description, footer, open URL & picture. whenever the customer clicks one of them, it redirects on that URL. it helps customer to explore that item by going on that URL link.
+
 **`POST /bot_interaction`**
 
 #### **Headers:**
@@ -272,8 +280,9 @@ This example illustrate the condition when Bot have not any response for visitor
 
 ```javascript
 {
-  type: 'cards',
-  data: {
+  "success": true,
+  "type": "cards",
+  "data": {
     "id": "browse_carousel_card",
     "design": [
        ------ 
