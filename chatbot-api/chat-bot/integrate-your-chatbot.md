@@ -255,7 +255,7 @@ In this section, you can give choices to your customer as quick-replies but in a
 }
 ```
 
-### Example 7. Browse Carousel Card:
+### Example 7. Browse Carousel Card/List:
 
 In this section, you can preview a bunch of items to your customer with title, description, footer, open URL & picture. whenever the customer clicks one of them, it redirects on that URL. it helps customer to explore that item by going on that URL link.
 
