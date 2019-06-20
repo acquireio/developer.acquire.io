@@ -111,6 +111,7 @@
   * [Integrate Your Chatbot](chatbot-api/chat-bot/integrate-your-chatbot.md)
   * [Dialog Flow Chat-Bot](chatbot-api/chat-bot/dialog-flow-chat-bot.md)
   * [Webhook Calling & User Verification](chatbot-api/chat-bot/webhook-calling-and-user-verification.md)
+* [Webhook For Reset Password](chatbot-api/webhook-for-reset-password.md)
 
 ## Knowledge Base APIs
 
