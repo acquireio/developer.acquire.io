@@ -14,7 +14,7 @@ So by the use of visitor’s email we can call our internal Endpoint of Resettin
 
 ![](https://lh6.googleusercontent.com/0drzjXGF2rMy_MR8-1uUbjZRKJ1KcvIstudg4KcVLsjOxd0mrCYyU0JfQE2Fixj2x3LA5726HKgB0cVvwv594aak4Co_Q6oW6dnDwYixcjYqBYdQYqhnf8HClH7KNx5otQBaRuIW)
 
-**I**n cURL Code, we call our endpoint, where we pass **$email** value on **&lt;SYSTEM\_DOMAIN&gt;/api/auth/forget-password** endpoint. Then after according to response we setup our webhook. Keep this mind that, If you create webhook variable as reset\_password\_status then response of this webhook must be **{“reset\_password\_status”: “&lt;MESSSAGE HERE&gt;”}**. So Bot can easily understand it and replace it with webhook variable.
+**I**n cURL Code, we call our endpoint, where we pass **$email** value on **&lt;SYSTEM\_DOMAIN&gt;/api/auth/forget-password** endpoint. Then after according to response we setup our webhook. Keep this mind that, If you create webhook variable as **reset\_password\_status** then response of this webhook must be **{“reset\_password\_status”: “&lt;MESSSAGE HERE&gt;”}**. So Bot can easily understand it and replace it with webhook variable.
 
  After creating this webhook API, we add this in Webhook APIs Section in Acquire **\(Chat Bot &gt; Setting &gt; Webhook APIs\)**.
 
