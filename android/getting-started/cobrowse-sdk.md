@@ -1,4 +1,4 @@
-# Cobrowse SDK
+# Cobrowse SDK \(lite version\)
 
 Acquire has this feature called Co-browsing which is unique in its sense, as it allows an agent to browse the session with the customer so that he/she can get the desired product/services on their website to purchase.
 
@@ -18,11 +18,11 @@ Once the Native SDKs are added to your app, everything else is done through our 
 
 ### Android SDK Sample App <a id="android-sdk-sample-app"></a>
 
-If you want a sample app for cobrowse\_only sdk version , you can download the sample app with integrated our sdk from Github: [Sample App](https://github.com/acquireio/co-browse-only-android)
+If you want a sample app for cobrowse sdk -lite version , you can download the sample app with integrated our sdk from Github: [Sample App](https://github.com/acquireio/co-browse-only-android)
 
 {% embed url="https://www.youtube.com/watch?v=sptkhM5n3Vc" %}
 
-### Steps to integrate Cobrowse only sdk
+### Steps to integrate Cobrowse sdk \(lite version\)
 
 First of all you will need to add our maven link to your project **build.gradle** file.
 
