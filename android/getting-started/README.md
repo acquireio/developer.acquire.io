@@ -13,7 +13,7 @@ To know about our **android SDK** , check out our app on Google [play store](htt
 
 We are providing two types of build variants :
 
-1. **Core** - Fully featured including Audio/Video calling. [See Integration](https://developer.acquire.io/android/getting-started/integration-guide#steps-to-integrate-acquire-android-sdk-are-as-follows)
+1. **Core** - Fully featured including Audio/Video calling. [See Integration](integration-guide.md#steps-to-integrate-acquire-android-sdk-core-are-as-follows)
 2. **Lite** - All features excluding Audio/Video Calling. [See Integration](integration-guide-lite.md#steps-to-integrate-acquire-android-sdk-lite-are-as-follows)
 
 The main difference of these two build variants is the size.
