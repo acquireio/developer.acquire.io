@@ -39,7 +39,7 @@ To change default buttons behavior pass as per application requirement.
 initCobrowse(Application application, String accId, CoBrowse coBrowse)
 ```
 
-To know more about cobrowse [click here](cobrowse-sdk.md).
+To know more about cobrowse [click here](../cobrowse-sdk.md).
 
 ### Permissions Description <a id="permissions-description"></a>
 
@@ -63,7 +63,7 @@ We include the **INTERNET** permission by default as we need it to make network 
 Audio/video calls will not work if these permissions are not granted.
 {% endhint %}
 
-* To share attachments from device Read and Write External Storage permissions are needed so it will ask in marshmallow and above devices. Before marshmallow it is granted by default as mentioned in AndroidManifest.
+* To share attachments from device Read and Write External Storage permissions are needed so it will ask in marshmallow and above devices. Before marshmallow it is granted by default as mentioned in **AndroidManifest.xml.**
 
 ```text
 <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>

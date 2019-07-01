@@ -1,6 +1,6 @@
-# Integration Guide \(Core\)
+# Integration Guide \(Lite\)
 
-## **Steps to integrate Acquire android-sdk-core are as follows :**
+## **Steps to integrate Acquire android-sdk-lite are as follows :**
 
 **Step 1 :**
 
@@ -35,7 +35,7 @@ implementation ('io.socket:socket.io-client:1.0.0') {
 }
 implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.+'
 implementation 'com.amitshekhar.android:android-networking:1.0.2'
-implementation 'com.acquireio:core:2.+'
+implementation 'com.acquireio:lite:1.+'
 }
 ```
 
@@ -68,16 +68,4 @@ To temporarily remove chat widget call**`removeFAB();`**whenever you need.
 To permanently disable our chat widget call **`setShowDefaultFAB(false);`**
 
 before initialization of sdk.
-
-{% hint style="info" %}
- To reduce apk size \(e.g. for release version\).
-
-Use **apk split feature of android** 
-
-\*\*\*\*[**https://developer.android.com/studio/build/configure-apk-splits**](https://developer.android.com/studio/build/configure-apk-splits)\*\*\*\*
-
-for reference see below screenshot -&gt;
-{% endhint %}
-
-![](../../.gitbook/assets/image%20%281%29.png)
 

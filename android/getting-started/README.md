@@ -13,8 +13,8 @@ To know about our **android SDK** , check out our app on Google [play store](htt
 
 We are providing two types of build variants :
 
-1. **Core** - Fully featured including Audio/Video calling.
-2. **Lite** - All features excluding Audio/Video Calling.
+1. **Core** - Fully featured including Audio/Video calling. [See Integration](https://developer.acquire.io/android/getting-started/integration-guide#steps-to-integrate-acquire-android-sdk-are-as-follows)
+2. **Lite** - All features excluding Audio/Video Calling. [See Integration](integration-guide-lite.md#steps-to-integrate-acquire-android-sdk-lite-are-as-follows)
 
 The main difference of these two build variants is the size.
 
@@ -26,14 +26,9 @@ The main difference of these two build variants is the size.
 So if you don't require Video calling feature, you can use **lite** version to reduce the apk size.
 {% endhint %}
 
-#### How-to video to ease the process.
-
-{% embed url="https://youtu.be/Em8qEtTFZxg" %}
-
- Or, follow these simple steps to add Acquire in-app support to your Android app right away :
-
-* [Integration Guide](integration-guide.md#steps-to-integrate-acquire-android-sdk-are-as-follows)
+* [Integration Guide \(Core\)](integration-guide.md#steps-to-integrate-acquire-android-sdk-core-are-as-follows)
+* [Integration Guide \(Lite\)](integration-guide-lite.md#steps-to-integrate-acquire-android-sdk-lite-are-as-follows)
 * [Start using Acquire](start-using-acquire.md#initialize-acquire-sdk)
 * [Permissions needed by Acquire SDK](start-using-acquire.md#permissions-description)
-* [Co-Browse SDK](cobrowse-sdk.md)
+* [Acquire Delegates](../acquire-delegates.md)
 

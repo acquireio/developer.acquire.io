@@ -50,10 +50,11 @@
 ## Android
 
 * [Getting Started](android/getting-started/README.md)
-  * [Integration Guide](android/getting-started/integration-guide.md)
+  * [Integration Guide \(Core\)](android/getting-started/integration-guide.md)
+  * [Integration Guide \(Lite\)](android/getting-started/integration-guide-lite.md)
   * [Start using Acquire](android/getting-started/start-using-acquire.md)
-  * [Cobrowse SDK \(lite version\)](android/getting-started/cobrowse-sdk.md)
 * [Acquire APIs](android/acquire-apis.md)
+* [Cobrowse APIs](android/cobrowse-sdk.md)
 * [Acquire Delegates](android/acquire-delegates.md)
 * [Custom UI/widget](android/custom-ui-widget.md)
 * [Android Push Notifications](android/android-push-notifications.md)

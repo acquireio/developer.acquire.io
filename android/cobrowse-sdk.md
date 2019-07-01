@@ -1,4 +1,4 @@
-# Cobrowse SDK \(lite version\)
+# Cobrowse APIs
 
 Acquire has this feature called Co-browsing which is unique in its sense, as it allows an agent to browse the session with the customer so that he/she can get the desired product/services on their website to purchase.
 
@@ -16,44 +16,7 @@ Once the Native SDKs are added to your app, everything else is done through our 
  Even more he can add overlays or highlight on the customer's device in real time.
 {% endhint %}
 
-### Android SDK Sample App <a id="android-sdk-sample-app"></a>
-
-If you want a sample app for cobrowse sdk -lite version , you can download the sample app with integrated our sdk from Github: [Sample App](https://github.com/acquireio/co-browse-only-android)
-
 {% embed url="https://www.youtube.com/watch?v=sptkhM5n3Vc" %}
-
-### Steps to integrate Cobrowse sdk \(lite version\)
-
-First of all you will need to add our maven link to your project **build.gradle** file.
-
-```javascript
-allprojects {
-    repositories {
-        maven {
-            // Add this line 
-            url "http://107.155.116.28:8086/artifactory/libs-release-local"
-        }
-    }
-}
-```
-
-Now you will need to add following dependencies to your app level **build.gradle** file :
-
-```javascript
-implementation 'com.acquireio:lite:1.+'
-implementation 'com.android.support:appcompat-v7:27.1.0' // if not added already
-implementation 'com.android.support:design:27.1.0' // if not added already
-implementation 'com.android.support:customtabs:27.1.0'
-implementation ('io.socket:socket.io-client:1.0.0') {
-   exclude group: 'org.json', module: 'json'
-}
-```
-
-{% hint style="info" %}
- All these features are included to our **core** library too.​[Follow these steps for this.](integration-guide.md)
-{% endhint %}
-
-{% embed url="https://www.youtube.com/watch?v=m532XviU0aI" %}
 
 If you want to customize cobrowse settings then you can use our CobrowseBuilder class.
 
@@ -100,7 +63,7 @@ If you want to customize cobrowse settings then you can use our CobrowseBuilder 
 
  5. **`setHideStopButton(boolean hideStopButton)`** :
 
-![](../../.gitbook/assets/android-cobrowse.PNG)
+![](../.gitbook/assets/android-cobrowse.PNG)
 
 ```javascript
 /**
@@ -111,7 +74,7 @@ If you want to customize cobrowse settings then you can use our CobrowseBuilder 
 
  6. **`setConfirmStop(boolean enable)`** :
 
-![](../../.gitbook/assets/android-cobrowse-1.PNG)
+![](../.gitbook/assets/android-cobrowse-1.PNG)
 
 ```javascript
 /**
@@ -137,19 +100,19 @@ After initialization you can use both events callbacks :
 * **OnSessionEvents** And
 * **OnCoBrowseEvent**
 
-**To get full understanding of all delegates** [**click here**](../acquire-delegates.md)**.**
+**To get full understanding of all delegates** [**click here**](acquire-delegates.md)**.**
 
 ### **Useful methods to control the UI while co browsing.** 
 
 #### Add mask to user's private data
 
-![](../../.gitbook/assets/android-cobrowse-2.PNG)
+![](../.gitbook/assets/android-cobrowse-2.PNG)
 
 #### Set masking view color
 
-![](../../.gitbook/assets/android-cobrowse-3.PNG)
+![](../.gitbook/assets/android-cobrowse-3.PNG)
 
 #### Set mouse icon which appears on user screen 
 
-![](../../.gitbook/assets/android-cobrowse-4.PNG)
+![](../.gitbook/assets/android-cobrowse-4.PNG)
 
