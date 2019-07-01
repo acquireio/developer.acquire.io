@@ -35,7 +35,8 @@ implementation ('io.socket:socket.io-client:1.0.0') {
 }
 implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.+'
 implementation 'com.amitshekhar.android:android-networking:1.0.2'
-implementation 'com.acquireio:core:2.+' 
+implementation 'com.acquireio:core:2.+' // Use this for Core version OR
+implementation 'com.acquireio:lite:1.+' // Use this for Lite version
 }
 ```
 
