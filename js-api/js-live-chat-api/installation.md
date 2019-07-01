@@ -38,3 +38,9 @@ Save your code and reload webpage.
 <!-- / Widget Code -->
 ```
 
+### Advance Settings
+
+Customize color code for different client
+
+![](../../.gitbook/assets/acquire-custom-primary-color.png)
+
