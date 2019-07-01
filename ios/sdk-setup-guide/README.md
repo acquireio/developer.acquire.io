@@ -1,6 +1,10 @@
 # SDK Setup Guide
 
-{% page-ref page="getting-start-ios.md" %}
+{% page-ref page="getting-started.md" %}
+
+{% page-ref page="integration-guide-core.md" %}
+
+{% page-ref page="integration-guide-lite.md" %}
 
 {% page-ref page="acquire-account-id.md" %}
 
@@ -13,6 +17,4 @@
 {% page-ref page="../theme-setting.md" %}
 
 {% page-ref page="../verify-your-users.md" %}
-
-
 

@@ -61,8 +61,6 @@ To customize our chat widget [click here](../custom-ui-widget.md#customize-chat-
 
 To enable our chat widget call **`setShowDefaultFAB(true);`**
 
-To temporarily remove chat widget call**`removeFAB();`**whenever you need.
-
 before initialization of sdk.
 
 {% hint style="info" %}
@@ -74,6 +72,8 @@ Use **apk split feature of android**
 
 for reference see below screenshot -&gt;
 {% endhint %}
+
+To temporarily remove chat widget call**`removeFAB();`**whenever you need.
 
 ![](../../.gitbook/assets/image%20%281%29.png)
 

@@ -26,7 +26,7 @@ In this document, you can find details about the principles of work of [Cobrowse
 
 ## IOS
 
-Acquire for iOS, for integrating Acquire into your iOS application. Get started on integrating the [AcquireIO iOS SDK](ios/sdk-setup-guide/getting-start-ios.md) into your native iOS app using all functionality like live chat, video/audio call, cobrowse SDK, push notification, UI setting and many customization. 
+Acquire for iOS, for integrating Acquire into your iOS application. Get started on integrating the [AcquireIO iOS SDK](ios/sdk-setup-guide/getting-started.md) into your native iOS app using all functionality like live chat, video/audio call, cobrowse SDK, push notification, UI setting and many customization. 
 
 ## Android
 

@@ -1,4 +1,8 @@
-# iOS Cobrowse SDK
+---
+description: Learn how to use Cobrowse feature using our native SDK.
+---
+
+# iOS Cobrowse
 
 Acquire has this feature called Co-browsing which is unique in its sense, as it allows an agent to browse the session with the customer so that he/she can get the desired product/services on their website to purchase.
 
@@ -9,14 +13,6 @@ Once the Native SDKs are added to your app, everything else is done through our 
 {% hint style="info" %}
 Even more he can add overlays or highlight on the customer's device in real time.
 {% endhint %}
-
-## Setup
-
-```objectivec
-pod 'AcquireIO-Cobrowse'            # For normal version
-```
-
-And run `pod install` or `pod update` to refresh your [cocoapods](https://cocoapods.org/) dependencies.
 
 ## Methods
 

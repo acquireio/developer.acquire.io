@@ -1,10 +1,8 @@
 ---
-description: >-
-  To start using AcquireIO in your project, add one of the following lines to
-  your Podfile according to the version which you wish to integrate.
+description: learn how to add acquire lite SDK with Cocoapods.
 ---
 
-# Getting Start iOS
+# Integration Guide \(Lite\)
 
 ## Initial setup
 
@@ -15,7 +13,7 @@ For more detail, you can also check out our [generated iOS docs ](https://devtoo
 ## Integration using Cocoapods
 
 ```objectivec
-pod 'AcquireIO'            # For normal version
+pod 'AcquireIO-Lite'            # For lite version
 ```
 
 And run `pod install` or `pod update` to refresh your [cocoapods](https://cocoapods.org/) dependencies.
@@ -26,7 +24,7 @@ For issues installing CocoaPods, see [their website](https://cocoapods.org/) for
 **Explanation**: The AcquireIO SDK uses background mode `Audio` for when you are video/voice call to agent/visitor. If you have not enable then background voice will not work. When the `UIBackgroundModes` key contains the `audio` value, the system’s media frameworks automatically prevent the corresponding app from being suspended when it moves to the background. Go to `Project/Targets -> Capabilities -> Background Modes -> Audio, AirPlay (Check)`
 {% endhint %}
 
-In iOS 10, Before you access privacy-sensitive data like Camera, Microphone, and so on, you must ask for the authorization, or your app will crash when you access them.
+In iOS 10+, Before you access privacy-sensitive data like Camera, Microphone, and so on, you must ask for the authorization, or your app will crash when you access them.
 
 Open the file in your project named `info.plist`, right click it, opening as Source Code, paste this code below to it. Or you can open `info.plist` as `Property List` by default, click the add button, Xcode will give you the suggest completions while typing Privacy - with the help of keyboard and
 
