@@ -38,10 +38,10 @@
 ## iOS
 
 * [SDK Setup Guide](ios/sdk-setup-guide/README.md)
-  * [Manual Setup iOS](ios/sdk-setup-guide/manual-setup-ios.md)
   * [Getting Started](ios/sdk-setup-guide/getting-started.md)
   * [Integration Guide \(Core\)](ios/sdk-setup-guide/integration-guide-core.md)
   * [Integration Guide \(Lite\)](ios/sdk-setup-guide/integration-guide-lite.md)
+  * [Manual Setup iOS](ios/sdk-setup-guide/manual-setup-ios.md)
   * [Acquire Account ID](ios/sdk-setup-guide/acquire-account-id.md)
 * [SDK Configuration Example](ios/sdk-configuration-example.md)
 * [iOS Cobrowse](ios/ios-cobrowse-sdk.md)
