@@ -258,12 +258,13 @@ AcquireIO.support().logoutVisitor();
 ## Methods
 
 * `setAccount: withOptions:` - This is init method for initialize AcquireIO chat. When you calling setAccount method you must pass one accountUID parameter Option can be nil.
-* `setVisitorIdentifier:` - Set an visitor identifier for your visitor, can be tracked by admin in remark.
+* `setVisitorIdentifier:` - Set a visitor identifier for your visitor, can be tracked by admin in remark.
 * `setVisitor: phone: andEmail:` - Set the name, phone and email of the app visitor.
 * `setVisitorExtraField: fields:` - Set the extra custom field format: {"n":"FIELD\_KEY","v":"FIELD\_VALUE"}.
 * `showSupport:` - Show support view controller from current `viewcontroller`, will call after setAccount method done. This method must pass a valid viewController instance.
 * `getUnreadCount` - Total unread count of message\(s\).
 * `getAvailableAgentCount` - Total unread count of message\(s\).
+* `showSupport: withReference:` - Open specific thread of current visitor with reference id.
 
 ## Protocol
 
