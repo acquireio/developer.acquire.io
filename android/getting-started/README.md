@@ -18,9 +18,9 @@ We are providing two types of build variants :
 
 The main difference of these two build variants is the size.
 
-* Our **Core** version size is about **18 MB** because of webRTC's archived libraries for all ABIs included.
-* If you split apk using [apk splitting feature](https://developer.android.com/studio/build/configure-apk-splits) of android then it consumes around **8 to 10 MB.**
-* Our **Lite** version size is only **2~3 MB.** 
+* Our **Core** version can take up to **18 MB** because of webRTC's archived libraries for all ABIs included.
+* If you split apk using [apk splitting feature](https://developer.android.com/studio/build/configure-apk-splits) of android then it consumes around **8 to 10 MB** per apk**.**
+* Our **Lite** version consumes only **2~3 MB.** 
 
 {% hint style="info" %}
 So if you don't require Video calling feature, you can use **lite** version to reduce the apk size.
