@@ -30,11 +30,13 @@ So if you don't require Video calling feature, you can use **lite** version to r
 
 {% embed url="https://www.youtube.com/watch?v=5omidOcEbtE" %}
 
+### Related pages:
 
+{% page-ref page="integration-guide.md" %}
 
-* [Integration Guide \(Core\)](integration-guide.md#steps-to-integrate-acquire-android-sdk-core-are-as-follows)
-* [Integration Guide \(Lite\)](integration-guide-lite.md#steps-to-integrate-acquire-android-sdk-lite-are-as-follows)
-* [Start using Acquire](start-using-acquire.md#initialize-acquire-sdk)
-* [Permissions needed by Acquire SDK](start-using-acquire.md#permissions-description)
-* [Acquire Delegates](../acquire-delegates.md)
+{% page-ref page="integration-guide-lite.md" %}
+
+{% page-ref page="start-using-acquire.md" %}
+
+{% page-ref page="../acquire-delegates.md" %}
 
