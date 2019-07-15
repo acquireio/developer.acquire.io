@@ -62,21 +62,21 @@ We'll create a simple dialog that handles greeting and ending intents, each with
 
 Now let's add nodes between the Welcome node and the Anything else node that handle our intents.
 
-1. Click the More icon on the Welcome node, and then select Add node below.
+**1.** Click the More icon on the Welcome node, and then select Add node below.
 
-2. In the If assistant recognizes field of this node, start to type \#General\_Greetings. Then, select the \#General\_Greetings option.
+**2.** In the If assistant recognizes field of this node, start to type \#General\_Greetings. Then, select the **\#General\_Greetings** option.
 
-3. Add the response text, Good day to you!
+**3.** Add the response text, Good day to you!
 
-4. Click ![](https://lh3.googleusercontent.com/OaAmaCA_hbERAAb-dqAgDKTOT31NiCqxSBuLYh_MBWmNJ407RJUGEjlQ1_tRIirsQW_Li6nlx2GF0m9rdE2GmnI-lM5m--Vryo6zqNwJ_8QFc9PSd3Oca93Z6vyQndxg_E9xNY-1)to close the edit view.
+**4.** Click ![](https://lh3.googleusercontent.com/OaAmaCA_hbERAAb-dqAgDKTOT31NiCqxSBuLYh_MBWmNJ407RJUGEjlQ1_tRIirsQW_Li6nlx2GF0m9rdE2GmnI-lM5m--Vryo6zqNwJ_8QFc9PSd3Oca93Z6vyQndxg_E9xNY-1)to close the edit view.
 
 ![](https://lh5.googleusercontent.com/eP5oIzSpg_Si18lBTmU_olFeVusb3F9-3Xv2hQyOMAe41I4C5jS2oTTFQEDXKTDerSq92NnPVUiJe28_up42_L6Oj9Eh4f-y4eIs70TNObCcbkYMHzO_Rd89LyjYrz5sV-jlz0B4)
 
-5. Click the More icon on this node, and then select Add node below to create a peer node. In the peer node, specify \#General\_Ending in the If assistant recognizes field, and OK. See you later. as the response text.
+5. Click the More icon on this node, and then select Add node below to create a peer node. In the peer node, specify **\#General\_Ending** in the If assistant recognizes field, and OK. See you later. as the response text.
 
 ![](https://lh5.googleusercontent.com/goHV-FhUVeaCvpcFBEbmpg7qAcoqaW9FBUTgShYcHIAtPR8yPgtWk825JSRHg-GsmEqCu4Lmu5k8vITp5v7ouTt75Rt4t9BBQl8KZiXl-LWahu7czPjyIYS0tK_J_8x16gsAfola)
 
-  ****6. Click ![](https://lh3.googleusercontent.com/we3BBvivTN5ACVkhGuDHA_0ywiV_LFclRdlsEGqm7RbopbsTd_ALd8TAqrcUvBMqPBBLmMxVnmIiQRk5W5f53pAtHZflsFWqNQoB_p01d9UmETO1wTytxZgoDbCSqo7O1aeHoS-Y)to close the edit view.
+  **6.** Click ![](https://lh3.googleusercontent.com/we3BBvivTN5ACVkhGuDHA_0ywiV_LFclRdlsEGqm7RbopbsTd_ALd8TAqrcUvBMqPBBLmMxVnmIiQRk5W5f53pAtHZflsFWqNQoB_p01d9UmETO1wTytxZgoDbCSqo7O1aeHoS-Y)to close the edit view.
 
 ### **Step 6: Integrate with Acquire**
 
@@ -84,33 +84,33 @@ Go to Acquire’s Bot Section, here you can see all the third-party chat-bots al
 
 ![](https://lh3.googleusercontent.com/FTjDYSfnHQ2JQEvVgD0dR5rpcDeEMLQ0zggE2pm60Cdlj2sJ4F7YsVCnMeitnet1jSeMMnpocSex8zAtP8YB-ihOX0U7cStQA-cg3-VULlT7hnHKCpG_jFospC1_7poeIxE_WfWa)
 
-1. ****Click on that and a popup will be displayed. You need a few parameters \(i.e. “apikey” , “url” and “assistant\_id”\) to bind it with chat widget.
+**1.** Click on that and a popup will be displayed. You need a few parameters \(i.e. “**apikey**” , “**url**” and “**assistant\_id**”\) to bind it with chat widget.
 
 ![](https://lh6.googleusercontent.com/VPNsKibjkyh3DooP_xZRdEfDWC8-U4r8sD54FafpY3ZLK1QKO0TIv5BossA3q9JZtwt_7SFXNwGEhp4iN_8s5dnDceAPYnDOEKBxicPFGAccbQWGetPxXSai5vZlNhDFiWm4wnKG)
 
- 2. To get your “apikey” and “url”, go to Dashboard of [IBM Cloud](https://cloud.ibm.com/) and press on Services that is displayed. Click on Watson service,  It’ll navigate to IBM Watson Service Page. Copy your “apikey” and “url” and paste it to “Acquire” popup.
+ **2.** To get your “**apikey**” and “**url**”, go to Dashboard of [IBM Cloud](https://cloud.ibm.com/) and press on Services that is displayed. Click on Watson service,  It’ll navigate to IBM Watson Service Page. Copy your “**apikey**” and “**url**” and paste it to “**Acquire**” popup.
 
 ![](https://lh5.googleusercontent.com/jyefvpdFtE_LufCznEMb-9hqcg5VmQkfMlBgG4lSrpuqgjbsIoNdkds0yMyoSfldLfV69-LrmvLdQLcHBPSsQWOJgD3V-l3RSD3toBJxjOHhVWeTuVNJbkgG9xd_UhGDIhRGMaaQ)
 
-3. To get your “assistant\_id”,  Click on Launch Watson assistant button. It’ll give you list of assistants.
+**3.** To get your “**assistant\_id**”,  Click on Launch Watson assistant button. It’ll give you list of assistants.
 
-4. Select More icon of your assistant and click on setting.
+**4.** Select More icon of your assistant and click on setting.
 
 ![](https://lh4.googleusercontent.com/bLYo1WX8z04O8YMduqYEmZQnNwh7fLV94EKMbBOmMLFxYaHmYp1vZgXSE6tDXT79FoqFDFsf2bvI9fzrJgapaBPbiayWzvnYTu7QithL50cHZrATu4tO9pnDIrowhHm-IfRzgV4J)
 
-5. Click on API Details tab, Copy  “assistant\_id” and paste it to “Acquire” popup.
+**5.** Click on API Details tab, Copy  “assistant\_id” and paste it to “Acquire” popup.
 
 ![](https://lh3.googleusercontent.com/a1wrJYQ3P6RU2elc-9wbfL1fSYGZntIWPkWYldvXN9t8EPUDAtImRGIwkOogc0QGGrSHCBnXUrx6XvK4lENrvqAk1VDIOrl9O7-LSgRFpUSgfT9KntBiG2TPDFy4-I2POaIQH-Ww)
 
-6. All are set up, now we are good to go and press the install button.
+**6.** All are set up, now we are good to go and press the install button.
 
 ![](https://lh5.googleusercontent.com/_Hi4m_6bUzhjRy-P1KfxexLc2IQWYUievKgG8beqAqPbIZzLVqCLabRbjnIdfmmfYDj4RdXb_oHkqwHinfKpKDuqgoErCQZkSGSYuOaka6RrYlbylSAVJBydVqOFd_9CE2k_7Gdf)
 
-7. From “Trigger” section, apply it where you want. It will answer all your visitors’ queries.
+**7.** From “**Trigger**” section, apply it where you want. It will answer all your visitors’ queries.
 
 ![](https://lh5.googleusercontent.com/aCAiySLaqnZuF6YOF1oox8fxEM2YLy1uYEMRdXSxbZ5YFKKMSh-0l50qYkpdp9k6P37MPSvEBpCvVDIX7NzGWGZgq-RoRYtyq1bswYz6B-VxTNUky-lmE2VZa4Ky3sqcflFFWD__)
 
-8. ****Now go to your simulate page to test your Chatbot by putting the different type of questions.
+**8.** Now go to your simulate page to test your Chatbot by putting the different type of questions.
 
 ![](https://lh6.googleusercontent.com/ldqqsEWZhoMwtgdSP9hAW4PIC9mxN_8Ec88TgWMXo4NDAUi1oy3ZKQnDQifK-7Niq9O8clARvHZ_7i7S90JJ1KPcrZJjF6vAKlk66I1bty8XFaO_HW50DxEG1dzku9cIoR8659P7)
 
