@@ -115,7 +115,7 @@
   * [Dialog Flow Chat-Bot](chatbot-api/chat-bot/dialog-flow-chat-bot.md)
   * [Webhook Calling & User Verification](chatbot-api/chat-bot/webhook-calling-and-user-verification.md)
   * [Webhook For Reset Password](chatbot-api/chat-bot/webhook-for-reset-password.md)
-  * [IBM Watson Bot](chatbot-api/chat-bot/ibm-watson-bot.md)
+* [IBM Watson Bot](chatbot-api/ibm-watson-bot.md)
 
 ## Knowledge Base APIs
 
