@@ -12,7 +12,7 @@ You need a service instance to start.
 4. Sign up for a free IBM Cloud account or log in.
 5. Click Create.
 
-### **Step 1: Open Watson Assistant**
+### **Step 1. Open Watson Assistant**
 
 After you create a Watson Assistant service instance, you land on the Manage page of the Watson Assistant dashboard.
 
@@ -20,7 +20,7 @@ After you create a Watson Assistant service instance, you land on the Manage pag
 
 ![](https://lh4.googleusercontent.com/V2cnR7LPsdxdsKX1sYV3-X37nDGBx1UW6z-z3LOR2pZJN_imo4IKxu4YKgplFOiDBLfdAuSfiNaBngu1b1fonlB6XtT58NKmw0F-b4-vGARCSmRCC1k_7aAzbbhtvXiFFWpDM0-Y)
 
-### **Step 2: Create an assistant**
+### **Step 2. Create an assistant**
 
 1. Click Create assistant to add assistant.
 
@@ -30,7 +30,7 @@ After you create a Watson Assistant service instance, you land on the Manage pag
 
 ![](https://lh3.googleusercontent.com/hyXA7Kd_RR2PFC-_rRQlcrxH1VdNYLCY9eTVtkzruNCxb95RgmNfoaDcZ8moziwSKCJGCpD28DaJyFbcJKQXbdKXiM2vO4jQ7uzRL38ApOxeg174_5f3plyEGcnuUn5-EN14yCu2)
 
-### **Step 3: Create a dialog skill**
+### **Step 3. Create a dialog skill**
 
 A dialog skill is a container for the artifacts that define the flow of a conversation that your assistant can have with your customers.
 
@@ -41,7 +41,7 @@ A dialog skill is a container for the artifacts that define the flow of a conver
 
 You land on the Intents page.
 
-### **Step 4: Add intents from a content catalog**
+### **Step 4. Add intents from a content catalog**
 
 Add training data that was built by IBM to your skill by adding intents from a content catalog. In particular, you will give your assistant access to the Generalcontent catalog so your dialog can greet users, and end conversations with them.
 
@@ -52,7 +52,7 @@ Add training data that was built by IBM to your skill by adding intents from a c
 
 You successfully started to build your training data by adding prebuilt content from IBM.
 
-### **Step 5: Build a dialog**
+### **Step 5. Build a dialog**
 
 A [dialog](https://cloud.ibm.com/docs/services/assistant?topic=assistant-dialog-overview) defines the flow of your conversation in the form of a logic tree. It matches intents \(what users say\) to responses \(what the bot says back\). Each node of the tree has a condition that triggers it, based on user input.
 
@@ -72,13 +72,13 @@ Now let's add nodes between the Welcome node and the Anything else node that han
 
 ![](https://lh5.googleusercontent.com/eP5oIzSpg_Si18lBTmU_olFeVusb3F9-3Xv2hQyOMAe41I4C5jS2oTTFQEDXKTDerSq92NnPVUiJe28_up42_L6Oj9Eh4f-y4eIs70TNObCcbkYMHzO_Rd89LyjYrz5sV-jlz0B4)
 
-5. Click the More icon on this node, and then select Add node below to create a peer node. In the peer node, specify **\#General\_Ending** in the If assistant recognizes field, and OK. See you later. as the response text.
+**5.** Click the More icon on this node, and then select Add node below to create a peer node. In the peer node, specify **\#General\_Ending** in the If assistant recognizes field, and OK. See you later. as the response text.
 
 ![](https://lh5.googleusercontent.com/goHV-FhUVeaCvpcFBEbmpg7qAcoqaW9FBUTgShYcHIAtPR8yPgtWk825JSRHg-GsmEqCu4Lmu5k8vITp5v7ouTt75Rt4t9BBQl8KZiXl-LWahu7czPjyIYS0tK_J_8x16gsAfola)
 
   **6.** Click ![](https://lh3.googleusercontent.com/we3BBvivTN5ACVkhGuDHA_0ywiV_LFclRdlsEGqm7RbopbsTd_ALd8TAqrcUvBMqPBBLmMxVnmIiQRk5W5f53pAtHZflsFWqNQoB_p01d9UmETO1wTytxZgoDbCSqo7O1aeHoS-Y)to close the edit view.
 
-### **Step 6: Integrate with Acquire**
+### **Step 6. Integrate with Acquire**
 
 Go to Acquire’s Bot Section, here you can see all the third-party chat-bots along with “IBM Watson Bot” in this list.
 
