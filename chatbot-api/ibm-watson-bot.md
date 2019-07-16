@@ -2,15 +2,20 @@
 
 ## **Getting started tutorial**
 
+This guide will allow you to integrate the Acquire Chat Bot with IBM Watson
+
 ### **Before you begin**
 
-You need a service instance to start.
+A Watson service instance must be started first.
 
-1. Go to the [Watson Assistant](https://cloud.ibm.com/catalog/services/watson-assistant)  page in the IBM Cloud catalog.
-2. The service instance will be created in the default resource group if you do not choose a different one, and it cannot be changed later. This group is sufficient for the purposes of trying out the product.
-3. If you're creating an instance for more robust use, then learn more about [resource groups](https://cloud.ibm.com/docs/resources/bestpractice_rgs#bp_resourcegroups) .
-4. Sign up for a free IBM Cloud account or log in.
+1. [Sign up](https://cloud.ibm.com/catalog/services/watson-assistant) for a free IBM Cloud account or [log in](https://cloud.ibm.com/catalog/services/watson-assistant) with your existing account.
+2. Load the [Watson Assistant](https://cloud.ibm.com/catalog/services/watson-assistant) page in the IBM Cloud catalog.
+3. The Watson service instance will be created in the default resource group. Please note if you wish to change the resource group change it at this stage as it cannot be changed later. However, this group is sufficient for the purposes of exploring the Acquire chat bot integration.
+4. If you're creating an instance for production use, which is more robust, then learn more about [resource groups](https://cloud.ibm.com/docs/resources/bestpractice_rgs#bp_resourcegroups).
+5. Choose an appropriate region/location to deploy your instance in.
 5. Click Create.
+
+
 
 ### **Step 1: Open Watson Assistant**
 
