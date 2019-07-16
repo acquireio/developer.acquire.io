@@ -115,7 +115,7 @@ Go to Acquire’s Bot Section, here you can see all the third-party chat-bots al
 
 ![](https://lh5.googleusercontent.com/aCAiySLaqnZuF6YOF1oox8fxEM2YLy1uYEMRdXSxbZ5YFKKMSh-0l50qYkpdp9k6P37MPSvEBpCvVDIX7NzGWGZgq-RoRYtyq1bswYz6B-VxTNUky-lmE2VZa4Ky3sqcflFFWD__)
 
-8. ****Now you can navigate to your simulation page to test the new and improved Chatbot by entering the different types of questions that the system has been configured with.
+8. Finally, now you can navigate to your simulation page to test the new and improved Chatbot by entering the different types of questions that the system has been configured with.
 
 ![](https://lh6.googleusercontent.com/ldqqsEWZhoMwtgdSP9hAW4PIC9mxN_8Ec88TgWMXo4NDAUi1oy3ZKQnDQifK-7Niq9O8clARvHZ_7i7S90JJ1KPcrZJjF6vAKlk66I1bty8XFaO_HW50DxEG1dzku9cIoR8659P7)
 
