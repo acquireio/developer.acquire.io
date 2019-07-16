@@ -2,7 +2,7 @@
 
 ## **Getting started tutorial**
 
-This guide will allow you to integrate the Acquire Chat Bot with IBM Watson
+This guide will allow you to integrate the Acquire platform with IBM Watson
 
 ### **Before you begin**
 
@@ -19,7 +19,7 @@ A Watson service instance must be started first.
 
 ### **Step 1: Open Watson Assistant**
 
-After you create a Watson Assistant service instance, you land on the Manage page of the Watson Assistant dashboard.
+After creating a Watson Assistant service instance, the Watson Assistant dashboard will appear and allow you to manage it.
 
 1. Click Launch Watson Assistant. If you're prompted to log in, provide your IBM Cloud credentials.
 
@@ -27,7 +27,7 @@ After you create a Watson Assistant service instance, you land on the Manage pag
 
 ### **Step 2: Create an assistant**
 
-1. Click Create assistant to add assistant.
+1. Click Create assistant to add an assistant.
 
 ![](https://lh5.googleusercontent.com/GEN_2PrCwEr0pZP-NUL9Pce-cEZiSJ46n_u2SNh8955OrbXJjFE5D4uPn8Jrp4V9UK4qbJqnZZE3UL0D8Vdq_DYCqriAL2X8ezjr9iyebLK_FZrmx5aiMsY1Kn1IQCRKaECjrx1B)
 
@@ -37,21 +37,21 @@ After you create a Watson Assistant service instance, you land on the Manage pag
 
 ### **Step 3: Create a dialog skill**
 
-A dialog skill is a container for the artifacts that define the flow of a conversation that your assistant can have with your customers.
+A dialog skill is a container for the artifacts that define the conversation flow that your assistant make use of to engage with your customers.
 
 1. Click on your assistant tile to open the assistant.
 2. Click **Add dialog** skill and **Create dialog skill**.
 
 ![](https://lh3.googleusercontent.com/kYeIrKz8stOHsPzHxFTkREKZo-1Dr0cVvMnjEEAmglnAwOc94_6Yiauzfhf8hYjJ6l2Nniq30HcW7YjsNadgkB_gcncljrzIOE7163ldLrLy5cne2t4SD4PUVFY6jKccSt0n5N1o)
 
-You land on the Intents page.
+You will then land on the Intents page.
 
 ### **Step 4: Add intents from a content catalog**
 
-Add training data that was built by IBM to your skill by adding intents from a content catalog. In particular, you will give your assistant access to the Generalcontent catalog so your dialog can greet users, and end conversations with them.
+Add training data that was built by IBM to your skill by adding intents from a contents catalog. In particular, you will give your assistant access to the Generalcontent catalog so your dialog can greet users, and end conversations with them appropriately.
 
 1. Click the Content Catalog tab.
-2. Find General in the list, and then click Add to skill.
+2. Search for the General option from the list, and then click Add to this skill.
 
 ![](https://lh4.googleusercontent.com/NIR_ENHcUklUoq66x8G1UPYvx5TONSJbvJGksZ7gpJ4BGeyXHvKDo789mCSxuemUGMzIzSBu9w5zmmv5oFrprOoil4EoCDE2wkVkRhszXMQ6Rl82d1hM8PV-y-LwuSPoHbHGDXeL)
 
@@ -59,9 +59,9 @@ You successfully started to build your training data by adding prebuilt content 
 
 ### **Step 5: Build a dialog**
 
-A [dialog](https://cloud.ibm.com/docs/services/assistant?topic=assistant-dialog-overview) defines the flow of your conversation in the form of a logic tree. It matches intents \(what users say\) to responses \(what the bot says back\). Each node of the tree has a condition that triggers it, based on user input.
+A [dialog](https://cloud.ibm.com/docs/services/assistant?topic=assistant-dialog-overview) defines your conversation flow in the form of a logic tree. It matches intents \(what users say\) to responses \(what the bot says back\). Each node of the tree has a condition that triggers it, based on the user's input.
 
-We'll create a simple dialog that handles greeting and ending intents, each with a single node.
+We'll create a simple dialog that handles the greeting and ending intents, each with a single node.
 
 #### Adding nodes to handle intents
 
@@ -71,7 +71,7 @@ Now let's add nodes between the Welcome node and the Anything else node that han
 
 2. In the If assistant recognizes field of this node, start to type \#General\_Greetings. Then, select the \#General\_Greetings option.
 
-3. Add the response text, Good day to you!
+3. Add the response text, "Good day to you!"
 
 4. Click ![](https://lh3.googleusercontent.com/OaAmaCA_hbERAAb-dqAgDKTOT31NiCqxSBuLYh_MBWmNJ407RJUGEjlQ1_tRIirsQW_Li6nlx2GF0m9rdE2GmnI-lM5m--Vryo6zqNwJ_8QFc9PSd3Oca93Z6vyQndxg_E9xNY-1)to close the edit view.
 
