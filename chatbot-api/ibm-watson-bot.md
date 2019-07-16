@@ -15,7 +15,7 @@ A Watson service instance must be started first.
 5. Choose an appropriate region/location to deploy your instance in.
 5. Click Create.
 
-
+![](https://lh3.googleusercontent.com/wfrUpTVd8FG1o_sO6EZ2bxeJQizZyDPJfkwJocDEbgPPufnGxnUid1seb8oAA8fb_1ByelklwW2iRfoBCOnM1heL36Ln5j24TgzgSjJvQHRGEouCpsE5Fe8qmzljeLFf9HQg6nhdbA=w303-h177-no)
 
 ### **Step 1: Open Watson Assistant**
 
