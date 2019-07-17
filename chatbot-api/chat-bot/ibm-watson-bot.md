@@ -1,6 +1,6 @@
 # IBM Watson Bot
 
-## **Getting started tutorial**
+## **Getting started**
 
 ### **Before you begin**
 
