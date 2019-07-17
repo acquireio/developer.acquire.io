@@ -109,9 +109,9 @@ Go to the Acquire’s Bot Section. Here you will find all the available third-pa
 
 **6.** The IBM Watson Chat Bot is now setup and ready to be deployed. Press the install button.
 
-![](https://lh5.googleusercontent.com/_Hi4m_6bUzhjRy-P1KfxexLc2IQWYUievKgG8beqAqPbIZzLVqCLabRbjnIdfmmfYDj4RdXb_oHkqwHinfKpKDuqgoErCQZkSGSYuOaka6RrYlbylSAVJBydVqOFd_9CE2k_7Gdf)
+![](https://lh6.googleusercontent.com/aRfKdnROyKMgFbzWtyrSw-LNxV7VrBch_TaKqeOWHAESvTdXE8RIEoiEeGYcSqdFWCVStknAD4C8EErZwDEr8nphpCj1ZWSIklWJLHkh73nv8ChPgBHMmq_UjRpNYcg9XRRcMTge)
 
-**7.** You can use the “**Trigger**” filters to allow the Chat Bot to engage with your customers and answer vistor questions.
+**7.** You can use the “**Trigger**” filters to allow the Chat Bot to engage with your customers and answer visitor questions.
 
 ![](https://lh5.googleusercontent.com/aCAiySLaqnZuF6YOF1oox8fxEM2YLy1uYEMRdXSxbZ5YFKKMSh-0l50qYkpdp9k6P37MPSvEBpCvVDIX7NzGWGZgq-RoRYtyq1bswYz6B-VxTNUky-lmE2VZa4Ky3sqcflFFWD__)
 
