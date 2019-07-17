@@ -10,28 +10,28 @@ A Watson service instance must be started first.
 
 1. [Sign up](https://cloud.ibm.com/catalog/services/watson-assistant) for a free IBM Cloud account or [log in](https://cloud.ibm.com/catalog/services/watson-assistant) with your existing account.
 2. Load the [Watson Assistant](https://cloud.ibm.com/catalog/services/watson-assistant) page in the IBM Cloud catalog.
-3. The Watson service instance will be created in the default resource group. Please note if you wish to change the resource group change it at this stage as it cannot be changed later. However, this group is sufficient for the purposes of exploring the Acquire chat bot integration.
+3. The Watson service instance will be created in the **default** resource group. Please note if you wish to change the resource group change it at this stage as it cannot be changed later. However, this group is sufficient for the purposes of exploring the Acquire chat bot integration.
 4. If you're creating an instance for production use, which is more robust, then learn more about [resource groups](https://cloud.ibm.com/docs/resources/bestpractice_rgs#bp_resourcegroups).
 5. Choose an appropriate region/location to deploy your instance in.
-6. Click Create.
+6. Click **Create**.
 
-![](https://lh3.googleusercontent.com/Aua6808g3upgWlAw2BULxzvMLrD2SBRh4-gvQjym2cLe4nuIx3ljhnSIDFjmpTd1wW30Svw7dCd1ebBbQn0Iz0fRzc6f9otXn3HUccm6sLDhPIQkCqqb19VSCd6XTpzQ-IaW8MCd5Uwmov_0SWBTpbZnPEsMz0apO93bjqAQ-bCwDaPb-2RkmG7T1bdhI5OsGAUmKqbf0-jiZ7kgOEp4iBcQ78juzn-8CHeOxo6uGqnVlPbUqF8jMETLIEin2e4_sCzg45xcTHIDrCYzCJWRHuIWAY11dwKKrPjJajtrT0qGjv31w5lpmXgmtW_McWBBuCJodnuH7uT6euAoKNBTlkYb4f6j-8hdWfTNGT8XUvkjcMh7v4ou4Use52EdqbrBMRHKfthlgqw-jpiLEu9-qpKgToWBCyt8cHzOaVjNg6owIMWBlzIBFFzmcOtHHkEZ2hkLfiR5vvLs49iEurwyt9xqLdUgHuYMT7yUj7ds7PyT0hOD146t9JXpZntIcfdth7msyzjjQzwhzewTNLKqz-9zdHE-22D3trwtmGH14zQD4xvAiTzMcQjHTs45_3hxUHrbCtvlFGERtEBdYAzIgmbWh_YqZVeefznaryiBqZTzD6kwDwHq4NhO1-jKYdIPQAN0NVaYi29d-Zypf1J211qz3QK2UXE=w850-h700-no)
+![](https://lh6.googleusercontent.com/iyE2K04uuH5TDpkWxc6Cw0lLaffzn3ynwWdZRcUvnGp8kIQi41_969w0TnYGHnHE6ZqoGajnqhzzlCqfR_aU2racww4ul2GeJTJJH1WP7SU1qHSC8kMMi0dKUdHIUV2BSVeHggSN)
 
 ### **Step 1. Open Watson Assistant**
 
-After creating a Watson Assistant service instance, the Watson Assistant dashboard will appear and allow you to manage it.
+After creating a Watson Assistant service instance, the Watson Assistant dashboard will appear and allow you to **manage** it.
 
-1. Click Launch Watson Assistant. If you're prompted to log in, provide your IBM Cloud credentials.
+1. Click **Launch Watson Assistant**. If you're prompted to log in, provide your IBM Cloud credentials.
 
-![](https://lh4.googleusercontent.com/V2cnR7LPsdxdsKX1sYV3-X37nDGBx1UW6z-z3LOR2pZJN_imo4IKxu4YKgplFOiDBLfdAuSfiNaBngu1b1fonlB6XtT58NKmw0F-b4-vGARCSmRCC1k_7aAzbbhtvXiFFWpDM0-Y)
+![](https://lh5.googleusercontent.com/TdOaPftw_zVtzQBXTge455XDJabcTT2k31CXRfwG7Xx0DguSKrdI47KPybDYHvF5Oq1ZLEKablpPc5f2Qgt2S_-X3eHphtR4Q2ajTJm6AADGkhCsswwQJZgSZ-MksQRa1YBfAhco)
 
 ### **Step 2. Create an assistant**
 
-1. Click Create assistant to add an assistant.
+1. Click **Create assistant** to add an assistant.
 
 ![](https://lh5.googleusercontent.com/GEN_2PrCwEr0pZP-NUL9Pce-cEZiSJ46n_u2SNh8955OrbXJjFE5D4uPn8Jrp4V9UK4qbJqnZZE3UL0D8Vdq_DYCqriAL2X8ezjr9iyebLK_FZrmx5aiMsY1Kn1IQCRKaECjrx1B)
 
-1. Click Create assistant.
+1. Click **Create assistant**.
 
 ![](https://lh3.googleusercontent.com/hyXA7Kd_RR2PFC-_rRQlcrxH1VdNYLCY9eTVtkzruNCxb95RgmNfoaDcZ8moziwSKCJGCpD28DaJyFbcJKQXbdKXiM2vO4jQ7uzRL38ApOxeg174_5f3plyEGcnuUn5-EN14yCu2)
 
@@ -50,8 +50,8 @@ You will then land on the Intents page.
 
 Here you can add training data, that was built by IBM Watson, as further skills by adding intents from the Contents Catalog. By giving the assistant access to the General Content Catalog it allows the Chat Bot to greet the visors and conclude conversations with them appropriately.
 
-1. Click the Content Catalog tab.
-2. Find General in the list, and then click Add to skill.
+1. Click the **Content Catalog** tab.
+2. Find **General** in the list, and then click **Add to skill**.
 
 ![](https://lh4.googleusercontent.com/NIR_ENHcUklUoq66x8G1UPYvx5TONSJbvJGksZ7gpJ4BGeyXHvKDo789mCSxuemUGMzIzSBu9w5zmmv5oFrprOoil4EoCDE2wkVkRhszXMQ6Rl82d1hM8PV-y-LwuSPoHbHGDXeL)
 
@@ -67,9 +67,9 @@ We'll create a simple dialog that handles the greeting and ending intents, each 
 
 Now let's add nodes between the Welcome node and the Anything else node that handle our intents.
 
-**1.** Click the More icon on the Welcome node, and then select Add node below.
+**1.** Click the More icon on the **Welcome** node, and then select **Add node below**.
 
-**2.** In the If assistant recognizes field of this node, start to type \#General\_Greetings. Then, select the **\#General\_Greetings** option.
+**2.** In the **If assistant recognizes** field of this node, start to type \#General\_Greetings. Then, select the **\#General\_Greetings** option.
 
 **3.** Add the response text, Good day to you!
 
@@ -77,7 +77,7 @@ Now let's add nodes between the Welcome node and the Anything else node that han
 
 ![](https://lh5.googleusercontent.com/eP5oIzSpg_Si18lBTmU_olFeVusb3F9-3Xv2hQyOMAe41I4C5jS2oTTFQEDXKTDerSq92NnPVUiJe28_up42_L6Oj9Eh4f-y4eIs70TNObCcbkYMHzO_Rd89LyjYrz5sV-jlz0B4)
 
-**5.** Click on the "More" icon and select Add node as shown below to create a peer node. In the peer node, specify **\#General\_Ending** in the "If bot recognizes" field, and enter a response such as "OK. See you later" or any other variations as required.
+**5.** Click the More icon on this node, and then select **Add node below** to create a peer node. In the peer node, specify \#General\_Ending in the **If assistant recognizes** field, and OK. See you later. as the response text.
 
 ![](https://lh5.googleusercontent.com/goHV-FhUVeaCvpcFBEbmpg7qAcoqaW9FBUTgShYcHIAtPR8yPgtWk825JSRHg-GsmEqCu4Lmu5k8vITp5v7ouTt75Rt4t9BBQl8KZiXl-LWahu7czPjyIYS0tK_J_8x16gsAfola)
 
@@ -85,13 +85,13 @@ Now let's add nodes between the Welcome node and the Anything else node that han
 
 ### **Step 6. Integrate with Acquire**
 
-Go to the Acquire’s Bot Section. Here you will find all the available third-party chat-bots. The option to install “IBM Watson Bot” will be listed in the Bot Store.
+Go to the Acquire’s Bot Section. Here you will find all the available third-party chat-bots. The option to install “**IBM Watson Bot**” will be listed in the Bot Store.
 
-![](https://lh3.googleusercontent.com/FTjDYSfnHQ2JQEvVgD0dR5rpcDeEMLQ0zggE2pm60Cdlj2sJ4F7YsVCnMeitnet1jSeMMnpocSex8zAtP8YB-ihOX0U7cStQA-cg3-VULlT7hnHKCpG_jFospC1_7poeIxE_WfWa)
+![](https://lh6.googleusercontent.com/9c3y16yaxLY4vWj1-ryBd2o6FIpfylxWnbfYIhSVmQNvDBl9VCFvw3j3uoz4ntmKqEFP_h4cXPg0xin1vxAbDI43RQJA-Jy925mW02iAR0cylibqrD70l4h7aKbJbvRM6WJj9llN)
 
 **1.** Click on the IBM Watson option from the Bot Store and a popup will be displayed. You will need a the following parameters \( “apikey” , “url” and “assistant\_id”\) to allow the chat widget to communicate with Acquire.
 
-![](https://lh6.googleusercontent.com/VPNsKibjkyh3DooP_xZRdEfDWC8-U4r8sD54FafpY3ZLK1QKO0TIv5BossA3q9JZtwt_7SFXNwGEhp4iN_8s5dnDceAPYnDOEKBxicPFGAccbQWGetPxXSai5vZlNhDFiWm4wnKG)
+![](https://lh3.googleusercontent.com/HacCSXd_LuT5h6ieAYmo7KYB1opuX9ZJJGYf-8ISNRTLB1fYNTctQL_LQOPrvCmML7XhH8SzDKeOKVQrdGrUME3chjq-dyCmFME7dGrsu-y_qSx_y5HZ0MRvty7d0_tDT4JXAUKH)
 
 **2.** To find your “**apikey**” and “**url**”, navigate to the Dashboard of [IBM Cloud](https://cloud.ibm.com/) and press on Services that is displayed. Click on the Watson service, It’ll navigate to IBM Watson Service Page. Copy your “**apikey**” and “**url**” and paste it to “**Acquire**” popup.
 
@@ -99,13 +99,13 @@ Go to the Acquire’s Bot Section. Here you will find all the available third-pa
 
 **3.** To find your “**assistant\_id**”, Click on Launch Watson assistant button. It will display a list of all available assistants.
 
-**4.** Select the "More" icon inside the assistant window and then click on settings.
+**4.** Select the "**More**" icon inside the assistant window and then click on settings.
 
-![](https://lh4.googleusercontent.com/bLYo1WX8z04O8YMduqYEmZQnNwh7fLV94EKMbBOmMLFxYaHmYp1vZgXSE6tDXT79FoqFDFsf2bvI9fzrJgapaBPbiayWzvnYTu7QithL50cHZrATu4tO9pnDIrowhHm-IfRzgV4J)
+![](https://lh5.googleusercontent.com/5ibi9AIZq7QhqUx6AvoRjlS7Kc25QIVBa-C4--OywkYaSL_WW8pWLSZ9fo3wVVh6_JvRKejqllPPQEMlU82IUjaypgNygGWZUuiPudgcJYQkee9aWXr9kf-runbTmDw-jiRjiPyG)
 
-**5.** Click on API Details tab, Copy “assistant\_id” and paste it to “Acquire” popup window as shown below.
+**5.** Click on API Details tab, Copy “**assistant\_id**” and paste it to “**Acquire**” popup window as shown below.
 
-![](https://lh3.googleusercontent.com/a1wrJYQ3P6RU2elc-9wbfL1fSYGZntIWPkWYldvXN9t8EPUDAtImRGIwkOogc0QGGrSHCBnXUrx6XvK4lENrvqAk1VDIOrl9O7-LSgRFpUSgfT9KntBiG2TPDFy4-I2POaIQH-Ww)
+![](https://lh3.googleusercontent.com/82LNglHnWGdeZfXqF3arab3YGnTTkqkXq1LABJx_Y3VIUgh3FsHuB2XP_z_MvXxazvpkjuh8i0i9WRbnOznepdgqHp4-CqNgPEgTHl6NC7Wn3RwNK0BF7UBIAxDXNEGmUEy7-_kO)
 
 **6.** The IBM Watson Chat Bot is now setup and ready to be deployed. Press the install button.
 
