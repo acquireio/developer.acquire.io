@@ -32,7 +32,7 @@ This allows you to manage your own customised responses as required.
 
 ![](https://lh5.googleusercontent.com/0r4ZPxzjmxfnz1c-55BFuLP3hz4oIENNqjKHiVZADlV0_kChzfhNASWeywDgplb_wyuDiLvSXqZ35Y3YCeP4iWRChKl_K6_y2xlt6w12aVL9884TA8vFeHw4SaWBfSSMCAwh8VmS)
 
- The following shows how the conversation flows and triggers the appropriate fulfilment response using the custom function **getPremiumAmount**.   
+The following shows how the conversation flows and triggers the appropriate fulfilment response using the custom function **getPremiumAmount**.   
 ****
 
 ![](https://lh4.googleusercontent.com/E4xGOpyCXoC5MEUQoHX6CDkmx6G42k3giO_iojIrhlpbQuP7t7UVPsVOOD-T6xNamEXCEt171Te1R8wTs0zQFJg1KxMFRwYN06_shUpKfcgFuw3rXFvSHYLpY-PrRXQvx6VKiqCT)
