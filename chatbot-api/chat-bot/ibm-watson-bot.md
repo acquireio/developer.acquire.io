@@ -1,4 +1,4 @@
-# index
+# IBM Watson Integration
 
 ## **Getting started tutorial**
 
