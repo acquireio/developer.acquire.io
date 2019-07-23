@@ -36,8 +36,13 @@ implementation ('io.socket:socket.io-client:1.0.0') {
 implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.+'
 implementation 'com.amitshekhar.android:android-networking:1.0.2'
 implementation 'com.acquireio:lite:1.+'
+implementation 'com.squareup.picasso:picasso:2.71828'
 }
 ```
+
+{% hint style="info" %}
+w.e.f. lite SDK version 1.1.6 , now you have to mention picasso dependency to your app gradle file.
+{% endhint %}
 
 **Step 2 :**
 
@@ -59,9 +64,7 @@ To handle chat events manually [click here](../acquire-apis.md#chat-apis).
 
 To customize our chat widget [click here](../custom-ui-widget.md#customize-chat-widget).
 
-To enable our chat widget call **`setShowDefaultFAB(true);`**
-
-before initialization of sdk.
+To enable our chat widget call**`setShowDefaultFAB(true);`**before initialization of sdk.
 
 To temporarily remove chat widget call**`removeFAB();`**whenever you need.
 

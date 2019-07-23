@@ -36,8 +36,15 @@ implementation ('io.socket:socket.io-client:1.0.0') {
 implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.+'
 implementation 'com.amitshekhar.android:android-networking:1.0.2'
 implementation 'com.acquireio:core:2.+'
+implementation 'com.squareup.picasso:picasso:2.71828'
 }
 ```
+
+{% hint style="info" %}
+w.e.f. core SDK version 2.2.5 , now you have to mention picasso dependency to your app gradle file.
+{% endhint %}
+
+
 
 **Step 2 :**
 
@@ -59,13 +66,11 @@ To handle chat events manually [click here](../acquire-apis.md#chat-apis).
 
 To customize our chat widget [click here](../custom-ui-widget.md#customize-chat-widget).
 
-To enable our chat widget call **`setShowDefaultFAB(true);`**
+To enable our chat widget call**`setShowDefaultFAB(true);`**before initialization of sdk.
 
-before initialization of sdk.
-
-{% hint style="info" %}
  To reduce apk size \(e.g. for release version\).
 
+{% hint style="info" %}
 Use **apk split feature of android** 
 
 \*\*\*\*[**https://developer.android.com/studio/build/configure-apk-splits**](https://developer.android.com/studio/build/configure-apk-splits)\*\*\*\*
