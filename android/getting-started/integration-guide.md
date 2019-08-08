@@ -80,5 +80,5 @@ for reference see below screenshot -&gt;
 
 To temporarily remove chat widget call**`removeFAB();`**whenever you need.
 
-![](../../.gitbook/assets/image%20%281%29.png)
+![](../../.gitbook/assets/image%20%282%29.png)
 

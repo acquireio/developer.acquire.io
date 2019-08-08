@@ -18,52 +18,49 @@ Your Access Token can give access to your private Acquire data and should be tre
 If you want to use auth token in API for makes a own dashboard then save anywhere secure and use server side.
 {% endhint %}
 
-
-
-![](../../.gitbook/assets/agent-list.PNG)
+![](../../.gitbook/assets/image%20%281%29.png)
 
 | Parameter | Value |
 | :--- | :--- |
 | **Path** | https://app.acquire.io/api/account/agents |
 | **Method** | POST |
 | **Authorization**  | **Bearer \[YOUR\_API\_AUTH\_TOKEN\]** |
-| **Content-type** | application/x-www-form-urlencoded |
+| **Content-type** | application/json |
 
-#### **Body \(**formdata**\)**
+#### **Body \(**row**\)**
 
-| Parameter | Value |
-| :--- | :--- |
-| **page** | 1 |
-| **limit** | 10 |
+```javascript
+{"page":1,"limit":25,"sort_by":{"key":"","order":""}}
+```
 
 #### **Response JSON**
 
 ```javascript
-
 {
     "success": true,
     "error": null,
     "data": {
         "rows": [
             {
-                "id": 5128,
-                "user_id": 3518,
-                "account_id": 4574,
-                "user_name": "Devid",
-                "user_email": "devidklok@acquire.io",
+                "id": 14755,
+                "user_id": 15022,
+                "account_id": 10111,
+                "user_name": "David",
+                "user_email": "davidklok@acquire.io",
                 "allowed_ip": "",
-                "user_role_id": 1,
+                "role": 1,
                 "role_name": "Administrator",
                 "role_status": "active",
                 "user_status": "active",
-                "secret_key": "[AGENT_SECRET_KEY]",
+                "secret_key": "[SECRET KEY]",
+                "user_type": "Zapier",
                 "department_id": null,
                 "department_name": null
             }
         ],
         "count": 1,
         "page": 1,
-        "limit": 10
+        "limit": 25
     }
 }
 
@@ -73,93 +70,85 @@ If you want to use auth token in API for makes a own dashboard then save anywher
 
 {% tabs %}
 {% tab title="PHP" %}
-```javascript
+```php
 $curl = curl_init();
 
-	curl_setopt_array($curl, array(
-		CURLOPT_URL => "https://app.acquire.io/account/agents",
-		CURLOPT_RETURNTRANSFER => true,
-		CURLOPT_ENCODING => "",
-		CURLOPT_MAXREDIRS => 10,
-		CURLOPT_TIMEOUT => 30,
-		CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-		CURLOPT_CUSTOMREQUEST => "POST",
-		CURLOPT_POSTFIELDS => "------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data;
-			name=\"page\"\r\n\r\n1\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data;
-			name=\"limit\"\r\n\r\n10\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW--",
-		CURLOPT_HTTPHEADER => array(
-		"Content-Type: application/x-www-form-urlencoded",
-		"content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW"
-		),
-	));
+curl_setopt_array($curl, array(
+  CURLOPT_URL => "https://app.acquire.io/api/account/agents",
+  CURLOPT_RETURNTRANSFER => true,
+  CURLOPT_ENCODING => "",
+  CURLOPT_MAXREDIRS => 10,
+  CURLOPT_TIMEOUT => 30,
+  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+  CURLOPT_CUSTOMREQUEST => "POST",
+  CURLOPT_POSTFIELDS => "{"page":"","limit":"","sort_by":{"key":"","order":""}}",
+  CURLOPT_HTTPHEADER => array(
+    "Authorization: Bearer [TOKEN]",
+    "Content-Type: application/json",
+  ),
+));
 
-	$response = curl_exec($curl);
-	$err = curl_error($curl);
+$response = curl_exec($curl);
+$err = curl_error($curl);
 
-	curl_close($curl);
+curl_close($curl);
 
-	if ($err) {
-		echo "cURL Error #:" . $err;
-	} else {
-		echo $response;
-	}
+if ($err) {
+  echo "cURL Error #:" . $err;
+} else {
+  echo $response;
+}
 ```
 {% endtab %}
 
 {% tab title="Ruby" %}
 ```javascript
- require 'uri'
-	require 'net/http'
+require 'uri'
+require 'net/http'
 
-	url = URI("https://app.acquire.io/account/agents")
+url = URI("https://app.acquire.io/api/account/agents")
 
-	http = Net::HTTP.new(url.host, url.port)
+http = Net::HTTP.new(url.host, url.port)
 
-	request = Net::HTTP::Post.new(url)
-	request["Content-Type"] = 'application/x-www-form-urlencoded'
-	request.body = "------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data;
-					name=\"page\"\r\n\r\n1\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data;
-					name=\"limit\"\r\n\r\n10\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW--"
+request = Net::HTTP::Post.new(url)
+request["Authorization"] = 'Bearer [TOKEN]]'
+request["Content-Type"] = 'application/json'
+request.body = "{\"page\":\"\",\"limit\":\"\",\"sort_by\":{\"key\":\"\",\"order\":\"\"}}"
 
-	response = http.request(request)
-	puts response.read_body
+response = http.request(request)
+puts response.read_body
 
 ```
 {% endtab %}
 
 {% tab title="cURL" %}
 ```javascript
-curl --request POST \
-		--url 'https://app.acquire.io/account/agents' \
-		--header 'Content-Type: application/x-www-form-urlencoded' \
-		--header 'content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW' \
-		--form page=1 \
-		--form limit=10
+curl -X POST \
+  https://app.acquire.io/api/account/agents \
+  -H 'Authorization: Bearer [TOKEN]' \
+  -H 'Content-Type: application/json' \
+  -d '{"page":"","limit":"","sort_by":{"key":"","order":""}}'
 ```
 {% endtab %}
 
 {% tab title="jQuery" %}
 ```javascript
- var form = new FormData();
-		form.append("page", "1");
-		form.append("limit", "10");
+ var settings = {
+  "async": true,
+  "crossDomain": true,
+  "url": "https://app.acquire.io/api/account/agents",
+  "method": "POST",
+  "headers": {
+    "Authorization": "Bearer [TOKEN]",
+    "Content-Type": "application/json",
+  },
+  "processData": false,
+  "data": "{\"page\":\"\",\"limit\":\"\",\"sort_by\":{\"key\":\"\",\"order\":\"\"}}"
+}
 
-	var settings = {
-		"async": true,
-		"crossDomain": true,
-		"url": "https://app.acquire.io/account/agents",
-		"method": "POST",
-		"headers": {
-		"Content-Type": "application/x-www-form-urlencoded"
-	},
-		"processData": false,
-		"contentType": false,
-		"mimeType": "multipart/form-data",
-		"data": form
-	}
-	$.ajax(settings).done(function (response) {
-	console.log(response);
-	});
+$.ajax(settings).done(function (response) {
+  console.log(response);
+});
 ```
 {% endtab %}
 
@@ -167,56 +156,38 @@ curl --request POST \
 ```javascript
 import requests
 
-	url = "https://app.acquire.io/account/agents"
+url = "https://app.acquire.io/api/account/agents"
 
-	payload = "------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data;
-			name=\"page\"\r\n\r\n1\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data;
-			name=\"limit\"\r\n\r\n10\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW--"
-	headers = {'Content-Type': 'application/x-www-form-urlencoded'}
+payload = "{\"page\":\"\",\"limit\":\"\",\"sort_by\":{\"key\":\"\",\"order\":\"\"}}"
+headers = {
+    'Authorization': "Bearer [TOKEN]]",
+    'Content-Type': "application/json",
+    }
 
-	response = requests.request("POST", url, data=payload, headers=headers)
+response = requests.request("POST", url, data=payload, headers=headers)
 
-	print(response.text)
+print(response.text)
 ```
 {% endtab %}
 
 {% tab title="Node" %}
 ```javascript
-var http = require("http");
+var request = require("request");
 
-	var options = {
-		"method": "POST",
-		"hostname": [
-		    "app",
-			"acquire",
-			"io"
-	],
-	"path": [
-		"account",
-		"agents"
-	],
-	"headers": {
-		"Content-Type": "application/x-www-form-urlencoded"
-		}
-	};
+var options = { method: 'POST',
+  url: 'https://app.acquire.io/api/account/agents',
+  headers: 
+   {'Content-Type': 'application/json',
+     Authorization: 'Bearer [TOKEN]' },
+  body: { page: '', limit: '', sort_by: { key: '', order: '' } },
+  json: true };
 
-	var req = http.request(options, function (res) {
-	var chunks = [];
+request(options, function (error, response, body) {
+  if (error) throw new Error(error);
 
-	res.on("data", function (chunk) {
-		chunks.push(chunk);
-	});
+  console.log(body);
+});
 
-	res.on("end", function () {
-		var body = Buffer.concat(chunks);
-		console.log(body.toString());
-		});
-	});
-
-	req.write("------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data;
-		name=\"page\"\r\n\r\n1\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data;
-		name=\"limit\"\r\n\r\n10\r\n------WebKitFormBoundary7MA4YWxkTrZu0gW--");
-	req.end();
 ```
 {% endtab %}
 {% endtabs %}
