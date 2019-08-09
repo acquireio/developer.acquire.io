@@ -96,6 +96,30 @@ Set z-index value for widget element 999.
 </script>
 ```
 
+### Prevent Mobile Scroll
+
+Prevent scroll in mobile devices when widget maximized. default value is true.
+
+**Sample Code**
+
+```javascript
+<script>
+    window.acquire = window.acquire || [];
+     acquire.push(function(app){
+         var setUIConfogFn = function(){
+                    if(app) {
+                        app.ui.setMobileTopBodyScrollBlock(false);
+                    }
+                }
+         app.on('ui_reloaded', (socket, cr, sr) => {
+                    setUIConfogFn();
+                });
+
+        setUIConfogFn();
+     });
+</script>
+```
+
 ### Check Widget Status
 
 Widget status is maximize if true.
