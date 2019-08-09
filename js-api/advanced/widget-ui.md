@@ -98,7 +98,7 @@ Set z-index value for widget element 999.
 
 ### Prevent Mobile Scroll
 
-Prevent scroll in mobile devices when widget maximized. default value is true.
+Prevent scroll on mobile devices when widget maximized. default value is true.
 
 **Sample Code**
 
