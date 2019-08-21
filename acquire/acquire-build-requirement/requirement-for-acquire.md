@@ -8,6 +8,7 @@ Web browser support for the Acquire app:
 * Firefox \(Latest version\*\)
 * Safari 10 and later
 * Internet Explorer 11.0+
+* Microsoft Edge
 
 Web browser support for the Acquire Messenger:
 
@@ -15,6 +16,7 @@ Web browser support for the Acquire Messenger:
 * Firefox \(Latest version\*\)
 * Safari 8 and later
 * Internet Explorer 11.0+
+* Microsoft Edge
 
 {% hint style="info" %}
 Important: We don't support web sockets on older versions of Internet Explorer.
