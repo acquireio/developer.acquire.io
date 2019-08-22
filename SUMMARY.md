@@ -115,9 +115,9 @@
   * [Dialog Flow Chat-Bot](chatbot-api/chat-bot/dialog-flow-chat-bot.md)
   * [Dialog Flow Fulfillment & Custom Response](chatbot-api/chat-bot/dialog-flow-fulfillment.md)
   * [IBM Watson Integration](chatbot-api/chat-bot/ibm-watson-bot.md)
+  * [Azure's QnA Maker](chatbot-api/chat-bot/qna-maker.md)
   * [Webhook Calling & User Verification](chatbot-api/chat-bot/webhook-calling-and-user-verification.md)
   * [Webhook For Reset Password](chatbot-api/chat-bot/webhook-for-reset-password.md)
-  * [QnA Maker](chatbot-api/chat-bot/qna-maker.md)
 
 ## Knowledge Base APIs
 

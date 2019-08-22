@@ -1,4 +1,4 @@
-# QnA Maker
+# Azure's QnA Maker
 
 **Introduction**  
 
