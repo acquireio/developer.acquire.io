@@ -8,9 +8,9 @@
 
 {% page-ref page="ibm-watson-bot.md" %}
 
+{% page-ref page="azure-qna-maker.md" %}
+
 {% page-ref page="webhook-calling-and-user-verification.md" %}
 
 {% page-ref page="webhook-for-reset-password.md" %}
-
-{% page-ref page="azure-qna-maker.md" %}
 
