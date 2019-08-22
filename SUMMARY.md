@@ -117,6 +117,7 @@
   * [IBM Watson Integration](chatbot-api/chat-bot/ibm-watson-bot.md)
   * [Webhook Calling & User Verification](chatbot-api/chat-bot/webhook-calling-and-user-verification.md)
   * [Webhook For Reset Password](chatbot-api/chat-bot/webhook-for-reset-password.md)
+  * [QnA Maker](chatbot-api/chat-bot/qna-maker.md)
 
 ## Knowledge Base APIs
 
