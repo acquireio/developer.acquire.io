@@ -12,5 +12,5 @@
 
 {% page-ref page="webhook-for-reset-password.md" %}
 
-{% page-ref page="qna-maker.md" %}
+{% page-ref page="azure-qna-maker.md" %}
 
