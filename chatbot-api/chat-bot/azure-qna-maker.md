@@ -102,17 +102,17 @@ Sign into [https://portal.azure.com/](https://portal.azure.com/) &gt; **Select A
 
 14. Open [Acquire Bot Store](https://app.acquire.io/chatbot/store) , and click on “**Azure QnA Maker**”. 
 
-![](https://lh5.googleusercontent.com/Bu7gSVFeAKays7PFDok29iPtjq9lqKIKckaexDYl-w_Xhq7guKUHaEYFjIeb9fKTkrR1YbZT-TNyMDJcA22QbJSNcSKvAAzNzsuXa2-fthdXgyBW2afp4LXUCxtvb0k5n0nnpOU0)
+![](../../.gitbook/assets/dashboard1.png)
 
 15. Complete the following required details “**app\_url**”, “**endpoint\_key**”, “**knowledge\_base\_id**” that you noted earlier \(from the Postman tab\) and click “**Install It**”.
 
-![](https://lh4.googleusercontent.com/_MGJYXxLJiJyjVvRth-PVNv0uX6igvicFYKMXjdSA59G_whU0Aco1TAug60FwxJoAKkMFz-JDGihkRjLno3KyweTIIt5W3GmCnrl21MR1axOiH7VP5HKPN2ctxqhnRV1EW8YADOE)
+![](../../.gitbook/assets/dashboard2.png)
 
 16. Go to “**Triggers**” and apply “**Azure QnA Maker**” Chatbot.
 
-![](https://lh4.googleusercontent.com/sehr0dvA9nx2XK_-09zL3d3RJSWOFIcPjFf5cwCZVYuJm3RH4vcy_GXUgZA4yMOW_lDnG4jszCtbbJrWHowhFMghiFZGYbyFCT6x8qgxa4Hyygo9FjRBfRSdPwEMb-lRYNr_H651)
+![](../../.gitbook/assets/dashboard3.png)
 
 17. Finally, you have successfully integrated the "**Acquire Chat Widget**" using the question-answer pairs you added to the "**QnA Maker"** service.
 
-![](https://lh4.googleusercontent.com/bBd4mtJsCFkCQ9uP6LUchAq43D40mIE5Y3HecBuK5zuJTx7ENUbN14OaaSUS0x8_8DiM3BnpgyScmr6qY2EKbnkkHfSRCxBmrsYrWEMpu32A7p1bgKVy5_WjxoaEGsaZB9v7kKDN)
+![](../../.gitbook/assets/dashboard4.png)
 
