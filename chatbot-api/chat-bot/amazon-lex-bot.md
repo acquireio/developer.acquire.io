@@ -48,11 +48,11 @@ Follow the simple steps given below to install the “Acquire Chat Widget” int
 
 **9.** Amazon Lex also provides some more customizable options as follows:
 
-**\(a\) Fulfillment :** Always select **“Return parameters to client”** in order to connect your Amazon Lex Bot with **“Acquire Chat Widget”**.
+**\(a\). Fulfillment :** Always select **“Return parameters to client”** in order to connect your Amazon Lex Bot with **“Acquire Chat Widget”**.
 
 ![](https://lh6.googleusercontent.com/Yz89vYS5lBLN4VSQyJmV9PNkyhme0zIneAGM-QkKvFqMEnNUuV29_pbmwOBWwd5MVaYUKorCstwyHIuyagK-27OW38ifi7PHfdbRQ3MlFiQMUVoX4-KGN6DrNUBjvViQtPrfMp-U)
 
-**\(b\) Slots :** You can also prompt questions to the users and store user responses in the form of slot values. You can utilize **“Built-in slot types”** to store user inputs or you can create your own **“Custom slot types”** from the left sidebar of your Editor.
+**\(b\). Slots :** You can also prompt questions to the users and store user responses in the form of slot values. You can utilize **“Built-in slot types”** to store user inputs or you can create your own **“Custom slot types”** from the left sidebar of your Editor.
 
 ![](https://lh3.googleusercontent.com/YEeufDlU8ztcMZWOhZj9qHHqfnPUeuyT-OprAStMrgBK8iDJJKPzrrx8W3kI4LAa95RmRuNah0-TxPeai7pJ_hzsuyyu7mQTtjTYflwHjww-ErCOxl7FRyZ_N8F_-ialY24esjLN)
 
@@ -90,7 +90,7 @@ In order to get your **Secret Key** and **Access key**, you need to follow the p
 
 ![](https://lh5.googleusercontent.com/WS7ftn6nyMxkpfOrwPmE0a8h07A0nR_RmjwjZp0YK2PPBQ8C_TYbNmBQHlIEOSmdhpdhGmBUHGdaaSBnCIs6Zm1SRhbxY7NqWx7JaFW20GDnGpTlpIwa5c4zDSqG-MBCSp0CPQAj)
 
-**\(c\).** Select **“Get Started with IAM users”.**
+**\(c\).** Select **“Get Started with IAM users”**.
 
 ![](https://lh4.googleusercontent.com/6viX7hOcuyoLK9E45fibd-psDXz3VTrdU_QkVzUMn2FdG9leN3vVaMz8CtTC7ywBRpgm0Gl8OjfbJ8eXNVfH8OLW70430Du6Whzy59vd77HG_HDd1xcSchNRVhaZpjmYlnCFXr3f)
 
