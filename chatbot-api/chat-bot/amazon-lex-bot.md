@@ -127,24 +127,22 @@ Here, you get your **“Access key ID”** and **“Secret access key”**. You 
 
 So, let us install the Amazon Lex Bot from the Bot Store.
 
-![](https://lh6.googleusercontent.com/1Wp4S5SiP9ODkz3A09E_ldp-kpHPqe62KrCCAPXNHhE7zx9qapDAa0XTLOlvSFbJArdEC-kIJBp9rH78P57Hr3wrArsK-L437AB1GgpanKZVRzS9M5dC8GI1pTUztf48Uhk05PcI)
+![](../../.gitbook/assets/live1.png)
 
 | **access\_key** | **Access key ID \(Step 12\)** |
 | :--- | :--- |
-| **secret\_key** | **Secret access key \(Step 12\)** |
-| **aws\_region** | **Step 13** |
-| **bot\_name** | **Bot name \(Step 11\)** |
-| **bot\_alias** | **Alias \(Step 11\)** |
+| secret\_key | Secret access key \(Step 12\) |
+| aws\_region | Step 13 |
+| bot\_name | Bot name \(Step 11\) |
+| bot\_alias | Alias \(Step 11\) |
 
-![](https://lh5.googleusercontent.com/E_6xWeyLz8sEfEeufAGGPbXFAN2_3T8wjQ0me3m-L-wW2e73DCrfQt2xdgCZUdNU5QCVg3sWW2Azoz9qElaPkVMMKvp2wxfK4gTC-R4PhkIFGePmU280VzMPTc-9BHW6A9OhLxzS)
+![](../../.gitbook/assets/live2.png)
 
 **15.** Go to **“Triggers”** and apply **“Amazon Lex Bot”** chatbot.
 
 ![](https://lh6.googleusercontent.com/VFrijx5e7fpNveJgbRQiRh4jcROeTTzhWh9l-01fHKhtt0KDas0_HGuYbXPuBp87BhgzKRQmVSWzFUReziWUFsppdGTY25Q-VGM6IfpdZHZJSFwj8ZmLuV7HFdkz2ZhNKzEZpNnM)
 
-**17.** Finally, You can have a conversation with Acquire Chat Widget using the intents you have created with Amazon Lex.
+**16.** Finally, You can have a conversation with Acquire Chat Widget using the intents you have created with Amazon Lex.
 
-![](https://lh4.googleusercontent.com/PZKo740yNA2wsYvLlWkLeoVkmOAkfMwab1oukwuKPZmuAw4fZSlitZZOw_OriUP6289PdPuC9Jmwyl7O-TERg6QXrkqWCwJEBGLzaWgza7R3ycqv7kubvuA9e3Yh_OYQbhRFz-vc)
-
-
+![](../../.gitbook/assets/live3.png)
 
