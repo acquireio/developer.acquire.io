@@ -18,18 +18,16 @@ To execute code after acquire app loads, push your code to acquire array using *
       // after acquire widget loads completely.
    });
 </script>
-
-<script async src="https://s.acquire.io/.../init.js"></script>
 ```
 
 ### Methods on acquireIO Object
 
 |  Method |  Description |
 | :--- | :--- |
-| `max()` |  Maximizes Chat Widget |
+| `max()` | Maximizes Chat Widget |
 | `min()` | Minimizes Chat Widget |
-|  `startChat()` | Starts a new chat |
-| `myself()` |  Return current User Object |
+| `startChat()` | Starts a new chat |
+| `myself()` | Return current User Object |
 | `availableAgents()` | Return list of available agents as Array |
 
 ```javascript
