@@ -234,21 +234,25 @@ In Basic Card, you can preview item like an article to your customer with banner
 
 ```javascript
 {
-  "id": "basic_card",
-  "design": [
-    {
-      "title": "<Title Here>",
-      "subtitle": "<Subtitle Here>",
-      "desc": "<Description Here>",
-      "imgUrl": "<Image URL Here>",
-      "quickReplies": [
+  "success": true,
+  "type": "cards",
+  "data": {
+    "id": "basic_card",
+    "design": [
         {
-          "text": "<Button Title Here>",
-          "value": "<Redirect URL Here>"
+        "title": "<Title Here>",
+        "subtitle": "<Subtitle Here>",
+        "desc": "<Description Here>",
+        "imgUrl": "<Image URL Here>",
+        "quickReplies": [
+          {
+            "text": "<Button Title Here>",
+            "value": "<Redirect URL Here>"
+            }
+          ]
         }
-      ]
-    }
-  ]
+     ]
+  }
 }
 ```
 
