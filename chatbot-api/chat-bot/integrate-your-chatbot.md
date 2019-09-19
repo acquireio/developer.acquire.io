@@ -209,7 +209,50 @@ Here we can give choices to our visitor. in this section, we pass a bunch of qui
 }
 ```
 
-### Example 6. Carousel Card:
+### Example 6. **Basic Card**:
+
+In Basic Card, you can preview item like an article to your customer with banner, title, subtitle, description & button to redirect URL. By this interactive way, you can share many basic cards to visitors so they can redirect to particular that link.
+
+**`POST /bot_interaction`**
+
+#### **Headers:**
+
+| Parameter | Type |
+| :--- | :--- |
+| **`Content-type`** | application/x-www-form-urlencoded |
+
+#### **body**
+
+| Parameter | Description |
+| :--- | :--- |
+| **`account_id`** | Account ID on which Bot is running. \(Internally managed\) |
+| **`chat_id`** | Chat ID/Session ID \(Internally managed\) |
+| **`type`** | message |
+| **`message`** | show ****basic cards |
+
+#### **API Response will be:**
+
+```javascript
+{
+  "id": "basic_card",
+  "design": [
+    {
+      "title": "<Title Here>",
+      "subtitle": "<Subtitle Here>",
+      "desc": "<Description Here>",
+      "imgUrl": "<Image URL Here>",
+      "quickReplies": [
+        {
+          "text": "<Button Title Here>",
+          "value": "<Redirect URL Here>"
+        }
+      ]
+    }
+  ]
+}
+```
+
+### Example 7. Carousel Card:
 
 In this section, you can give choices to your customer as quick-replies but in a visual format with Title, subtitle, lists of items with the picture. so the customer sees those visuals and it helps in his/her selection and Bot will get this as a reply.
 
