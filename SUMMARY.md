@@ -15,6 +15,7 @@
   * [Installation](js-api/js-live-chat-api/installation.md)
   * [Visitor](js-api/js-live-chat-api/visitor.md)
   * [Thread](js-api/js-live-chat-api/thread.md)
+  * [Conversation](js-api/js-live-chat-api/conversation.md)
   * [User Verification](js-api/js-live-chat-api/user-verification.md)
 * [Quick Link Support](js-api/quick-link-support/README.md)
   * [One Click Button](js-api/quick-link-support/one-click-button.md)
