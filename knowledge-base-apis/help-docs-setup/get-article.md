@@ -15,7 +15,7 @@ Knowledge Base Get Article API in you get a single article details using article
 | Parameter | Type |
 | :--- | :--- |
 | **`account_id`** |  \[YOUR\_ACCOUNT\_ID\] |
-| **`article_id`** |  \[ARTICLE\_ID\] |
+| **`article_id / url_slug`** |  \[ARTICLE\_ID\] / \[ARTICLE\_SLUG\] |
 
 ####  **Response JSON Format**
 
