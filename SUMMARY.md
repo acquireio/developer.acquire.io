@@ -129,8 +129,8 @@
   * [Get Side List](knowledge-base-apis/help-docs-setup/get-side-list.md)
   * [Get Article](knowledge-base-apis/help-docs-setup/get-article.md)
   * [Get Recent Article](knowledge-base-apis/help-docs-setup/get-recent-article.md)
+  * [Get Categorized Articles](knowledge-base-apis/help-docs-setup/get-categorized-articles.md)
   * [Get Suggestion](knowledge-base-apis/help-docs-setup/get-suggestion.md)
-* [Get Categorized Articles](knowledge-base-apis/get-categorized-articles.md)
 
 ## Errors
 

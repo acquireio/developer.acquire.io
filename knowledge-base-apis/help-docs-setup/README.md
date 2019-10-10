@@ -10,5 +10,7 @@
 
 {% page-ref page="get-recent-article.md" %}
 
+{% page-ref page="get-categorized-articles.md" %}
+
 {% page-ref page="get-suggestion.md" %}
 
