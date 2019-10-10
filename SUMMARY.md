@@ -130,6 +130,7 @@
   * [Get Article](knowledge-base-apis/help-docs-setup/get-article.md)
   * [Get Recent Article](knowledge-base-apis/help-docs-setup/get-recent-article.md)
   * [Get Suggestion](knowledge-base-apis/help-docs-setup/get-suggestion.md)
+* [Get Categorized Articles](knowledge-base-apis/get-categorized-articles.md)
 
 ## Errors
 
