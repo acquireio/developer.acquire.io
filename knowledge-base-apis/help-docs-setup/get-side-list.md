@@ -25,24 +25,23 @@ Knowledge Base Side List API in all Category and Category under article data in 
     "data": {
         "Getting started": [
             {
-                "article_id": [ARTICLE_ID],
+                "article_id": 961093,
+                "chatbot_category_id": 19,
+                "type": "live",
+                "publish_on": "knowledge_base",
+                "slug": "admin-overview",
+                "article_title": "Admin Tabs",
+                "about": ""
+            },
+            {
+                "article_id": 2070,
                 "chatbot_category_id": 19,
                 "type": "live",
                 "publish_on": "knowledge_base",
                 "slug": "how-to-sign-up",
-                "article_title": "How to sign up"
+                "article_title": "Create your Acquire Account",
+                "about": "Sign up and get started with Acquire in a few clicks."
             },
-        ],
-        "Configure Acquire": [],
-        "How to setup campaign": [
-            {
-                "article_id": [ARTICLE_ID],
-                "chatbot_category_id": 24,
-                "type": "live",
-                "publish_on": "knowledge_base",
-                "slug": "email-campaign",
-                "article_title": "Email Campaign"
-            }
         ],
     }
 }
