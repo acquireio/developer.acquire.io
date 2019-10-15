@@ -108,6 +108,9 @@
 * [Trigger](rest-apis/trigger/README.md)
   * [Triggers List](rest-apis/trigger/triggers-list.md)
   * [Triggers Detail](rest-apis/trigger/triggers-detail.md)
+* [Operating Hours](rest-apis/operating-hours/README.md)
+  * [Save Operating Hours](rest-apis/operating-hours/save-operating-hours.md)
+  * [Get Operating Hours](rest-apis/operating-hours/get-operating-hours.md)
 
 ## Chatbot API
 
