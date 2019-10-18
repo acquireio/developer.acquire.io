@@ -4,6 +4,8 @@
 
 {% page-ref page="dialog-flow-chat-bot.md" %}
 
+{% page-ref page="dialog-flow-v2-chat-bot.md" %}
+
 {% page-ref page="dialog-flow-fulfillment.md" %}
 
 {% page-ref page="ibm-watson-bot.md" %}
