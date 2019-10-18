@@ -116,7 +116,8 @@
 
 * [Chat Bot](chatbot-api/chat-bot/README.md)
   * [Integrate Your Chatbot](chatbot-api/chat-bot/integrate-your-chatbot.md)
-  * [Dialog Flow Chat-Bot](chatbot-api/chat-bot/dialog-flow-chat-bot.md)
+  * [Dialog Flow V1 Chat-Bot](chatbot-api/chat-bot/dialog-flow-chat-bot.md)
+  * [Dialog Flow V2 Chat-Bot](chatbot-api/chat-bot/dialog-flow-v2-chat-bot.md)
   * [Dialog Flow Fulfillment & Custom Response](chatbot-api/chat-bot/dialog-flow-fulfillment.md)
   * [IBM Watson Integration](chatbot-api/chat-bot/ibm-watson-bot.md)
   * [Amazon Lex Bot](chatbot-api/chat-bot/amazon-lex-bot.md)
