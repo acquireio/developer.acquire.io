@@ -8,7 +8,7 @@ Acquire live chat dashboard gives your team leader an overview of agent activity
 
 | Parameter | Value |
 | :--- | :--- |
-| **Path** | https://app.acquire.io/api/analytics/general/chat-statistics |
+| **Path** | https://app.acquire.io/api/analytics/general/co-browse |
 | **Method** | POST |
 | **Authorization** | Bearer \[YOUR\_API\_AUTH\_TOKEN\] |
 | **Content-type** | application/x-www-form-urlencoded |
