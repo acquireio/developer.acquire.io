@@ -8,3 +8,5 @@
 
 {% page-ref page="chat-tag.md" %}
 
+{% page-ref page="co-browsing.md" %}
+

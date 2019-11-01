@@ -8,11 +8,11 @@ Chat Statistics api parameter in Select your timezone, date start, date end, and
 
 ![](../../.gitbook/assets/chat-statistics.PNG)
 
-**Average Chat tim**
+**Average Chat time**
 
 ![](../../.gitbook/assets/average-chat-time.PNG)
 
-**Customer Satisfactio**
+**Customer Satisfaction**
 
 ![](../../.gitbook/assets/customer-satisfaction.PNG)
 

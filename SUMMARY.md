@@ -100,6 +100,7 @@
   * [Team Analytics](rest-apis/analytics/team-analytics.md)
   * [Conversion Rate](rest-apis/analytics/conversion-rate.md)
   * [Chat Tag](rest-apis/analytics/chat-tag.md)
+  * [Co browsing](rest-apis/analytics/co-browsing.md)
 * [Agent](rest-apis/agent/README.md)
   * [Agents List](rest-apis/agent/agents-list.md)
   * [Agent add](rest-apis/agent/agent-add.md)

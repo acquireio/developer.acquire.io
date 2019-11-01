@@ -18,7 +18,7 @@ Your Access Token can give access to your private Acquire data and should be tre
 If you want to use auth token in API for makes a own dashboard then save anywhere secure and use server side.
 {% endhint %}
 
-![](../../.gitbook/assets/image%20%281%29.png)
+![](../../.gitbook/assets/image%20%282%29.png)
 
 | Parameter | Value |
 | :--- | :--- |
