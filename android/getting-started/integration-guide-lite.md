@@ -41,6 +41,10 @@ implementation 'com.squareup.picasso:picasso:2.71828'
 ```
 
 {% hint style="info" %}
+To get the latest version at every build, use **1.+** instead of a specific number.
+{% endhint %}
+
+{% hint style="info" %}
 w.e.f. lite SDK version 1.1.6 , now you have to mention picasso dependency to your app gradle file.
 {% endhint %}
 
