@@ -211,6 +211,7 @@ NSArray *custom_fields = @[
 {% endtab %}
 
 {% tab title="Swift" %}
+{% code title="Swift" %}
 ```javascript
 let custom_fields = [
             ["n":"zipcode", "v":"54321"],
@@ -220,6 +221,7 @@ let custom_fields = [
         
 AcquireIO.support().setVisitorExtraField(custom_fields)
 ```
+{% endcode %}
 {% endtab %}
 {% endtabs %}
 
