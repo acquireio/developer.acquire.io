@@ -10,7 +10,7 @@ Welcome to the Acquire Documentation, where you'll find guides and community sup
 
 ## Requirement
 
-Acquire is built and tested to work in the various web browsers. It may work in other browsers but these are not officially supported. We’ll explain the system requirements of Acquire covering requirements on the client side, agent side \(Control Panel and Agent Console\), and [requirements](acquire/acquire-build-requirement/requirement-for-acquire.md) for Audio & Video Chat.
+Acquire  is built and tested to work in the various web browsers. It may work in other browsers but these are not officially supported. We’ll explain the system requirements of Acquire covering requirements on the client side, agent side \(Control Panel and Agent Console\), and [requirements](acquire/acquire-build-requirement/requirement-for-acquire.md) for Audio & Video Chat.
 
 ## JS API
 
