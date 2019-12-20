@@ -41,7 +41,7 @@ window.acquire.push(function(app){
 
 **`mirror`**: this event co-browsing request accept after just calling.
 
-![cobrowse-request and mirror event](../../.gitbook/assets/mirror-event-1.png)
+![Cobrowse request and mirror event](../../.gitbook/assets/mirror-event-1.png)
 
 ####  **Sample Code**
 
@@ -58,7 +58,7 @@ window.acquire.push(function(app){
 
  **`mirror-dispose`**: this event new page open and reload after calling.
 
-![mirror-dispose event](../../.gitbook/assets/mirror-despose-event-1.png)
+![Mirror dispose event](../../.gitbook/assets/mirror-despose-event-1.png)
 
 ####  **Sample Code**
 
@@ -76,7 +76,7 @@ window.acquire.push(function(app){
 
  **`dispose`**: this event co-browsing close after calling.
 
-![dispose event](../../.gitbook/assets/despose-event-1.png)
+![Dispose event](../../.gitbook/assets/despose-event-1.png)
 
 ####  **Sample Code**
 

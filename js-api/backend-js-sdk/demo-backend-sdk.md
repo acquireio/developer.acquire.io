@@ -6,7 +6,7 @@ If you want to load acquire full backend on any page or inside your backend then
 
 If you want to create your backend sdk then first login acquire dashboad \([app.acquire.io](https://app.acquire.io/)\). When you logged into [app.acquire.io](https://app.acquire.io/) you can see your all visitor in backend SDK.
 
-![](../../.gitbook/assets/acquire-login-dashboard.PNG)
+![Acquire Login](../../.gitbook/assets/image%20%285%29.png)
 
 ### Step 2. Create HTML Page <a id="step-2--create-html-page"></a>
 
@@ -16,9 +16,9 @@ After login dashboad you create a HTML page and include sdk script `<script src=
 
 ### Step 3. Get ACCOUNT\_UID And Agent Details <a id="step-3--get-account_uid-and-agent-details"></a>
 
-Acquire Dashboard in top right corner in click on profile name and  you  see ACCOUNT\_UID use this and Dashboad in open Agent menu you see here agent all datails.
+Acquire Dashboard in top right corner in click on profile name and  you  see ACCOUNT\_UID use this and Dashboard in open Agent menu you see here agent all details.
 
-![](../../.gitbook/assets/get-agent-email-id%20%281%29.PNG)
+![Agents List](../../.gitbook/assets/get-agent-email-id%20%281%29.PNG)
 
 ### How to get Agents details using API
 
@@ -38,7 +38,7 @@ Acquire agent API setup process steps:
 
 After all setup load HTML page in browser and see all live agents details. You can use this page as a iframe.
 
-![](../../.gitbook/assets/backend-show-agent.PNG)
+![Visitors List](../../.gitbook/assets/backend-show-agent.PNG)
 
 
 

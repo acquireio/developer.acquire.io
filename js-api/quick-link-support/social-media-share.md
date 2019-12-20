@@ -30,7 +30,7 @@ Replace the **`[AGENT_ID]`** with one of above agent's id and **`yourdomain.com`
 
 First login Acquire dashboard and open **`Agents`** and copy specific **`agent ID`**.
 
-![Get Agent\_ID](../../.gitbook/assets/get-agent-id-1.png)
+![Get Agent Id](../../.gitbook/assets/get-agent-id-1.png)
 
 ### Social Share Code \( for Text Chat \)
 

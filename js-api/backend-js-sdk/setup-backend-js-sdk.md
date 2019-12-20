@@ -29,7 +29,7 @@ make sure you've maximun possible width and height on iframe otherwise things ma
 
 First login acquire dashboard \( [app.acquire.io](https://app.acquire.io/)\) and open Agents. You see all agents details like : **`ACCOUND_UID`**, **`AGENT_EMAIL`**, **`AGENT_API_KEY`**
 
-![Get All Parameters](../../.gitbook/assets/get-agent-email-id.PNG)
+![Agents List](../../.gitbook/assets/get-agent-email-id.PNG)
 
 #### How to get Agents details using API
 
