@@ -137,9 +137,25 @@ After Acquire widget use this code and pass your 'CUSTOM\_ID'. This script in pa
 Custom Co Browse code work only run-time. Below  create a demo code view and  you can use this as your need.
 {% endhint %}
 
-#### Demo
+#### Show Cobrowse Code
 
-Create a web page and put acquire script and custom code push function or follow screen shots.
+Create a web page and put acquire widget code \([https://app.acquire.io/widget/customize](https://app.acquire.io/widget/customize)\) and custom Co-browse code push function. Add your '`[CUSTOM_COBROWSE_CODE]`' and create a html href. After page open in browser and click on link `'Show Co-Browse Code'`.
+
+```javascript
+//Acquire Widget Code
+
+<script type="text/javascript">
+      window.acquire=window.acquire||[];
+         acquire.push({
+            custom_cobrowse_code:'[CUSTOM_COBROWSE_CODE]'
+         });
+</script>
+
+//Show Cobrowse Code
+//add html
+<a href="javascript:acquireIO.startCoBrowseCodeBox()">Show Co-Browse Code</a>
+
+```
 
 ![](../../.gitbook/assets/code-page-1.png)
 
