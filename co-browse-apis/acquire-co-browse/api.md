@@ -139,7 +139,7 @@ Custom Co Browse code work only run-time. Below  create a demo code view and  yo
 
 #### Show Cobrowse Code
 
-Create a web page and put acquire widget code \([https://app.acquire.io/widget/customize](https://app.acquire.io/widget/customize)\) and custom Co-browse code push function. Add your '`[CUSTOM_COBROWSE_CODE]`' and create a html href. After page open in browser and click on link `'Show Co-Browse Code'`.
+Create a web page and put acquire widget code \([https://app.acquire.io/widget/customize](https://app.acquire.io/widget/customize)\) and custom Co-browse code push function. Add your '`[CUSTOM_COBROWSE_CODE]`' and create a html href `[<a href="javascript:acquireIO.startCoBrowseCodeBox()">Show Co-Browse Code</a>]`. After these processes open a web page in the browser and click on link `'Show Co-Browse Code'`.
 
 ```javascript
 //Acquire Widget Code
