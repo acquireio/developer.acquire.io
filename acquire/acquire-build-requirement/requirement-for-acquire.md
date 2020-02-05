@@ -53,5 +53,5 @@ Port 80 and 443 for **rcdn.acquire.io**
 
 ### TLS/SSL Best Practices:
 
-We will update our TLS/SSL configuration from time to time and consider best practices / recommendations on a case by case basis. We err on the side of ensuring that communicating with Acquire is always secure, and so our TLS/SSL configuration may result in older or manually configured clients not being able to talk to Acquire. We announce TLS/SSL configuration changes as a "Product Update" in the Intercom application and for additional information about our TLS/SSL configuration please see our security page.
+We will update our TLS/SSL configuration from time to time and consider best practices / recommendations on a case by case basis. We err on the side of ensuring that communicating with Acquire is always secure, and so our TLS/SSL configuration may result in older or manually configured clients not being able to talk to Acquire. We announce TLS/SSL configuration changes as a "Product Update" in the Acquire application and for additional information about our TLS/SSL configuration please see our security page.
 
