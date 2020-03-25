@@ -1,9 +1,5 @@
 # Dialog Flow V2 Chat-Bot
 
-{% hint style="success" %}
-**Note** :- Dialogflow’s v2 API doesn’t support “**Browse carousel card**” that’s why we also don’t support it.
-{% endhint %}
-
 ### **Quick Installation Steps**
 
  Dialog flow offers its own knowledge base section. It allows us to train own questions and answer pairs that are helpful to the Chat-Bot to handle our visitor queries. To bind **“Google’s Dialog Flow v2”** with the **“Acquire Chat Widget”**, we must first pass a few mandatory parameters. To install the **“Dialog Flow Chat-Bot”** easily follow the simple steps below:
