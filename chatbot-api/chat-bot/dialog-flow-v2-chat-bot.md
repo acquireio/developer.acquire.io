@@ -2,7 +2,7 @@
 
 ### **Quick Installation Steps**
 
- Dialog flow offers its own knowledge base section. It allows us to train own questions and answer pairs that are helpful to the Chat-Bot to handle our visitor queries. To bind **“Google’s Dialog Flow v2”** with the **“Acquire Chat Widget”**, we must first pass a few mandatory parameters. To install the **“Dialog Flow Chat-Bot”** easily follow the simple steps below:
+Dialog flow offers its own knowledge base section. It allows us to train own questions and answer pairs that are helpful to the Chat-Bot to handle our visitor queries. To bind **“Google’s Dialog Flow v2”** with the **“Acquire Chat Widget”**, we must first pass a few mandatory parameters. To install the **“Dialog Flow Chat-Bot”** easily follow the simple steps below:
 
  **1.** If you don’t already have an account with **“Dialog Flow”** you can visit the following page [https://console.dialogflow.com/api-client/\#/login](https://console.dialogflow.com/api-client/#/login) and use your Gmail account to create an account and access the Dialog Flow Panel.
 
