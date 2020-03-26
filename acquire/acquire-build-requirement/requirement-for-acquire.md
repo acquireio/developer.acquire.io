@@ -35,7 +35,7 @@ we only support the latest versions of Chrome and Firefox.
 
 * Ports 443,80
 * Protocols: HTTP, HTTPS, WebSocket
-* Domains: app.acquire.io, s.acquire.io, media.acquire.io, cdn.acquire.io, [unpkg.com](http://unpkg.com/),[ cdn.acquire.io](http://cdn.acquire.io/), [cdn.polyfill.io](http://cdn.polyfill.io/), [maxcdn.bootstrapcdn.com](http://maxcdn.bootstrapcdn.com/), [cdnjs.cloudflare.com](http://cdnjs.cloudflare.com/)
+* Domains: app.acquire.io, s.acquire.io, media.acquire.io, cdn.acquire.io, [unpkg.com](http://unpkg.com/),[ cdn.acquire.io](http://cdn.acquire.io/), [cdn.polyfill.io](http://cdn.polyfill.io/), [maxcdn.bootstrapcdn.com](http://maxcdn.bootstrapcdn.com/), [cdnjs.cloudflare.com](http://cdnjs.cloudflare.com/), fonts.googleapis.com and fonts.gstatic.com.
 
 if you want to enable video call, voice call, and screen sharing then add following firewall rules :
 
