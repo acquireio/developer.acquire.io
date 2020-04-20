@@ -8,13 +8,13 @@ When conversation has started with visitor, initiated by operator or visitor. Ha
 
 ```javascript
 <script>
-   window.acquire = window.acquire || [];
-   window.acquire.push(function(app){
-      app.on('conversation-start', (function(data){
-         console.log('conversation started');
-         console.log('conversation data =>', data);
-      });
-   });
+	window.acquire = window.acquire || [];
+	window.acquire.push(function(app){
+		app.on('conversation-start', (function(data){
+			console.log('conversation started');
+			console.log('conversation data =>', data);
+		}));
+	});
 </script>
 ```
 
@@ -33,7 +33,7 @@ When conversation has closed by operator. Handler callback function will get par
       app.on('conversation-end', (function(conversation_id){
          console.log('conversation has been closed');
          console.log('conversation id =>', conversation_id);
-      });
+      }));
    });
 </script>
 ```
