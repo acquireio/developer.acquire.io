@@ -64,7 +64,7 @@ We recommend following these [material design guidelines](https://material.io/de
 
 If you’re having trouble getting FCM to work in your app, here's a list of things you should check:
 
-* Make sure to tick the 'Send a push notification' box when you send a manual message.
+* Enter your FCM Server key here -&gt; [https://app.acquire.io/setting/push-notifications](https://app.acquire.io/setting/push-notifications) .
 * Check that the notifications are not disabled for your app on your test device. **Settings &gt; Sound & Notification &gt; App** notifications. This may differ depending on the Android version.
 * Did you specify the correct Push Server API key?
 * Make sure you added your google-services.json file in the correct directory.
