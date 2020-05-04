@@ -20,9 +20,8 @@ In your apps build.gradle you will need to add the following lines to your depen
 
 ```javascript
 dependencies {
-
-    compile 'io.acquire.android:acquire-sdk-fcm:4.+'
-    compile 'com.google.firebase:firebase-messaging:11.+'
+  implementation 'com.google.firebase:firebase-core:17.4.0'
+  implementation 'com.google.firebase:firebase-messaging:20.1.6'
 }
 ```
 

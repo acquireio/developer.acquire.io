@@ -26,17 +26,19 @@ Module build.gradle :
 
 ```javascript
 dependencies {
-implementation 'com.android.support:appcompat-v7:27.1.0' // if not added already
-implementation 'com.android.support:design:27.1.0' // if not added already
-implementation 'com.android.support:support-emoji-appcompat:27.1.0' // if not added already
-implementation 'com.android.support:customtabs:27.1.0' // if want to give support for links
+implementation 'com.google.android.material:material:1.1.0'
+implementation 'androidx.appcompat:appcompat:1.1.0'
+implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+implementation 'androidx.emoji:emoji-appcompat:1.0.0'
+implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.19'
+implementation 'androidx.multidex:multidex:2.0.1'
+implementation 'androidx.browser:browser:1.2.0'
 implementation ('io.socket:socket.io-client:1.0.0') {
-   exclude group: 'org.json', module: 'json'
+    exclude group: 'org.json', module: 'json'
 }
-implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.+'
+implementation 'com.squareup.picasso:picasso:2.71828'
 implementation 'com.amitshekhar.android:android-networking:1.0.2'
 implementation 'com.acquireio:lite:1.+'
-implementation 'com.squareup.picasso:picasso:2.71828'
 }
 ```
 
