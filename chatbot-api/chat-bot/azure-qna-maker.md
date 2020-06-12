@@ -86,7 +86,9 @@ Under the **Postman tab** you will be presented with a few details similar to th
     </tr>
   </thead>
   <tbody></tbody>
-</table>Make a note of the “**knowledge\_base\_id**”, “**app\_url**”, “**endpoint\_key**”, as these values will help you connect the "**QnA Maker"** service with the "**Acquire Chat Widget"**.
+</table>
+
+Make a note of the “**knowledge\_base\_id**”, “**app\_url**”, “**endpoint\_key**”, as these values will help you connect the "**QnA Maker"** service with the "**Acquire Chat Widget"**.
 
 If you have an existing knowledge base resource, you can find their details as follows:
 
