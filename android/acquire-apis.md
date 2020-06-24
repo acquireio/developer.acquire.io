@@ -129,6 +129,14 @@ AcquireApp.getInstance().endCoBrowseSession();
 
 Show Floating Video \(PIP mode\) everywhere in your app when audio/video call is active.
 
+### setMainVideoFrameSize\(width, height\):
+
+Use this method to change the default size of the main video window size.
+
+### setSecondaryVideoFrameSize\(width, height\)
+
+Use this method to change the default size of the secondary video window size.
+
 ![](../.gitbook/assets/api-explore.jpg)
 
 ### Get unread messages count : <a id="get-unread-messages-count"></a>
