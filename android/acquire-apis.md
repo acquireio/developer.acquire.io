@@ -129,8 +129,6 @@ AcquireApp.getInstance().endCoBrowseSession();
 
 Show Floating Video \(PIP mode\) everywhere in your app when audio/video call is active.
 
-To use this feature you will need to extend your Activity to our **AQR\_BaseActivity** \(Full Identifier : `com.acquireio.sdk.activities.AQR_BaseActivity`\)
-
 ![](../.gitbook/assets/api-explore.jpg)
 
 ### Get unread messages count : <a id="get-unread-messages-count"></a>
