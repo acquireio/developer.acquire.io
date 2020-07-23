@@ -44,7 +44,7 @@ dependencies {
 ```
 
 {% hint style="info" %}
-To get the latest version at every build, use **2.+** instead of a specific number.i
+To get the latest version at every build, use **2.+** instead of a specific number.
 {% endhint %}
 
 {% hint style="info" %}
