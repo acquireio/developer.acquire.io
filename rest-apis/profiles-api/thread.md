@@ -12,6 +12,7 @@ Profiles Thread API body parameter in add **lead\_id**, **per\_page**, **chatid*
 | **Method** | POST |
 | **Authorization** | Bearer **\[YOUR\_API\_AUTH\_TOKEN\]** |
 | **Content-type** | application/x-www-form-urlencoded |
+| **zone** | {"timezone":"Pacific/California","offset":"-08:00"} |
 
 #### **Body \(Urlencode\)**
 

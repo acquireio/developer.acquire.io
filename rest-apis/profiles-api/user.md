@@ -14,8 +14,7 @@ Profiles List API body parameter in add limit, page and filter\[master\]
 | **Method** | POST |
 | **Authorization** | Bearer **YOUR\_API\_AUTH\_TOKEN** |
 | **Content-type** | application/x-www-form-urlencode |
-
-#### **Body**
+| **zone** | {"timezone":"Pacific/California","offset":"-08:00"} |
 
 | Parameter | Value |
 | :--- | :--- |

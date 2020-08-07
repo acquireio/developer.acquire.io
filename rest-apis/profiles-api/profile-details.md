@@ -12,6 +12,7 @@ Profile Details API in header parameter Authorization: Bearer **\[YOUR\_API\_AUT
 | **Method** | POST |
 | **Authorization** | Bearer **\[YOUR\_API\_AUTH\_TOKEN\]** |
 | **Content-type** | application/json |
+| **zone** | {"timezone":"Mountain/Arizona","offset":"-06:00"} |
 
 #### **Body**
 

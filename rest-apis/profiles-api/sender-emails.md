@@ -10,6 +10,7 @@ Acquire Profiles Sender Emails API header in Content-Type application/x-www-form
 | **Method** | POST |
 | **Authorization** | Bearer **\[YOUR\_API\_AUTH\_TOKEN\]** |
 | **Content-type** | application/x-www-form-urlencoded |
+| **zone** | {"timezone":"Mountain/Arizona","offset":"-06:00"} |
 
 #### **Response JSON**
 

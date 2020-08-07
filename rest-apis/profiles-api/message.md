@@ -10,6 +10,7 @@ Profile Message API in header parameter Authorization: Bearer \[YOUR\_API\_AUTH\
 | **Method** | POST |
 | **Authorization** | Bearer **\[YOUR\_API\_AUTH\_TOKEN\]** |
 | **Content-type** | application/x-www-form-urlencoded |
+| **zone** | {"timezone":"Central/Alabama","offset":"-05:00"} |
 
 **Body**
 
