@@ -16,6 +16,12 @@ Once the Native SDKs are added to your app, everything else is done through our 
  Even more he can add overlays or highlight on the customer's device in real time.
 {% endhint %}
 
+{% hint style="info" %}
+Note : Any Activity which extends to **AQR\_BaseActivity** will become supported for co-browse.
+{% endhint %}
+
+
+
 {% embed url="https://www.youtube.com/watch?v=sptkhM5n3Vc" %}
 
 If you want to customize cobrowse settings then you can use our CobrowseBuilder class.
