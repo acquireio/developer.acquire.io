@@ -34,8 +34,10 @@ It is important that this is at the very end of the file.
 Call below sdk method to pass the Firebase token :
 
 ```text
-AcquireApp.setFireBaseToken([Firebase token]);
+AcquireApp.setFireBaseToken([Firebase token],[MutableLiveData liveData]);
 ```
+
+Pass null instead of MutableLiveData if you do not required a callback.
 
 ### Step 3. Add your Server key to Acquire for Android settings <a id="step-3--add-your-server-key-to-acquire-for-android-settings"></a>
 
@@ -59,6 +61,10 @@ If you want to add a custom icon for your notifications, just add an image named
 Notifications icon design guidelines
 
 We recommend following these [material design guidelines](https://material.io/design/platform-guidance/android-notifications.html) for producing this icon.
+
+**Add your custom Notification Channel Name:**
+
+**`AcquireApp.getInstance().setNotificationChannelName(String channelName)`**
 
 ### Troubleshooting tips <a id="troubleshooting-tips"></a>
 

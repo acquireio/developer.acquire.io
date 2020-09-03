@@ -64,18 +64,24 @@ AcquireApp.setVisitorHash([STRING_YOUR_HMAC_EMAIL]);
  First, you need to add email id in **`setVisitorDetail()`** method in SDK for uniquely identify your users. Note that if you set only visitor hash and email is not set then acquire can't identify visitor. So you need both method to verify visitor hash.
 
 ```javascript
-AcquireApp.setVisitorDetail([STRING_NAME], [STRING_EMAIL], [STRING_PHONE_NUMBER]);
+AcquireApp.setVisitorDetail([STRING_NAME], [STRING_EMAIL], [STRING_PHONE_NUMBER], [STRING_DEPARTMENT]);
 ```
+
+**Get Visitor ID using below method:**
+
+**`AcquireApp.getInstance().getVisitorId()`**
 
 ### **Logout visitor**
 
-If you have set visitor hash \(**HMAC digest**\) and visitor just logged out from account and need to manage user integrity with agent, call method **logOut\(\)** to remove all acquire data from your app related to **visitorHash** use method :
+If you have set visitor hash \(**HMAC digest**\) and visitor just logged out from account and need to manage user integrity with agent, call method **logOut\(**MutableLiveData loggedOut**\)** to remove all acquire data from your app related to **visitorHash** use method :
 
 ```java
-AcquireApp.logOut();
+AcquireApp.logOut(MutableLiveData loggedOut);
 ```
 
 #### This method will reset visitor’s all data and stops all connections to the agent including ongoing call.
+
+Pass null instead of MutableLiveData if you do not required a callback.
 
 {% hint style="danger" %}
 **Caution:** Please take a note that all methods of the sdk will stop working after logout so resulting in crash on some method calls. You need to re-initialize the sdk to start again.
