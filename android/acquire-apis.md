@@ -79,9 +79,9 @@ If you have set visitor hash \(**HMAC digest**\) and visitor just logged out fro
 AcquireApp.logOut(MutableLiveData loggedOut);
 ```
 
-#### This method will reset visitor’s all data and stops all connections to the agent including ongoing call.
-
 Pass null instead of MutableLiveData if you do not required a callback.
+
+#### This method will reset visitor’s all data and stops all connections to the agent including ongoing call.
 
 {% hint style="danger" %}
 **Caution:** Please take a note that all methods of the sdk will stop working after logout so resulting in crash on some method calls. You need to re-initialize the sdk to start again.
