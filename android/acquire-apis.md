@@ -67,7 +67,7 @@ AcquireApp.setVisitorHash([STRING_YOUR_HMAC_EMAIL]);
 AcquireApp.setVisitorDetail([STRING_NAME], [STRING_EMAIL], [STRING_PHONE_NUMBER], [STRING_DEPARTMENT]);
 ```
 
-**Get Visitor ID using below method:**
+**Get Visitor ID using method:**
 
 **`AcquireApp.getInstance().getVisitorId()`**
 
