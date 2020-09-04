@@ -137,5 +137,17 @@ setMargins(int left, int top, int right, int bottom);
 */
 ```
 
+### Chat and call customization
 
+To remove minimize video call option call below method. Use this method after successful initialization of AcquireApp.
+
+```text
+AcquireApp.getInstance().removeMinimizeButton()
+```
+
+To disable file attachment button on chat screen call below method
+
+```text
+AcquireApp.getInstance().disableAttachment();
+```
 
