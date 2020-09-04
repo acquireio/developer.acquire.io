@@ -64,11 +64,15 @@ We recommend following these [material design guidelines](https://material.io/de
 
 **Add your custom Notification Channel Name:**
 
-**`AcquireApp.getInstance().setNotificationChannelName(String channelName)`**
+```text
+AcquireApp.getInstance().setNotificationChannelName(String channelName)
+```
 
 **Turn off Notification using below method:**
 
-**`AcquireApp.turnOffNotifications();`**
+```text
+AcquireApp.turnOffNotifications();
+```
 
 ### Troubleshooting tips <a id="troubleshooting-tips"></a>
 
