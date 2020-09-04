@@ -142,7 +142,7 @@ setMargins(int left, int top, int right, int bottom);
 To remove minimize video call option call below method. Use this method after successful initialization of AcquireApp.
 
 ```text
-AcquireApp.getInstance().removeMinimizeButton()
+AcquireApp.getInstance().removeMinimizeButton();
 ```
 
 When require only agent can cut the call, call below method to remove endCall button from video and audio call.
