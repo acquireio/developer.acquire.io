@@ -66,6 +66,10 @@ We recommend following these [material design guidelines](https://material.io/de
 
 **`AcquireApp.getInstance().setNotificationChannelName(String channelName)`**
 
+**Turn off Notification using below method:**
+
+**`AcquireApp.turnOffNotifications();`**
+
 ### Troubleshooting tips <a id="troubleshooting-tips"></a>
 
 If you’re having trouble getting FCM to work in your app, here's a list of things you should check:

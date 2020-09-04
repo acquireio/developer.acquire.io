@@ -67,9 +67,15 @@ AcquireApp.setVisitorHash([STRING_YOUR_HMAC_EMAIL]);
 AcquireApp.setVisitorDetail([STRING_NAME], [STRING_EMAIL], [STRING_PHONE_NUMBER], [STRING_DEPARTMENT]);
 ```
 
+If you required to start direct thread call below method with your thread ID and message. To use this method **AcquireApp** instance is needed. So use this method after successful initialization.
+
+```javascript
+AcquireApp.getInstance().startThread([STRING_THREADID], [STRING_MESSAGE]);
+```
+
 **Get Visitor ID using method:**
 
-**`AcquireApp.getInstance().getVisitorId()`**
+**`AcquireApp.getInstance().getVisitorId();`**
 
 ### **Logout visitor**
 
