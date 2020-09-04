@@ -145,6 +145,12 @@ To remove minimize video call option call below method. Use this method after su
 AcquireApp.getInstance().removeMinimizeButton()
 ```
 
+When require only agent can cut the call, call below method to remove endCall button from video and audio call.
+
+```text
+AcquireApp.getInstance().removeDisconnectButton();
+```
+
 To disable file attachment button on chat screen call below method
 
 ```text
