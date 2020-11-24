@@ -2,32 +2,23 @@
 
 ### Chat APIs:
 
-Start chat module directly by calling **`startSupportChat();`**
+Start chat module directly by calling **`startSupportChat()`**
 
 ```java
-AcquireApp.getInstance().startSupportChat();
+AcquireApp.startSupportChat()
 ```
 
 This method is used to open chat. To use this method **AcquireApp** instance is needed. So use this method after successful initialization.
 
-**Alternate Method :** **`startSupportChat(AQR_BaseActivity aqrBaseActivity, CallType callType)`**:
+**Alternate Method :** **`startDirectSupportChat(callType: CallType)`**
 
 ```java
-AcquireApp.getInstance().startSupportChat(MainActivity.this, CallType.VIDEO);
+AcquireApp.startDirectSupportChat(CallType.VIDEO)
 ```
 
-* **@param** **`aqrBaseActivity`** - Your Activity which is extended to AQR\_BaseActivity
 * **@param** **`callType`** - TEXT, AUDIO, VIDEO
 
 Use this method to start direct Audio/Video call request to agent. By this method , Audio/Video chat request will be visible to the agent and on answer to that chat will start Audio/Video call as soon as chat is connected.
-
-### **setShowDefaultFAB :**
-
-Use this method to show default FAB icon when SDK is connected. By calling below method before initialization. 
-
-```java
-AcquireApp.setShowDefaultFAB(true);
-```
 
 ### Verify your users:
 
@@ -58,24 +49,24 @@ To set up identity verification, you'll need to generate an HMAC on your server 
 **`setVisitorHash`** must be called before **`init()`** takes place and must pass same email in **`setVisitorDetail()`**.
 
 ```javascript
-AcquireApp.setVisitorHash([STRING_YOUR_HMAC_EMAIL]);
+AcquireApp.setVisitorHash([STRING_YOUR_HMAC_EMAIL])
 ```
 
  First, you need to add email id in **`setVisitorDetail()`** method in SDK for uniquely identify your users. Note that if you set only visitor hash and email is not set then acquire can't identify visitor. So you need both method to verify visitor hash.
 
 ```javascript
-AcquireApp.setVisitorDetail([STRING_NAME], [STRING_EMAIL], [STRING_PHONE_NUMBER], [STRING_DEPARTMENT]);
+AcquireApp.setVisitorDetail([STRING_NAME], [STRING_EMAIL], [STRING_PHONE_NUMBER], [STRING_DEPARTMENT])
 ```
 
-If you required to start direct thread call below method with your thread ID and message. To use this method **AcquireApp** instance is needed. So use this method after successful initialization.
+Alternate visitor detail methods are:
 
-```javascript
-AcquireApp.getInstance().startThread([STRING_THREADID], [STRING_MESSAGE]);
-```
+**`setVisitorDetail(name: String, email: String, phone: String, department: String, fields: JSONObject)`**
+
+**`setVisitorDetail(name: String, email: String, phone: String, fields: JSONObject)`**
 
 **Get Visitor ID using method:**
 
-**`AcquireApp.getInstance().getVisitorId();`**
+**`AcquireApp.getVisitorId()`**
 
 ### **Logout visitor**
 
@@ -97,7 +88,7 @@ Pass null instead of MutableLiveData if you do not required a callback.
 
 #### Set visitor hash
 
-**`setVisitorHash( String visitorHash )`**
+**`setVisitorHash(visitorHash: String)`**
 
 Pass visitorHash as per account configuration. Keep it secure. Please use this method before any initialization process of the sdk. Otherwise it will not affect.
 
@@ -107,7 +98,7 @@ Set your user details as per your need
 
 You can customize visitor’s identification by calling our sdk’s method **setVisitorDetail**.
 
-**Method Description : `setVisitorDetail(String name, String email, String phone, JSONObject fields)`:**
+**Method Description : `setVisitorDetail(name: String, email: String, phone: String, fields: JSONObject)`**
 
 * **`@param name`** - the name you want to display for the visitor
 * **`@param email`** - the email you want to display for the visitor
@@ -115,12 +106,12 @@ You can customize visitor’s identification by calling our sdk’s method **set
 * **`@param fields`**  - pass the extra fields within a `JSONObject` e.g.
 
 ```javascript
- JSONObject jsonObject = new JSONObject();
-       try {
-               jsonObject.put([name] : "sample", [value] :"sucess");
-            } catch (JSONException e) {
-               e.printStackTrace();
-            }
+ val jsonObject = JSONObject()
+        try {
+            jsonObject.put([name] : "sample", [value] :"sucess")
+        } catch (e: JSONException) {
+            e.printStackTrace()
+        }
 ```
 
 ![Use the field\_key to pass in the JSONObject.](../.gitbook/assets/image%20%284%29.png)
@@ -128,14 +119,6 @@ You can customize visitor’s identification by calling our sdk’s method **set
 {% hint style="info" %}
 **Note:** Use this method before initialization of sdk otherwise wont work.
 {% endhint %}
-
-###  **endCoBrowseSession :**
-
-This method is used to disconnect co-browse session if running. Call this method using current AcquireApp instance :
-
-```java
-AcquireApp.getInstance().endCoBrowseSession();
-```
 
 ### Show Floating Video \(PIP mode\):
 
@@ -150,34 +133,6 @@ Use this method to change the default size of the main video window size.
 ### setSecondaryVideoFrameSize\(width, height\)
 
 Use this method to change the default size of the secondary video window size.
-
-### Get unread messages count : <a id="get-unread-messages-count"></a>
-
-Get unread messages count anywhere in your app \(Optional\)
-
-You can get unread messages count by implementing this interface **UnreadMessageCount** \(Full Identifier : **`com.acquireio.callbacks.UnreadMessageCount`**`)`.
-
-**Method Description : `setUnreadCountListner(target-activity)`:**
-
-```java
-AcquireApp.getInstance().setUnreadCountListner(this);
-```
-
-**`@param target-activity`** - Pass the activity/fragment where you want to have unread messages count. Update Text or Badge count as per needed.
-
-{% hint style="info" %}
-**Note:** Remember to use **runOnUiThread\(\)** while updating UI.
-{% endhint %}
-
-### Upload files directly to the acquire server <a id="upload-files-directly-to-the-acquire-server"></a>
-
-```java
-AcquireApp.getInstance().uploadFileToAcquire(Activity context, String filePath, UploadFileListener uploadFileListener);
-```
-
-In this method pass the activity context , file path and listener for success and failure callbacks.
-
-This method will upload file to our server directly.
 
 
 
