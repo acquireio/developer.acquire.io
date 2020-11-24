@@ -26,19 +26,28 @@ Module build.gradle :
 
 ```javascript
 dependencies {
-    implementation 'com.google.android.material:material:1.1.0'
-    implementation 'androidx.appcompat:appcompat:1.1.0'
-    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-    implementation 'androidx.emoji:emoji-appcompat:1.0.0'
-    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.19'
-    implementation 'androidx.multidex:multidex:2.0.1'
-    implementation 'androidx.browser:browser:1.2.0'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.10"
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.core:core-ktx:1.3.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.7"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.4"
+    implementation 'com.squareup.okhttp3:okhttp:4.8.1'
     implementation ('io.socket:socket.io-client:1.0.0') {
         exclude group: 'org.json', module: 'json'
     }
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation "androidx.fragment:fragment-ktx:1.2.5"
+    implementation "androidx.room:room-runtime:$room_version"
+    kapt "androidx.room:room-compiler:$room_version"
+    implementation "androidx.room:room-ktx:$room_version"
+    implementation 'org.greenrobot:eventbus:3.2.0'
     implementation 'com.squareup.picasso:picasso:2.71828'
-    implementation 'com.amitshekhar.android:android-networking:1.0.2'
-    implementation 'com.acquireio:lite:1.+'
+    implementation 'androidx.emoji:emoji-appcompat:1.1.0'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.20'
+    implementation 'androidx.browser:browser:1.2.0'
 }
 ```
 
