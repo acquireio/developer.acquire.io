@@ -26,26 +26,32 @@ Module build.gradle :
 
 ```javascript
 dependencies {
-    implementation 'com.acquireio:core:2.+'
-    implementation 'com.google.android.material:material:1.1.0'
-    implementation 'androidx.appcompat:appcompat:1.1.0'
-    implementation 'androidx.emoji:emoji-appcompat:1.0.0'
-    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.19'
-    implementation 'androidx.multidex:multidex:2.0.1'
-    implementation 'androidx.browser:browser:1.2.0'
-    implementation('io.socket:socket.io-client:1.0.0') {
+    implementation 'com.acquireio:core-beta:3.+'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.10"
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.core:core-ktx:1.3.2'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.9"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9"
+    implementation 'com.squareup.okhttp3:okhttp:4.8.1'
+    implementation ('io.socket:socket.io-client:1.0.0') {
         exclude group: 'org.json', module: 'json'
     }
-    implementation 'com.squareup.picasso:picasso:2.71828'
-    implementation 'com.amitshekhar.android:android-networking:1.0.2'
-    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.0.0'
+    implementation 'com.google.code.gson:gson:2.8.6'
     implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation "androidx.fragment:fragment-ktx:1.2.5"
+    implementation "androidx.room:room-runtime:2.2.5"
+    kapt "androidx.room:room-compiler:2.2.5"
+    implementation "androidx.room:room-ktx:2.2.5"
+    implementation 'org.greenrobot:eventbus:3.2.0'
+    implementation 'org.webrtc:google-webrtc:1.0.32006'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'androidx.emoji:emoji-appcompat:1.1.0'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.20'
+    implementation 'androidx.browser:browser:1.2.0'
 }
 ```
-
-{% hint style="info" %}
-To get the latest version at every build, use **2.+** instead of a specific number.
-{% endhint %}
 
 {% hint style="info" %}
 If you have added any of this dependency already then try to match the version.
@@ -56,12 +62,11 @@ If you have added any of this dependency already then try to match the version.
 Initialize Acquire in the **`onCreate()`** method of an Activity where you plan to use the SDK, or an Application subclass. Use the initialization details provided by the Acquire Support admin and an Application instance:
 
 ```javascript
-public class XYZApp extends Application {
-@Override
-public void onCreate() {
-    super.onCreate();
-    AcquireApp.init(this, “put your account id here”);
-}
+class XYZApp : Application() {
+    override fun onCreate() {
+        super.onCreate()
+        AcquireApp.init(this, “put your account id here”)
+    }
 }
 ```
 
@@ -70,8 +75,6 @@ To know more about initialization options [click here](start-using-acquire.md#in
 To handle chat events manually [click here](../acquire-apis.md#chat-apis). 
 
 To customize our chat widget [click here](../custom-ui-widget.md#customize-chat-widget).
-
-To enable our chat widget call**`setShowDefaultFAB(true);`**before initialization of sdk.
 
  To reduce apk size \(e.g. for release version\).
 
@@ -82,8 +85,6 @@ Use **apk split feature of android**
 
 for reference see below screenshot -&gt;
 {% endhint %}
-
-To temporarily remove chat widget call**`removeFAB();`**whenever you need.
 
 ![](../../.gitbook/assets/image%20%283%29.png)
 
