@@ -33,13 +33,11 @@ To change default buttons behavior pass as per application requirement.
 * **showVideoButton** - Show video button in top tab of chat screen on visitor's main chat messages screen. Default value is set to true.
 * **showAudioButton** - Show audio button in top tab of chat screen on visitor's main chat messages screen. Default value is set to true.
 
-#### 3. With custom co-browse settings:
+#### 3. Using Server URL
 
-```java
-initCobrowse(Application application, String accId, CoBrowse coBrowse)
+```text
+initWithServer(Application application,String serverUrl,String accountId)
 ```
-
-To know more about cobrowse [click here](../cobrowse-sdk.md).
 
 ### Permissions Description <a id="permissions-description"></a>
 
