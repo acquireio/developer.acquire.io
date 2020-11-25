@@ -7,7 +7,7 @@ There are several ways to initialize acquire sdk :
 #### 1_._ Standard**:** 
 
 ```java
-AcquireApp.init(Application application, String accountId)
+AcquireApp.init(application: Application, accountId: String)
 ```
 
 Call this method from an Activity or an Application ****subclass. 
@@ -25,7 +25,7 @@ You can find your **`accountID`**as shown in image below :
 #### 2. Using options :
 
 ```java
-AcquireApp.initWithOptions(Application application, String accountId, boolean showVideoButton, boolean showAudioButton)
+AcquireApp.initWithOptions(application: Application, accountId: String, showVideoButton: Boolean, showAudioButton: Boolean)
 ```
 
 To change default buttons behavior pass as per application requirement.
@@ -36,7 +36,7 @@ To change default buttons behavior pass as per application requirement.
 #### 3. Using Server URL
 
 ```text
-AcquireApp.initWithServer(Application application,String serverUrl,String accountId)
+AcquireApp.initWithServer(application: Application, serverUrl: String, accountId: String) 
 ```
 
 ### Permissions Description <a id="permissions-description"></a>
