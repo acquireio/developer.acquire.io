@@ -112,6 +112,12 @@ Alternate visitor detail methods are:
 **Note:** Use this method before initialization of sdk otherwise wont work.
 {% endhint %}
 
+To set visitor remarks use below method:
+
+```text
+AcquireApp.setVisitorRemarks(visitorRemarks: String)
+```
+
 ### Show Floating Video \(PIP mode\):
 
 Show Floating Video \(PIP mode\) everywhere in your app when audio/video call is active.
