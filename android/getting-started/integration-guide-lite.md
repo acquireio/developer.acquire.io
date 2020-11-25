@@ -26,6 +26,7 @@ Module build.gradle :
 
 ```javascript
 dependencies {
+    implementation 'com.acquireio:lite-beta:3.+'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.10"
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.google.android.material:material:1.2.1'
@@ -51,25 +52,16 @@ dependencies {
 }
 ```
 
-{% hint style="info" %}
-To get the latest version at every build, use **1.+** instead of a specific number.
-{% endhint %}
-
-{% hint style="info" %}
-w.e.f. lite SDK version 1.1.6 , now you have to mention picasso dependency to your app gradle file.
-{% endhint %}
-
 **Step 2 :**
 
 Initialize Acquire in the **`onCreate()`** method of an Activity where you plan to use the SDK, or an Application subclass. Use the initialization details provided by the Acquire Support admin and an Application instance:
 
 ```javascript
-public class XYZApp extends Application {
-@Override
-public void onCreate() {
-    super.onCreate();
-    AcquireApp.init(this, “put your account id here”);
-}
+class XYZApp : Application() {
+    override fun onCreate() {
+        super.onCreate()
+        AcquireApp.init(this, “put your account id here”)
+    }
 }
 ```
 
@@ -78,8 +70,4 @@ To know more about initialization options [click here](start-using-acquire.md#in
 To handle chat events manually [click here](../acquire-apis.md#chat-apis). 
 
 To customize our chat widget [click here](../custom-ui-widget.md#customize-chat-widget).
-
-To enable our chat widget call**`setShowDefaultFAB(true);`**before initialization of sdk.
-
-To temporarily remove chat widget call**`removeFAB();`**whenever you need.
 
