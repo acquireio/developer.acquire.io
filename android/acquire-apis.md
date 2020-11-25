@@ -52,7 +52,7 @@ To set up identity verification, you'll need to generate an HMAC on your server 
 AcquireApp.setVisitorHash([STRING_YOUR_HMAC_EMAIL])
 ```
 
- First, you need to add email id in **`setVisitorDetail()`** method in SDK for uniquely identify your users. Note that if you set only visitor hash and email is not set then acquire can't identify visitor. So you need both method to verify visitor hash.
+First, you need to add email id in **`setVisitorDetail()`** method in SDK for uniquely identify your users. Note that if you set only visitor hash and email is not set then acquire can't identify visitor. So you need both method to verify visitor hash.
 
 ```javascript
 AcquireApp.setVisitorDetail([STRING_NAME], [STRING_EMAIL], [STRING_PHONE_NUMBER], [STRING_DEPARTMENT])

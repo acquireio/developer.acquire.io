@@ -16,6 +16,12 @@ If not provided then it will use default primary colors of your app.
 
 ### Chat and call customization
 
+To hide create new chat icon call below method.
+
+```text
+AcquireApp.isHideNewChat()
+```
+
 To remove minimize video call option call below method. Use this method after successful initialization of AcquireApp.
 
 ```text
@@ -26,5 +32,29 @@ When require only agent can cut the call, call below method to remove endCall bu
 
 ```text
 AcquireApp.removeDisconnectButton()
+```
+
+To set the desired orientation for local video \(takes an Integer value\)
+
+```text
+AcquireApp.setLocalVideoRotation(rotationValue: Int)
+```
+
+To set the exact position of thumb video view \(takes Int x and Int y values in dp\)
+
+```text
+ AcquireApp.setThumbPosXY(initialX: Int, initialY: Int)
+```
+
+To set size of Remote view on thumb view \(takes Int width and Int height values in dp\)
+
+```text
+AcquireApp.setThumbRemoteFrameSize(w: Int, h: Int) 
+```
+
+To set size of Local view on thumb view \(takes Int width and Int height values in dp\)
+
+```text
+AcquireApp.setThumbLocalFrameSize(w: Int, h: Int)
 ```
 

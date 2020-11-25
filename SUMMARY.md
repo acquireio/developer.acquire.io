@@ -59,7 +59,6 @@
 * [Acquire APIs](android/acquire-apis.md)
 * [Acquire Delegates](android/acquire-delegates.md)
 * [Custom UI/widget](android/custom-ui-widget.md)
-* [Android Push Notifications](android/android-push-notifications.md)
 * [Cross Platform Integrations](android/cross-platform-integrations.md)
 
 ## Webhook API
