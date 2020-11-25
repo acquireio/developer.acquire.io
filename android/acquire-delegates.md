@@ -5,7 +5,7 @@
 #### To set session listener call sdk method :
 
 ```java
-AcquireApp.getInstance().setSessionListner(this);
+AcquireApp.getInstance().setSessionListener(this);
 ```
 
 1. **`onSessionConnected()`** executed when socket connection is established. One can open chat module after this event.
