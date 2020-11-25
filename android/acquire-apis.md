@@ -58,12 +58,6 @@ First, you need to add email id in **`setVisitorDetail()`** method in SDK for un
 AcquireApp.setVisitorDetail([STRING_NAME], [STRING_EMAIL], [STRING_PHONE_NUMBER], [STRING_DEPARTMENT])
 ```
 
-Alternate visitor detail methods are:
-
-**`setVisitorDetail(name: String, email: String, phone: String, department: String, fields: JSONObject)`**
-
-**`setVisitorDetail(name: String, email: String, phone: String, fields: JSONObject)`**
-
 **Get Visitor ID using method:**
 
 **`AcquireApp.getVisitorId()`**
@@ -85,12 +79,6 @@ Pass null instead of MutableLiveData if you do not required a callback.
 {% endhint %}
 
 ### User APIs:
-
-#### Set visitor hash
-
-**`setVisitorHash(visitorHash: String)`**
-
-Pass visitorHash as per account configuration. Keep it secure. Please use this method before any initialization process of the sdk. Otherwise it will not affect.
 
 #### Set user details
 
@@ -115,6 +103,10 @@ You can customize visitor’s identification by calling our sdk’s method **set
 ```
 
 ![Use the field\_key to pass in the JSONObject.](../.gitbook/assets/image%20%284%29.png)
+
+Alternate visitor detail methods are:
+
+**`setVisitorDetail(name: String, email: String, phone: String, department: String, fields: JSONObject)`**
 
 {% hint style="info" %}
 **Note:** Use this method before initialization of sdk otherwise wont work.
