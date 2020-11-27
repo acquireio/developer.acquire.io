@@ -28,12 +28,13 @@ Module build.gradle :
 dependencies {
     implementation 'com.acquireio:lite-beta:3.+'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.10"
+    implementation("org.jetbrains.kotlin:kotlin-reflect:1.4.20")
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.google.android.material:material:1.2.1'
     implementation 'androidx.core:core-ktx:1.3.1'
-    implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.7"
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.4"
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.9"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9"
     implementation 'com.squareup.okhttp3:okhttp:4.8.1'
     implementation ('io.socket:socket.io-client:1.0.0') {
         exclude group: 'org.json', module: 'json'
@@ -41,9 +42,9 @@ dependencies {
     implementation 'com.google.code.gson:gson:2.8.6'
     implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
     implementation "androidx.fragment:fragment-ktx:1.2.5"
-    implementation "androidx.room:room-runtime:$room_version"
-    kapt "androidx.room:room-compiler:$room_version"
-    implementation "androidx.room:room-ktx:$room_version"
+    implementation "androidx.room:room-runtime:2.2.5"
+    kapt "androidx.room:room-compiler:2.2.5"
+    implementation "androidx.room:room-ktx:2.2.5"
     implementation 'org.greenrobot:eventbus:3.2.0'
     implementation 'com.squareup.picasso:picasso:2.71828'
     implementation 'androidx.emoji:emoji-appcompat:1.1.0'
