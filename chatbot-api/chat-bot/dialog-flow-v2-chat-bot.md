@@ -82,7 +82,7 @@ It will redirect us to the “**console.cloud.google.com**”.
 
 ![](https://lh5.googleusercontent.com/jYq7Q7GNiKM32O7dxrfDoriWbfwvL64od4YhdFBniVz7ZVDaFl2fxFaEwqcypCsrOSJOe-t7U_Z1kjbcY9ZHKLqZ_F57dgsHebRGBIVWqDDGKeQXO4B-4BPmb2tmcaLZo96dJDVS)
 
- **16.** Finally, we can test the new Dialog Flow v2 Chatbot on our simulator page . [https://app.acquire.io/s/](https://app.acquire.io/s/) {add our account id}
+ **16.** Finally, we can test the new Dialog Flow v2 Chatbot on our simulator page. https://app.acquire.io/s/ {add our account id}
 
 ![](https://lh5.googleusercontent.com/T6dcLrmMtnBE8lLPWkCBBIfjp96oN2W92w_eoaNBzZOivlpXEX4WaRzDhKl8iaLzT5uVn8zzDezlB6oCoEN8ykG8gTDKtr-clWln5N-Jk-yan5k8E7XQERd3NGamDe3_UHQYKMvN)
 
