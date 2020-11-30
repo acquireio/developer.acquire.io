@@ -6,7 +6,7 @@ First of all we have to setup our site with **“Acquire”** chat widget. You c
 
 ![](https://lh3.googleusercontent.com/WuJYbb-IJHldRmedvcJ-40kMsP3Zo5XImwws3QCMJcBN2cjUE7--IaKrsbhh_2ZQFhojsYX86FM2IgLsf2_OC9dJ57f4__xE3K1saZCruDFDbNNIqm7VuazbWjvBkk_0RQ)
 
-To identify every visitor, we have to put Visitor Authentication functionality with widget code. Authentication code will produce **HMAC** Code, that verify the identity of that visitor i.e. visitor\_id. **HMAC** code will be assigned with an attribute, named as **user\_hash**. Find more details on this link: [https://developer.acquire.io/js-api/js-live-chat-api/user-verification](https://developer.acquire.io/js-api/js-live-chat-api/user-verification.)
+To identify every visitor, we have to put Visitor Authentication functionality with widget code. Authentication code will produce **HMAC** Code, that verify the identity of that visitor i.e. visitor\_id. **HMAC** code will be assigned with an attribute, named as **user\_hash**. Find more details on this link: [https://developer.acquire.io/js-api/js-live-chat-api/user-verification](https://developer.acquire.io/js-api/js-live-chat-api/user-verification)
 
 ### **Additional Setup**
 
