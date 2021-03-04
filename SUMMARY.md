@@ -137,6 +137,3 @@
 
 ## Errors
 
-* [API Error Handling](errors/api-error-handling/README.md)
-  * [HTTP Responses](errors/api-error-handling/http-responses.md)
-
