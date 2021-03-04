@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Acquire Developers Hub](README.md)
+* [Acquire Developers Hub 2.0.0](README.md)
 
 ## Acquire
 

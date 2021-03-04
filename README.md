@@ -1,4 +1,4 @@
-# Acquire Developers Hub
+# Acquire Developers Hub 2.0.0
 
 ## Welcome to Acquire Developers Hub
 
