@@ -33,7 +33,7 @@ Bring real customer service to your mobile apps with ready-to-use chat widgets. 
 
 ## Webhook API
 
-This [Webhooks API](webhook-api/webhooks-basic/) allows you to subscribe to changes happening in the accounts of any Acquire user that installs your integration. Webhooks are a powerful API resource that you can use to automate much of your use cases and improve your productivity.
+This [Webhooks API]() allows you to subscribe to changes happening in the accounts of any Acquire user that installs your integration. Webhooks are a powerful API resource that you can use to automate much of your use cases and improve your productivity.
 
 Unlike the API resources, which represent static data that you can create, update and retrieve as needed, webhooks represent dynamic resources. You can configure them to automatically notify you when a customer has taken a particular action, such as making a purchase or replying to a conversation.
 
