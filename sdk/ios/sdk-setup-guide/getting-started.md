@@ -29,7 +29,7 @@ The main difference of these two build variants is the size.
 So if you don't require calling feature, you can use **lite** version to reduce the app size.
 {% endhint %}
 
-You can use our native SDK in your project using [Cocoapods](integration-guide-core.md) or [Manual](manual-setup-ios.md).
+You can use our native SDK in your project using [Cocoapods](integration-guide-core.md) or [Manual]().
 
 
 

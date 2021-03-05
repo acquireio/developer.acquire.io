@@ -5,17 +5,11 @@
 ## SDK
 
 * [IOS](sdk/ios/README.md)
+  * [Theme Setting](sdk/ios/theme-setting.md)
   * [SDK Setup Guide](sdk/ios/sdk-setup-guide/README.md)
     * [Getting Started](sdk/ios/sdk-setup-guide/getting-started.md)
     * [Integration Guide \(Core\)](sdk/ios/sdk-setup-guide/integration-guide-core.md)
     * [Integration Guide \(Lite\)](sdk/ios/sdk-setup-guide/integration-guide-lite.md)
-    * [Manual Setup iOS](sdk/ios/sdk-setup-guide/manual-setup-ios.md)
-    * [Acquire Account ID](sdk/ios/sdk-setup-guide/acquire-account-id.md)
-  * [SDK Configuration Example](sdk/ios/sdk-configuration-example.md)
-  * [iOS Cobrowse](sdk/ios/ios-cobrowse-sdk.md)
-  * [Theme Setting](sdk/ios/theme-setting.md)
-  * [iOS Push Notifications](sdk/ios/ios-push-notifications.md)
-  * [Verify your users](sdk/ios/verify-your-users.md)
 * [Android](sdk/android/README.md)
   * [Getting Started](sdk/android/getting-started/README.md)
     * [Integration Guide \(Core\)](sdk/android/getting-started/integration-guide.md)

@@ -1,45 +1,76 @@
 ---
-description: learn how to add acquire lite SDK with Cocoapods.
+description: >-
+  This guide describes the process of implementing AcquirIOSupport Lite SDK into
+  your iOS app.We recommend using CocoaPods as the most advanced way of managing
+  iOS project dependencies.
 ---
 
 # Integration Guide \(Lite\)
 
-## Initial setup
+#### INSTALLATION <a id="installation"></a>
 
-The steps below use [CocoaPods](https://cocoapods.org/) to integrate the AcquireIO SDK.
+To connect AcquirIOSupport Lite SDK to your iOS app just add it into your Podfile:
 
-For more detail, you can also check out our [generated iOS docs ](https://devtools.acquire.io/sdk/ios/docs/html/index.html)or review the [app store](https://itunes.apple.com/us/app/acquire-support-sdk/id1445674477#?platform=iphone) and source code on [Github](https://github.com/acquireio/acquireio-ios).
+1\) Create a Podfile in your project's root directory, if it doesn't exist yet.
 
-## Integration using Cocoapods
+2\) Add the **AcquirIOSupport-Lite-beta** in Podfile under your desired target:
 
-```objectivec
-pod 'AcquireIO-Lite'            # For lite version
+```text
+
+   target :YourTargetName do
+      pod 'AcquirIOSupport-Lite-beta’
+   end
+
 ```
 
-And run `pod install` or `pod update` to refresh your [cocoapods](https://cocoapods.org/) dependencies.
+3\) The AcquirIOSupport SDK supports module stability and therefore all its dependencies must be built in with the "Build Libraries for Distribution" setting enabled, however this is not currently supported in Cocoapods. Running the below command will ensure Xcode builds the dependencies with the correct settings. Once Cocoapods supports module stability, this workaround can be removed.
 
-For issues installing CocoaPods, see [their website](https://cocoapods.org/) for help.
+Add the following to the bottom of your Podfile:
 
-{% hint style="info" %}
-**Explanation**: The AcquireIO SDK uses background mode `Audio` for when you are video/voice call to agent/visitor. If you have not enable then background voice will not work. When the `UIBackgroundModes` key contains the `audio` value, the system’s media frameworks automatically prevent the corresponding app from being suspended when it moves to the background. Go to `Project/Targets -> Capabilities -> Background Modes -> Audio, AirPlay (Check)`
-{% endhint %}
+```text
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    if [ 'Socket.IO-Client-Swift', 'Starscream'].include? target.name
+      target.build_configurations.each do |config|
+          config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
+      end
+    end
+  end
+end
+```
 
-In iOS 10+, Before you access privacy-sensitive data like Camera, Microphone, and so on, you must ask for the authorization, or your app will crash when you access them.
+4\) Run the below command to install the SDK to your project.
 
-Open the file in your project named `info.plist`, right click it, opening as Source Code, paste this code below to it. Or you can open `info.plist` as `Property List` by default, click the add button, Xcode will give you the suggest completions while typing Privacy - with the help of keyboard and
+```text
+bash
 
-Remember to write your description why you ask for this authorization, between `<string>` and `</string>`, or your app will be rejected by apple:
+$ pod install --repo-update
+```
 
-```markup
-<!-- Allow Camera -->
+5\) Open your project using the generated \*.xcworkspace file.
+
+> #### **NOTE:** IF YOU ARE NEW TO COCOAPODS, GO TO [COCOAPODS](https://cocoapods.org/) TO LEARN HOW TO INSTALL IT. <a id="note-if-you-are-new-to-cocoapods-go-to-cocoapods-to-learn-how-to-install-it"></a>
+
+Make sure to always open the Xcode workspace instead of the project file when building your project:
+
+```text
+open YourTargetName.xcworkspace
+```
+
+#### SETUP INFO.PLIST <a id="setup-infoplist"></a>
+
+> _Since iOS 10, it's mandatory to add before you access privacy-sensitive data like Camera, Microphone, and so on, you must ask for the authorization, or your app will crash when you access them._
+
+Open the file in your project named info.plist, right-click it, opening as Source Code, paste this code below to it. Or you can open info.plist as Property List by default, click the add button, Xcode will give you the suggested completions while typing Privacy - with the help of keyboard and
+
+Remember to write your description of why you ask for this authorization, between `<string>` and `</string>`, or your app will be rejected by Apple:
+
+```text
+<!-- Camera -->
 <key>NSCameraUsageDescription</key>
 <string>$(PRODUCT_NAME) use camera for video chat</string>
 
-<!-- Allow Microphone -->
-<key>NSMicrophoneUsageDescription</key>
-<string>$(PRODUCT_NAME) use microphone for voice chat</string>
-
-<!-- Allow Photo Library -->
+<!-- Photo Library -->
 <key>NSPhotoLibraryUsageDescription</key>
 <string>$(PRODUCT_NAME) send photo/video to agent</string>
 ```

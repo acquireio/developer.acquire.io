@@ -1,123 +1,147 @@
 # Theme Setting
 
-{% hint style="info" %}
-**Using UIAppearance**
+Theme Settings
 
-UIAppearance customizations are applied to AcquireIO SDK by default. However if there is a conflicting property, then the value in `ThemeOptions` key in `AcquireIOConfig` will take precedence.
-
-For example: If the app uses UIAppearance to change the color of Navigation Bar title and also specifies a color for the same property in the `AcquireIOConfig ThemeOptions` `NSDictionary`, then the value in dictionary will be used. In order to use the UIAppearance value, the app must leave the corresponding entry in the `ThemeOptions` blank.
-
-if you don't want to use `AcquireIOConfig ThemeOptions` properties to SDK the use init method attribute option to '`UseDefaultTheme`' to `@YES`.
-{% endhint %}
-
-![](../../.gitbook/assets/navigationbar.png)
+> Using `UIAppearance`
+>
+> UIAppearance customizations are applied to AcquireIOSupport SDK by default. However if there is a conflicting property, then the value in `ThemeOptions` key in `AcquireIOConfig` will take precedence.
+>
+> For example: If the app uses `UIAppearance` to change the color of Navigation Bar title and also specifies a color for the same property in the _AcquireIOConfig ThemeOptions_ - NSDictionary, then the value in dictionary will be used.
+>
+> In order to use the UIAppearance value, the app must leave the corresponding entry in the `ThemeOptions` blank.
 
 ### Introduction <a id="introduction"></a>
 
-Head over to Theming if you want to customize your SDK integration's typeface, colors or fonts. It is done via simple key-value pairs in option dictionary.
+Head over to Theming if you want to customize your SDK integration's typeface, colors or fonts. It can be achieved via simple key-value pairs in the options dictionary.
 
-### Configuration
+#### CONFIGURATION <a id="configuration"></a>
 
-Check this code in \[\[AcquireIO support\] setAccount: withOptions:\]; method, where withOptions parameter is an instance of AcquireIOConfig, set options dictionary in AcquireIOConfig using:
+Theme customization can be configured via `AcquireIOConfig` class:
 
-```objectivec
-NSDictionary *options = @{};
-AcquireIOConfig *config = [AcquireIOConfig config];
-[config setDict:options];
+```text
+let options = [String : Any]()
+let config = AcquireIOConfig.config
+config.setDict(options)
 
 //Pass `config` to- setAccount: withOptions:config
 ```
 
-Set NSDictionary options in format of key value. Color code will be hex value of color, start from \#. You can remove and leave blank for default theme effect. Sample format
+Set _Dictionary_ options in the format of key-value. Color code will be hex value of color, start from \#. You can remove and leave blank for the default theme effect.
 
-```objectivec
-NSDictionary *themeDict = [@{@"ACQUIREIO_GLOBAL": @{
-                                           @"THEME_COLOR": @"#00ff00"
-                                           },
-                             @"ACQUIREIO_NAVIGATION_BAR": @{
-                                           @"BAR_TINTCOLOR"         : @"#00ff00",
-                                           @"TINT_COLOR"            : @"#fae1dd"
-                                           },
-                             @"ACQUIREIO_SYSTEM_BUTTON": @{
-                                           @"BACKGROUND_COLOR": @"#ff0000",
-                                           @"BUTTON_INSET_BOTTOM"   : @100,
-                                           @"BUTTON_INSET_RIGHT"    : @90
-                                           }
-                                   } mutableCopy];
-    
-    
-    
-    NSDictionary *options = @{
-                                ...
-                             @"ThemeOptions": themeDict
-                             };
+> Sample format for setting Config options:
+
+```text
+let themeDict = [
+                  "ACQUIREIO_GLOBAL": [
+                      "THEME_COLOR":"#ff87b8"
+                  ],
+                  "ACQUIREIO_NAVIGATION_BAR": [
+                      "BAR_STYLE": "UIBarStyleBlack",
+                      "BAR_TINTCOLOR": "#ff87b8",
+                      "TINT_COLOR": "#FFFFFF"
+                  ],
+                  "ACQUIREIO_BADGE_VIEW": [
+                      "BACKGROUND_COLOR": "#ff0000",
+                      "BORDER_COLOR": "#FE0319",
+                      "TEXT_COLOR": "#ff0000"
+                  ],
+
+                  "ACQUIREIO_SYSTEM_BUTTON": [
+                      "BACKGROUND_COLOR": "#ff0000",
+                      "BUTTON_INSET_BOTTOM": NSNumber(value: 100),
+                      "BUTTON_INSET_RIGHT": NSNumber(value: 90)
+                  ]
+               ]
+
+ let option = [ ...
+                "ThemeOptions": themeDict
+              ]
 ```
 
-### Theme Setting <a id="theme-setting"></a>
+#### CONFIG OPTIONS <a id="config-options"></a>
 
-To skin your app, make sure you add `AcquireIOConfig @"ThemeOptions"`.
+Along with Theme settings, SDK supports the following optional customization options.
+
+```text
+ let option = [
+            "ThemeOptions": themeDict,
+            "ShowVideoButton": true,
+            "ShowAudioButton": true,
+            "disableAttachment": false,
+            "ShowThreadList": true,
+            "ButtonImageName": "chat.png"
+        ] as [String : Any]
+```
+
+* `ShowChatButton` : To hide support system button on bottom right of screen , set to `false` and it will hide the button but chat functionality will not be affected by this option. Default value set to `true`.
+* `ButtonImageName` : To set an Image for AcquireIOsupport chat system button. Custom Image should be put in main bundle of app. Image size 30x30 px, 60x60 px for @2x.
+* `ShowThreadList` : To show list of sessions/threads. Default value is set to `true`.
+* `isHideNewChat` : if set to `true`, user won't be able to start new chat with agents. if set to `false`, user can start new chat with agnets. Default value set to `false`.
+* `SessionConnectAndStartAuto` : Session will be automatically connected to server and start, no need to invoke any additional method for start the session. If you set `false`, then you must call `AcquireIO.support.startSession()` method to start new connection with server. Default value is set to `true`.
+* `disableAttachment` : To disable uploading attachment to agents. Default value is set to `false`.
+* `ShowVideoButton` : To show video call button in top bar of visitor's main chat messages screen. Default value is set to `true`.
+* `ShowAudioButton` : To show audio call button in top bar of visitor's main chat messages screen. Default value is set to `true`.
+
+#### THEME SETTINGS <a id="theme-settings"></a>
+
+To skin your app, make sure you add AcquireIOConfig @"ThemeOptions".
 
 | Property | Description |
 | :--- | :--- |
-| `Colors` | Colors are specified in hexadecimal format, e.g. `#FFFFFF` is White. \# is required before code |
-| `Fonts` | Font names should be specified by their family name & style. For example, **CaviareDreams-Bold** refers to Caviare Dreams _family_ of bold _style_. See using custom fonts section for more details |
+| Colors | Colors are specified in hexadecimal format, e.g. \#FFFFFF is White. \# is required before code |
+| Fonts | Font names should be specified by their family name & style. For example, CaviareDreams-Bold refers to Caviare Dreams family of bold style. See using custom fonts section for more details |
 
-### Global Attributes <a id="global-attributes"></a>
+#### GLOBAL ATTRIBUTE <a id="global-attribute"></a>
 
 These attributes control the looks of in-app support over many screens.
 
 | Property | Description |
 | :--- | :--- |
-| `THEME_COLOR` | Applies theme color to whole support SDK according to your app theme. Default theme color is `#3A6` |
-| `FONT_NAME` | Global font face - applies to texts for sections list, Chat list, Offline form and all. Default font is system font with size according to requirement |
-| `BOLD_FONT_NAME` | Applies to headers on chat screen and title of pages. Default font is system bold font with size according to requirement |
+| THEME\_COLOR | Applies theme color to whole support SDK according to your app theme. Default theme color is \#3A6 |
+| FONT\_NAME | Global font face - applies to texts for sections list, Chat list, Offline form and all. Default font is system font with size according to requirements |
+| BOLD\_FONT\_NAME | Applies to headers on chat screen and title of pages. Default font is system bold font with size according to requirement |
 
-### Navigation Bar <a id="navigation-bar"></a>
+#### NAVIGATION BAR <a id="navigation-bar"></a>
 
 | Property | Description |
 | :--- | :--- |
-| `BAR_STYLE` | Use `UIBarStyleBlack` or `UIBarStyleDefault`. Default bar style is `UIBarStyleDefault` |
-| `BAR_TINTCOLOR` | The tint color to apply to the navigation bar background. This color is not made translucent by default unless you set the isTranslucent property to true. Default `BAR_TINTCOLOR` is `#FFFFFF` |
-| `TINT_COLOR` | The tint color is navigation title and back and other bar button items color. For more see image below. Default color is `#000000` |
+| BAR\_STYLE | Use UIBarStyleBlack or UIBarStyleDefault. Default bar style is UIBarStyleDefault |
+| BAR\_TINTCOLOR | The tint color to apply to the navigation bar background. This color is not made translucent by default unless you set the isTranslucent property to true. Default BAR\_TINTCOLOR is \#FFFFFF |
+| TINT\_COLOR | The tint color is navigation title and back and other bar button items color. Default color is \#000000 |
 
-### System Button Attributes <a id="system-button-attributes"></a>
+#### SYSTEM BUTTON ATTRIBUTES <a id="system-button-attributes"></a>
 
 These attributes applies on default bottom right support button.
 
 | Property | Description |
 | :--- | :--- |
-| `BACKGROUND_COLOR` | Applies to background color of button. Default theme color is `THEME_COLOR` |
-| `BUTTON_INSET_BOTTOM` | Inset button from bottom in `NSNumber`. default bottom inset is 0. |
-| `BUTTON_INSET_RIGHT` | Inset button from right in `NSNumber`. default right inset is 0. |
+| BACKGROUND\_COLOR | Applies to background color of button. Default theme color is THEME\_COLOR |
+| BUTTON\_INSET\_BOTTOM | Inset button from bottom in NSNumber. default bottom inset is 0. |
+| BUTTON\_INSET\_RIGHT | Inset button from right in NSNumber. default right inset is 0. |
 
-### System Button Badge Attributes <a id="system-button-badge-attributes"></a>
+#### SYSTEM BADGE BUTTON ATTRIBUTES <a id="system-badge-button-attributes"></a>
 
 These attributes applies on default bottom right support button notification badge.
 
 | Property | Description |
 | :--- | :--- |
-| `BACKGROUND_COLOR` | Applies to background color of button badge. Default color is red |
-| `TEXT_COLOR` | Button badge color. Default color is `#ffffff`. |
+| BACKGROUND\_COLOR | Applies to background color of button badge. Default color is red |
+| BORDER\_COLOR | Applies border to the badge button |
+| TEXT\_COLOR | Button badge color. Default color is \#ffffff. |
 
-### Using Custom Fonts <a id="using-custom-fonts"></a>
+#### USING CUSTOM FONTS <a id="using-custom-fonts"></a>
 
-Add the font to your project. Edit your app's plist file and add a key `"Fonts provided by application"` to it. Under the key, list out file names of all the fonts you want to use in your app and in support. If you've already listed such fonts, skip this step.
+**Step 1.** Add the font to your project. Edit your app's plist file and add a key "Fonts provided by application" to it. Under the key, list out file names of all the fonts you want to use in your app and in support. If you've already listed such fonts, skip this step.
 
-![](../../.gitbook/assets/font-screen.png)
+![](https://gblobscdn.gitbook.com/assets%2F-LMa9C05MmCnAr03_v9O%2F-LN9EeARIb0jlqCV5rMw%2F-LN9F1_w4tEq2jAlh6ye%2Ffont-screen.png?alt=media&token=0683d74a-3780-4987-a517-2399008718c3)
 
-**Step 2:** Copy the font's full name. To do this, select the font in Finder and hit **`COMMAND`** `⌘+I` \(Get Info\).
+**Step 2.** Copy the font's full name. To do this, select the font in Finder and hit `COMMAND` `⌘+I` \(Get Info\).
 
-![](../../.gitbook/assets/fontname-screen.png)
+![](https://gblobscdn.gitbook.com/assets%2F-LMa9C05MmCnAr03_v9O%2F-LN9EeARIb0jlqCV5rMw%2F-LN9FCAVkyfSaMNtD3UV%2FfontName-screen.png?alt=media&token=889e571b-effb-4059-aa0b-55346b3be3f2)
 
-**Step 3:** Paste the font name into `AcquireIOConfig @"ThemeOptions" -> @"ACQUIREIO_GLOBAL" ->FONT_NAME`, wherever necessary
+**Step 3.** Paste the font name into
 
-![](../../.gitbook/assets/image-sample-code-config-dict.png)
+`AcquireIOConfig @"ThemeOptions" -> @"ACQUIREIO_GLOBAL" ->FONT_NAME` ,wherever necessary
 
-**Step 4:** Test the font and theme in simulator. If font couldn't load by SDK then it will show error —
-
-![](../../.gitbook/assets/sdk-theme.png)
-
-### Orientation support <a id="orientation-support"></a>
-
-By default, the iOS SDK will follow the orientation of the app.
+![](https://gblobscdn.gitbook.com/assets%2F-LMa9C05MmCnAr03_v9O%2F-MSgJ2mo03pc0Tx2-JgU%2F-MSgMsAZCeOYGpItQL2a%2FNew_themeSetting.png?alt=media&token=eb2fca1d-2a7e-46f8-b228-4c077fcd075a)
 
