@@ -5,11 +5,13 @@
 ## SDK
 
 * [IOS](sdk/ios/README.md)
-  * [Theme Setting](sdk/ios/theme-setting.md)
+  * [Acquire SDK Delegates](sdk/ios/acquire-sdk-delegates.md)
   * [SDK Setup Guide](sdk/ios/sdk-setup-guide/README.md)
     * [Getting Started](sdk/ios/sdk-setup-guide/getting-started.md)
     * [Integration Guide \(Core\)](sdk/ios/sdk-setup-guide/integration-guide-core.md)
     * [Integration Guide \(Lite\)](sdk/ios/sdk-setup-guide/integration-guide-lite.md)
+  * [Initialization](sdk/ios/initialization.md)
+  * [Theme Setting](sdk/ios/theme-setting.md)
 * [Android](sdk/android/README.md)
   * [Getting Started](sdk/android/getting-started/README.md)
     * [Integration Guide \(Core\)](sdk/android/getting-started/integration-guide.md)
