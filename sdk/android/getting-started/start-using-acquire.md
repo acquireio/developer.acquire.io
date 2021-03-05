@@ -20,7 +20,7 @@ Get your Account ID :
 
 You can find your **`accountID`**as shown in image below :
 
-![Get Acquire account ID](../../.gitbook/assets/acquire-image-sdk.png)
+![Get Acquire account ID](../../../.gitbook/assets/acquire-image-sdk.png)
 
 #### 2. Using options :
 

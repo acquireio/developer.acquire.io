@@ -190,7 +190,7 @@ This is part of additional visitor configuration. If this is provided through th
 | :--- | :--- | :--- |
 | `fields` | `Array` | array of field. field dictionary format: `{"n":"field_key","v":"field_value"}.` |
 
-![](../.gitbook/assets/custom-fields.png)
+![](../../.gitbook/assets/custom-fields.png)
 
 #### Sample Code
 

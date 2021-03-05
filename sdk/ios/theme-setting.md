@@ -10,7 +10,7 @@ For example: If the app uses UIAppearance to change the color of Navigation Bar 
 if you don't want to use `AcquireIOConfig ThemeOptions` properties to SDK the use init method attribute option to '`UseDefaultTheme`' to `@YES`.
 {% endhint %}
 
-![](../.gitbook/assets/navigationbar.png)
+![](../../.gitbook/assets/navigationbar.png)
 
 ### Introduction <a id="introduction"></a>
 
@@ -103,19 +103,19 @@ These attributes applies on default bottom right support button notification bad
 
 Add the font to your project. Edit your app's plist file and add a key `"Fonts provided by application"` to it. Under the key, list out file names of all the fonts you want to use in your app and in support. If you've already listed such fonts, skip this step.
 
-![](../.gitbook/assets/font-screen.png)
+![](../../.gitbook/assets/font-screen.png)
 
 **Step 2:** Copy the font's full name. To do this, select the font in Finder and hit **`COMMAND`** `⌘+I` \(Get Info\).
 
-![](../.gitbook/assets/fontname-screen.png)
+![](../../.gitbook/assets/fontname-screen.png)
 
 **Step 3:** Paste the font name into `AcquireIOConfig @"ThemeOptions" -> @"ACQUIREIO_GLOBAL" ->FONT_NAME`, wherever necessary
 
-![](../.gitbook/assets/image-sample-code-config-dict.png)
+![](../../.gitbook/assets/image-sample-code-config-dict.png)
 
 **Step 4:** Test the font and theme in simulator. If font couldn't load by SDK then it will show error —
 
-![](../.gitbook/assets/sdk-theme.png)
+![](../../.gitbook/assets/sdk-theme.png)
 
 ### Orientation support <a id="orientation-support"></a>
 

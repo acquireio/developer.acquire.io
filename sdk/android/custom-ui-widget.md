@@ -6,7 +6,7 @@
 
 Go to [https://app.acquire.io/widget/theme](https://app.acquire.io/widget/theme) - :
 
-![](../.gitbook/assets/theme_change%20%282%29.png)
+![](../../.gitbook/assets/theme_change%20%282%29.png)
 
 {% hint style="info" %}
 Whole Chat module will change according to this Background color.

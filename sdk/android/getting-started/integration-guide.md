@@ -86,5 +86,5 @@ Use **apk split feature of android**
 for reference see below screenshot -&gt;
 {% endhint %}
 
-![](../../.gitbook/assets/image%20%283%29.png)
+![](../../../.gitbook/assets/image%20%283%29.png)
 

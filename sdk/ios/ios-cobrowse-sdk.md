@@ -170,7 +170,7 @@ End the cobrowse session. Calling endSharing initiates the process of ending the
 
 Show prompt message for end confirmation, see:
 
-![End sharing prompt message for user](../.gitbook/assets/screen-shot-2018-09-24-at-1.11.07-pm.png)
+![End sharing prompt message for user](../../.gitbook/assets/screen-shot-2018-09-24-at-1.11.07-pm.png)
 
 **Parameter**
 
@@ -198,7 +198,7 @@ AcquireIO.support().endSharing(false)
 
 After session is connected you can choose to show our stop button or not.
 
-![ShowDefaultStopButton](../.gitbook/assets/showdefaultstopbutton.png)
+![ShowDefaultStopButton](../../.gitbook/assets/showdefaultstopbutton.png)
 
 Add key `@"ShowDefaultStopButton"` for stop sharing button. Set Value `@NO` to hide the stop button.
 

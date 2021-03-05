@@ -6,19 +6,19 @@ To enable push notifications in Acquire you first need to create a .p12 certific
 
 Login to [Apple developer account](https://developer.apple.com/account) and click Certificates, Identifiers and Profile
 
-![](../.gitbook/assets/crt-id-generate.png)
+![](../../.gitbook/assets/crt-id-generate.png)
 
 Select iOS from dropdown, select App IDs from side menu and create a new App I
 
-![](../.gitbook/assets/crt-profiles.png)
+![](../../.gitbook/assets/crt-profiles.png)
 
 Specify App name, Bundle ID and select Push Notifications, then Continue
 
-![](../.gitbook/assets/create-ios-app-developer.png)
+![](../../.gitbook/assets/create-ios-app-developer.png)
 
 Click Register, then Done to complete app registration
 
-![](../.gitbook/assets/push-crt-configurable.png)
+![](../../.gitbook/assets/push-crt-configurable.png)
 
 Now, you can see the app listed in App IDs
 
@@ -26,55 +26,55 @@ Now, you can see the app listed in App IDs
 
 Launch the Keychain Access application in your Mac OS X and Select Keychain Access -&gt; Certificate Assistant -&gt; Request a Certificate From a Certificate Authority.
 
-![](../.gitbook/assets/csr-authority.png)
+![](../../.gitbook/assets/csr-authority.png)
 
 Enter email address and check the ‘Saved to disk’ option, then click Continue
 
-![](../.gitbook/assets/save-csr.png)
+![](../../.gitbook/assets/save-csr.png)
 
 Save certificate
 
-![](../.gitbook/assets/save-csr-final.png)
+![](../../.gitbook/assets/save-csr-final.png)
 
 **Generate a Development Certificate**
 
 Go back to developer account and select app from App IDs and click Edit
 
-![](../.gitbook/assets/edit-app-apn.png)
+![](../../.gitbook/assets/edit-app-apn.png)
 
 Scroll Down to Development SSL certificates and click Create Certificate
 
-![](../.gitbook/assets/create-apn-crt.png)
+![](../../.gitbook/assets/create-apn-crt.png)
 
 Click Continue
 
-![](../.gitbook/assets/upload-csr-file.png)
+![](../../.gitbook/assets/upload-csr-file.png)
 
 Choose certificate file created from Keychain Access in previous section and click Continue
 
-![](../.gitbook/assets/choose-csr-file.png)
+![](../../.gitbook/assets/choose-csr-file.png)
 
 Download Development Certificate and click Done to finish process
 
-![](../.gitbook/assets/save-apn-cer.png)
+![](../../.gitbook/assets/save-apn-cer.png)
 
 **Generate APNS .p12 certificate**
 
 Double click Development certificate generated in previous step to add it to Keychain Access. Go to Keychain Access, select login keychain and My Certificate from side menu. Find app certificate and right click to export it
 
-![](../.gitbook/assets/apn-cer-export.png)
+![](../../.gitbook/assets/apn-cer-export.png)
 
 Enter certificate name and click Save
 
-![](../.gitbook/assets/apn-cer-export-p12.png)
+![](../../.gitbook/assets/apn-cer-export-p12.png)
 
 Enter password for certificate and click Ok
 
-![](../.gitbook/assets/save-p12-passphrase.png)
+![](../../.gitbook/assets/save-p12-passphrase.png)
 
 Enter your computer admin password to finish the process
 
-![](../.gitbook/assets/save-p12-mac-credential2.png)
+![](../../.gitbook/assets/save-p12-mac-credential2.png)
 
 ### Step 3: Upload .p12 file to Acquire
 

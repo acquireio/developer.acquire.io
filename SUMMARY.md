@@ -2,47 +2,29 @@
 
 * [Acquire Developers Portal](README.md)
 
-## Acquire
+## SDK
 
-* [Acquire Build Requirement](acquire/acquire-build-requirement/README.md)
-  * [Requirement For Acquire](acquire/acquire-build-requirement/requirement-for-acquire.md)
-  * [Acquire Speedtest](acquire/acquire-build-requirement/acquire-speedtest.md)
-
-## JS API
-
-## Co Browse APIs
-
-* [Acquire Co Browse](co-browse-apis/acquire-co-browse/README.md)
-  * [Co Browse API](co-browse-apis/acquire-co-browse/api.md)
-
-## Acquire API Events
-
-* [WebRTC Related Events](acquire-api-events/webrtc-related-events.md)
-
-## iOS
-
-* [SDK Setup Guide](ios/sdk-setup-guide/README.md)
-  * [Getting Started](ios/sdk-setup-guide/getting-started.md)
-  * [Integration Guide \(Core\)](ios/sdk-setup-guide/integration-guide-core.md)
-  * [Integration Guide \(Lite\)](ios/sdk-setup-guide/integration-guide-lite.md)
-  * [Manual Setup iOS](ios/sdk-setup-guide/manual-setup-ios.md)
-  * [Acquire Account ID](ios/sdk-setup-guide/acquire-account-id.md)
-* [SDK Configuration Example](ios/sdk-configuration-example.md)
-* [iOS Cobrowse](ios/ios-cobrowse-sdk.md)
-* [Theme Setting](ios/theme-setting.md)
-* [iOS Push Notifications](ios/ios-push-notifications.md)
-* [Verify your users](ios/verify-your-users.md)
-
-## Android
-
-* [Getting Started](android/getting-started/README.md)
-  * [Integration Guide \(Core\)](android/getting-started/integration-guide.md)
-  * [Integration Guide \(Lite\)](android/getting-started/integration-guide-lite.md)
-  * [Start using Acquire](android/getting-started/start-using-acquire.md)
-* [Acquire APIs](android/acquire-apis.md)
-* [Acquire Delegates](android/acquire-delegates.md)
-* [Custom UI/widget](android/custom-ui-widget.md)
-* [Cross Platform Integrations](android/cross-platform-integrations.md)
+* [IOS](sdk/ios/README.md)
+  * [SDK Setup Guide](sdk/ios/sdk-setup-guide/README.md)
+    * [Getting Started](sdk/ios/sdk-setup-guide/getting-started.md)
+    * [Integration Guide \(Core\)](sdk/ios/sdk-setup-guide/integration-guide-core.md)
+    * [Integration Guide \(Lite\)](sdk/ios/sdk-setup-guide/integration-guide-lite.md)
+    * [Manual Setup iOS](sdk/ios/sdk-setup-guide/manual-setup-ios.md)
+    * [Acquire Account ID](sdk/ios/sdk-setup-guide/acquire-account-id.md)
+  * [SDK Configuration Example](sdk/ios/sdk-configuration-example.md)
+  * [iOS Cobrowse](sdk/ios/ios-cobrowse-sdk.md)
+  * [Theme Setting](sdk/ios/theme-setting.md)
+  * [iOS Push Notifications](sdk/ios/ios-push-notifications.md)
+  * [Verify your users](sdk/ios/verify-your-users.md)
+* [Android](sdk/android/README.md)
+  * [Getting Started](sdk/android/getting-started/README.md)
+    * [Integration Guide \(Core\)](sdk/android/getting-started/integration-guide.md)
+    * [Integration Guide \(Lite\)](sdk/android/getting-started/integration-guide-lite.md)
+    * [Start using Acquire](sdk/android/getting-started/start-using-acquire.md)
+  * [Acquire APIs](sdk/android/acquire-apis.md)
+  * [Acquire Delegates](sdk/android/acquire-delegates.md)
+  * [Custom UI/widget](sdk/android/custom-ui-widget.md)
+  * [Cross Platform Integrations](sdk/android/cross-platform-integrations.md)
 
 ## Webhook API
 
@@ -93,30 +75,6 @@
 * [Operating Hours](rest-apis/operating-hours/README.md)
   * [Save Operating Hours](rest-apis/operating-hours/save-operating-hours.md)
   * [Get Operating Hours](rest-apis/operating-hours/get-operating-hours.md)
-
-## Chatbot API
-
-* [Chat Bot](chatbot-api/chat-bot/README.md)
-  * [Integrate Your Chatbot](chatbot-api/chat-bot/integrate-your-chatbot.md)
-  * [Dialog Flow V1 Chat-Bot](chatbot-api/chat-bot/dialog-flow-chat-bot.md)
-  * [Dialog Flow V2 Chat-Bot](chatbot-api/chat-bot/dialog-flow-v2-chat-bot.md)
-  * [Dialog Flow Fulfillment & Custom Response](chatbot-api/chat-bot/dialog-flow-fulfillment.md)
-  * [IBM Watson Integration](chatbot-api/chat-bot/ibm-watson-bot.md)
-  * [Amazon Lex Bot](chatbot-api/chat-bot/amazon-lex-bot.md)
-  * [Azure's QnA Maker](chatbot-api/chat-bot/azure-qna-maker.md)
-  * [Webhook Calling & User Verification](chatbot-api/chat-bot/webhook-calling-and-user-verification.md)
-  * [Webhook For Reset Password](chatbot-api/chat-bot/webhook-for-reset-password.md)
-
-## Knowledge Base APIs
-
-* [Help Docs Setup](knowledge-base-apis/help-docs-setup/README.md)
-  * [Get FAQ Categories](knowledge-base-apis/help-docs-setup/get-faq-categories.md)
-  * [Get Setup Details](knowledge-base-apis/help-docs-setup/get-setup-details.md)
-  * [Get Side List](knowledge-base-apis/help-docs-setup/get-side-list.md)
-  * [Get Article](knowledge-base-apis/help-docs-setup/get-article.md)
-  * [Get Recent Article](knowledge-base-apis/help-docs-setup/get-recent-article.md)
-  * [Get Categorized Articles](knowledge-base-apis/help-docs-setup/get-categorized-articles.md)
-  * [Get Suggestion](knowledge-base-apis/help-docs-setup/get-suggestion.md)
 
 ## Errors
 

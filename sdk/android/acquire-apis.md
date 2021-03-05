@@ -102,7 +102,7 @@ You can customize visitor’s identification by calling our sdk’s method **set
         }
 ```
 
-![Use the field\_key to pass in the JSONObject.](../.gitbook/assets/image%20%284%29.png)
+![Use the field\_key to pass in the JSONObject.](../../.gitbook/assets/image%20%284%29.png)
 
 Alternate visitor detail methods are:
 
@@ -122,7 +122,7 @@ AcquireApp.setVisitorRemarks(visitorRemarks: String)
 
 Show Floating Video \(PIP mode\) everywhere in your app when audio/video call is active.
 
-![](../.gitbook/assets/api-explore.jpg)
+![](../../.gitbook/assets/api-explore.jpg)
 
 ### setMainVideoFrameSize\(width, height\):
 
