@@ -1,13 +1,9 @@
 # Introduction
 
-Hi, Developer!
-
-You can use webhooks to receive notifications, such as conversation replies, and users being created. Notifications are grouped into events which can be subscribed to.
-
-The main events for the webhook API are subscriptions, login, chat accept, offline, chat messages and chat close notifications.
+The webhooks will assist you to subscribe to real-time HTTP notification of changes to specific objects that occur during an Acquire account with a configured endpoint. Instead of making an API call during an event that occurs in the account, Acquire can send a request to the endpoint you configure.
 
 {% hint style="info" %}
- **Note** : You can view, edit and troubleshoot all your webhooks from the acquire webhooks dashboard.
+ **Note**: The Settings section has the option to view, update and log all your webhooks from the Acquire webhooks dashboard.
 {% endhint %}
 
 
