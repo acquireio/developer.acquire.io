@@ -35,6 +35,7 @@
 * [Platform](rest-apis/platform/README.md)
   * [Company](rest-apis/platform/company.md)
   * [Customer](rest-apis/platform/customer.md)
+* [Chatbot](rest-apis/chatbot.md)
 
 ## Errors
 
