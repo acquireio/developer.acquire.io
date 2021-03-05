@@ -1,11 +1,17 @@
 # Getting Started
 
+AcquirIO SDK provides you with many helpful methods to build the chat and audio/video chat from the client-side.
+
+This page presents a quick overview of the SDK’s functionalities and logic, then lets you go through the easy steps of implementing AcquirIO SDK in your own app.
+
+Acquire iOS SDK can be used with the following languages and platforms:
+
 For more detail, you can also check out our [generated iOS docs ](https://devtools.acquire.io/sdk/ios/docs/html/index.html)or review the [app store](https://itunes.apple.com/us/app/acquire-support-sdk/id1445674477#?platform=iphone) and source code on [Github](https://github.com/acquireio/acquireio-ios)
 
 ### Requirements
 
-* iOS 8.2+
-* XCode 10+
+* iOS 11.0+
+* XCode 11.4+
 
 ### Build variants
 
