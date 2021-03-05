@@ -46,9 +46,9 @@ class XYZApp : Application() {
 
  To get the Demo app clone project from GitHub: [SDKs Guide](https://github.com/acquireio/android-sdk)
 
-To know more about initialization options [click here](start-using-acquire.md#initialize-acquire-sdk). 
+To know more about initialization options [click here](). 
 
 To handle chat events manually [click here](../acquire-apis.md#chat-apis). 
 
-To customize our chat widget [click here](../custom-ui-widget.md#customize-chat-widget).
+To customize our chat widget [click here]().
 

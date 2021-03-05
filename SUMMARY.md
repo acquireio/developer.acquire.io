@@ -17,11 +17,8 @@
   * [Getting Started](sdk/android/getting-started/README.md)
     * [Integration Guide \(Core\)](sdk/android/getting-started/integration-guide.md)
     * [Integration Guide \(Lite\)](sdk/android/getting-started/integration-guide-lite.md)
-    * [Start using Acquire](sdk/android/getting-started/start-using-acquire.md)
   * [Acquire APIs](sdk/android/acquire-apis.md)
   * [Acquire Delegates](sdk/android/acquire-delegates.md)
-  * [Custom UI/widget](sdk/android/custom-ui-widget.md)
-  * [Cross Platform Integrations](sdk/android/cross-platform-integrations.md)
 
 ## Webhooks <a id="webhook-api"></a>
 

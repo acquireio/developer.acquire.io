@@ -36,7 +36,5 @@ So if you don't require Video calling feature, you can use **lite** version to r
 
 {% page-ref page="integration-guide-lite.md" %}
 
-{% page-ref page="start-using-acquire.md" %}
-
 {% page-ref page="../acquire-delegates.md" %}
 
