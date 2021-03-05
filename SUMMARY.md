@@ -32,6 +32,9 @@
 * [OAuth](rest-apis/oauth/README.md)
   * [Authorization](rest-apis/oauth/authorization.md)
   * [Tracklog](rest-apis/oauth/tracklog.md)
+* [Platform](rest-apis/platform/README.md)
+  * [Company](rest-apis/platform/company.md)
+  * [Customer](rest-apis/platform/customer.md)
 
 ## Errors
 
