@@ -1,4 +1,0 @@
-# HTTP Responses
-
-Coming Soon...
-
