@@ -1,4 +1,11 @@
-# Acquire Developers Hub
+---
+description: >-
+  Welcome to Acquire developer document. This document provides a powerful web
+  service API for interacting with Acquire and explains how to use API and
+  Webhooks. API support Email: developer@acquire.io
+---
+
+# Acquire Developers Portal
 
 ## Welcome to Acquire Developers Hub
 
@@ -14,7 +21,7 @@ Acquire  is built and tested to work in the various web browsers. It may work in
 
 ## JS API
 
-Loading the Acquire JavaScript library provides an Acquire JavaScript object that responds to a few methods. Use our powerful, fully-documented API for client side and [agent side](js-api/backend-js-sdk/setup-backend-js-sdk.md) to automate some of your Acquire activities and create custom integrations with your own systems. These [JS APIs](js-api/js-live-chat-api/) allow you to update users without a page refresh and interact with the widget UI.   
+Loading the Acquire JavaScript library provides an Acquire JavaScript object that responds to a few methods. Use our powerful, fully-documented API for client side and [agent side]() to automate some of your Acquire activities and create custom integrations with your own systems. These [JS APIs]() allow you to update users without a page refresh and interact with the widget UI.   
 
 
 ## Cobrowse API

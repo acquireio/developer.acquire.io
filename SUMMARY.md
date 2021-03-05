@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Acquire Developers Hub](README.md)
+* [Acquire Developers Portal](README.md)
 
 ## Acquire
 
@@ -9,23 +9,6 @@
   * [Acquire Speedtest](acquire/acquire-build-requirement/acquire-speedtest.md)
 
 ## JS API
-
-* [JS Live Chat API](js-api/js-live-chat-api/README.md)
-  * [Description](js-api/js-live-chat-api/description.md)
-  * [Installation](js-api/js-live-chat-api/installation.md)
-  * [Visitor](js-api/js-live-chat-api/visitor.md)
-  * [Thread](js-api/js-live-chat-api/thread.md)
-  * [Conversation](js-api/js-live-chat-api/conversation.md)
-  * [User Verification](js-api/js-live-chat-api/user-verification.md)
-* [Quick Link Support](js-api/quick-link-support/README.md)
-  * [One Click Button](js-api/quick-link-support/one-click-button.md)
-  * [Social Media Share](js-api/quick-link-support/social-media-share.md)
-* [Backend JS SDK](js-api/backend-js-sdk/README.md)
-  * [Setup Backend JS SDK](js-api/backend-js-sdk/setup-backend-js-sdk.md)
-  * [Demo Backend SDK](js-api/backend-js-sdk/demo-backend-sdk.md)
-* [Advanced](js-api/advanced/README.md)
-  * [Widget UI](js-api/advanced/widget-ui.md)
-  * [Reference](js-api/advanced/reference.md)
 
 ## Co Browse APIs
 
