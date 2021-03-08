@@ -23,7 +23,7 @@ Bearer \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*YOUR\_API\_KEY\*\*\*\*\*\*\*\*\*\*\
 
 {% api-method-query-parameters %}
 {% api-method-parameter name="relations" type="string" required=false %}
-fields \| contacts \| companies
+Can be one of fields \| contacts \| companies
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}

@@ -23,11 +23,11 @@ Bearer \*\*\*\*\*\*\*\*\*\*\*\*YOUR\_API\_KEY\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\
 
 {% api-method-query-parameters %}
 {% api-method-parameter name="select" type="string" required=false %}
-dateCreated \| dateUpdated \| id \| parent
+Can be one of dateCreated \| dateUpdated \| id \| parent
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="relations" type="string" required=false %}
-contacts \| fields \| parent \| companies
+Can be one of contacts \| fields \| parent \| companies
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
