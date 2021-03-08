@@ -1,29 +1,29 @@
 ---
 description: >-
-  This guide describes the process of implementing AcquirIOSupport Lite SDK into
-  your iOS app.We recommend using CocoaPods as the most advanced way of managing
-  iOS project dependencies.
+  This guide describes the process of implementing AcquireIOSupport Lite SDK
+  into your iOS app.We recommend using CocoaPods as the most advanced way of
+  managing iOS project dependencies.
 ---
 
 # Integration Guide \(Lite\)
 
 #### INSTALLATION <a id="installation"></a>
 
-To connect AcquirIOSupport Lite SDK to your iOS app just add it into your Podfile:
+To connect AcquireIOSupport Lite SDK to your iOS app just add it into your Podfile:
 
 1\) Create a Podfile in your project's root directory, if it doesn't exist yet.
 
-2\) Add the **AcquirIOSupport-Lite-beta** in Podfile under your desired target:
+2\) Add the **AcquireIOSupport-Lite** in Podfile under your desired target:
 
 ```text
 
    target :YourTargetName do
-      pod 'AcquirIOSupport-Lite-beta’
+      pod 'AcquireIOSupport-Lite’
    end
 
 ```
 
-3\) The AcquirIOSupport SDK supports module stability and therefore all its dependencies must be built in with the "Build Libraries for Distribution" setting enabled, however this is not currently supported in Cocoapods. Running the below command will ensure Xcode builds the dependencies with the correct settings. Once Cocoapods supports module stability, this workaround can be removed.
+3\) The AcquireIOSupport SDK supports module stability and therefore all its dependencies must be built in with the "Build Libraries for Distribution" setting enabled, however this is not currently supported in Cocoapods. Running the below command will ensure Xcode builds the dependencies with the correct settings. Once Cocoapods supports module stability, this workaround can be removed.
 
 Add the following to the bottom of your Podfile:
 
@@ -56,6 +56,10 @@ Make sure to always open the Xcode workspace instead of the project file when bu
 ```text
 open YourTargetName.xcworkspace
 ```
+
+6\) Make sure to disable bitcode for your project: Go to your project's settings and find the Build settings tab, check All and search for bitcode, then set it to No.
+
+![](../../../.gitbook/assets/bitcode_setting.png)
 
 #### SETUP INFO.PLIST <a id="setup-infoplist"></a>
 
