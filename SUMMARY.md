@@ -64,7 +64,13 @@
 * [Platform](rest-apis/platform/README.md)
   * [Company](rest-apis/platform/company.md)
   * [Customer](rest-apis/platform/customer.md)
-* [Chatbot](rest-apis/chatbot.md)
+* [Chatbot](rest-apis/chatbot/README.md)
+  * [Configuration](rest-apis/chatbot/configuration.md)
+  * [Conversational bot](rest-apis/chatbot/conversational-bot/README.md)
+    * [Groups](rest-apis/chatbot/conversational-bot/groups.md)
+    * [Question And Answer](rest-apis/chatbot/conversational-bot/question-and-answer.md)
+  * [Sequence Bot](rest-apis/chatbot/sequence-bot/README.md)
+    * [Branch](rest-apis/chatbot/sequence-bot/branch.md)
 
 ## Errors
 
