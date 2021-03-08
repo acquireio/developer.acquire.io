@@ -27,6 +27,12 @@
 * [Securing Webhook](webhook-api/securing-webhook.md)
 * [Webhook Events](webhook-api/webhook-events-1.md)
 
+## Widget
+
+* [Overview](widget/overview.md)
+* [Installation](widget/installation.md)
+* [Functioning / Customization](widget/functioning-customization.md)
+
 ## REST APIs
 
 * [OAuth](rest-apis/oauth/README.md)
