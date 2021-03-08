@@ -16,13 +16,6 @@
 
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
-
-{% api-method-body-parameters %}
-{% api-method-parameter name="" type="object" required=false %}
-{  
-}
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -38,4 +31,24 @@
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+
+### BODY RAW
+
+```text
+{
+    "fields": {
+        "name": "ZeryUpdated",
+        "website": "zeryUpdated.com",
+        "logo": "IT",
+        "industry": "IT",
+        "description": "No description ",
+        "source": "No source added",
+        "revenue": "1050000",
+        "city": "SF1",
+        "state": "california"
+    },
+    "dateCreated": "string",
+    "dateUpdated": "string"
+}
+```
 
