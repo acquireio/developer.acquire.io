@@ -1,0 +1,2 @@
+# Widget window state
+
