@@ -1,8 +1,12 @@
+---
+description: Gets the specified company.
+---
+
 # Get
 
 {% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/company/{{companyId}}?relations=fields" path="" %}
 {% api-method-summary %}
-Gets the specified company.
+Single Company
 {% endapi-method-summary %}
 
 {% api-method-description %}
