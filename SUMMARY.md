@@ -90,6 +90,17 @@
 ## Analytics
 
 * [Overview](analytics/overview.md)
+* [General Analytics](analytics/general-analytics.md)
+* [Chat](analytics/chat.md)
+* [Cobrowse](analytics/cobrowse.md)
+* [Chatbot](analytics/chatbot.md)
+* [Knowledge Base](analytics/knowledge-base.md)
+* [Satisfaction](analytics/satisfaction.md)
+* [Email](analytics/email.md)
+* [VOIP - Call SMS](analytics/voip-call-sms.md)
+* [Agent Performance](analytics/agent-performance.md)
+* [Triggers & Campaigns](analytics/triggers-and-campaigns.md)
+* [Third Party Apps](analytics/third-party-apps.md)
 
 ## Errors
 
