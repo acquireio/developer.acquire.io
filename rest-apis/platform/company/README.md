@@ -22,3 +22,27 @@ To request a company endpoint you will need a valid API key with the company acc
 
 Companies belong one-to-many relations with customers.
 
+
+
+#### PARAMS <a id="params"></a>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Name</th>
+      <th style="text-align:left">Data Type</th>
+      <th style="text-align:left">Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Relations</td>
+      <td style="text-align:left">String</td>
+      <td style="text-align:left">
+        <p>to get other objects with a company such as</p>
+        <p>contacts or parent or companies</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
