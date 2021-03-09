@@ -1,6 +1,6 @@
 # Company
 
-Companies constitute the organization to which customers belongs. When you have conversations with several people from counterpart companies, it is better to group them in an organization. The Company API can be used to create, update, retrieves, and delete records in a company object. Ensure that the **relations** parameter with the value **contacts** is required to obtain contact information.
+Companies constitute the organization to which customers belong. When you have conversations with several people from counterpart companies, it is better to group them in an organization. The Company API can be used to create, update, retrieves, and delete records in a company object. Ensure that the **relations** parameter with the value **contacts** is required to obtain contact information.
 
 
 
