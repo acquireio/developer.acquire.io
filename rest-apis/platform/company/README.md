@@ -10,15 +10,15 @@ Companies constitute the organization to which customers belong. When you have c
 | dateCreated | datetime | Company creation timestamp |
 | dateUpdated | datetime | Company updated timestamp |
 
-**Permissions**
+### **Permissions**
 
 To request a company endpoint you will need a valid API key with the company access permissions.
 
-**Relations between companies and other entities**
+### **Relations between companies and other entities**
 
 Companies belong one-to-many relations with customers.
 
-#### PARAMS <a id="params"></a>
+### PARAMS
 
 <table>
   <thead>

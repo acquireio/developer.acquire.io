@@ -9,7 +9,7 @@ Using this API you can merge two customers \(contacts\). The contact ID in the e
 | :--- | :--- |
 
 
-#### PARAMETERS <a id="parameters"></a>
+### PARAMETERS
 
 | ATTRIBUTE | TYPE | DESCRIPTION |
 | :--- | :--- | :--- |
