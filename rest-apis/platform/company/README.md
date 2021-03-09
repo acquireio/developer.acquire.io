@@ -1,34 +1,24 @@
 # Company
 
-{% api-method method="get" host="" path="" %}
-{% api-method-summary %}
+Companies constitute the organization to which customers belongs. When you have conversations with several people from counterpart companies, it is better to group them in an organization. The Company API can be used to create, update, retrieves, and delete records in a company object. Ensure that the **relations** parameter with the value **contacts** is required to obtain contact information.
 
-{% endapi-method-summary %}
 
-{% api-method-description %}
 
-{% endapi-method-description %}
+| ATTRIBUTE | TYPE | DESCRIPTION |
+| :--- | :--- | :--- |
+| id | Integer | ID of the company |
+| fields | JSON object \(Entity Relations\) | Information of company such as company name, website, industry, description, source, revenue, city, state, country, address, employees, foundation |
+| contacts | JSON Array Object \(Entity Relations\) | Information of company contacts |
+| dateCreated | datetime | Company creation timestamp |
+| dateUpdated | datetime | Company updated timestamp |
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
+**Permissions**
 
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
+To request a company endpoint you will need a valid API key with the company access permissions.  
+  
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
 
-{% endapi-method-response-example-description %}
+**Relations between companies and other entities**
 
-```
-
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+Companies belong one-to-many relations with customers.
 
