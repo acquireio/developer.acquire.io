@@ -47,7 +47,12 @@ Bearer \*\*\*\*\*\*\*\*\*\*YOUR\_API\_KEY\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 {% endapi-method-response-example-description %}
 
 ```
-
+{
+    "data": {
+        "id": 83,
+        "message": "#78 contact timeline's merged with #83 successfully."
+    }
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
