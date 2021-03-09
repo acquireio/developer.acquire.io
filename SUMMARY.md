@@ -86,25 +86,28 @@
     * [Question And Answer](rest-apis/chatbot/conversational-bot/question-and-answer.md)
   * [Sequence Bot](rest-apis/chatbot/sequence-bot/README.md)
     * [Branch](rest-apis/chatbot/sequence-bot/branch.md)
-
-## Analytics
-
-* [Overview](analytics/overview.md)
-* [General Analytics](analytics/general-analytics.md)
-* [Chat](analytics/chat.md)
-* [Cobrowse](analytics/cobrowse.md)
-* [Chatbot](analytics/chatbot.md)
-* [Knowledge Base](analytics/knowledge-base.md)
-* [Satisfaction](analytics/satisfaction.md)
-* [Email](analytics/email.md)
-* [VOIP - Call SMS](analytics/voip-call-sms.md)
-* [Agent Performance](analytics/agent-performance.md)
-* [Triggers & Campaigns](analytics/triggers-and-campaigns.md)
-* [Third Party Apps](analytics/third-party-apps.md)
+* [Analytics](rest-apis/analytics/README.md)
+  * [General Analytics](rest-apis/analytics/general-analytics.md)
+  * [Chat](rest-apis/analytics/chat.md)
+  * [Cobrowse](rest-apis/analytics/cobrowse.md)
+  * [Chatbot](rest-apis/analytics/chatbot.md)
+  * [Knowledge Base](rest-apis/analytics/knowledge-base.md)
+  * [Satisfaction](rest-apis/analytics/satisfaction.md)
+  * [Email](rest-apis/analytics/email.md)
+  * [VOIP - Call SMS](rest-apis/analytics/voip-call-sms.md)
+  * [Agent Performance](rest-apis/analytics/agent-performance.md)
+  * [Triggers & Campaigns](rest-apis/analytics/triggers-and-campaigns.md)
+  * [Third Party Apps](rest-apis/analytics/third-party-apps.md)
+* [Workflow](rest-apis/workflow/README.md)
+  * [Triggers](rest-apis/workflow/triggers.md)
+* [Settings / Configuration](rest-apis/settings-configuration/README.md)
+  * [Account - Roles](rest-apis/settings-configuration/account-roles.md)
+  * [Account - User / Agent](rest-apis/settings-configuration/account-user-agent.md)
+  * [Account - Department](rest-apis/settings-configuration/account-department.md)
+  * [Security - Block Visitor](rest-apis/settings-configuration/security-block-visitor.md)
+  * [Security - Audit Logs](rest-apis/settings-configuration/security-audit-logs.md)
+  * [Login Settings](rest-apis/settings-configuration/login-settings.md)
+  * [VOIP Settings](rest-apis/settings-configuration/voip-settings.md)
 
 ## Errors
-
-## Workflow
-
-* [Overview](workflow/overview.md)
 

@@ -1,6 +1,6 @@
-# Overview
+# Analytics
 
-The Acquire Analytics provides you with the necessary resources to gain a deeper understanding of your agent and customer behavior on your system. This API allows you to export your data, based on a standard format, from which you can implement your system and any other system that you can use to manage your data.
+Acquire Analytics provides you with the necessary resources to gain a deeper understanding of your agent and customer behavior on your system. This API allows you to export your data, based on a standard format, from which you can implement your system and any other system that you can use to manage your data.
 
 ### **Mandatory parameters**
 
