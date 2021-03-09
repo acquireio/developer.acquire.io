@@ -2,8 +2,6 @@
 
 Companies constitute the organization to which customers belong. When you have conversations with several people from counterpart companies, it is better to group them in an organization. The Company API can be used to create, update, retrieves, and delete records in a company object. Ensure that the **relations** parameter with the value **contacts** is required to obtain contact information.
 
-
-
 | ATTRIBUTE | TYPE | DESCRIPTION |
 | :--- | :--- | :--- |
 | id | Integer | ID of the company |
@@ -14,15 +12,11 @@ Companies constitute the organization to which customers belong. When you have c
 
 **Permissions**
 
-To request a company endpoint you will need a valid API key with the company access permissions.  
-  
-
+To request a company endpoint you will need a valid API key with the company access permissions.
 
 **Relations between companies and other entities**
 
 Companies belong one-to-many relations with customers.
-
-
 
 #### PARAMS <a id="params"></a>
 
