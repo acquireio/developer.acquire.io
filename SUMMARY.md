@@ -70,6 +70,7 @@
     * [Delete](rest-apis/platform/company/delete.md)
   * [Customer](rest-apis/platform/customer/README.md)
     * [Merge](rest-apis/platform/customer/merge.md)
+    * [Untitled](rest-apis/platform/customer/untitled.md)
   * [Conversation](rest-apis/platform/conversation/README.md)
     * [Conversation \| Cases](rest-apis/platform/conversation/conversation-or-cases.md)
     * [Conversation \| Notes](rest-apis/platform/conversation/conversation-or-notes.md)

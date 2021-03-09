@@ -5,7 +5,7 @@ Update a Company.
 | Parameter | Value |
 | :--- | :--- |
 | **Path** | [https://{{account\_id}}.acquire.io/api/v1/crm/objects/company/{{companyId}}](https://{{account_id}}.acquire.io/api/v1/crm/objects/company/{{companyId}}) |
-| **Method** | PUT |
+| **Method** | **PUT** |
 | **Authorization** | Bearer \[YOUR\_API\_AUTH\_TOKEN\] |
 | **Content-type** | application/json |
 
