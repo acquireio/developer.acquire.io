@@ -1,8 +1,8 @@
-# List
+# Case List
 
 {% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/case?limit=2&relations=contact&select=channel" path="" %}
 {% api-method-summary %}
-
+Get case list
 {% endapi-method-summary %}
 
 {% api-method-description %}
