@@ -25,7 +25,13 @@ Bearer {{api\_key}}
 {% endapi-method-response-example-description %}
 
 ```
-
+{
+  "error": {
+    "code": "CHAT_ALREADY_JOINED",
+    "message": "You have already joined this chat.",
+    "data": null
+  }
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
@@ -36,11 +42,7 @@ Bearer {{api\_key}}
 
 ```text
 {
-  "message": {
-    "type": "message",
-    "message": "this is test message"
-  },
-  "caseId":28
+    "caseId": 7
 }
 ```
 
