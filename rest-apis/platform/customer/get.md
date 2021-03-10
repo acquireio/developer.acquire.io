@@ -19,9 +19,11 @@
 
 {% api-method-query-parameters %}
 {% api-method-parameter name="select" type="string" required=false %}
-Can be one of id\|clientName\|clientType\|clientVersion\|dateUpdated\|  
-dateCreated\|clientOsName\|clientOsVersion\|clientDeviceType\|  
-clientDeviceVendor\|clientDeviceModel\|clientDetails\|companyId
+Can be one of id\|clientName\|clientType\|clientVersion\|  
+dateUpdated\|dateCreated\|clientOsName\|  
+clientOsVersion\|clientDeviceType\|  
+clientDeviceVendor\|clientDeviceModel\|  
+clientDetails\|companyId
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="relations" type="string" required=false %}
