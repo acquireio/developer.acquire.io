@@ -2,7 +2,7 @@
 
 {% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/messenger/agent/invite-agent" path="" %}
 {% api-method-summary %}
-
+Invite an agent 
 {% endapi-method-summary %}
 
 {% api-method-description %}
