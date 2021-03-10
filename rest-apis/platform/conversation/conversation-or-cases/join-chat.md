@@ -32,3 +32,15 @@ Bearer {{api\_key}}
 {% endapi-method-spec %}
 {% endapi-method %}
 
+**Body\(row\)**
+
+```text
+{
+  "message": {
+    "type": "message",
+    "message": "this is test message"
+  },
+  "caseId":28
+}
+```
+
