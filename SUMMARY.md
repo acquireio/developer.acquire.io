@@ -82,6 +82,7 @@
       * [Get](rest-apis/platform/conversation/conversation-or-cases/get.md)
       * [Messages](rest-apis/platform/conversation/conversation-or-cases/messages.md)
       * [Single Message](rest-apis/platform/conversation/conversation-or-cases/single-message.md)
+      * [Send Message](rest-apis/platform/conversation/conversation-or-cases/send-message.md)
     * [Conversation \| Notes](rest-apis/platform/conversation/conversation-or-notes.md)
     * [Cases \| Email](rest-apis/platform/conversation/cases-or-email.md)
     * [Cases \| VOIP](rest-apis/platform/conversation/cases-or-voip.md)
