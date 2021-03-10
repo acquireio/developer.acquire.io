@@ -2,7 +2,7 @@
 
 {% api-method method="get" host="https://suthar.uat.env.acquire.io/api/v1/crm/objects/case-message/5?relations=case&select=id&select=caseId&select=channel&select=senderId&select=senderType&select=type&select=message&select=dateCreated&select=dateUpdated&select=seen&select=meta" path="" %}
 {% api-method-summary %}
-
+Get a message
 {% endapi-method-summary %}
 
 {% api-method-description %}
