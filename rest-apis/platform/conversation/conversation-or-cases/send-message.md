@@ -172,5 +172,3 @@ user
 }
 ```
 
-**Response JSON**
-
