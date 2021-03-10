@@ -2,7 +2,7 @@
 
 {% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/messenger/chat/reject" path="" %}
 {% api-method-summary %}
-
+Reject a case
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -36,11 +36,7 @@ Bearer {{api\_key}}
 
 ```text
 {
-  "message": {
-    "type": "message",
-    "message": "this is test message"
-  },
-  "caseId":28
+  "caseId": 5
 }
 ```
 
