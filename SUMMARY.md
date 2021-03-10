@@ -69,6 +69,7 @@
     * [Update](rest-apis/platform/company/update.md)
     * [Delete](rest-apis/platform/company/delete.md)
   * [Customer](rest-apis/platform/customer/README.md)
+    * [Block Customer](rest-apis/platform/customer/block-customer.md)
     * [Merge](rest-apis/platform/customer/merge.md)
     * [List](rest-apis/platform/customer/untitled.md)
     * [Get](rest-apis/platform/customer/get.md)
