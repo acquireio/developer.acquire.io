@@ -2,7 +2,7 @@
 
 {% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/messenger/chat/reopen" path="" %}
 {% api-method-summary %}
-
+Reopen a case
 {% endapi-method-summary %}
 
 {% api-method-description %}
