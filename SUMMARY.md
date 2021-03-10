@@ -88,6 +88,7 @@
       * [Close Case](rest-apis/platform/conversation/conversation-or-cases/close-case.md)
       * [Reopen Case](rest-apis/platform/conversation/conversation-or-cases/reopen-case.md)
       * [Invite Agent](rest-apis/platform/conversation/conversation-or-cases/invite-agent.md)
+      * [Join Chat](rest-apis/platform/conversation/conversation-or-cases/join-chat.md)
     * [Conversation \| Notes](rest-apis/platform/conversation/conversation-or-notes.md)
     * [Cases \| Email](rest-apis/platform/conversation/cases-or-email.md)
     * [Cases \| VOIP](rest-apis/platform/conversation/cases-or-voip.md)
