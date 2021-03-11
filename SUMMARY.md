@@ -80,6 +80,7 @@
     * [Channel](rest-apis/platform/conversation/channel/README.md)
       * [List](rest-apis/platform/conversation/channel/list.md)
       * [Get](rest-apis/platform/conversation/channel/get.md)
+      * [Create](rest-apis/platform/conversation/channel/create.md)
     * [Conversation \| Cases](rest-apis/platform/conversation/conversation-or-cases/README.md)
       * [Case List](rest-apis/platform/conversation/conversation-or-cases/list.md)
       * [Single Case](rest-apis/platform/conversation/conversation-or-cases/get.md)
