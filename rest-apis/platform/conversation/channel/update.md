@@ -1,19 +1,19 @@
-# Get
+# Update
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/channel/{channelId}" path="" %}
+{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/crm/channel/{channelId}" path="" %}
 {% api-method-summary %}
-Get a Channel
+Update a channel
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Read channels object recognized with channelId
+Update a channel with the given channel data and return the channel object.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="channelId" type="string" required=false %}
- 'chat' ID of the channel
+The ID of the channel
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
@@ -31,10 +31,34 @@ Bearer {{api\_key}}
 {% endapi-method-response-example-description %}
 
 ```
-
+{
+  "data": {
+    "id": "ezwlfc5il3",
+    "name": "string12",
+    "iconType": "internal",
+    "icon": "string",
+    "messageWebhook": "https://testtest.com",
+    "userId": 1,
+    "dateCreated": "2021-03-11T07:37:54.000Z",
+    "internal": null,
+    "status": "active"
+  }
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+
+**Body\(row\)**
+
+```text
+{
+  "name": "string",
+  "iconType": "internal",
+  "icon": "string",
+  "messageWebhook": "https://test.com",
+  "status": "active"
+}
+```
 

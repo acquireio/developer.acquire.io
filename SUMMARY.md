@@ -81,6 +81,8 @@
       * [List](rest-apis/platform/conversation/channel/list.md)
       * [Get](rest-apis/platform/conversation/channel/get.md)
       * [Create](rest-apis/platform/conversation/channel/create.md)
+      * [Update](rest-apis/platform/conversation/channel/update.md)
+      * [Delete](rest-apis/platform/conversation/channel/delete.md)
     * [Conversation \| Cases](rest-apis/platform/conversation/conversation-or-cases/README.md)
       * [Case List](rest-apis/platform/conversation/conversation-or-cases/list.md)
       * [Single Case](rest-apis/platform/conversation/conversation-or-cases/get.md)

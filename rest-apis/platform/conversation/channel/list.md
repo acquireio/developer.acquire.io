@@ -1,6 +1,6 @@
 # List
 
-{% api-method method="get" host="https://suthar.uat.env.acquire.io/api/v1/crm/channel?limit=20&select=id&select=name&select=iconType&select=icon&select=messageWebhook&select=userId&select=dateCreated&select=internal&select=status" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/channel?limit=20&select=id&select=name&select=iconType&select=icon&select=messageWebhook&select=userId&select=dateCreated&select=internal&select=status" path="" %}
 {% api-method-summary %}
 List all channels
 {% endapi-method-summary %}

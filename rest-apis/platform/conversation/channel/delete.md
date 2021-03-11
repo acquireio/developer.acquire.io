@@ -1,19 +1,19 @@
-# Get
+# Delete
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/channel/{channelId}" path="" %}
+{% api-method method="get" host="https://suthar.uat.env.acquire.io/api/v1/crm/channel/{channelId}" path="" %}
 {% api-method-summary %}
-Get a Channel
+
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Read channels object recognized with channelId
+
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="channelId" type="string" required=false %}
- 'chat' ID of the channel
+The ID of the channel
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
@@ -31,7 +31,11 @@ Bearer {{api\_key}}
 {% endapi-method-response-example-description %}
 
 ```
-
+{
+  "data": {
+    "deleted": 1
+  }
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
