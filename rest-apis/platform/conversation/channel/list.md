@@ -1,6 +1,6 @@
 # List
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/channel/all" path="" %}
+{% api-method method="get" host="https://suthar.uat.env.acquire.io/api/v1/crm/channel?limit=20&select=id&select=name&select=iconType&select=icon&select=messageWebhook&select=userId&select=dateCreated&select=internal&select=status" path="" %}
 {% api-method-summary %}
 List all channels
 {% endapi-method-summary %}
@@ -16,6 +16,17 @@ List all channels
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-query-parameters %}
+{% api-method-parameter name="limit" type="string" required=false %}
+The maximum number of results to display per page.
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="select" type="string" required=false %}
+id\|name\|iconType\|icon\|messageWebhook\|  
+userId\|dateCreated\|internal\|status
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -27,7 +38,11 @@ Bearer {{api\_key}}
 ```
 {
   "data": {
-    "rows": [
+    "page": 0,
+    "offset": 0,
+    "limit": 20,
+    "count": 7,
+    "data": [
       {
         "id": "audio-call",
         "name": "Audio Call",
@@ -105,8 +120,7 @@ Bearer {{api\_key}}
         "internal": "yes",
         "status": "active"
       }
-    ],
-    "count": 7
+    ]
   }
 }
 ```
