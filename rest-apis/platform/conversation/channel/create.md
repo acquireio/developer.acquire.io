@@ -1,6 +1,6 @@
 # Create
 
-{% api-method method="get" host="https://suthar.uat.env.acquire.io/api/v1/crm/channel" path="" %}
+{% api-method method="post" host="https://suthar.uat.env.acquire.io/api/v1/crm/channel" path="" %}
 {% api-method-summary %}
 Create a channel
 {% endapi-method-summary %}
