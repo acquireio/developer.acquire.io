@@ -2,11 +2,11 @@
 
 {% api-method method="get" host="https://suthar.uat.env.acquire.io/api/v1/crm/channel/{channelId}" path="" %}
 {% api-method-summary %}
-
+Delete a channel
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Delete a channel and return deleted status.
 {% endapi-method-description %}
 
 {% api-method-spec %}
