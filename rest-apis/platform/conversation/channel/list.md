@@ -6,7 +6,7 @@ List all channels
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+It returns a list of the channels
 {% endapi-method-description %}
 
 {% api-method-spec %}
