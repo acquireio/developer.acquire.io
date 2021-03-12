@@ -1,6 +1,6 @@
 # Message List
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/case-message?limit=20&relations=case&select=id&select=caseId&select=senderId&select=senderType&select=type&select=message&select=dateCreated&select=dateUpdated&select=seen&select=meta" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/case-message?limit=20&relations=case&select=id&select=caseId" path="" %}
 {% api-method-summary %}
 Get message list
 {% endapi-method-summary %}
