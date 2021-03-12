@@ -1,6 +1,6 @@
 # Delete
 
-{% api-method method="get" host="https://suthar.uat.env.acquire.io/api/v1/crm/channel/{channelId}" path="" %}
+{% api-method method="delete" host="https://suthar.uat.env.acquire.io/api/v1/crm/channel/{channelId}" path="" %}
 {% api-method-summary %}
 Delete a channel
 {% endapi-method-summary %}

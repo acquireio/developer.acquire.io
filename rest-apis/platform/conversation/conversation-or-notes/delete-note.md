@@ -1,6 +1,6 @@
 # Delete note
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/note/{noteId}" path="" %}
+{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/crm/note/{noteId}" path="" %}
 {% api-method-summary %}
 Delete a note
 {% endapi-method-summary %}
