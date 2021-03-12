@@ -2,11 +2,11 @@
 
 {% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/note/add-message" path="" %}
 {% api-method-summary %}
-
+Add a message to the note.
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Add a message to the note and return notes along with the message object.
 {% endapi-method-description %}
 
 {% api-method-spec %}

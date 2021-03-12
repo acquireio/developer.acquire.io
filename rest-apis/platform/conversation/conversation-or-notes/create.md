@@ -2,11 +2,11 @@
 
 {% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/note/create?contactId=90" path="" %}
 {% api-method-summary %}
-
+Create a Note
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Create a note with the given note data and return a note object.
 {% endapi-method-description %}
 
 {% api-method-spec %}

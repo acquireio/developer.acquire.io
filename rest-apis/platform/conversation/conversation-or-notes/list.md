@@ -1,12 +1,12 @@
-# List
+# List all notes
 
-{% api-method method="get" host="{{account\_host}}/crm/note?limit=10&page=1&contact\_id=1" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/note?limit=10&page=1&contact\_id=1" path="" %}
 {% api-method-summary %}
-
+List all Notes
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+It returns a list of the Notes
 {% endapi-method-description %}
 
 {% api-method-spec %}
