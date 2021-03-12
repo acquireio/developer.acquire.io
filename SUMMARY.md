@@ -104,7 +104,7 @@
       * [Delete note](rest-apis/platform/conversation/conversation-or-notes/delete-note.md)
       * [Retrieve note messages](rest-apis/platform/conversation/conversation-or-notes/retrieve-note-messages.md)
     * [Cases \| Email](rest-apis/platform/conversation/cases-or-email/README.md)
-      * [Untitled](rest-apis/platform/conversation/cases-or-email/untitled.md)
+      * [Send Email](rest-apis/platform/conversation/cases-or-email/untitled.md)
     * [Cases \| VOIP](rest-apis/platform/conversation/cases-or-voip.md)
   * [Feedback](rest-apis/platform/feedback.md)
   * [Tags](rest-apis/platform/tags.md)

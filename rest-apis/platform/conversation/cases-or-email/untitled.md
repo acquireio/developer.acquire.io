@@ -1,4 +1,4 @@
-# Untitled
+# Send Email
 
 {% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/mail/add-message?-x-user-type=user" path="" %}
 {% api-method-summary %}
