@@ -2,7 +2,7 @@
 description: Lists the customers for an Account
 ---
 
-# List
+# List all customers
 
 {% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/contact?limit=20&relations=company&relations=cases" path="" %}
 {% api-method-summary %}

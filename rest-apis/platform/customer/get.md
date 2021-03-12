@@ -1,4 +1,4 @@
-# Get
+# Retrieve a customer
 
 {% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/contact/{{contactId}}?relations=company&relations=cases" path="" %}
 {% api-method-summary %}

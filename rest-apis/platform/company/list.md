@@ -2,7 +2,7 @@
 description: Lists all companies in the account.
 ---
 
-# List
+# List all companies
 
 {% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/company?limit=20&relations=contacts" path="" %}
 {% api-method-summary %}
