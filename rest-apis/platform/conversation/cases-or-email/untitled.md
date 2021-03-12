@@ -1,6 +1,6 @@
 # Send Email
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/mail/add-message?-x-user-type=user" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/mail/add-message" path="" %}
 {% api-method-summary %}
 Send Email
 {% endapi-method-summary %}
@@ -11,12 +11,6 @@ Send Email
 
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=false %}
 Bearer {{api\_key}}
