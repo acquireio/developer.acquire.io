@@ -106,3 +106,33 @@ Bearer {{api\_key}}
 {% endapi-method-spec %}
 {% endapi-method %}
 
+**Body\(row\)**
+
+```text
+{
+    "data": {
+        "caseId": 90,
+        "originalRecipient": "developer@acquire.io",
+        "to": [
+            "developer@acquire.io"
+        ],
+        "from": "surendra@acquire.io",
+        "cc": [],
+        "bcc": [],
+        "replyTo": [],
+        "subject": "test",
+        "textBody": "test api email\n\nOn Mon, Sep 14 2020, at 05:00 PM<\"surendra@acquire.io\"> wrote:test\n\nOn Mon, Sep 14 2020, at 04:36 PM<\"surendra@acquire.io\"> wrote:yrety",
+        "htmlBody": "<div class=\"content-writer\" data-reactroot=\"\">test api email</div><div class=\"acq-content hide\" data-reactroot=\"\"><br><br><div>On Mon, Sep 14 2020, at 05:00 PM&lt;\"surendra@acquire.io\"&gt; wrote:</div><blockquote><div class=\"content-writer\" data-reactroot=\"\">test</div><div class=\"acq-content hide\" data-reactroot=\"\"><br><br><div>On Mon, Sep 14 2020, at 04:36 PM&lt;\"surendra@acquire.io\"&gt; wrote:</div><blockquote>yrety</blockquote></div></blockquote></div>",
+        "mailboxInReplyTo": "<ed405ade-66fc-46e5-b387-9749358a7243@mtasv.net>",
+        "parentId": 14,
+        "isDraft": false,
+        "attachments": [],
+        "contactId": 83,
+        "inboxId": 1,
+        "caseParentId": 14,
+        "type": "message",
+        "delay": 0
+    }
+}
+```
+
