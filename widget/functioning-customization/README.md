@@ -24,9 +24,8 @@ The Acquire chat component has the following methods:
 
 1. Widget visibility
 2. widget window state
-3. Set widget language
-4. Set Customer info
-5. Get Customer info
+3. Set Customer info
+4. Get Customer info
 
 #### Events
 
