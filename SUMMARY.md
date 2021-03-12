@@ -99,6 +99,7 @@
     * [Conversation \| Notes](rest-apis/platform/conversation/conversation-or-notes/README.md)
       * [Create](rest-apis/platform/conversation/conversation-or-notes/create.md)
       * [Note message](rest-apis/platform/conversation/conversation-or-notes/note-message.md)
+      * [List](rest-apis/platform/conversation/conversation-or-notes/list.md)
     * [Cases \| Email](rest-apis/platform/conversation/cases-or-email.md)
     * [Cases \| VOIP](rest-apis/platform/conversation/cases-or-voip.md)
   * [Feedback](rest-apis/platform/feedback.md)
