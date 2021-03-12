@@ -1,2 +1,0 @@
-# Set widget language
-

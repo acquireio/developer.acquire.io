@@ -17,7 +17,6 @@
   * [Methods](widget/functioning-customization/methods/README.md)
     * [Widget visibility](widget/functioning-customization/methods/widget-visibility.md)
     * [Widget window state](widget/functioning-customization/methods/widget-window-state.md)
-    * [Set widget language](widget/functioning-customization/methods/set-widget-language.md)
     * [Set Customer info](widget/functioning-customization/methods/set-customer-info.md)
     * [Get Customer info](widget/functioning-customization/methods/get-customer-info.md)
   * [Events/Callbacks](widget/functioning-customization/events-callbacks/README.md)
