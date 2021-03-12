@@ -6,7 +6,7 @@ Single Customer
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Identifies a customer by the **contactId** passed in the request and return the customer information.
 {% endapi-method-description %}
 
 {% api-method-spec %}

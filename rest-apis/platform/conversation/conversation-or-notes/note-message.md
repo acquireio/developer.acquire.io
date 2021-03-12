@@ -1,4 +1,4 @@
-# Note message
+# Add note message
 
 {% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/note/add-message" path="" %}
 {% api-method-summary %}
