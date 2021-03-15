@@ -22,18 +22,18 @@ Bearer \*\*\*\*\*\*\*\*\*\*\*\*YOUR\_API\_KEY\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="where" type="string" required=false %}
+{% api-method-parameter name="where" type="array" required=false %}
 id\|eq\|12  
   
 Format like :  
 **column\|expression\|value** **columns**
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="select" type="string" required=false %}
+{% api-method-parameter name="select" type="array" required=false %}
 Can be one of dateCreated \| dateUpdated \| id \| parent
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="relations" type="string" required=false %}
+{% api-method-parameter name="relations" type="array" required=false %}
 Can be one of contacts \| fields \| parent \| companies
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
