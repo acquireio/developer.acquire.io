@@ -15,6 +15,12 @@ This API is used to obtain specific company details.
 
 {% api-method-spec %}
 {% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="companyId" type="string" required=true %}
+ID of the company.
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
 Bearer \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*YOUR\_API\_KEY\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* 
@@ -22,7 +28,11 @@ Bearer \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*YOUR\_API\_KEY\*\*\*\*\*\*\*\*\*\*\
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="relations" type="string" required=false %}
+{% api-method-parameter name="select" type="array" required=false %}
+Can be one of fields id\|dateCreated\|dateUpdated
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="relations" type="array" required=false %}
 Can be one of fields \| contacts \| companies
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
