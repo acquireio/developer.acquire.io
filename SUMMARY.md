@@ -57,6 +57,7 @@
 
 ## REST APIs
 
+* [Introduction](rest-apis/introduction.md)
 * [Interrelated](rest-apis/interrelated.md)
 * [OAuth](rest-apis/oauth/README.md)
   * [Authorization](rest-apis/oauth/authorization.md)
