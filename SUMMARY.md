@@ -59,9 +59,7 @@
 
 * [Introduction](rest-apis/introduction.md)
 * [Interrelated](rest-apis/interrelated.md)
-* [OAuth](rest-apis/oauth/README.md)
-  * [Authorization](rest-apis/oauth/authorization.md)
-  * [Tracklog](rest-apis/oauth/tracklog.md)
+* [Authorization](rest-apis/authorization.md)
 * [Platform](rest-apis/platform/README.md)
   * [Company](rest-apis/platform/company/README.md)
     * [List all companies](rest-apis/platform/company/list.md)

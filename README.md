@@ -39,7 +39,7 @@ Unlike the API resources, which represent static data that you can create, updat
 
 ## REST API
 
-An [Acquire RESTful API](rest-apis/oauth/authorization.md) is an application program interface \(API\) that uses HTTP requests to GET, PUT, POST and DELETE data. You can use it to retrieve and update information from your own Acquire account, or to integrate Acquire into your own product. It's completely up to you and your custom use case.
+An [Acquire RESTful API](rest-apis/authorization.md) is an application program interface \(API\) that uses HTTP requests to GET, PUT, POST and DELETE data. You can use it to retrieve and update information from your own Acquire account, or to integrate Acquire into your own product. It's completely up to you and your custom use case.
 
 ## Errors
 
