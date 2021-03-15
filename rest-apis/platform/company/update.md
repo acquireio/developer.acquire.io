@@ -26,38 +26,21 @@ Bearer {{api\_key}}
 
 ```
 {
-    "data": {
-        "dateCreated": "string",
-        "dateUpdated": "string",
-        "id": 5,
-        "fields": {
-            "name": "ZeryUpdated",
-            "website": "zeryUpdated.com",
-            "logo": "IT",
-            "industry": "IT",
-            "description": "No description ",
-            "source": "No source added",
-            "revenue": "1050000",
-            "city": "SF1",
-            "state": "california",
-            "country": {
-                "name": "United States",
-                "name_official": "United States of America",
-                "cca2": "US",
-                "ccn3": "84",
-                "cca3": "USA",
-                "calling_code1": 1,
-                "region_id": 496,
-                "lat": "38",
-                "lng": "-97",
-                "voip_enable": true
-            },
-            "countryId": "517",
-            "address": "SF, california",
-            "employees": "50-100",
-            "foundation": "2020"
-        }
-    }
+   "data": {
+       "dateCreated": "2020-09-10T11:44:05.000Z",
+       "dateUpdated": "2020-09-10T11:44:05.000Z",
+       "id": 77,
+       "fields": {
+           "name": "Updated Company",
+           "website": "website.com",
+           "industry": "IT",
+           "description": "No description ",
+           "source": "No source added",
+           "revenue": "1050000",
+           "city": "SF1",
+           "state": "california"
+       }
+   }
 }
 ```
 {% endapi-method-response-example %}
