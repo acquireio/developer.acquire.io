@@ -2,7 +2,7 @@
 description: Lists the customers for an Account
 ---
 
-# List all customers
+# List all contacts
 
 {% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/contact?limit=20&relations=company&relations=cases" path="" %}
 {% api-method-summary %}
@@ -10,7 +10,7 @@ Get customers
 {% endapi-method-summary %}
 
 {% api-method-description %}
- Lists the customers for an Account
+ Lists the contact for an Account
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -22,12 +22,16 @@ Get customers
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="relations" type="string" required=false %}
-Can be one of company \| cases \| tags \| visits \| timeline \| fields
+{% api-method-parameter name="select" type="array" required=false %}
+
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="limit" type="string" required=false %}
-20
+{% api-method-parameter name="where" type="array" required=false %}
+
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="relations" type="array" required=false %}
+Can be one of company \| cases \| tags \| visits \| timeline \| fields
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}

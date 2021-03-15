@@ -2,7 +2,7 @@
 
 {% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/company/{companyId}" path="" %}
 {% api-method-summary %}
-
+Delete a Company
 {% endapi-method-summary %}
 
 {% api-method-description %}
