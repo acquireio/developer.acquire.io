@@ -20,7 +20,7 @@ You should use an Access Token if:
 
 We provide an Access Token as soon as you create an app on your workspace. First login Acquire dashboard and Go **Setting &gt; API Token and Whitelist &gt; API Token** \( [https://app.acquire.io/setting/token](https://app.acquire.io/setting/token) \). Copy API token and use api header in auth\_token parameter. If you want to new token generate click on button "**Generate New Token**".
 
-![Authorization API Token](../.gitbook/assets/api-auth-token-1.png)
+![](../.gitbook/assets/apikey.jpg)
 
 Your Access Token can give access to your private Acquire data and should be treated like a password. If an app provider asks you for your Access Token, please do not provide it. Instead, let us know - apps are required to use OAuth rather than asking users for Access Tokens.
 
