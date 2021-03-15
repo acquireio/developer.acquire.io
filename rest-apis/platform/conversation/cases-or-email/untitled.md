@@ -106,7 +106,7 @@ Bearer {{api\_key}}
 {% endapi-method-spec %}
 {% endapi-method %}
 
-**Body\(row\)**
+**Body \(raw\)**
 
 ```text
 {

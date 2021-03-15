@@ -1,37 +1,30 @@
 # Update
 
-Update a Company.
+{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/company/{{companyId}}" path="" %}
+{% api-method-summary %}
+Update a Company
+{% endapi-method-summary %}
 
-| Parameter | Value |
-| :--- | :--- |
-| **Path** | [https://{{account\_id}}.acquire.io/api/v1/crm/objects/company/{{companyId}}](https://{{account_id}}.acquire.io/api/v1/crm/objects/company/{{companyId}}) |
-| **Method** | **PUT** |
-| **Authorization** | Bearer \[YOUR\_API\_AUTH\_TOKEN\] |
-| **Content-type** | application/json |
+{% api-method-description %}
 
-**Body\(row\)**
+{% endapi-method-description %}
 
-```javascript
-{
-    "fields": {
-        "name": "ZeryUpdated",
-        "website": "zeryUpdated.com",
-        "logo": "IT",
-        "industry": "IT",
-        "description": "No description ",
-        "source": "No source added",
-        "revenue": "1050000",
-        "city": "SF1",
-        "state": "california"
-    },
-    "dateCreated": "string",
-    "dateUpdated": "string"
-}
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-headers %}
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Bearer {{api\_key}}
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
 ```
-
-**Response JSON**
-
-```javascript
 {
     "data": {
         "dateCreated": "string",
@@ -67,30 +60,28 @@ Update a Company.
     }
 }
 ```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
 
-**Sample Code**
+**Body \(raw\)**
 
-{% tabs %}
-{% tab title="NodeJs" %}
 ```javascript
-var request = require('request');
-var options = {
-  'method': 'PUT',
-  'url': 'https://YOUR_ACCOUNT_ID.acquire.io/api/v1/crm/objects/company/{{companyId}}',
-  'headers': {
-    'Authorization': 'Bearer YOUR_API_TOKEN',
-    'Content-Type': 'application/json',
-    'Cookie': '__cfduid=d1ffac60b93e8838c8f7d3e28bd8908c21614591612'
-  },
-  body: JSON.stringify({"fields":{"name":"ZeryUpdated","website":"zeryUpdated.com","logo":"IT","industry":"IT","description":"No description ","source":"No source added","revenue":"1050000","city":"SF1","state":"california"},"dateCreated":"string","dateUpdated":"string"})
-
-};
-request(options, function (error, response) {
-  if (error) throw new Error(error);
-  console.log(response.body);
-});
-
+{
+    "fields": {
+        "name": "ZeryUpdated",
+        "website": "zeryUpdated.com",
+        "logo": "IT",
+        "industry": "IT",
+        "description": "No description ",
+        "source": "No source added",
+        "revenue": "1050000",
+        "city": "SF1",
+        "state": "california"
+    },
+    "dateCreated": "string",
+    "dateUpdated": "string"
+}
 ```
-{% endtab %}
-{% endtabs %}
 

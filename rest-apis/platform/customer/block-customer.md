@@ -9,7 +9,7 @@ Block a Customer.
 | **Authorization** | Bearer \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*YOUR\_API\_KEY\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* |
 | **Content-type** | application/json |
 
-**Body\(row\)**
+**Body\(raw\)**
 
 ```text
 {

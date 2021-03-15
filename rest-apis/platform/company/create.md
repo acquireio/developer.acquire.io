@@ -63,5 +63,22 @@ Creates a new company
 {% endapi-method-spec %}
 {% endapi-method %}
 
+**Body \(raw\)**
 
+```text
+{
+   "fields": {
+       "name": "company name",
+       "website": "website.com",
+       "industry": "IT",
+       "description": "No description ",
+       "source": "No source added",
+       "revenue": "1050000",
+       "city": "SF1",
+       "state": "california"
+   },
+   "dateCreated": "2020-09-10T11:44:05.143Z",
+   "dateUpdated": "2020-09-10T11:44:05.143Z"
+}
+```
 
