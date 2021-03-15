@@ -22,6 +22,13 @@ Bearer \*\*\*\*\*\*\*\*\*\*\*\*YOUR\_API\_KEY\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
+{% api-method-parameter name="where" type="string" required=false %}
+id\|eq\|12  
+  
+Format like :  
+**column\|expression\|value** **columns**
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="select" type="string" required=false %}
 Can be one of dateCreated \| dateUpdated \| id \| parent
 {% endapi-method-parameter %}
