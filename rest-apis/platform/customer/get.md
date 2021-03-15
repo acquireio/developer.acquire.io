@@ -12,7 +12,7 @@ Identifies a customer by the **contactId** passed in the request and return the 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-headers %}
-{% api-method-parameter name="Authorization" type="string" required=false %}
+{% api-method-parameter name="Authorization" type="string" required=true %}
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*YOUR\_API\_KEY\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
