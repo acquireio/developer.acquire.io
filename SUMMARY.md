@@ -130,7 +130,6 @@
   * [Triggers & Campaigns](rest-apis/analytics/triggers-and-campaigns.md)
   * [Third Party Apps](rest-apis/analytics/third-party-apps.md)
 * [Apps](rest-apis/apps.md)
-* [Knowledge Base](rest-apis/knowledge-base.md)
 * [Knowledgebase](rest-apis/knowledgebase.md)
 * [Category](rest-apis/category.md)
 * [Articles](rest-apis/articles.md)
