@@ -12,7 +12,7 @@ Read channels object recognized with channelId
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="channelId" type="string" required=false %}
+{% api-method-parameter name="channelId" type="string" required=true %}
  'chat' ID of the channel
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
