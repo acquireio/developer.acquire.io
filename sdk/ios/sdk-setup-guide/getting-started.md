@@ -20,11 +20,6 @@ We are providing two types of build variants :
 1. **Core** - Fully featured including Audio/Video calling. [See Integration](integration-guide-core.md)
 2. **Lite** - All features excluding Audio/Video Calling. [See Integration](integration-guide-lite.md)
 
-The main difference of these two build variants is the size.
-
-* Our **Core** version is of **35.2 MB** because of webRTC's archived libraries for all ABIs included.
-* Our **Lite** version is only **13 MB.** 
-
 {% hint style="info" %}
 So if you don't require calling feature, you can use **lite** version to reduce the app size.
 {% endhint %}
