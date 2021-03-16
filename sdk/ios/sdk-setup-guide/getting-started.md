@@ -6,7 +6,7 @@ This page presents a quick overview of the SDK’s functionalities and logic, th
 
 Acquire iOS SDK can be used with the following languages and platforms:
 
-For more detail, you can also check out our [generated iOS docs ](https://devtools.acquire.io/sdk/ios/docs/html/index.html)or review the [app store](https://itunes.apple.com/us/app/acquire-support-sdk/id1445674477#?platform=iphone) and source code on [Github](https://github.com/acquireio/acquireio-ios)
+For more detail, code on [Github](https://github.com/acquireio/acquireio-ios)
 
 ### Requirements
 
