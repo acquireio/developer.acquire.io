@@ -17,11 +17,11 @@ Welcome to the Acquire Documentation, where you'll find guides and community sup
 
 ## Requirement
 
-Acquire is built and tested to work in various web browsers. It may work in other browsers but these are not officially supported. We’ll explain the system requirements of Acquire covering requirements on the client side, agent side \(Control Panel and Agent Console\), and [requirements]() for Audio & Video Chat.
+Acquire is built and tested to work in various web browsers. It may work in other browsers but these are not officially supported. We’ll explain the system requirements of Acquire covering requirements on the client-side, agent side \(Control Panel and Agent Console\), and [requirements]() for Audio & Video Chat.
 
 ## JS API
 
-Loading the Acquire JavaScript library provides an Acquire JavaScript object that responds to a few methods. Use our powerful, fully-documented API for client side and [agent side]() to automate some of your Acquire activities and create custom integrations with your own systems. These [JS APIs]() allow you to update users without a page refresh and interact with the widget UI. 
+Loading the Acquire JavaScript library provides an Acquire JavaScript object that responds to a few methods. Use our powerful, fully-documented API for the client-side and [agent side]() to automate some of your Acquire activities and create custom integrations with your own systems. These [JS APIs]() allow you to update users without a page refresh and interact with the widget UI. 
 
 ## IOS
 
