@@ -146,5 +146,3 @@
   * [Login Settings](rest-apis/settings-configuration/login-settings.md)
   * [VOIP Settings](rest-apis/settings-configuration/voip-settings.md)
 
-## Errors
-
