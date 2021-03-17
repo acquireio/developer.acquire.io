@@ -14,7 +14,15 @@ Note: _Please make sure there is a space between the Bearer and API KEY._
 
 ### **How to get an API\_KEY**
 
-We provide an Access Token as soon as you create an app on your workspace. First login Acquire dashboard and Go **Setting &gt; API Token and Whitelist &gt; API Token** \( [https://app.acquire.io/setting/token](https://app.acquire.io/setting/token) \). Copy API token and use api header in auth\_token parameter. If you want to new token generate click on button "**Generate New Token**".
+{% hint style="danger" %}
+Make sure that you must have the necessary **API key** to generate permission.
+{% endhint %}
+
+1. Login to your Acquire account.
+2. Navigate to Settings &gt; For Developers &gt; API Key.
+3. Click on **Create API Key** button  
+
+We provide an Access Token as soon as you create an app on your workspace. First login Acquire dashboard and Go **`Settings > For Developers > API Key`**. Copy API token and use api header in auth\_token parameter. If you want to new token generate click on button "**Generate New Token**".
 
 ![](../.gitbook/assets/apikey.jpg)
 
