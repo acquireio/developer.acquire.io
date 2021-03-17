@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Acquire Developers Portal](README.md)
+* [Getting Started](README.md)
 
 ## Widget
 

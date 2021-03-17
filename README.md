@@ -1,4 +1,4 @@
-# Acquire Developers Portal
+# Getting Started
 
 Welcome to Acquire developer document. This document provides powerful resources for interacting with Acquire and explains how to use API and Webhooks. API support Email: [developer@acquire.io](mailto:developer@acquire.io)  
   
