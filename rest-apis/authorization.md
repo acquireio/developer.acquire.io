@@ -53,7 +53,13 @@ Following steps to revoke API Key
 1. Login to your Acquire account.
 2. Navigate to `Settings > For Developers > API Key`
 3. In the Action column click on the action menu on the Manage API key dashboard, click the delete button.
-4. Delete API KEY confirmation popup will display and click **Delete API Key** 
+4. Delete API KEY confirmation popup will display and click **Delete API Key.**
 
- 
+![Delete API KEY](../.gitbook/assets/delete-api-key.gif)
+
+{% hint style="danger" %}
+### Delete Carefully
+
+Deleting an API KEY cannot be undone, so be sure to click the **Delete API Key**. 
+{% endhint %}
 
