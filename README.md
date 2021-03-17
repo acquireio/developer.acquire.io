@@ -1,6 +1,6 @@
 # Acquire Developers Portal
 
-Welcome to Acquire developer document. This document provides a powerful web service API for interacting with Acquire and explains how to use API and Webhooks. API support Email: developer@acquire.io  
+Welcome to Acquire developer document. This document provides powerful resources for interacting with Acquire and explains how to use API and Webhooks. API support Email: [developer@acquire.io](mailto:developer@acquire.io)  
   
 Acquire Developer Portal enables you to cultivate the facility of Acquire's real-time, historic conversation and communicate within your application. You'll find guides and community support to help you start working as quickly as possible!
 
@@ -16,7 +16,7 @@ The [Acquire](https://acquire.io/) Developer Portal is unified into four differe
 | :--- | :--- |
 | [WIDGET](widget/overview.md) | Widget resources empower you to embed into your web page, customizations, etc... |
 | [SDK](sdk/overview.md) |  |
-| [WEBHOOKS](webhook-api/introduction.md) |  |
+| [WEBHOOKS](webhook-api/introduction.md) | Webhooks allow your application to be notified when an event occurring within your Acquire account. |
 | [REST APIs](rest-apis/introduction.md) | REST API allows you to retrieve, engage, create a spread of various endpoints. |
 
 ## Errors
