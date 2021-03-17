@@ -59,9 +59,9 @@
 ## REST APIs
 
 * [Introduction](rest-apis/introduction.md)
+* [Authorization](rest-apis/authorization.md)
 * [Interrelated](rest-apis/interrelated.md)
 * [Page and Limit](rest-apis/page-and-limit.md)
-* [Authorization](rest-apis/authorization.md)
 * [Platform](rest-apis/platform/README.md)
   * [Company](rest-apis/platform/company/README.md)
     * [List all companies](rest-apis/platform/company/list.md)
