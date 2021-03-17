@@ -30,12 +30,50 @@ REST API allows you to retrieve, engage, create a spread of various endpoints.
 {% endtab %}
 {% endtabs %}
 
-| **Resources** | **Description** |
-| :--- | :--- |
-| [WIDGET](widget/overview.md) | Widget resources empower you to embed into your web page, customizations, etc... |
-| [SDK](sdk/overview.md) | The SDKs that are used to building a unified app experience. |
-| [WEBHOOKS](webhook-api/introduction.md) | Webhooks allow your application to be notified when an event occurring within your Acquire account. |
-| [REST APIs](rest-apis/introduction.md) | REST API allows you to retrieve, engage, create a spread of various endpoints. |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"><b>Resources</b>
+      </th>
+      <th style="text-align:left"><b>Description</b>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><a href="widget/overview.md">WIDGET</a>
+      </td>
+      <td style="text-align:left">
+        <p>Widget resources empower you to embed into</p>
+        <p>your web page, customizations, etc...</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="sdk/overview.md">SDK</a>
+      </td>
+      <td style="text-align:left">
+        <p>The SDKs that are used to building a</p>
+        <p>unified app experience.</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="webhook-api/introduction.md">WEBHOOKS</a>
+      </td>
+      <td style="text-align:left">
+        <p>Webhooks allow your application to be notified</p>
+        <p>when an event occurring within your Acquire account.</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="rest-apis/introduction.md">REST APIs</a>
+      </td>
+      <td style="text-align:left">
+        <p>REST API allows you to retrieve, engage,</p>
+        <p>create a spread of various endpoints.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## Errors
 
