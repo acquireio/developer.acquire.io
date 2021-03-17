@@ -1,15 +1,10 @@
----
-description: >-
-  Welcome to Acquire developer document. This document provides a powerful web
-  service API for interacting with Acquire and explains how to use API and
-  Webhooks. API support Email: developer@acquire.io
----
-
 # Acquire Developers Portal
 
 ## Welcome to Acquire Developers Hub
 
-Welcome to the Acquire Documentation, where you'll find guides and community support to help you start working as quickly as possible!
+Welcome to Acquire developer document. This document provides a powerful web service API for interacting with Acquire and explains how to use API and Webhooks. API support Email: developer@acquire.io  
+  
+Acquire Developer Portal enables you to cultivate the facility of Acquire's real-time, historic conversation and communicate with the Acquire. You'll find guides and community support to help you start working as quickly as possible!
 
 ## API Reference
 
