@@ -34,8 +34,8 @@ The [Acquire](https://acquire.io/) Developer Portal is unified into four differe
       <td style="text-align:left"><a href="sdk/overview.md">SDK</a>
       </td>
       <td style="text-align:left">
-        <p>The SDKs that are used to building a</p>
-        <p>unified app experience.</p>
+        <p>The SDKs that are used to building a unified</p>
+        <p>app experience.</p>
       </td>
     </tr>
     <tr>
