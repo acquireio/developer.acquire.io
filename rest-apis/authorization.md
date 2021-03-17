@@ -24,7 +24,7 @@ Make sure that you must have the necessary **API key** to generate permission.
 
 We provide an Access Token as soon as you create an app on your workspace. First login Acquire dashboard and Go **`Settings > For Developers > API Key`**. Copy API token and use api header in auth\_token parameter. If you want to new token generate click on button "**Generate New Token**".
 
-![](../.gitbook/assets/apikey.jpg)
+![Settings &amp;gt; For Developers &amp;gt; API Key](../.gitbook/assets/apikey.gif)
 
 **API\_KEY** allows you to engage the Acquire data and should be treated like a password. If an app provider asks you for your Access Token, please do not provide it. Instead, let us know - apps are required to use OAuth rather than asking users for Access Tokens.
 
