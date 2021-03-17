@@ -8,6 +8,17 @@ Acquire Developer Portal enables you to cultivate the facility of Acquire's real
 
 ​[Acquire](https://acquire.io/) is a headless support API that enables rapid experience-first all business development.
 
+## What do you want to do?
+
+The [Acquire](https://acquire.io/) Developer Portal is unified into four different resources. The Developer Portal can be accustomed to perform a large array of tasks.
+
+| **Resources** | **Description** |
+| :--- | :--- |
+| WIDGET \(\) | Widget resources empower you to embed into your web page, customizations, etc... |
+| SDK |  |
+| WEBHOOKS |  |
+| REST APIs |  |
+
 ## Errors
 
 Any request that returns an error follows a standard format. Acquire will return an array of `errors` that contains objects containing `status`, `title` and `details`.
