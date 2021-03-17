@@ -15,7 +15,7 @@ The [Acquire](https://acquire.io/) Developer Portal is unified into four differe
 | **Resources** | **Description** |
 | :--- | :--- |
 | [WIDGET](widget/overview.md) | Widget resources empower you to embed into your web page, customizations, etc... |
-| SDK |  |
+| [SDK](sdk/overview.md) |  |
 | [WEBHOOKS](webhook-api/introduction.md) |  |
 | [REST APIs](rest-apis/introduction.md) |  |
 
