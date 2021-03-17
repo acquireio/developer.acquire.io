@@ -12,6 +12,24 @@ Acquire Developer Portal enables you to cultivate the facility of Acquire's real
 
 The [Acquire](https://acquire.io/) Developer Portal is unified into four different resources. The Developer Portal can be accustomed to perform a large array of tasks.
 
+{% tabs %}
+{% tab title="WIDGET" %}
+Widget resources empower you to embed into your web page, customizations, etc...
+{% endtab %}
+
+{% tab title="SDKs" %}
+The SDKs that are used to building a unified app experience.
+{% endtab %}
+
+{% tab title="WEBHOOKS" %}
+Webhooks allow your application to be notified when an event occurring within your Acquire account.
+{% endtab %}
+
+{% tab title="REST APIs" %}
+REST API allows you to retrieve, engage, create a spread of various endpoints.
+{% endtab %}
+{% endtabs %}
+
 | **Resources** | **Description** |
 | :--- | :--- |
 | [WIDGET](widget/overview.md) | Widget resources empower you to embed into your web page, customizations, etc... |
