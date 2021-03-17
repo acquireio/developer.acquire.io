@@ -1,50 +1,40 @@
 # Authorization
 
-Welcome to the Acquire Developer Docs. Whether you're looking to use our **REST APIs**, receive notifications with webhooks, or build an app for the Acquire , you've come to the right place.
+All requests to Acquire’s APIs require you to authenticate with an **API\_KEY**. Authentication is provided by API KEY. These API keys can be generated from the settings. You are able to manage API keys through the UI, by logging into the Acquire account and managing the API key there. Here is an example of the API Key dashboard in the settings.  
+**Settings &gt; For Developers &gt; API Key**  
+  
+**Authentication example**  
+Include this HTTP header for each API request:
 
-To access the Acquire API, you'll need a token. The type of token you need depends on your use case:
+`Authorization: Bearer ${API_KEY}`
 
-* Use Access Tokens if you're using the API to access data in your own Acquire workspace.
-* Use OAuth if you're building a publicly-available app that accesses other people's Acquire data.
+**Header Name:** Authorization  
+**Header Value:** Bearer {{API\_KEY}}
 
-#### **Access tokens**
+Note: _Please make sure there is a space between the Bearer and API KEY._
 
-You should use an Access Token if:
-
-* You want to use the API to interact with your own Acquire app
-* You have scripts to push or extract data from your Acquire app
-* You want to use the API to programmatically automate certain actions in your own Acquire app
-* The data you interact with programmatically is your own customer data
-
-#### **How to get an Access Token**
+### **How to get an API\_KEY**
 
 We provide an Access Token as soon as you create an app on your workspace. First login Acquire dashboard and Go **Setting &gt; API Token and Whitelist &gt; API Token** \( [https://app.acquire.io/setting/token](https://app.acquire.io/setting/token) \). Copy API token and use api header in auth\_token parameter. If you want to new token generate click on button "**Generate New Token**".
 
 ![](../.gitbook/assets/apikey.jpg)
 
-Your Access Token can give access to your private Acquire data and should be treated like a password. If an app provider asks you for your Access Token, please do not provide it. Instead, let us know - apps are required to use OAuth rather than asking users for Access Tokens.
+**API\_KEY** allows you to engage the Acquire data and should be treated like a password. If an app provider asks you for your Access Token, please do not provide it. Instead, let us know - apps are required to use OAuth rather than asking users for Access Tokens.
 
-You should use OAuth if:
+{% hint style="warning" %}
+### Save Your API\_KEY
 
-* You are requesting access to other people's Acquire accounts/data \(for example, through an integration you've built\)
-* You currently ask people for their API Keys to request resources on their behalf
-* You want to make it easier for your customers to share their customers' data with you
-
-{% hint style="info" %}
- Never ask users for their Access Token  
-Asking your users for their Access Tokens rather than implementing **OAuth** is against our terms of service and may result in your API access being revoked.
+There is no way to re-display **API\_KEY** after generating done, so be sure to securely store the **API\_KEY** before exiting this screen.
 {% endhint %}
 
-#### **How to use your Token**
-
-To use your Token, simply provide it as part of the authorization header when you make a request. Tokens use the bearer authorization header when you make a request. This just means you need to specify the bearer type in the header.
+{% hint style="success" %}
+All API requests must be over HTTPS. 
+{% endhint %}
 
 #### **Sample Code**
 
 ```javascript
-curl -X POST \
-  https://app.acquire.io/profile/lead/list \
-  -H 'Authorization: Bearer <API_AUTH_TOKEN>' \
-  -H 'Content-Type: application/x-www-form-urlencoded' \
+curl --request GET 'https://{{account_id}}.acquire.io/api/v1/account/department' \
+--header 'Authorization: Bearer ${API_KEY}'
 ```
 
