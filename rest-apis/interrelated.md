@@ -2,7 +2,6 @@
 
 ### STATUS CODES
 
-  
 `200 OK` Successful request.  
 `400 Bad Request` Returns JSON with the error message.  
 `401 Unauthorized` Couldn’t authenticate your request.  
@@ -13,14 +12,12 @@
 
 ### CREATING REQUESTS
 
-  
 According to RESTful structure, Acquire implements the following HTTP verbs:  
   
 `GET -` Read entity  
 `POST -` Create new entity  
 `PUT -` Modify existing entity  
-`DELETE -` Remove entity  
-
+`DELETE -` Remove entity
 
 #### PERMISSIONS <a id="permissions"></a>
 
