@@ -57,9 +57,3 @@ The [Acquire](https://acquire.io/) Developer Portal is unified into four differe
   </tbody>
 </table>
 
-## Errors
-
-Any request that returns an error follows a standard format. Acquire will return an array of `errors` that contains objects containing `status`, `title` and `details`.
-
-You'll most likely receive an error if validation fails, something doesn't exist or something went wrong on our end. We return errors inline with the [JSON API specification](http://jsonapi.org/format/#error-objects).
-
