@@ -25,8 +25,7 @@ To request any API endpoint you will need a valid API key with the access permis
 
 ## Errors <a id="errors"></a>
 
-Errors are returned using standard HTTP error code.  
-
+Errors are returned using standard HTTP error code.
 
 In general, the list of error codes:  
 
