@@ -1,7 +1,5 @@
 # Functioning / Customization
 
-
-
 The Acquire Widget functioning/customization allows you to line up your Acquire web widget with modifications like custom strings, color and provide some configuration options to the widget.
 
 #### Settings
