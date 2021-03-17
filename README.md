@@ -4,10 +4,6 @@ Welcome to Acquire developer document. This document provides powerful resources
   
 Acquire Developer Portal enables you to cultivate the facility of Acquire's real-time, historic conversation and communicate within your application. You'll find guides and community support to help you start working as quickly as possible!
 
-## API Reference
-
-​[Acquire](https://acquire.io/) is a headless support API that enables rapid experience-first all business development.
-
 ## What do you want to do?
 
 The [Acquire](https://acquire.io/) Developer Portal is unified into four different resources. The Developer Portal can be accustomed to perform a large array of tasks.
