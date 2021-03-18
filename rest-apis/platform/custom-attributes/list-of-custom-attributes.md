@@ -10,7 +10,7 @@ List of Custom Attributes
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to get list of all available custom attributes
+API to get a list of all available custom attributes
 {% endapi-method-description %}
 
 {% api-method-spec %}

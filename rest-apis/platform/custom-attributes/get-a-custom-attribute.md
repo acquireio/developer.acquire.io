@@ -10,14 +10,14 @@ Get Custom Attribute
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to get details of specific custom attribute
+API to get details of a specific custom attribute
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="id" type="string" required=true %}
-Specify Id of custom attribute
+Specify Id of the custom attribute
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
@@ -29,7 +29,7 @@ Specify Id of custom attribute
 
 {% api-method-query-parameters %}
 {% api-method-parameter name="select" type="array" required=false %}
-array of columns to get
+the array of columns to get
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="relations" type="string" required=false %}

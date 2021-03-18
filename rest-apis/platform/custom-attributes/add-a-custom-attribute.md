@@ -10,7 +10,7 @@ Add Custom Attribute
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to add a new custom attributes to the list of custom attributes
+API to add new custom attributes to the list of custom attributes
 {% endapi-method-description %}
 
 {% api-method-spec %}
