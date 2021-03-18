@@ -19,15 +19,15 @@ Bearer \*\*\*YOUR\_API\_KEY\*\*\*
 
 {% api-method-query-parameters %}
 {% api-method-parameter name="start\_date" type="string" required=true %}
-
+Date From \(Date format = YYYY-MM-DD hh:mm:ss, e.g 2021-01-01 00:00:00\)
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="end\_date" type="string" required=true %}
-
+Date End \(Date Format = YYYY-MM-DD hh:mm:ss, e.g 2021-01-01 23:59:59\)
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="offset" type="string" required=false %}
-to get data for particular timezone. default is +00:00
+This parameter is used for the timezone value and the default timezone will be "GMT". e.g. +05:30 for particular timezone. Default is +00:00
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="output" type="string" required=false %}
@@ -268,4 +268,6 @@ json or csv
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+
+
 
