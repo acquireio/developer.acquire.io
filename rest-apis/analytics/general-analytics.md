@@ -1,6 +1,6 @@
 # General Analytics
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/general/general-cases" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/general/cases-overview" path="" %}
 {% api-method-summary %}
 Overview
 {% endapi-method-summary %}
@@ -11,6 +11,12 @@ Overview
 
 {% api-method-spec %}
 {% api-method-request %}
+{% api-method-headers %}
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Bearer \*\*\*YOUR\_API\_KEY\*\*\*
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+
 {% api-method-query-parameters %}
 {% api-method-parameter name="start\_date" type="string" required=true %}
 
