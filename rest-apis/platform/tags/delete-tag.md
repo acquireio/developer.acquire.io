@@ -20,6 +20,12 @@ API to delete tags
 Array of tag ids to delete tags
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
+
+{% api-method-headers %}
+{% api-method-parameter name="Authorization" type="string" required=true %}
+\*\*\*\*\*YOUR API KEY\*\*\*\*\*
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
 {% endapi-method-request %}
 
 {% api-method-response %}
