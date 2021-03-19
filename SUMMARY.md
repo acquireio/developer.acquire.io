@@ -164,6 +164,7 @@
 * [Analytics](rest-apis/analytics/README.md)
   * [General Analytics](rest-apis/analytics/general-analytics.md)
   * [Chat](rest-apis/analytics/chat/README.md)
+    * [Video Analytics](rest-apis/analytics/chat/video-analytics.md)
     * [Visitor Demographics](rest-apis/analytics/chat/visitor-demographics/README.md)
       * [Visitor Analytics](rest-apis/analytics/chat/visitor-demographics/visitor-analytics.md)
       * [Visitor Source Overview](rest-apis/analytics/chat/visitor-demographics/visitor-source-overview.md)
