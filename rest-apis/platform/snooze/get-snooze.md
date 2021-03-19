@@ -17,7 +17,7 @@ API to get details of a specific snooze
 {% api-method-request %}
 {% api-method-query-parameters %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
-\*\*\*\*\*YOUR API KEY\*\*\*\*\*
+Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}

@@ -23,7 +23,7 @@ ID of the company.
 
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
-Bearer \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*YOUR\_API\_KEY\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* 
+Bearer {{api\_key}} 
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 

@@ -17,13 +17,13 @@ API to delete tags
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="ids" type="array" required=true %}
-Array of tag ids to delete tags
+The array of tag ids to delete tags
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
-\*\*\*\*\*YOUR API KEY\*\*\*\*\*
+Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 {% endapi-method-request %}

@@ -17,7 +17,7 @@ API to list all the available tags
 {% api-method-request %}
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
-\*\*\*\*\*YOUR API KEY\*\*\*\*\*
+Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 

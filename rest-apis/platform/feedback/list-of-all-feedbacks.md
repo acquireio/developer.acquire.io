@@ -17,7 +17,7 @@ This API is used to get all the available feedbacks of all the different channel
 {% api-method-request %}
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
-\*\*\*\*\*YOUR API KEY\*\*\*\*\*
+Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 
@@ -27,7 +27,7 @@ Object type where you can mention field name followed by value. eg: {"id":"DESC"
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="where" type="object" required=false %}
-Object type where you can specify field name followed by value. eg: {"search":"How"}
+Object type where you can specify field name followed by a value. eg: {"search":"How"}
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="select" type="array" required=false %}

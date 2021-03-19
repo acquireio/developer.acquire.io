@@ -23,7 +23,7 @@ Specify ID of the feedback for which you need to get the details
 
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
-\*\*\*\*\*YOUR API KEY\*\*\*\*\*
+Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 

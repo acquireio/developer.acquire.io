@@ -17,13 +17,13 @@ API to add a new tag
 {% api-method-request %}
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
-\*\*\*\*\*YOUR API KEY\*\*\*\*\*
+Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
 {% api-method-parameter name="name" type="string" required=false %}
-Specify name of the tag
+Specify the name of the tag
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="color" type="string" required=false %}

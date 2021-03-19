@@ -17,13 +17,13 @@ API to get a list of all available custom attributes
 {% api-method-request %}
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
-
+Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
 {% api-method-parameter name="select" type="array" required=false %}
-Array type with selected fields to be retrived Available values: id,object,key,type,config
+Array type with selected fields to be retrieved Available values: id, object, key, type, config
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="relations" type="array" required=false %}
@@ -31,7 +31,7 @@ Array type with selected fields to be retrived Available values: id,object,key,t
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="where" type="array" required=false %}
-Specify array of objects with rules as {FIELD\_NAME\|CONDITION\|VALUE}
+Specify an array of objects with rules as {FIELD\_NAME\|CONDITION\|VALUE}
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
