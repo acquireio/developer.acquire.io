@@ -1,28 +1,28 @@
 ---
-description: Cobrowse Analytics
+description: Track Conversation Bot engagement and effectiveness.
 ---
 
-# Cobrowse
+# Conversational Bot
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/cobrowse/cobrowse?start\_date=2021-03-16%2015%3A44%3A05&end\_date=2021-03-17%2015%3A44%3A04&output=json&offset=%2B00%3A00" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/bot/conversational-bot-overview?start\_date=2021-03-16%2015%3A44%3A04&end\_date=2021-03-17%2015%3A44%3A03&output=json&offset=%2B00%3A00" %}
 {% api-method-summary %}
 Overview
 {% endapi-method-summary %}
 
 {% api-method-description %}
-A comprehensive view of all cobrowse metrics, including sessions, durations, visited pages.
+View how many customers and conversations your Conversational Bot handles.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-headers %}
-{% api-method-parameter name="Authorization" type="string" required=true %}
+{% api-method-parameter type="string" name="Authorization" required=true %}
 Bearer \*\*\*YOUR\_API\_KEY\*\*\*
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter type="string" name="start\_date" required=true %}
+{% api-method-parameter name="start\_date" required=true type="string" %}
 Date From \(Date format = YYYY-MM-DD hh:mm:ss, e.g 2021-01-01 00:00:00\)
 {% endapi-method-parameter %}
 
@@ -49,36 +49,25 @@ json or csv
 ```
 {
   "data": {
-    "cobrowse": {
+    "conversationalBotOverview": {
       "data": {
         "graphRow": {
           "labels": [
-            "03 PM",
-            "04 PM",
-            "05 PM",
-            "06 PM",
-            "07 PM",
-            "08 PM",
-            "09 PM",
-            "10 PM",
-            "11 PM",
-            "12 AM",
-            "01 AM",
-            "02 AM",
-            "03 AM",
-            "04 AM",
-            "05 AM",
-            "06 AM",
-            "07 AM",
-            "08 AM",
-            "09 AM",
-            "10 AM",
-            "11 AM",
-            "12 PM",
-            "01 PM",
-            "02 PM"
+            "16 Mar 2020",
+            "16 Apr 2020",
+            "16 May 2020",
+            "16 Jun 2020",
+            "16 Jul 2020",
+            "16 Aug 2020",
+            "16 Sep 2020",
+            "16 Oct 2020",
+            "16 Nov 2020",
+            "16 Dec 2020",
+            "16 Jan 2021",
+            "16 Feb 2021",
+            "16 Mar 2021"
           ],
-          "totalCobrowseSession": [
+          "customersEngaged": [
             0,
             0,
             0,
@@ -86,25 +75,14 @@ json or csv
             0,
             0,
             0,
+            1,
             0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
+            1,
             0,
             0,
             0
           ],
-          "totalPageVisited": [
+          "interactionsWithBot": [
             0,
             0,
             0,
@@ -112,25 +90,29 @@ json or csv
             0,
             0,
             0,
+            1,
             0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
+            1,
             0,
             0,
             0
           ],
-          "averageSessionTime": [
+          "resolvedIssues": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          "unansweredQuestions": [
             0,
             0,
             0,
@@ -140,38 +122,27 @@ json or csv
             0,
             0,
             0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
+            1,
             0,
             0,
             0
           ]
         },
         "summary": {
-          "totalCobrowseSession": {
-            "current": 0,
+          "customersEngaged": {
+            "current": 2,
             "previous": 0
           },
-          "totalCobrowseTime": {
-            "current": 0,
+          "interactionsWithBot": {
+            "current": 2,
             "previous": 0
           },
-          "averageSessionTime": {
-            "current": 0,
+          "resolvedIssues": {
+            "current": 4,
             "previous": 0
           },
-          "totalPageVisited": {
-            "current": 0,
+          "unansweredQuestions": {
+            "current": 1,
             "previous": 0
           }
         }
@@ -187,29 +158,25 @@ json or csv
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/cobrowse/co-browse-channel-wise?start\_date=2021-03-16%2015%3A44%3A05&end\_date=2021-03-17%2015%3A44%3A04&output=json&offset=%2B00%3A00&channel=chat" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/bot/questions-report?start\_date=2020-03-16%2015%3A44%3A04&end\_date=2021-03-17%2015%3A44%3A03&output=json&offset=%2B00%3A00" %}
 {% api-method-summary %}
-Cobrowse with Chat
+Questions Report
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+View how many View the number of questions added, used, and suggested to Conversational Bot. and conversations your Conversational Bot handles.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-headers %}
-{% api-method-parameter name="Authorization" type="string" required=true %}
+{% api-method-parameter type="string" name="Authorization" required=true %}
 Bearer \*\*\*YOUR\_API\_KEY\*\*\*
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="output" type="string" required=false %}
-json or csv
-{% endapi-method-parameter %}
-
-{% api-method-parameter type="string" name="start\_date" required=true %}
+{% api-method-parameter name="start\_date" required=true type="string" %}
 Date From \(Date format = YYYY-MM-DD hh:mm:ss, e.g 2021-01-01 00:00:00\)
 {% endapi-method-parameter %}
 
@@ -221,8 +188,8 @@ Date End \(Date Format = YYYY-MM-DD hh:mm:ss, e.g 2021-01-01 23:59:59\)
 This parameter is used for the timezone value and the default timezone will be "GMT". e.g. +05:30 for particular timezone. Default is +00:00
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="channel" type="string" required=true %}
-channel \| phone \| email
+{% api-method-parameter name="output" type="string" %}
+json or csv
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
@@ -236,88 +203,55 @@ channel \| phone \| email
 ```
 {
   "data": {
-    "coBrowseChannelWise": {
+    "questionsReport": {
       "data": {
         "graphRow": {
           "labels": [
-            "03 PM",
-            "04 PM",
-            "05 PM",
-            "06 PM",
-            "07 PM",
-            "08 PM",
-            "09 PM",
-            "10 PM",
-            "11 PM",
-            "12 AM",
-            "01 AM",
-            "02 AM",
-            "03 AM",
-            "04 AM",
-            "05 AM",
-            "06 AM",
-            "07 AM",
-            "08 AM",
-            "09 AM",
-            "10 AM",
-            "11 AM",
-            "12 PM",
-            "01 PM",
-            "02 PM"
+            "16 Mar 2020",
+            "16 Apr 2020",
+            "16 May 2020",
+            "16 Jun 2020",
+            "16 Jul 2020",
+            "16 Aug 2020",
+            "16 Sep 2020",
+            "16 Oct 2020",
+            "16 Nov 2020",
+            "16 Dec 2020",
+            "16 Jan 2021",
+            "16 Feb 2021",
+            "16 Mar 2021"
           ],
-          "totalSessions": [
+          "totalQuestionsAdded": [
             0,
             0,
             0,
             0,
             0,
             0,
+            3,
             0,
             0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
+            3,
             0,
             0,
             0
           ],
-          "averageSessionTime": [
+          "totalQuestionsInUse": [
             0,
             0,
             0,
             0,
             0,
             0,
+            3,
             0,
             0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
+            2,
             0,
             0,
             0
           ],
-          "totalCoBrowseTime": [
+          "totalSuggestedQuestions": [
             0,
             0,
             0,
@@ -327,34 +261,42 @@ channel \| phone \| email
             0,
             0,
             0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "totalQuestionGroups": [
             0,
             0,
             0,
             0,
             0,
             0,
+            1,
             0,
             0,
-            0,
-            0,
-            0,
-            0,
+            1,
             0,
             0,
             0
           ]
         },
         "summary": {
-          "totalSessions": {
-            "current": 0,
+          "totalQuestionsAdded": {
+            "current": 6,
             "previous": 0
           },
-          "averageSessionTime": {
-            "current": 0,
+          "totalQuestionsInUse": {
+            "current": 5,
             "previous": 0
           },
-          "totalCoBrowseTime": {
-            "current": 0,
+          "totalSuggestedQuestions": {
+            "current": 1,
+            "previous": 0
+          },
+          "totalQuestionGroups": {
+            "current": 2,
             "previous": 0
           }
         }
@@ -370,29 +312,25 @@ channel \| phone \| email
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/cobrowse/co-browse-page-source?start\_date=2021-03-16%2015%3A44%3A05&end\_date=2021-03-17%2015%3A44%3A04&output=json&offset=%2B00%3A00" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/bot/questions-report?start\_date=2020-03-16%2015%3A44%3A04&end\_date=2021-03-17%2015%3A44%3A03&output=json&offset=%2B00%3A00" %}
 {% api-method-summary %}
-Cobrowse Page Source
+All Question Groups
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+See which question groups are most active.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-headers %}
-{% api-method-parameter name="Authorization" type="string" required=true %}
+{% api-method-parameter type="string" name="Authorization" required=true %}
 Bearer \*\*\*YOUR\_API\_KEY\*\*\*
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="output" type="string" required=false %}
-json or csv
-{% endapi-method-parameter %}
-
-{% api-method-parameter type="string" name="start\_date" required=true %}
+{% api-method-parameter name="start\_date" required=true type="string" %}
 Date From \(Date format = YYYY-MM-DD hh:mm:ss, e.g 2021-01-01 00:00:00\)
 {% endapi-method-parameter %}
 
@@ -402,6 +340,10 @@ Date End \(Date Format = YYYY-MM-DD hh:mm:ss, e.g 2021-01-01 23:59:59\)
 
 {% api-method-parameter type="string" name="offset" %}
 This parameter is used for the timezone value and the default timezone will be "GMT". e.g. +05:30 for particular timezone. Default is +00:00
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="output" type="string" %}
+json or csv
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
@@ -415,13 +357,21 @@ This parameter is used for the timezone value and the default timezone will be "
 ```
 {
   "data": {
-    "coBrowsePageSource": {
+    "conversationalBotQuestionGroups": {
       "data": {
         "graphRow": {
           "data": [
             {
-              "pageUrl": "https://test1.acquire.io/simulate",
-              "pageVisited": 2
+              "group_id": 1,
+              "title": "Primary Group",
+              "live": 23,
+              "suggested": 23
+            },
+            {
+              "group_id": 2,
+              "title": "Primary Group2",
+              "live": 32,
+              "suggested": 32
             }
           ]
         }
