@@ -1,19 +1,23 @@
-# Set as Separate Branch
+---
+description: API to set the parent branch
+---
 
-{% api-method method="get" host="" path="" %}
+# Set as Parent Branch
+
+{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/bot/lead/parent-branch/{id}" path="" %}
 {% api-method-summary %}
-
+Set as Parent Branch
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+API to set the parent branch
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-
+{% api-method-parameter name="id" type="string" required=true %}
+Specify branch id
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
@@ -31,10 +35,26 @@ API KEY
 {% endapi-method-response-example-description %}
 
 ```
+{
+  "data": {
+    "success": true,
+    "message": "Branch marked as parent successfully."
+  }
+}
 
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+
+## Body\(raw\)
+
+```text
+{
+  "id": 926,
+  "leadId": 138
+}
+
+```
 

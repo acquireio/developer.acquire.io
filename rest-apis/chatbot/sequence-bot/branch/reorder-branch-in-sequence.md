@@ -1,19 +1,23 @@
+---
+description: API to reorder branch sequence
+---
+
 # Reorder Branch In Sequence
 
-{% api-method method="get" host="" path="" %}
+{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/bot/lead/reorder/{id}" path="" %}
 {% api-method-summary %}
-
+Reorder Branch In Sequence
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+API to reorder branch sequence
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-
+{% api-method-parameter name="id" type="number" required=true %}
+Specify Id of the branch
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
@@ -31,10 +35,27 @@ API KEY
 {% endapi-method-response-example-description %}
 
 ```
+{
+  "data": {
+    "success": true,
+    "Message": "Branch ordered successfully"
+  }
+}
 
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+
+## Body\(raw\)
+
+```text
+{
+  "data": [
+    926, 924, 925, 923, 922, 921, 920
+  ]
+}
+
+```
 

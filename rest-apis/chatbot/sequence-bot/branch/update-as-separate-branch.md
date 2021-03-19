@@ -1,19 +1,23 @@
-# Update as Separate branch
+---
+description: API to update a parent branch
+---
 
-{% api-method method="get" host="" path="" %}
+# Update as Parent branch
+
+{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/bot/lead/parent-branch/{id}" path="" %}
 {% api-method-summary %}
-
+Update as Parent branch
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+API to update a parent branch
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-
+{% api-method-parameter name="id" type="number" required=true %}
+Specify branch ID
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
@@ -31,10 +35,26 @@ API KEY
 {% endapi-method-response-example-description %}
 
 ```
+{
+  "data": true
+}
 
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+
+## Body\(raw\)
+
+```text
+{
+  "id": 926,
+  "currentPos": {
+    "x": 22,
+    "y": 30
+  }
+}
+
+```
 

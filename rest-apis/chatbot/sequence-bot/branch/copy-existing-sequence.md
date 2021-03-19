@@ -1,19 +1,23 @@
+---
+description: API to create copy of the existing sequence
+---
+
 # Copy Existing Sequence
 
-{% api-method method="get" host="" path="" %}
+{% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/bot/lead/clone/{id}" path="" %}
 {% api-method-summary %}
-
+Copy Existing Sequence
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+API to create copy of the existing sequence
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-
+{% api-method-parameter name="id" type="number" required=true %}
+Sequence id
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
@@ -31,6 +35,27 @@ API KEY
 {% endapi-method-response-example-description %}
 
 ```
+{
+  "data": {
+    "lead": {
+      "title": "Sales Sequence 06 : Copy 01",
+      "description": "A sequence designed to generate leads.",
+      "status": "draft",
+      "greeting": "active",
+      "askFeedback": "disabled",
+      "identifier": "salesSequence",
+      "identifierCount": 7,
+      "isCloned": "yes",
+      "clonedCount": 1,
+      "createdBy": 1,
+      "updatedBy": 1,
+      "dateCreated": "2021-02-24T12:10:32.000Z",
+      "dateUpdated": "2021-03-19T04:50:20.166Z",
+      "id": 140,
+      "isImported": "no"
+    }
+  }
+}
 
 ```
 {% endapi-method-response-example %}
