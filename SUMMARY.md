@@ -194,7 +194,7 @@
       * [Others Rating](rest-apis/analytics/satisfaction/custom-feedback/others-rating.md)
     * [Feedback](rest-apis/analytics/satisfaction/feedback.md)
   * [Email](rest-apis/analytics/email.md)
-  * [VOIP - Call SMS](rest-apis/analytics/voip-call-sms.md)
+  * [VoIP - Call SMS](rest-apis/analytics/voip-call-sms.md)
   * [Agent Performance](rest-apis/analytics/agent-performance.md)
   * [Triggers & Campaigns](rest-apis/analytics/triggers-and-campaigns.md)
   * [Third Party Apps](rest-apis/analytics/third-party-apps.md)
