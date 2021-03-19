@@ -1,6 +1,6 @@
 # Delete Message
 
-{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/case-message/2" path="" %}
+{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/case-message/{messageId}" path="" %}
 {% api-method-summary %}
 Delete a message
 {% endapi-method-summary %}
@@ -11,8 +11,14 @@ Delete a message
 
 {% api-method-spec %}
 {% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="messageId" type="string" required=true %}
+Id of the message.
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+
 {% api-method-headers %}
-{% api-method-parameter name="Authorization" type="string" required=false %}
+{% api-method-parameter name="Authorization" type="string" required=true %}
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
