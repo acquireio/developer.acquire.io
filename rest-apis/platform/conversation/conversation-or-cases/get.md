@@ -12,13 +12,13 @@ Get a case
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="caseId" type="string" required=false %}
+{% api-method-parameter name="caseId" type="string" required=true %}
 The Id of the case to retrieve
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
 {% api-method-headers %}
-{% api-method-parameter name="Authorization" type="string" required=false %}
+{% api-method-parameter name="Authorization" type="string" required=true %}
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}

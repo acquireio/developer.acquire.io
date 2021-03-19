@@ -12,7 +12,7 @@
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="ContactId" type="string" required=false %}
+{% api-method-parameter name="ContactId" type="string" required=true %}
 Customer Id
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
