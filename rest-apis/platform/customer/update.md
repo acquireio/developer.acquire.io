@@ -2,43 +2,31 @@
 
 Update a Customer.
 
-| Parameter | Value |
-| :--- | :--- |
-| **Path** | [https://{{account\_id}}.acquire.io/api/v1/crm/objects/contact/2](https://{{account_id}}.acquire.io/api/v1/crm/objects/contact/{{contactId}}) |
-| **Method** | **PUT** |
-| **Authorization** | Bearer \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*YOUR\_API\_KEY\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* |
-| **Content-type** | application/json |
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/contact/2" path="" %}
+{% api-method-summary %}
+Update a customer
+{% endapi-method-summary %}
 
-**Body \(raw\)**
+{% api-method-description %}
+Update a customer
+{% endapi-method-description %}
 
-```text
-{
-    "fields": {
-        "name": "John  Deo",
-        "email": "John@acquire.io",
-        "phone": "9460731950",
-        "city": "San Francisco",
-        "state": "California",
-        "countryId": "517",
-        "ip": "103.61.112.45"
-    },
-    "dateCreated": "string",
-    "dateUpdated": "string",
-    "clientType": "web",
-    "clientName": "Chrome",
-    "clientVersion": "81.0",
-    "clientOsName": "Windows",
-    "clientOsVersion": "10",
-    "clientDeviceType": null,
-    "clientDeviceVendor": null,
-    "clientDeviceModel": null,
-    "clientDetails": {}
-}
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-headers %}
+{% api-method-parameter name="Authorization" type="string" required=false %}
+Bearer {{api\_key}}
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
 ```
-
-**Response JSON**
-
-```text
 {
     "data": {
         "dateCreated": "string",
@@ -78,6 +66,37 @@ Update a Customer.
             "ip": "103.61.112.45"
         }
     }
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+**Body \(raw\)**
+
+```text
+{
+    "fields": {
+        "name": "John  Deo",
+        "email": "John@acquire.io",
+        "phone": "9460731950",
+        "city": "San Francisco",
+        "state": "California",
+        "countryId": "517",
+        "ip": "103.61.112.45"
+    },
+    "dateCreated": "string",
+    "dateUpdated": "string",
+    "clientType": "web",
+    "clientName": "Chrome",
+    "clientVersion": "81.0",
+    "clientOsName": "Windows",
+    "clientOsVersion": "10",
+    "clientDeviceType": null,
+    "clientDeviceVendor": null,
+    "clientDeviceModel": null,
+    "clientDetails": {}
 }
 ```
 
