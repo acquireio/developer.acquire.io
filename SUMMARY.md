@@ -208,6 +208,7 @@
     * [Add](rest-apis/knowledgebase/knowledge-base/add.md)
     * [Update](rest-apis/knowledgebase/knowledge-base/update.md)
     * [Get](rest-apis/knowledgebase/knowledge-base/get.md)
+    * [Delete](rest-apis/knowledgebase/knowledge-base/delete.md)
 * [Category](rest-apis/category.md)
 * [Articles](rest-apis/articles.md)
 * [Workflow](rest-apis/workflow/README.md)

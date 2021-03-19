@@ -1,8 +1,8 @@
-# Add
+# Delete
 
-{% api-method method="post" host="https://{{account\_uid}}.acquire.io/api/v1" path="/kb/group/add" %}
+{% api-method method="delete" host="https://{{account\_uid}}.acquire.io/api/v1" path="/kb/group/delete/:id" %}
 {% api-method-summary %}
-Add Knowledge base
+Delete Knowledge base
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -28,19 +28,21 @@ Bearer {{API\_key}}
 {
   "data": {
     "success": true,
-    "message": "Knowledge base created successfully.",
+    "message": "Knowledge base successfully deleted.",
     "data": {
-      "name": "KB2",
-      "slugKey": "kb2",
-      "createdBy": 1,
-      "updatedBy": 1,
-      "dateCreated": "2021-03-19T14:01:22.000Z",
-      "dateUpdated": "2021-03-19T14:01:22.000Z",
-      "id": 27,
-      "isDefault": "no",
-      "status": "draft",
-      "internalApp": "no",
-      "widgetApp": "no"
+      "raw": {
+        "fieldCount": 0,
+        "affectedRows": 1,
+        "insertId": 0,
+        "serverStatus": 2,
+        "warningCount": 0,
+        "message": "",
+        "protocol41": true,
+        "changedRows": 0,
+        "parse": {},
+        "write": {}
+      },
+      "affected": 1
     }
   }
 }
@@ -49,16 +51,4 @@ Bearer {{API\_key}}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
-
-### Body \(row\)
-
-```javascript
-{
-  "name": "KB2",
-  "customDomain": "",
-  "languages": "en"
-}
-```
-
-
 

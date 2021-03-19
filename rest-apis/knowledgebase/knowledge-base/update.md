@@ -24,7 +24,7 @@ Bearer {{API\_key}}
 
 {% endapi-method-response-example-description %}
 
-```
+```javascript
 {
   "data": {
     "success": true,
@@ -52,7 +52,7 @@ Bearer {{API\_key}}
 
 ### Body \(row\)
 
-```text
+```javascript
 {
   "name": "KB2 New",
   "language": "en",
