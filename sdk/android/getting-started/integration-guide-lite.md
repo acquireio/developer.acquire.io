@@ -2,7 +2,7 @@
 
 ## **Steps to integrate Acquire android-sdk-lite are as follows :**
 
-**Step 1 :**
+**STEP 1 :**
 
 Add the SDK to your project by including the following snippets in the **`build.gradle`** file:
 
@@ -31,7 +31,7 @@ dependencies {
 
 If you have added any of this dependency already then try to match the version.
 
-**Step 2 :**
+**STEP 2 :**
 
 Register Acquire SDK in the **onCreate\(\)** method of an Activity/Application where you plan to use the SDK. Use the initialization details provided by the Acquire Support admin and an Application instance:
 
