@@ -20,6 +20,7 @@
     * [Set Customer info](widget/functioning-customization/methods/set-customer-info.md)
     * [Get Customer info](widget/functioning-customization/methods/get-customer-info.md)
   * [Events/Callbacks](widget/functioning-customization/events-callbacks/README.md)
+    * [reloadUI](widget/functioning-customization/events-callbacks/reloadui.md)
     * [onChatMaximize](widget/functioning-customization/events-callbacks/onchatmaximize.md)
     * [onChatMinimize](widget/functioning-customization/events-callbacks/onchatminimize.md)
     * [onChatInitiated/Started](widget/functioning-customization/events-callbacks/onchatinitiated-started.md)
