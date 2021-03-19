@@ -44,7 +44,7 @@ class XYZApp : Application() {
 }
 ```
 
-#### Step 3 :
+#### STEP 3 :
 
 Initialize Acquire SDK with **accountID** by using this method. 
 
