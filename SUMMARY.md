@@ -106,7 +106,7 @@
       * [Retrieve note messages](rest-apis/platform/conversation/conversation-or-notes/retrieve-note-messages.md)
     * [Cases \| Email](rest-apis/platform/conversation/cases-or-email/README.md)
       * [Send Email](rest-apis/platform/conversation/cases-or-email/untitled.md)
-      * [Retrieve Email](rest-apis/platform/conversation/cases-or-email/retrieve-email.md)
+      * [Mail Messages](rest-apis/platform/conversation/cases-or-email/retrieve-email.md)
     * [Cases \| Sms](rest-apis/platform/conversation/cases-or-sms/README.md)
       * [Get All Numbers](rest-apis/platform/conversation/cases-or-sms/get-all-numbers.md)
       * [Send-SMS](rest-apis/platform/conversation/cases-or-sms/send-sms.md)
