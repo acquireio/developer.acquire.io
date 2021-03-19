@@ -16,8 +16,8 @@ API to get the default bot group
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-headers %}
-{% api-method-parameter name="Authorization" type="string" required=true %}
-YOUR API\_KEY
+{% api-method-parameter name="Authorization" required=true type="string" %}
+Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 {% endapi-method-request %}

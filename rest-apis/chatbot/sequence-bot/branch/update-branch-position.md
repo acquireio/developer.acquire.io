@@ -23,7 +23,7 @@ Specify Id
 
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
-API KEY
+Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 {% endapi-method-request %}

@@ -17,13 +17,13 @@ API to get the details of the branch sequence by id
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="id" type="string" required=true %}
-API KEY
+ Sequence Id
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
-API KEY
+Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 {% endapi-method-request %}

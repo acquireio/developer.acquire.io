@@ -23,7 +23,7 @@ API to get the count of sequences
 
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" required=true type="string" %}
-API KEY
+Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 {% endapi-method-request %}

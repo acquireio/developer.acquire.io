@@ -15,15 +15,9 @@ API to list the QnA
 
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
-API\_KEY
+Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 

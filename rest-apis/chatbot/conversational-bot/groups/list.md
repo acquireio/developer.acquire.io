@@ -17,7 +17,7 @@ API to list all the available groups
 {% api-method-request %}
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
-YOUR API\_KEY
+ Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 {% endapi-method-request %}
@@ -52,4 +52,6 @@ YOUR API\_KEY
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+
+
 
