@@ -188,6 +188,7 @@
     * [Tags](rest-apis/analytics/chat/tags.md)
   * [Cobrowse](rest-apis/analytics/cobrowse.md)
   * [Chatbot](rest-apis/analytics/chatbot/README.md)
+    * [Sequence Bot](rest-apis/analytics/chatbot/sequence-bot.md)
     * [Conversational Bot](rest-apis/analytics/chatbot/conversational-bot.md)
   * [Knowledge Base](rest-apis/analytics/knowledge-base.md)
   * [Satisfaction](rest-apis/analytics/satisfaction.md)
