@@ -24,7 +24,7 @@ Bearer \*\*\*YOUR\_API\_KEY\*\*\*
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter type="string" name="start\_date" %}
+{% api-method-parameter type="string" name="start\_date" required=true %}
 Date From \(Date format = YYYY-MM-DD hh:mm:ss, e.g 2021-01-01 00:00:00\)
 {% endapi-method-parameter %}
 
@@ -115,7 +115,7 @@ Bearer \*\*\*YOUR\_API\_KEY\*\*\*
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter type="string" name="start\_date" %}
+{% api-method-parameter type="string" name="start\_date" required=true %}
 Date From \(Date format = YYYY-MM-DD hh:mm:ss, e.g 2021-01-01 00:00:00\)
 {% endapi-method-parameter %}
 
@@ -257,7 +257,7 @@ Bearer \*\*\*YOUR\_API\_KEY\*\*\*
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter type="string" name="start\_date" %}
+{% api-method-parameter type="string" name="start\_date" required=true %}
 Date From \(Date format = YYYY-MM-DD hh:mm:ss, e.g 2021-01-01 00:00:00\)
 {% endapi-method-parameter %}
 
@@ -324,7 +324,7 @@ Bearer \*\*\*YOUR\_API\_KEY\*\*\*
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter type="string" name="start\_date" %}
+{% api-method-parameter type="string" name="start\_date" required=true %}
 Date From \(Date format = YYYY-MM-DD hh:mm:ss, e.g 2021-01-01 00:00:00\)
 {% endapi-method-parameter %}
 
