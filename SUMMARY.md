@@ -26,9 +26,7 @@
     * [onChatInitiated/Started](widget/functioning-customization/events-callbacks/onchatinitiated-started.md)
     * [onChatClosed](widget/functioning-customization/events-callbacks/onchatclosed.md)
     * [onPrivateFormCapture](widget/functioning-customization/events-callbacks/onprivateformcapture.md)
-    * [onWidgetHidden](widget/functioning-customization/events-callbacks/onwidgethidden.md)
     * [onAgentAssign](widget/functioning-customization/events-callbacks/onagentassign.md)
-    * [onWidgetShown](widget/functioning-customization/events-callbacks/onwidgetshown.md)
     * [onAgentStateChange \(Available/Unavailable\)](widget/functioning-customization/events-callbacks/onagentstatechange-available-unavailable.md)
 
 ## SDK
