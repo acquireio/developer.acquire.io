@@ -58,9 +58,7 @@ AcquireApp.init(accountID)
 
  To get the Demo app clone project from GitHub: [SDKs Guide](https://github.com/acquireio/android-sdk)
 
-To know more about initialization options [click here](). 
+To know more about initialization options [click here](../acquire-apis.md). 
 
 To handle chat events manually [click here](../acquire-apis.md#chat-apis). 
-
-To customize our chat widget [click here]().
 
