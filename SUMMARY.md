@@ -224,7 +224,6 @@
 * [Settings / Configuration](rest-apis/settings-configuration/README.md)
   * [Account - Roles](rest-apis/settings-configuration/account-roles/README.md)
     * [List](rest-apis/settings-configuration/account-roles/list.md)
-    * [Get Roles](rest-apis/settings-configuration/account-roles/get-roles.md)
     * [Get Single Role](rest-apis/settings-configuration/account-roles/get-single-role.md)
     * [Add](rest-apis/settings-configuration/account-roles/add.md)
     * [Update](rest-apis/settings-configuration/account-roles/update.md)
