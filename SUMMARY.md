@@ -178,6 +178,7 @@
       * [Export](rest-apis/chatbot/sequence-bot/branch/export.md)
       * [Import](rest-apis/chatbot/sequence-bot/branch/import.md)
 * [Analytics](rest-apis/analytics/README.md)
+  * [Custom Reporting](rest-apis/analytics/custom-reporting.md)
   * [General Analytics](rest-apis/analytics/general-analytics.md)
   * [Chat](rest-apis/analytics/chat/README.md)
     * [Video Analytics](rest-apis/analytics/chat/video-analytics.md)
