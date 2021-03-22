@@ -248,10 +248,4 @@
     * [Delete](rest-apis/settings-configuration/security-block-visitor/delete.md)
   * [Security - Audit Logs](rest-apis/settings-configuration/security-audit-logs.md)
   * [Login Settings](rest-apis/settings-configuration/login-settings.md)
-  * [VOIP Settings](rest-apis/settings-configuration/voip-settings/README.md)
-    * [List Available Phone Numbers](rest-apis/settings-configuration/voip-settings/list-available-phone-numbers.md)
-    * [Buy Number](rest-apis/settings-configuration/voip-settings/buy-number.md)
-    * [Release Number](rest-apis/settings-configuration/voip-settings/release-number.md)
-    * [Edit Number](rest-apis/settings-configuration/voip-settings/edit-number.md)
-    * [Add department to number](rest-apis/settings-configuration/voip-settings/add-department-to-number.md)
 
