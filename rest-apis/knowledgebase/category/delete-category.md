@@ -1,24 +1,30 @@
-# Delete Article
+# Delete Category
 
-{% api-method method="delete" host="https://{{account\_uid}}.acquire.io/api/v1" path="/kb/article/delete/:id" %}
+{% api-method method="delete" host="https://{{account\_uid}}.acquire.io/api/v1" path="/kb/category/delete/:id" %}
 {% api-method-summary %}
-Delete Article
+Delete Category
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="id" type="number" required=true %}
+1
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
-Authentication token to track down who is emptying our stocks.
+Bearer {{API\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="groupId" type="integer" required=true %}
+{% api-method-parameter name="groupId" type="number" required=true %}
 1
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
@@ -27,29 +33,15 @@ Authentication token to track down who is emptying our stocks.
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-Cake successfully retrieved.
+Category successfully deleted.
 {% endapi-method-response-example-description %}
 
 ```
-//Archived
 {
   "data": {
     "success": true,
-    "message": "Article Successfully Archived.",
-    "data": {
-      "id": 1646
-    }
-  }
-}
-
-//Deleted
-{
-  "data": {
-    "success": true,
-    "message": "Article Successfully Deleted.",
-    "data": {
-      "id": 1647
-    }
+    "message": "Category Successfully deleted.",
+    "data": 67
   }
 }
 ```

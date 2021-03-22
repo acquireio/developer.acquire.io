@@ -1,8 +1,8 @@
-# Add Article
+# Add Category
 
-{% api-method method="post" host="https://{{account\_uid}}.acquire.io/api/v1" path="/kb/article/add" %}
+{% api-method method="post" host="https://{{account\_uid}}.acquire.io/api/v1" path="/kb/category/add" %}
 {% api-method-summary %}
-Add New Article
+Add New Category
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -13,7 +13,7 @@ Add New Article
 {% api-method-request %}
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
-Bearer {{API\_key}}
+Authentication token to track down who is emptying our stocks.
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 {% endapi-method-request %}
@@ -21,14 +21,14 @@ Bearer {{API\_key}}
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-Article successfully saved.
+Category successfully added.
 {% endapi-method-response-example-description %}
 
 ```
 {
   "data": {
     "success": true,
-    "message": "New Article added Successfully."
+    "message": "Category successfully added."
   }
 }
 ```
@@ -42,37 +42,14 @@ Article successfully saved.
 ```text
 {
   "groupId": 1,
-  "articleSlug": "",
-  "featuresImage": "",
-  "title": "",
-  "description": "",
-  "tags": [
-    1
-  ],
-  "jsonContent": {},
-  "departmentIds": [
-    1,
-    2
-  ],
-  "relatedArtIds": [
-    1,
-    2
-  ],
-  "articleCategories": [
-    1,
-    2
-  ],
-  "addCategory": [
-    "name"
-  ],
-  "seoTitle": "string",
-  "seoDescription": "string",
-  "seoKeywords": "string",
-  "author": 1,
-  "botAssigned": "no",
-  "autoRelated": "no",
-  "access": "internal",
+  "parentCategory": 0,
+  "name": "string",
+  "description": "string",
+  "categoryIcon": "string",
+  "visibleOrder": 0,
   "status": "draft"
 }
 ```
+
+
 

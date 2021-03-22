@@ -65,7 +65,7 @@ AcquireIO.support.showSupport(<viewcontroller_instance>)
 
 **startSession**
 
-Calling this method will start a connection session with acquire server. After calling `startSession()`, the `AcquireIODelegate` delegate will receive either `didChangeConnectionStatus:` or `onError:`
+Calling this method will start a connection session with Acquire server. After calling `startSession()`, the `AcquireIODelegate` delegate will receive either `didChangeConnectionStatus:` or `onError:`
 
 ```text
 AcquireIO.support.startSession()

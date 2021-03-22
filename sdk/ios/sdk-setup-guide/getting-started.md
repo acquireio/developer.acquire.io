@@ -24,7 +24,7 @@ We are providing two types of build variants :
 So if you don't require calling feature, you can use **lite** version to reduce the app size.
 {% endhint %}
 
-You can use our native SDK in your project using [Cocoapods](integration-guide-core.md) or [Manual]().
+You can use our native SDK in your project using [Cocoapods](integration-guide-core.md).
 
 
 

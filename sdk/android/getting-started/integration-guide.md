@@ -61,5 +61,9 @@ AcquireApp.init(accountID)
 
 To get the Demo app clone project from GitHub: [SDKs Guide](https://github.com/acquireio/android-sdk)
 
+To know more about initialization options [click here](../acquire-apis.md). 
+
+To get session events [click here](../acquire-delegates.md). 
+
 
 

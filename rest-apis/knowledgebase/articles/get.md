@@ -1,4 +1,4 @@
-# Get
+# Get Articles
 
 {% api-method method="get" host="https://{{account\_uid}}.acquire.io/api/v1" path="/kb/article" %}
 {% api-method-summary %}
@@ -12,7 +12,7 @@ Get All Articles
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-headers %}
-{% api-method-parameter name="Authentication" type="string" required=true %}
+{% api-method-parameter name="Authorization" type="string" required=true %}
 Bearer {{API\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}

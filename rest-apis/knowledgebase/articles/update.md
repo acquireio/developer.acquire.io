@@ -1,4 +1,4 @@
-# Update
+# Update Article
 
 {% api-method method="put" host="https://{{account\_uid}}.acquire.io/api/v1" path="/kb/article/update/:id" %}
 {% api-method-summary %}
@@ -12,7 +12,7 @@ Update Article
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-headers %}
-{% api-method-parameter name="Authentication" type="string" required=true %}
+{% api-method-parameter name="Authorization" type="string" required=true %}
 Bearer {{API\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}

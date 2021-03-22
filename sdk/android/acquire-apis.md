@@ -30,9 +30,8 @@ Get Visitor ID using this method
 AcquireApp.getVisitorId()
 ```
 
-###  Logout Visitor
+### Logout Visitor
 
-  
 Logout will clear the current session and also gives a callback when the process is finished. After logout one has to initialize the SDK again to create a new session. 
 
 ```text
