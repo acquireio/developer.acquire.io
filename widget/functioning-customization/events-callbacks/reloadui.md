@@ -1,6 +1,13 @@
+---
+description: Reloading the UI from the acquire object
+---
+
 # reloadUI
 
 ```text
-acquireIO.reloadUI()
+window.acquire = window.acquire || [];
+acquire.push(function(app){
+    app.reloadUI();
+});
 ```
 
