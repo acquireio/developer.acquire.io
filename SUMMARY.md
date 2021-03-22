@@ -198,7 +198,6 @@
   * [Email](rest-apis/analytics/email.md)
   * [VoIP - Call SMS](rest-apis/analytics/voip-call-sms.md)
   * [Agent Performance](rest-apis/analytics/agent-performance.md)
-  * [Triggers & Campaigns](rest-apis/analytics/triggers-and-campaigns.md)
   * [Third Party Apps](rest-apis/analytics/third-party-apps.md)
 * [Apps](rest-apis/apps.md)
 * [Knowledgebase](rest-apis/knowledgebase/README.md)
