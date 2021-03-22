@@ -60,5 +60,5 @@ AcquireApp.init(accountID)
 
 To know more about initialization options [click here](../acquire-apis.md). 
 
-To handle chat events manually [click here](../acquire-apis.md#chat-apis). 
+To get session events [click here](../acquire-delegates.md). 
 
