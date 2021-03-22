@@ -228,7 +228,6 @@
     * [Add](rest-apis/settings-configuration/account-roles/add.md)
     * [Update](rest-apis/settings-configuration/account-roles/update.md)
     * [Delete](rest-apis/settings-configuration/account-roles/delete.md)
-    * [Get Role Permissions](rest-apis/settings-configuration/account-roles/get-role-permissions.md)
   * [Account - User / Agent](rest-apis/settings-configuration/account-user-agent.md)
   * [Account - Department](rest-apis/settings-configuration/account-department.md)
   * [Security - Block Visitor](rest-apis/settings-configuration/security-block-visitor.md)
