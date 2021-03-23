@@ -25,7 +25,6 @@
     * [onChatMinimize](widget/functioning-customization/events-callbacks/onchatminimize.md)
     * [onChatInitiated/Started](widget/functioning-customization/events-callbacks/onchatinitiated-started.md)
     * [onChatClosed](widget/functioning-customization/events-callbacks/onchatclosed.md)
-    * [onPrivateFormCapture](widget/functioning-customization/events-callbacks/onprivateformcapture.md)
     * [onAgentAssign](widget/functioning-customization/events-callbacks/onagentassign.md)
     * [onAgentStateChange \(Available/Unavailable\)](widget/functioning-customization/events-callbacks/onagentstatechange-available-unavailable.md)
 
