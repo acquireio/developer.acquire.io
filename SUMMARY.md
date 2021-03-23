@@ -247,5 +247,7 @@
     * [Add](rest-apis/settings-configuration/security-block-visitor/add.md)
     * [Delete](rest-apis/settings-configuration/security-block-visitor/delete.md)
   * [Security - Audit Logs](rest-apis/settings-configuration/security-audit-logs.md)
-  * [Login Settings](rest-apis/settings-configuration/login-settings.md)
+  * [Login Settings](rest-apis/settings-configuration/login-settings/README.md)
+    * [Get](rest-apis/settings-configuration/login-settings/get.md)
+    * [Add](rest-apis/settings-configuration/login-settings/add.md)
 
