@@ -1,6 +1,13 @@
+---
+description: To get the customer information
+---
+
 # Get Customer info
 
 ```text
-acquireIO.config.myself
+window.acquire = window.acquire || [];
+acquire.push(function(app){
+    app.myself();
+});
 ```
 
