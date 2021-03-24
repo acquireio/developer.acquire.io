@@ -18,6 +18,10 @@ Bearer {{api\_key}}
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
+{% api-method-parameter name="where" type="array" %}
+Specifies the condition to filter, Condition with the column name followed by the expression and the value. For eg: status\|eq\|active
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="select" type="string" required=false %}
 dateCreated\|dateUpdated\|id\|contactId\| closedBy\|visitId\|title\|description\|status\| closingState\|dateQueue\|dateActive\|dateClosed\| queueId\|meta\|parentId
 {% endapi-method-parameter %}
