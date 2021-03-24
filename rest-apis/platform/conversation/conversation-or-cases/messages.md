@@ -18,6 +18,12 @@ Get message list
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
+{% api-method-parameter name="where" type="array" %}
+eg: id\|eq\|message\_id  
+**Format like:**  
+column\|expression\|value columns
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="select" type="string" required=false %}
 id\|caseId\|senderId\|senderType\|type\|  
 message\|dateCreated\|dateUpdated\|seen\|meta
