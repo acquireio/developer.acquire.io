@@ -1,3 +1,7 @@
+---
+description: API to close a case
+---
+
 # Close Case
 
 {% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/messenger/chat/close" path="" %}
@@ -6,7 +10,7 @@ Close a case
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+API to close a case
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -25,7 +29,18 @@ Bearer {{api\_key}}
 {% endapi-method-response-example-description %}
 
 ```
-
+{
+  "data": {
+    "0": {
+      "foreverClosed": true,
+      "leftUser": true,
+      "caseId": 5,
+      "contactId": 6
+    },
+    "userId": 1,
+    "userType": "user"
+  }
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
@@ -36,7 +51,16 @@ Bearer {{api\_key}}
 
 ```text
 {
-  "caseId": 28
+  "archive": "yes",
+  "closingState": "handled",
+  "meta": {
+    "additionalProp1": {}
+  },
+  "forceClose": false,
+  "leaveOnly": false,
+  "leaveEvent": true,
+  "askFeedback": true,
+  "caseId": 5
 }
 ```
 
