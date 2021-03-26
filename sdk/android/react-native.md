@@ -21,7 +21,7 @@ allprojects {
 }
 ```
 
-this maven URLto your **project** level gradle.
+this maven URL to your **project** level gradle.
 
 And add this to your app **Module's** build.gradle
 
@@ -31,15 +31,35 @@ dependencies {
 }
 ```
 
-Initialize Acquire SDK in the onCreate\(\) method of an Activity/Application where you plan to use the SDK. Use the initialization details provided by the Acquire Support admin and an Application instance:
+{% hint style="danger" %}
+If you want to use the lite version then use the below configuration.
+{% endhint %}
+
+```text
+dependencies {
+    implementation 'io.acquire:lite-beta:1.+'
+}
+```
+
+Register Acquire SDK in the **onCreate\(\)** method of an Activity/Application where you plan to use the SDK. Use the initialization details provided by the Acquire Support admin and an Application instance:
 
 ```text
 class XYZApp : Application() {
      override fun onCreate() {
      super.onCreate()
-     AcquireApp.init(this, accountID)
+    AcquireApp.registerApp(this)
    }
 }
+```
+
+Initialize Acquire SDK with **accountID** by using this method. 
+
+{% hint style="warning" %}
+This method will connect to the Acquire server in the background.
+{% endhint %}
+
+```javascript
+AcquireApp.init(accountID)
 ```
 
 **Permissions**   
@@ -48,6 +68,8 @@ We include the **INTERNET** permission by default as we need it to make network 
 ```text
 <uses-permission android:name="android.permission.INTERNET"/>
 ```
+
+
 
 Needed below permissions to make audio/video calls.
 
@@ -66,4 +88,8 @@ Needed below permissions for attachments to share from the app.
 {% hint style="success" %}
 All the above **permissions** need to be mentioned in your **AndroidManifest** file.
 {% endhint %}
+
+To know more about initialization options [click here](acquire-apis.md). 
+
+To get session events [click here](acquire-delegates.md). 
 
