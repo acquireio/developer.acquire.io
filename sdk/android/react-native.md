@@ -69,8 +69,6 @@ We include the **INTERNET** permission by default as we need it to make network 
 <uses-permission android:name="android.permission.INTERNET"/>
 ```
 
-
-
 Needed below permissions to make audio/video calls.
 
 ```text
