@@ -87,6 +87,8 @@ Needed below permissions for attachments to share from the app.
 All the above **permissions** need to be mentioned in your **AndroidManifest** file.
 {% endhint %}
 
+You can download our demo react native [source code](https://drive.google.com/file/d/1Ga7vgi5Zg2BKSIDfc9FG-np8j5IqEFRR/view?usp=sharing).
+
 To know more about initialization options [click here](acquire-apis.md). 
 
 To get session events [click here](acquire-delegates.md). 
