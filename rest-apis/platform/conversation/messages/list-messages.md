@@ -1,6 +1,6 @@
 # List messages
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/messenger/chat/messages?contactId=1&threadId=1&-x-user-type=user" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/messenger/chat/messages" path="" %}
 {% api-method-summary %}
 
 {% endapi-method-summary %}
