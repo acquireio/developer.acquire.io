@@ -1,4 +1,4 @@
-# Delete
+# Delete company
 
 {% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/company/{companyId}" path="" %}
 {% api-method-summary %}

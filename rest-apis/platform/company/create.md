@@ -1,4 +1,4 @@
-# Create
+# Add company
 
 {% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/company" path="" %}
 {% api-method-summary %}

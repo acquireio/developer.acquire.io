@@ -1,4 +1,4 @@
-# Update
+# Update company
 
 {% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/company/{{companyId}}" path="" %}
 {% api-method-summary %}
