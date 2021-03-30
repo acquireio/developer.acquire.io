@@ -4,7 +4,7 @@ description: Lists the customers for an Account
 
 # List all contacts
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/contact?limit=20&relations=company&relations=cases" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/contact" path="" %}
 {% api-method-summary %}
 Get customers
 {% endapi-method-summary %}
@@ -22,6 +22,10 @@ Get customers
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
+{% api-method-parameter name="limit" type="string" required=false %}
+The number of results e.g. 20 to return.
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="select" type="array" required=false %}
 
 {% endapi-method-parameter %}
