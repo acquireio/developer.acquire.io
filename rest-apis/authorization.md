@@ -1,6 +1,6 @@
 # Authorization
 
-All requests to Acquire’s APIs require you to authenticate with an **API\_KEY**. Authentication is provided by API KEY. These API keys can be generated from the settings. You are able to manage API keys through the UI, by logging into the Acquire account and managing the API key there. Here is an example of the API Key dashboard in the settings.**`Settings > For Developers > API Key`**  
+All requests to Acquire's API require an **API\_KEY**. Authentication is provided by the API\_KEY. To create or delete an API\_KEY, log in to Acquire and go to**`Settings > For Developers > API Key`**  
   
 **Authentication example**  
 Include this HTTP header for each API request:
@@ -19,47 +19,47 @@ curl --request GET 'https://{{account_id}}.acquire.io/api/v1/account/department'
 --header 'Authorization: Bearer ${API_KEY}'
 ```
 
-### **How to get an API\_KEY**
+### **How to Generate an API\_KEY**
 
 {% hint style="danger" %}
-Make sure that you must have the necessary **API key** to generate permission.
+Make sure you have the necessary permissions to generate an **API\_KEY**.
 {% endhint %}
 
-The Following steps to generate API\_KEY.
+Follow the steps to generate an API\_KEY:
 
-1. Login to your Acquire account.
+1. Log in to your Acquire account.
 2. Navigate to `Settings > For Developers > API Key`.
-3. Click on **Create API Key** button and enter a token name, token select permission.
-4. Click on the Next button, you will get **Token Generated.**
-5. Copy Generated Token and securely store it, Generated Token will not re-display.
-6. Done, Close the popup.
+3. Click on 'Create API Key' and enter a token name and select your token permissions.
+4. Click on 'Next'. An API\_KEY will be generated.
+5. Copy the API\_KEY and secure it in a safe location. You will not be able to display it again if you misplace it.
+6. Once done, close the menu.
 
 ![Settings &amp;gt; For Developers &amp;gt; API Key](../.gitbook/assets/apikey.gif)
 
 {% hint style="warning" %}
 #### Save Your API\_KEY
 
-There is no way to re-display **API\_KEY** after generating done, so be sure to securely store the **API\_KEY** before exiting this screen.
+There is no way to display your API\_KEY after closing the menu. Secure it in a safe location before exiting the screen.
 {% endhint %}
 
 {% hint style="success" %}
 All API requests must be over HTTPS. 
 {% endhint %}
 
-### Revoking Generated API KEY __
+### Revoking an API KEY __
 
 Following steps to revoke API Key
 
-1. Login to your Acquire account.
+1. Log in to your Acquire account.
 2. Navigate to `Settings > For Developers > API Key`
-3. In the Action column click on the action menu on the Manage API key dashboard, click the delete button.
-4. Delete API KEY confirmation popup will display and click **Delete API Key.**
+3. In the 'Action' column, click on the ellipsis \('...'\) and select 'Delete'.
+4. A confirmation will display. Click on 'Delete API Key' to delete the key.
 
 ![Delete API KEY](../.gitbook/assets/delete-api-key.gif)
 
 {% hint style="danger" %}
 ### Delete Carefully
 
-Deleting an API KEY cannot be undone, so be sure to click the **Delete API Key**. 
+Deleting an API\_KEY cannot be undone, so delete with caution.
 {% endhint %}
 
