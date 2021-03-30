@@ -1,6 +1,6 @@
 # Update
 
-{% api-method method="put" host="https://{{account\_uid}}.acquire.io/api/v1" path="/kb/group/update/:id" %}
+{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1" path="/kb/group/update/{{id}}" %}
 {% api-method-summary %}
 Update Knowledge base
 {% endapi-method-summary %}
@@ -11,6 +11,12 @@ Update Knowledge base
 
 {% api-method-spec %}
 {% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="id" type="number" required=true %}
+Knowledge Base ID
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
 Bearer {{API\_key}}
