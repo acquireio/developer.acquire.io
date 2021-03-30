@@ -84,6 +84,7 @@
     * [Conversation \| Cases](rest-apis/platform/conversation/conversation-or-cases/README.md)
       * [Case List](rest-apis/platform/conversation/conversation-or-cases/list.md)
       * [Single Case](rest-apis/platform/conversation/conversation-or-cases/get.md)
+      * [Create](rest-apis/platform/conversation/conversation-or-cases/create.md)
       * [Message List](rest-apis/platform/conversation/conversation-or-cases/messages.md)
       * [Single Message](rest-apis/platform/conversation/conversation-or-cases/single-message.md)
       * [Send Message](rest-apis/platform/conversation/conversation-or-cases/send-message.md)
