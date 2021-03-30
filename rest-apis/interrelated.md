@@ -27,7 +27,7 @@ To request any API endpoint, you will need a valid API key with the related acce
 
 Errors are returned using standard HTTP error codes.
 
-In general, the list of error codes:  
+In general, the list of error codes includes:  
 
 
 | Code | Explanation |
