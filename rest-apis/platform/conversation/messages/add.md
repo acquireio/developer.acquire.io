@@ -4,7 +4,7 @@ description: API to add a new message
 
 # Add
 
-{% api-method method="post" host="https://5mkg3t.uat.env.acquire.io/api/v1/crm/messenger/chat/add-message?-x-user-type=contact" path="" %}
+{% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/messenger/chat/add-message?-x-user-type=contact" path="" %}
 {% api-method-summary %}
 Add Message
 {% endapi-method-summary %}
@@ -546,6 +546,8 @@ Bearer {{api\_key}}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+
+## Body\(raw\)
 
 ```text
 {

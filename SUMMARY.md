@@ -80,6 +80,7 @@
       * [List messages](rest-apis/platform/conversation/messages/list-messages.md)
       * [Get](rest-apis/platform/conversation/messages/get.md)
       * [Add](rest-apis/platform/conversation/messages/add.md)
+      * [Update](rest-apis/platform/conversation/messages/update.md)
     * [Conversation \| Cases](rest-apis/platform/conversation/conversation-or-cases/README.md)
       * [Case List](rest-apis/platform/conversation/conversation-or-cases/list.md)
       * [Single Case](rest-apis/platform/conversation/conversation-or-cases/get.md)
