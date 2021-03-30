@@ -76,6 +76,7 @@
     * [Update customer](rest-apis/platform/customer/update.md)
     * [Delete customer](rest-apis/platform/customer/delete.md)
   * [Conversation](rest-apis/platform/conversation/README.md)
+    * [Messages](rest-apis/platform/conversation/messages.md)
     * [Conversation \| Cases](rest-apis/platform/conversation/conversation-or-cases/README.md)
       * [Case List](rest-apis/platform/conversation/conversation-or-cases/list.md)
       * [Single Case](rest-apis/platform/conversation/conversation-or-cases/get.md)
