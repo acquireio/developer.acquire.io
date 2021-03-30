@@ -23,7 +23,7 @@ Bearer {{api\_key}}
 
 {% api-method-query-parameters %}
 {% api-method-parameter name="limit" type="string" required=false %}
-
+The number of results e.g. 20 to return.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="where" type="array" required=false %}

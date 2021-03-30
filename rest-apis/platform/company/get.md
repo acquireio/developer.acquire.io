@@ -4,7 +4,7 @@ description: Gets the specified company.
 
 # Retrieve a company
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/company/{{companyId}}?relations=fields" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/company/{{companyId}}" path="" %}
 {% api-method-summary %}
 Single Company
 {% endapi-method-summary %}
