@@ -4,7 +4,7 @@ description: Lists all companies in the account.
 
 # List all companies
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/company?limit=20&relations=contacts" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/company" path="" %}
 {% api-method-summary %}
 All Companies
 {% endapi-method-summary %}
@@ -22,6 +22,10 @@ Bearer {{api\_key}}
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
+{% api-method-parameter name="limit" type="string" required=false %}
+
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="where" type="array" required=false %}
 id\|eq\|12  
   
