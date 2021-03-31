@@ -55,7 +55,7 @@ $ pod install --repo-update
 Make sure to always open the Xcode workspace instead of the project file when building your project:
 
 ```markup
-pen MyApp.xcworkspace
+Open MyApp.xcworkspace
 ```
 
 6\) Make sure to disable **bitcode** for your project: Go to your project's settings and find the **Build settings** tab, check **All** and search for **bitcode**, then set it to **No**.
