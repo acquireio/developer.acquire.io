@@ -1,2 +1,2 @@
-# Cases \| Email
+# Email
 

@@ -1,2 +1,2 @@
-# Conversation \| Notes
+# Notes
 
