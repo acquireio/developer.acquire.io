@@ -6,7 +6,7 @@
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Retrieve a list of messages.
 {% endapi-method-description %}
 
 {% api-method-spec %}
