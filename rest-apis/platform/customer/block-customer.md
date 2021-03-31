@@ -1,3 +1,7 @@
+---
+description: Block the existing contact from the contact list.
+---
+
 # Block Contact
 
 {% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/block-visitor​" path="" %}
@@ -33,6 +37,12 @@ Bearer {{api\_key}}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+
+| ATTRIBUTE | TYPE | DESCRIPTION |
+| :--- | :--- | :--- |
+| data | Array of integers | ID of the contacts that will block |
+| type | string | "contact" |
+| blockTill | string | Contact block till date. |
 
 **Body\(raw\)**
 
