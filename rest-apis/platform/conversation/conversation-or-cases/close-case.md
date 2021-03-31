@@ -15,6 +15,12 @@ Closes a case. The **caseId** must be passed in the body of the request.
 
 {% api-method-spec %}
 {% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="caseId" type="integer" required=true %}
+The cases's ID
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
 Bearer {{api\_key}}
