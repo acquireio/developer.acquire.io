@@ -6,14 +6,14 @@ Delete a message
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Deletes a message. The **messageId** must be passed into the endpoint as a path parameter. **Warning:** This action cannot be undone. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="messageId" type="string" required=true %}
-Id of the message.
+The message's I.D.
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
