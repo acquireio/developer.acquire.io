@@ -13,7 +13,7 @@ Delete contact
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="ContactId" type="string" required=true %}
-Customer Id
+Contact Id
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
