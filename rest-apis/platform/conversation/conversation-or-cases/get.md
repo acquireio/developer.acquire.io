@@ -12,7 +12,7 @@ Retrieve a single case. The **caseId** must be passed in to the endpoint as a pa
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="caseId" type="string" required=true %}
+{% api-method-parameter name="caseId" type="integer" required=true %}
 The case ID. 
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
