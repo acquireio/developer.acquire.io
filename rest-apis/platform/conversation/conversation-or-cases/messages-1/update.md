@@ -1,18 +1,18 @@
 ---
-description: API to update a message based on it's ID
+description: API to update a message based on its ID
 ---
 
 # Update message
 
-{% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/messenger/chat/message" path="" %}
+{% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/messenger/chat/message/{{messageId}}" path="" %}
 {% api-method-summary %}
 Update
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Using this API you can modify the current message in a Conversation. The messageId in the path parameter is required to update the message.  
+Use this endpoint to modify a message in a Conversation. The **messageId** needs to be passed as a path parameter in the endpoint URL.  
   
-messageId- Message-ID, it can be found in the webhook endpoint URL.  
+**messageId** - the message ID. Use a webhook or GET request to find the message ID.   
  
 {% endapi-method-description %}
 
@@ -20,13 +20,13 @@ messageId- Message-ID, it can be found in the webhook endpoint URL.
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="id" type="integer" required=true %}
-ID of the message to be updated
+The message's ID
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
-
+API Key
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 {% endapi-method-request %}

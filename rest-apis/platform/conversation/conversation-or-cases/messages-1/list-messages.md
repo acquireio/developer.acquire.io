@@ -6,7 +6,7 @@
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Retrieve a list of messages.
+Retrieve a list of messages. The following query parameters must be present: **threadId** and **contactId**.
 {% endapi-method-description %}
 
 {% api-method-spec %}
