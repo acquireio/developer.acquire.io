@@ -1,4 +1,4 @@
-# Conversation \| Cases
+# Cases
 
 The Case or Thread API can be used to send, retrieve, update messages\(Chat, Email, VOIP\) to a Conversation.
 
