@@ -6,13 +6,13 @@ Add a message to the note.
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Add a message to the note and return notes along with the message object.
+Add a message to a note. The body must contain the **note\_id, contact\_id,** and a key of `"type"` set to `"message"`.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-headers %}
-{% api-method-parameter name="Authorization" type="string" required=false %}
+{% api-method-parameter name="Authorization" type="string" required=true %}
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
