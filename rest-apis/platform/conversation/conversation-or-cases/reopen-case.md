@@ -1,12 +1,12 @@
 # Reopen Case
 
-{% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/messenger/chat/create" path="" %}
+{% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/messenger/chat/create?contactId={{contactId}}" path="" %}
 {% api-method-summary %}
 Reopen a case
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Reopens a chat. The **contactId** must be passed into the endpoint as a path parameter.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -18,7 +18,7 @@ Bearer {{api\_key}}
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="contactId" type="number" required=false %}
+{% api-method-parameter name="contactId" type="integer" required=true %}
 ID of the contact
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
