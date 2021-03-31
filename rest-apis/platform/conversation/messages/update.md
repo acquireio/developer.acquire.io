@@ -2,7 +2,7 @@
 description: API to update a message based on it's ID
 ---
 
-# Update
+# Update message
 
 {% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/messenger/chat/message" path="" %}
 {% api-method-summary %}

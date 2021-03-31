@@ -2,7 +2,7 @@
 description: Get a single message based on it's ID
 ---
 
-# Get
+# Retrieve a message
 
 {% api-method method="get" host="" path="" %}
 {% api-method-summary %}

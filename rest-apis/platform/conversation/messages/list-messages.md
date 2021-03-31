@@ -1,4 +1,4 @@
-# List messages
+# Retrieve a list of messages
 
 {% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/messenger/chat/messages" path="" %}
 {% api-method-summary %}
