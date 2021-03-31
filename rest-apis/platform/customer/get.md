@@ -1,12 +1,12 @@
-# Retrieve a customer
+# Retrieve a contact
 
 {% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/contact/{{contactId}}?relations=company&relations=cases" path="" %}
 {% api-method-summary %}
-Single Customer
+Single contact
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Identifies a customer by the **contactId** passed in the request and return the customer information.
+Identifies a contact by the **contactId** passed in the request and returns the contact information.
 {% endapi-method-description %}
 
 {% api-method-spec %}

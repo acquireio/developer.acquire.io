@@ -1,8 +1,8 @@
-# Delete customer
+# Delete contact
 
 {% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/contact/{contactId}" path="" %}
 {% api-method-summary %}
-
+Delete contact
 {% endapi-method-summary %}
 
 {% api-method-description %}

@@ -1,21 +1,21 @@
-# Update customer
+# Update contact
 
-Update a Customer.
+Update a contact.
 
 {% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/contact/{contactId}" path="" %}
 {% api-method-summary %}
-Update a customer
+Update a contact
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Update a customer
+Update a contact
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="contactId" type="string" required=true %}
-The Id of a customer.
+The Id of a contact.
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 

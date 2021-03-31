@@ -1,8 +1,8 @@
-# Block Customer
+# Block Contact
 
 {% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/block-visitor​" path="" %}
 {% api-method-summary %}
-Block a customer
+Block a contact
 {% endapi-method-summary %}
 
 {% api-method-description %}

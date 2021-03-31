@@ -1,12 +1,12 @@
 ---
-description: Lists the customers for an Account
+description: Lists the contacts for an Account
 ---
 
 # List all contacts
 
 {% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/contact" path="" %}
 {% api-method-summary %}
-Get customers
+Get contacts
 {% endapi-method-summary %}
 
 {% api-method-description %}

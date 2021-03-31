@@ -1,14 +1,14 @@
-# Add customer
+# Add contact
 
-Add a Customer.
+Add a contact.
 
 {% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/contact" path="" %}
 {% api-method-summary %}
-Add a customer
+Add a contact
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Add a customer
+Add a contact
 {% endapi-method-description %}
 
 {% api-method-spec %}

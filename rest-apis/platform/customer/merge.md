@@ -1,6 +1,6 @@
-# Merge customer
+# Merge contact
 
-Using this API you can merge two customers \(contacts\). The contact ID in the endpoint URL **\(primary\_contact\_id\)** is included in the primary and the contact ID **\(secondary\_contact\_ids\)** in the request body will indicate the contact to be merged. Secondary \(selected\) contact information such as conversation, chats, notes, views, etc. will be merged into primary contact.  
+Using this API you can merge two contacts. The contact ID in the endpoint URL **\(primary\_contact\_id\)** is included in the primary and the contact ID **\(secondary\_contact\_ids\)** in the request body will indicate the contact to be merged. Secondary \(selected\) contact information such as conversation, chats, notes, views, etc. will be merged into primary contact.  
 **primary\_contact\_id:** will be placed in the path parameter within the endpoint.  
 **secordary\_contact\_id:** will be placed in the request body.
 
@@ -15,7 +15,7 @@ Merged contact cannot be revert.
 
 {% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/contact/merge/{{contactId}}" path="" %}
 {% api-method-summary %}
-Merge Customer
+Merge Contact
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -26,7 +26,7 @@ Merge Customer
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="contactId" type="string" required=true %}
-The Id of a customer. 
+The Id of a contact. 
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
@@ -38,7 +38,7 @@ Bearer {{api\_key}}
 
 {% api-method-body-parameters %}
 {% api-method-parameter name="mergeId" type="string" required=true %}
- 78 \(Customer ID that the customer has to merge\).
+ Contact ID that the contact has to merge.
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
 {% endapi-method-request %}
