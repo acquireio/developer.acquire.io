@@ -6,7 +6,7 @@ Get case list
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Retrieve a list of cases. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
