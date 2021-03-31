@@ -12,7 +12,7 @@ Deletes a message. The **messageId** must be passed into the endpoint as a path 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="messageId" type="number" required=true %}
+{% api-method-parameter name="messageId" type="integer" required=true %}
 The message's ID.
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
