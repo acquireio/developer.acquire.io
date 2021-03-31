@@ -6,7 +6,7 @@ Delete contact
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Delete a single contact
 {% endapi-method-description %}
 
 {% api-method-spec %}
