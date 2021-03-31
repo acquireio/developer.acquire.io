@@ -10,6 +10,9 @@ Update
 {% endapi-method-summary %}
 
 {% api-method-description %}
+Using this API you can modify the current message in a Conversation. The messageId in the path parameter is required to update the message.  
+  
+messageId- Message-ID, it can be found in the webhook endpoint URL.  
  
 {% endapi-method-description %}
 
