@@ -1,7 +1,7 @@
 ---
 description: >-
   This guide describes the process of implementing AcquireIOSupport Core SDK
-  into your iOS appWe recommend using CocoaPods as the most advanced way of
+  into your iOS app We recommend using CocoaPods as the most advanced way of
   managing iOS project dependencies.
 ---
 
@@ -13,15 +13,15 @@ To connect AcquireIOSupport Core SDK to your iOS app just add it into your Podfi
 
 1\) Create a Podfile in your project's root directory, if it doesn't exist yet
 
-2\) Add the **AcquireIOSupport-Core-beta** in Podfile under your desired target:
+2\) Add the **AcquireIOSupport-Core** in Podfile under your desired target:
 
 ```markup
 target :YourTargetName do
-      pod 'AcquireIOSupport-Core-beta'
+      pod 'AcquireIOSupport-Core'
 end
 ```
 
-3\) The AcquireIOSupport SDK supports module stability and therefore all its dependencies must be built in with the "Build Libraries for Distribution" setting enabled, however this is not currently supported in Cocoapods. Running the below command will ensure Xcode builds the dependencies with the correct settings. Once Cocoapods supports module stability, this workaround can be removed.
+3\) The AcquireIOSupport SDK supports module stability and therefore all its dependencies must be built-in with the "Build Libraries for Distribution" setting enabled, however this is not currently supported in Cocoapods. Running the below command will ensure Xcode builds the dependencies with the correct settings. Once Cocoapods supports module stability, this workaround can be removed.
 
 Add the following to the bottom of your Podfile:
 
@@ -31,6 +31,7 @@ post_install do |installer|
     if ['TwilioVideo', 'Socket.IO-Client-Swift', 'Starscream'].include? target.name
       target.build_configurations.each do |config|
           config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
+          config.build_settings['ENABLE_BITCODE'] = 'NO'
       end
     end
   end
