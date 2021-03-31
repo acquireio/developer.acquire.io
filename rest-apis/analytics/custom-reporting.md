@@ -1,6 +1,6 @@
 # Custom Reporting
 
-{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/custom-reporting/edit-custom-report" %}
+{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/analytics/custom-reporting/edit-custom-report" path="" %}
 {% api-method-summary %}
 Delete Custom Chart
 {% endapi-method-summary %}
@@ -82,7 +82,7 @@ Id of chart to delete
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="post" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/custom-reporting/edit-custom-report" %}
+{% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/analytics/custom-reporting/edit-custom-report" path="" %}
 {% api-method-summary %}
 Create Custom Chart
 {% endapi-method-summary %}
@@ -142,7 +142,7 @@ Bearer \*\*\*YOUR\_API\_KEY\*\*\*
 }
 ```
 
-{% api-method method="post" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/custom-reporting/edit-custom-report" %}
+{% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/analytics/custom-reporting/edit-custom-report" path="" %}
 {% api-method-summary %}
 Edit Custom Report
 {% endapi-method-summary %}
@@ -188,7 +188,7 @@ Name of report
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="post" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/custom-reporting/generate-report" %}
+{% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/analytics/custom-reporting/generate-report" path="" %}
 {% api-method-summary %}
 Create Custom Report
 {% endapi-method-summary %}
@@ -234,7 +234,7 @@ Name of report
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/custom-reporting/delete-custom-report" %}
+{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/analytics/custom-reporting/delete-custom-report" path="" %}
 {% api-method-summary %}
 Delete Custom Report details
 {% endapi-method-summary %}
@@ -276,7 +276,7 @@ Key of report which you want to delete.You can get report key by calling Get All
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/custom-reporting/get-custom-report?report\_key=aloktestreport&offset=%2B00%3A00" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api//v1/analytics/custom-reporting/get-custom-report" path="" %}
 {% api-method-summary %}
 Get Custom Report details
 {% endapi-method-summary %}
@@ -452,7 +452,7 @@ This parameter is used for the timezone value and the default timezone will be "
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/custom-reporting/get-all-custom-report" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/custom-reporting/get-all-custom-report" path="" %}
 {% api-method-summary %}
 Get All custom reports
 {% endapi-method-summary %}
@@ -496,7 +496,7 @@ Bearer \*\*\*YOUR\_API\_KEY\*\*\*
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/custom-reporting/get-data-points" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/custom-reporting/get-data-points" path="" %}
 {% api-method-summary %}
 Get All Datapoints
 {% endapi-method-summary %}
