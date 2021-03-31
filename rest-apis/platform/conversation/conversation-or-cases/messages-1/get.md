@@ -1,5 +1,5 @@
 ---
-description: Get a single message based on it's ID
+description: Get a single message based on its ID
 ---
 
 # Retrieve a message
