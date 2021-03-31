@@ -6,7 +6,7 @@ Join a case/chat
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This API will help you to join the chat. `caseId` must be included in the body.  
+Join an active chat. The **caseId** must be included in the body. Please note your API key's token name will appear as the agent name in the chat widget.  
 {% endapi-method-description %}
 
 {% api-method-spec %}
