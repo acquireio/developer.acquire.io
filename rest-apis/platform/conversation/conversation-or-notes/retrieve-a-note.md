@@ -1,24 +1,26 @@
 # Retrieve a note
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/note/get/1" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/note/get/{{noteId}}" path="" %}
 {% api-method-summary %}
 Single Note
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Identifies a note by the **noteId** passed in the request and returns the note object.
+Retrieve a single note. The **noteId** must be passed in to the endpoint as a path parameter.   
+  
+**noteId** - The note's ID. To retrieve a list of noteIds, submit a GET request to List all notes.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="noteId" type="string" required=false %}
+{% api-method-parameter name="noteId" type="integer" required=true %}
 ID of the note
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
 {% api-method-headers %}
-{% api-method-parameter name="Authorization" type="string" required=false %}
+{% api-method-parameter name="Authorization" type="string" required=true %}
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
