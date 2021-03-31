@@ -1,32 +1,34 @@
 # List all notes
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/note?limit=10&page=1&contact\_id=1" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/note?lcontact\_id={{contact\_id}}" path="" %}
 {% api-method-summary %}
 List all Notes
 {% endapi-method-summary %}
 
 {% api-method-description %}
-It returns a list of the Notes
+Retrieve a list of notes. The **contact\_id** must be passed in to the endpoint as a query parameter.   
+  
+**contact\_id** - The contact's ID. All notes are attached to a contact. To find a contact\_id, log in to Acquire, go to `Contact List` and hover a contact's name or submit a GET request to List All Contacts.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-headers %}
-{% api-method-parameter name="Authorization" type="string" required=false %}
+{% api-method-parameter name="Authorization" type="string" required=true %}
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="contact\_id" type="string" required=false %}
+{% api-method-parameter name="contact\_id" type="integer" required=true %}
 ID of the contact.
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="page" type="string" required=false %}
+{% api-method-parameter name="page" type="integer" required=false %}
 The page number.
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="limit" type="string" required=false %}
+{% api-method-parameter name="limit" type="integer" required=false %}
 The maximum number of results to display per page.
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
