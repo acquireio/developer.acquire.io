@@ -1,7 +1,7 @@
 ---
 description: >-
   This guide describes the process of implementing AcquireIOSupport Lite SDK
-  into your iOS app.We recommend using CocoaPods as the most advanced way of
+  into your iOS app. We recommend using CocoaPods as the most advanced way of
   managing iOS project dependencies.
 ---
 
