@@ -4,10 +4,6 @@ AcquirIO SDK provides you with many helpful methods to build the chat and audio/
 
 This page presents a quick overview of the SDK’s functionalities and logic, then lets you go through the easy steps of implementing AcquirIO SDK in your own app.
 
-Acquire iOS SDK can be used with the following languages and platforms:
-
-For more detail, code on [Github](https://github.com/acquireio/acquireio-ios)
-
 ### Requirements
 
 * iOS 11.0+
