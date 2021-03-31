@@ -1,21 +1,28 @@
 # Create
 
-{% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/note/create?contactId=90" path="" %}
+{% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/note/create?contactId={{contactId}}" path="" %}
 {% api-method-summary %}
 Create a Note
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Create a note with the given note data and return a note object.
+Create a note. The **contact\_id** must be passed in to the body as a query parameter. The body must contain a `"type"` key set to `"note"`.   
+  
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-headers %}
-{% api-method-parameter name="Authorization" type="string" required=false %}
+{% api-method-parameter name="Authorization" type="string" required=true %}
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-query-parameters %}
+{% api-method-parameter name="contactId" type="integer" required=true %}
+The contact's ID
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
