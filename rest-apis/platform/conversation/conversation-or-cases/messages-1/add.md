@@ -11,13 +11,14 @@ Add Message
 
 {% api-method-description %}
 This API can be used to send a message in a conversation. To send a message to a customer, you must pass an object of the message.  
-Type, message, and caseID are mandatory in the message object to send the message, you can also add transAngec to the message object for message translation.  
   
-caseId - You can get CaseId from Webhook or from the conversation or chat API.  
+**Type, message, and caseID** are mandatory in the message object to send the message, you can also add transAngec to the message object for message translation.  
   
-Type - This indicates the type of message. There can be 1 type of message \(message, note, event\).  
+**caseId** - You can get CaseId from Webhook or from the conversation or chat API.  
   
-The '-x-user-type' in the query string parameter value 'user' indicates the message sender, which means that the message is being sent from the agent side.
+**Type** - This indicates the type of message. There can be 1 type of message \(message, note, event\).  
+  
+The '**-x-user-type**' in the query string parameter value 'user' indicates the message sender, which means that the message is being sent from the agent side.
 {% endapi-method-description %}
 
 {% api-method-spec %}
