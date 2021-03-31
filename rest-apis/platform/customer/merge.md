@@ -62,3 +62,13 @@ Bearer {{api\_key}}
 {% endapi-method-spec %}
 {% endapi-method %}
 
+## Body\(raw\)
+
+```text
+{
+  "sourceIds": [
+    11
+  ]
+}
+```
+
