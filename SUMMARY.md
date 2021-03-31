@@ -86,7 +86,6 @@
       * [Single Case](rest-apis/platform/conversation/conversation-or-cases/get.md)
       * [Create](rest-apis/platform/conversation/conversation-or-cases/create.md)
       * [Send Message](rest-apis/platform/conversation/conversation-or-cases/send-message.md)
-      * [Update Message](rest-apis/platform/conversation/conversation-or-cases/update-message.md)
       * [Delete Message](rest-apis/platform/conversation/conversation-or-cases/delete-message.md)
       * [Close Case](rest-apis/platform/conversation/conversation-or-cases/close-case.md)
       * [Reopen Case](rest-apis/platform/conversation/conversation-or-cases/reopen-case.md)
