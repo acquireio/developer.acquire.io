@@ -10,7 +10,7 @@ Close a case
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to close a case
+Closes a case. The **caseId** must be passed in the body of the request. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
