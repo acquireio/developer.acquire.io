@@ -6,14 +6,14 @@ Get a case
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Retrieve a single case. The **caseId** must be passed in to the endpoint as a path parameter. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="caseId" type="string" required=true %}
-The Id of the case to retrieve
+The case ID. 
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 

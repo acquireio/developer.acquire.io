@@ -4,13 +4,15 @@ description: API to create a new case
 
 # Create
 
-{% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/messenger/chat/create" path="" %}
+{% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/messenger/chat/create?contactId={{contactId}}" path="" %}
 {% api-method-summary %}
 Create
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to create a new case
+Create a case. The **contactId** must be passed in to the endpoint as a query parameter. The body is optional.   
+  
+**contactId** - the contact's ID. Send a GET request to List all contacts to retrieve a list of contacts and their IDs or log in to your Acquire platform and hover over the contact's name in `Contact List`. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -22,8 +24,8 @@ Bearer {{api\_key}}
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="contactid" type="number" required=true %}
-Id of the contact under which case needs to be created
+{% api-method-parameter name="contactId" type="integer" required=true %}
+Contact's ID. All cases must have a contactId. 
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
