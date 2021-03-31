@@ -2,7 +2,7 @@
 
 {% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/messenger/chat/messages" path="" %}
 {% api-method-summary %}
-
+Get message List
 {% endapi-method-summary %}
 
 {% api-method-description %}
