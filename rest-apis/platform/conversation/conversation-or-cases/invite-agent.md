@@ -6,7 +6,11 @@ Invite an agent
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This API will help to invite a new agent to the chat. You can add one or more agents, plus you can invite a department to this chat. Agents or departments will receive an invitation notification, which they can accept for access conversion. The agent or department IDs **\(department \| agentIds\)** must be passed to the json-array.  
+Invite agents or departments to the chat. The agent IDs or department IDs **\(agentId \| department\)** must be passed to the body as a JSON array. You can add as many agents as you'd like and invite a department. Agents or departments will receive an in-app notification, which they can accept to access the conversion.   
+  
+**agentId** - An agent's ID. To find agent IDs, log in to Acquire and go to `Settings > Users and Roles` or send a GET request to Agent List.  
+  
+**department -** A department's ID. Send a GET request to Department List to find department IDs.   
 {% endapi-method-description %}
 
 {% api-method-spec %}
