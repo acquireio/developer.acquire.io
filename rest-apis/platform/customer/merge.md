@@ -10,8 +10,8 @@ Merged contact cannot be revert.
 
 | ATTRIBUTE | TYPE | DESCRIPTION |
 | :--- | :--- | :--- |
-| primary\_contact\_id | Integer | ID of the source contact |
-| secondary\_contact\_ids | Array of integers | IDs of the secondary contacts |
+| primary\_contact\_id\(contactId\) | Integer | ID of the source contact |
+| secondary\_contact\_ids\(sourceIds\) | Array of integers | IDs of the secondary contacts |
 
 {% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/contact/merge/{{contactId}}" path="" %}
 {% api-method-summary %}
