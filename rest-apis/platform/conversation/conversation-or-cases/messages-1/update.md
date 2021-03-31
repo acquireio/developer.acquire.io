@@ -10,7 +10,7 @@ Update
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to update a message based on it's ID
+
 {% endapi-method-description %}
 
 {% api-method-spec %}
