@@ -1,6 +1,6 @@
 # Retrieve a contact
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/contact/{{contactId}}?relations=company&relations=cases" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/contact/{{contactId}}" path="" %}
 {% api-method-summary %}
 Single contact
 {% endapi-method-summary %}
