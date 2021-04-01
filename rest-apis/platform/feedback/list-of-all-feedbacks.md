@@ -4,13 +4,13 @@ description: Lists all feedbacks exists
 
 # List of all feedbacks
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/feedback?search=How&id=DESC" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/feedback" path="" %}
 {% api-method-summary %}
 All Feedbacks
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This API is used to get all the available feedbacks of all the different channels
+Retrieve a list of all feedback questions. 
 {% endapi-method-description %}
 
 {% api-method-spec %}

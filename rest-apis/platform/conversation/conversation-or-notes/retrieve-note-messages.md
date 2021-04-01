@@ -2,23 +2,23 @@
 
 {% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/note/messages?noteId=8" path="" %}
 {% api-method-summary %}
-
+Retrieve a note's messages
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Retrieve note messages. The **noteId** must be passed in to the endpoint as a path parameter.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-headers %}
-{% api-method-parameter name="Authorization" type="string" required=false %}
+{% api-method-parameter name="Authorization" type="string" required=true %}
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="noteId" type="string" required=false %}
+{% api-method-parameter name="noteId" type="integer" required=true %}
 ID of the note.
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}

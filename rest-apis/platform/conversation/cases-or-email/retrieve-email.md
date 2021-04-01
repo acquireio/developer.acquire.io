@@ -16,7 +16,7 @@ API to get mail messages
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="threadId" type="number" required=true %}
+{% api-method-parameter name="threadId" type="integer" required=true %}
 Id of the thread to get the mail message
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
