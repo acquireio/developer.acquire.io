@@ -89,8 +89,6 @@
       * [Close Case](rest-apis/platform/conversation/conversation-or-cases/close-case.md)
       * [Reopen Case](rest-apis/platform/conversation/conversation-or-cases/reopen-case.md)
       * [Invite Agent](rest-apis/platform/conversation/conversation-or-cases/invite-agent.md)
-      * [Join Chat](rest-apis/platform/conversation/conversation-or-cases/join-chat.md)
-      * [Case Reject](rest-apis/platform/conversation/conversation-or-cases/case-reject.md)
     * [Notes](rest-apis/platform/conversation/conversation-or-notes/README.md)
       * [List all notes](rest-apis/platform/conversation/conversation-or-notes/list.md)
       * [Retrieve a note](rest-apis/platform/conversation/conversation-or-notes/retrieve-a-note.md)
