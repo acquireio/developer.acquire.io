@@ -4,19 +4,19 @@ description: API to Update a specific tag details
 
 # Update Tag
 
-{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/crm/tag/2?name=test&color=%233F95FD&id=12" path="" %}
+{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/crm/tag/{{tagId}}" path="" %}
 {% api-method-summary %}
 Update Tag
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to update a specific case
+Update a tag. To choose a color, use hex color codes and set them to the key of `color`. Tags must have unique names. See example body below. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="id" type="string" required=true %}
+{% api-method-parameter name="tagId" type="integer" required=true %}
 ID of tag
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
@@ -26,20 +26,6 @@ ID of tag
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
-
-{% api-method-query-parameters %}
-{% api-method-parameter name="name" type="string" required=false %}
-Specify name with the updated name
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="color" type="string" required=false %}
-Specify color code to be updated color code
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="type" type="array" required=false %}
-Specify the assignment to contact or case
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -117,4 +103,14 @@ Specify the assignment to contact or case
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+
+### Body
+
+```text
+{
+        "name": "Support",
+        "color": "#c034eb",
+        "type": ["case", "contact"]
+}
+```
 
