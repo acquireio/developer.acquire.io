@@ -1,23 +1,19 @@
----
-description: 'Delete a single contact. Warning: This action cannot be undone.'
----
-
 # Delete contact
 
-{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/contact/{contactId}" path="" %}
+{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/contact/{{contactId}}" path="" %}
 {% api-method-summary %}
 Delete contact
 {% endapi-method-summary %}
 
 {% api-method-description %}
- 
+ Delete a customer. The **contactId** must be passed in to the endpoint as a path parameter. **Warning**: This action cannot be undone.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="ContactId" type="string" required=true %}
-Contact Id
+{% api-method-parameter name="contactId" type="integer" required=true %}
+The contact's ID
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
