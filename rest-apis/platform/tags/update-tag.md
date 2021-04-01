@@ -10,7 +10,7 @@ Update Tag
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Update a tag. To choose a color, use hex color codes and set them to the key of `color`. Tags must have unique names. See example body below. 
+Update a tag. To choose a color, use hex color codes and set them to the key of `"color"`. Tags must have unique names. See example body below. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
