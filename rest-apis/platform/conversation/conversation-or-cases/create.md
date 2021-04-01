@@ -337,9 +337,7 @@ Contact's ID. All cases must have a contactId.
   "routeAgentId": 0,
   "agentId": 0,
   "isFromCobrowse": true,
-  "fields": {},
-  "sessionId": 3711819272,
-  "threadId": 1683
+  "fields": {}
 }
 ```
 
