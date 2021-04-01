@@ -6,13 +6,13 @@ Delete a Company
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+This endpoint allows you to delete a company. Deleting companies doesn't delete related objects such as contact, case. **Warning:** This action cannot be undone.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="companyId" type="string" required=true %}
+{% api-method-parameter name="companyId" type="integer" required=true %}
 ID of the company.
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
