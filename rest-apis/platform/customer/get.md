@@ -6,11 +6,17 @@ Single contact
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Identifies a contact by the **contactId** passed in the request and returns the contact information.
+Retrieve data for a single contact. The **contactId** must be passed in to the endpoint as a path parameter.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="contactId" type="integer" required=true %}
+The ID of the contact
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
 Bearer {{api\_key}}
