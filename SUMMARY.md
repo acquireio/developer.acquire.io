@@ -102,7 +102,7 @@
       * [Send Email](rest-apis/platform/conversation/cases-or-email/untitled.md)
       * [Mail Messages](rest-apis/platform/conversation/cases-or-email/retrieve-email.md)
   * [Feedback](rest-apis/platform/feedback/README.md)
-    * [List of all feedbacks](rest-apis/platform/feedback/list-of-all-feedbacks.md)
+    * [List of all feedback](rest-apis/platform/feedback/list-of-all-feedbacks.md)
     * [Get Single Feedback](rest-apis/platform/feedback/get-single-feedback.md)
     * [Add Feedback](rest-apis/platform/feedback/add-feedback.md)
     * [Update Feedback](rest-apis/platform/feedback/update-feedback.md)

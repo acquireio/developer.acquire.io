@@ -1,8 +1,4 @@
----
-description: Lists all feedbacks exists
----
-
-# List of all feedbacks
+# List of all feedback
 
 {% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/feedback" path="" %}
 {% api-method-summary %}
