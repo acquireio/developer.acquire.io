@@ -1,7 +1,3 @@
----
-description: API to list all the available tags
----
-
 # List All Tags
 
 {% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/tag" path="" %}
@@ -10,7 +6,7 @@ List all tags
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to list all the available tags
+Retrieve a list of all tags.
 {% endapi-method-description %}
 
 {% api-method-spec %}

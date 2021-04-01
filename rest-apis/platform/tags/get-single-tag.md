@@ -1,23 +1,19 @@
----
-description: API to get the tag by it's ID
----
-
 # Get Single Tag
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/tag/{TAG\_ID}" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/tag/{{TAG\_ID}}" path="" %}
 {% api-method-summary %}
 Get single tag
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to get a specific tag by its ID
+Retrieve a single tag. The **TAG\_ID** must be passed in to the endpoint as a path parameter. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="id" type="string" required=true %}
-ID of the tag for which you need to get details
+{% api-method-parameter name="TAG\_ID" type="integer" required=true %}
+The tag's ID
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
