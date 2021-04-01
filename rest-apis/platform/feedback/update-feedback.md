@@ -1,23 +1,19 @@
----
-description: API to update a feedback details based on the ID provided.
----
-
 # Update Feedback
 
-{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/crm/feedback/{FEEDBACK\_ID}" path="" %}
+{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/crm/feedback/{{feedbackId}}" path="" %}
 {% api-method-summary %}
 Update Feedback
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to update feedback based on the feedback ID
+Update feedback. The **feedbackId** must be passed in to the endpoint as a path parameter. The body requires keys of `"question"`, `"status"`, `"type"`, `"config"`, `"departments"`, and `"channels"`. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="id" type="integer" required=true %}
-Provide Feedback ID to be updated
+{% api-method-parameter name="feedbackId" type="integer" required=true %}
+The feedback's ID
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
