@@ -1,24 +1,32 @@
+---
+description: >-
+  A company is an organization that a contact belongs to. Contacts from the same
+  organization should be grouped in a company.
+---
+
 # Company
 
-Companies constitute the organization to which customers belong. When you have conversations with several people from counterpart companies, it is better to group them in an organization. The Company API can be used to create, update, retrieves, and delete records in a company object. Ensure that the **relations** parameter with the value **contacts** is required to obtain contact information.
+The Company API can be used to create, update, retrieve, and delete records in a company object. The **relations** parameter with a value **contacts** is required to obtain a company's contacts \(i.e., employees\).
+
+### Attributes 
 
 | ATTRIBUTE | TYPE | DESCRIPTION |
 | :--- | :--- | :--- |
 | id | Integer | ID of the company |
-| fields | JSON object \(Entity Relations\) | Information of company such as company name, website, industry, description, source, revenue, city, state, country, address, employees, foundation |
-| contacts | JSON Array Object \(Entity Relations\) | Information of company contacts |
+| fields | JSON object \(Entity Relations\) | Information about company such as company name, website, industry, description, source, revenue, city, state, country, address, employees, foundation |
+| contacts | JSON Array Object \(Entity Relations\) | Information about company's contacts |
 | dateCreated | datetime | Company creation timestamp |
 | dateUpdated | datetime | Company updated timestamp |
 
 ### **Permissions**
 
-To request a company endpoint you will need a valid API key with the company access permissions.
+To request a company endpoint you will need a valid API Key with the company access permissions enabled.
 
 ### **Relations between companies and other entities**
 
-Companies belong one-to-many relations with customers.
+A company has many contacts. Contacts belong to a company. 
 
-### PARAMS
+### Parameters
 
 <table>
   <thead>
