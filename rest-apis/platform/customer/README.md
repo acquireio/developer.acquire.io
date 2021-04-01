@@ -1,6 +1,12 @@
+---
+description: >-
+  A contact is someone who has initiated a conversation through any channel.
+  Contacts can also belong to a company.
+---
+
 # Contact
 
-A contact is someone who has initiated a conversation through any channel. Contacts also represent an individual's information within a company. The Contact API can be used to create, update, retrieve, and delete records in a Contact object. You can retrieve single contact and a list of all contacts. You can assign **Tags** & create **Custom Attributes** for a contact.
+The Contact API can be used to create, update, retrieve, and delete records in a Contact object. You can retrieve single contact and a list of all contacts. You can assign **Tags** & create **Custom Attributes** for a contact.
 
 ### **Permissions**
 
