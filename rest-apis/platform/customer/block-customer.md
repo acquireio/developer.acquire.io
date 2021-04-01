@@ -40,7 +40,7 @@ Bearer {{api\_key}}
 
 | ATTRIBUTE | TYPE | DESCRIPTION |
 | :--- | :--- | :--- |
-| data | Array of integers | ID of the contacts that will block |
+| data | Array of integers | Required: ID of the contacts that will block |
 | type | string | "contact" |
 | blockTill | string | Contact block till date. |
 
