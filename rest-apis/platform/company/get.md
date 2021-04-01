@@ -16,7 +16,7 @@ This endpoint is used to obtain specific company details.
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="companyId" type="string" required=true %}
+{% api-method-parameter name="companyId" type="integer" required=true %}
 ID of the company.
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
