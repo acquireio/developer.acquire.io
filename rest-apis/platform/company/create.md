@@ -6,7 +6,7 @@ Creates a new company
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+This endpoint allows you to create company. The body requires a `"fields"` key. See body example below.
 {% endapi-method-description %}
 
 {% api-method-spec %}
