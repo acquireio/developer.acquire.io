@@ -106,7 +106,7 @@
     * [Get single feedback](rest-apis/platform/feedback/get-single-feedback.md)
     * [Add feedback](rest-apis/platform/feedback/add-feedback.md)
     * [Update Feedback](rest-apis/platform/feedback/update-feedback.md)
-    * [Delete Feedback](rest-apis/platform/feedback/delete-feedback.md)
+    * [Delete feedback](rest-apis/platform/feedback/delete-feedback.md)
   * [Tags](rest-apis/platform/tags/README.md)
     * [List All Tags](rest-apis/platform/tags/list-all-tags.md)
     * [Get Single Tag](rest-apis/platform/tags/get-single-tag.md)

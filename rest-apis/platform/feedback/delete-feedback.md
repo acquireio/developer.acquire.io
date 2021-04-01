@@ -1,16 +1,12 @@
----
-description: Delete Feedback
----
+# Delete feedback
 
-# Delete Feedback
-
-{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/crm/feedback?id=37" path="" %}
+{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/crm/feedback?id={{id}}" path="" %}
 {% api-method-summary %}
 Delete Feedback
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to delete feedback
+Delete feedback. The **id** must be passed in to the endpoint as a query parameter. **Warning**: this action cannot be undone. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -22,8 +18,8 @@ Bearer {{api\_key}}
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="id" type="array" required=true %}
-Array of Feedback id's to be deleted
+{% api-method-parameter name="id" type="integer" required=true %}
+The feedback ID
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
