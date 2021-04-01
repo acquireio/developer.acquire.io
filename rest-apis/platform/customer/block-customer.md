@@ -10,7 +10,7 @@ Block a contact
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Use this endpoint to block a contact. Contacts are blocked by their ID. To find a contact's Id, log in to Acquire and hover over their name in the `Contact List`.
 {% endapi-method-description %}
 
 {% api-method-spec %}
