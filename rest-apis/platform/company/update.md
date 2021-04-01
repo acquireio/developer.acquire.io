@@ -6,7 +6,7 @@ Update a Company
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+This endpoint allows you to update a company. The **companyId** must be passed in to the endpoint as a path parameter. The `"fields"` key is required in the body. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
