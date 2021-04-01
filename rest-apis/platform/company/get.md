@@ -10,7 +10,7 @@ Single Company
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This API is used to obtain specific company details.
+This endpoint is used to obtain specific company details.
 {% endapi-method-description %}
 
 {% api-method-spec %}
