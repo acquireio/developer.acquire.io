@@ -1,6 +1,6 @@
 # Retrieve a list of messages
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/messenger/chat/messages" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/messenger/chat/messages?contactId={{contactId}}&threadId={{threadId}}" path="" %}
 {% api-method-summary %}
 Get message List
 {% endapi-method-summary %}
@@ -22,12 +22,12 @@ Bearer {{api\_key}}
 
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="threadId" type="number" required=true %}
-Id of the thread.
+{% api-method-parameter name="threadId" type="integer" required=true %}
+ID of the thread.
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="contactId" type="number" required=true %}
-Id of the customer/contact.
+{% api-method-parameter name="contactId" type="integer" required=true %}
+ID of the customer/contact.
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
