@@ -10,7 +10,7 @@ Send Chat Message
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Send a chat message to a conversation. To send a message to a contact, you must pass an object of the message. Only active cases may receive messages via the API.  
+Send a chat message to a conversation. To send a message to a contact, you must pass a `"message"` object. Only active cases may receive messages via the API.  
   
 `"type"`, `"message"`, ****and ****`"caseId"` are required keys in the message object. See example body below. You can also add `translateLangKey` to the message object for message translation.  
   
