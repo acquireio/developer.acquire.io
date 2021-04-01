@@ -52,7 +52,6 @@ Bearer {{api\_key}}
 
 ```text
 {
-  "id": 926,
   "leadId": 138
 }
 
