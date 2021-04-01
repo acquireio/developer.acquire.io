@@ -4,7 +4,7 @@ description: API to add a new message
 
 # Send a message
 
-{% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/messenger/chat/add-message?-x-user-type=contact" path="" %}
+{% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/messenger/chat/add-message" path="" %}
 {% api-method-summary %}
 Send Chat Message
 {% endapi-method-summary %}
