@@ -1,14 +1,12 @@
 # Add contact
 
-Add a contact.
-
 {% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/contact" path="" %}
 {% api-method-summary %}
 Add a contact
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Add a contact
+Add a contact. Contacts may be created with attributes such as `"name"`, `"email"`, `"phone"`, `"city"`, etc. See example body below. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
