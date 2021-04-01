@@ -164,8 +164,6 @@
       * [Update Branch Position](rest-apis/chatbot/sequence-bot/branch/update-branch-position.md)
       * [Reorder Branch In Sequence](rest-apis/chatbot/sequence-bot/branch/reorder-branch-in-sequence.md)
       * [Copy Existing Sequence](rest-apis/chatbot/sequence-bot/branch/copy-existing-sequence.md)
-      * [Export](rest-apis/chatbot/sequence-bot/branch/export.md)
-      * [Import](rest-apis/chatbot/sequence-bot/branch/import.md)
 * [Analytics](rest-apis/analytics/README.md)
   * [Custom Reporting](rest-apis/analytics/custom-reporting.md)
   * [General Analytics](rest-apis/analytics/general-analytics.md)
