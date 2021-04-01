@@ -10,15 +10,13 @@ Send Chat Message
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This API can be used to send a message in a conversation. To send a message to a customer, you must pass an object of the message.  
+Send a chat message to a conversation. To send a message to a contact, you must pass an object of the message. Only active cases may receive messages via the API.  
   
-**Type, message, and caseID** are mandatory in the message object to send the message, you can also add transAngec to the message object for message translation.  
+`"type"`, `"message"`, ****and ****`"caseId"` are required keys in the message object. See example body below. You can also add `translateLangKey` to the message object for message translation.  
   
-**caseId** - You can get CaseId from Webhook or from the conversation or chat API.  
+**caseId** - You can retrieve caseId from a Webhook or from the conversation or chat API.  
   
-**Type** - This indicates the type of message. There can be 1 type of message \(message, note, event\).  
-  
-The '**-x-user-type**' in the query string parameter value 'user' indicates the message sender, which means that the message is being sent from the agent side.
+**Type** - This indicates the type of message. There are three options: message, note, and event. Set `"type"` to `"message"` to send a chat message.  
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -28,6 +26,28 @@ The '**-x-user-type**' in the query string parameter value 'user' indicates the 
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="translateLangKey" type="string" required=false %}
+HTML ISO language code
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="caseId" type="integer" required=true %}
+The case ID
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="message" type="string" required=false %}
+The chat message you would like to send.
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="type" type="string" required=true %}
+"message" \| "note" \| "event"
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="message" type="object" required=true %}
+message object
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
