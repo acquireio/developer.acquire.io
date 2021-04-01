@@ -1,23 +1,19 @@
----
-description: API to get the feedback details by it's FEEDBACK_ID
----
+# Get single feedback
 
-# Get Single Feedback
-
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/feedback/{FEEDBACK\_ID}" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/feedback/{feedbackId}" path="" %}
 {% api-method-summary %}
 Get Single Feedback
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Get the feedback details for the FEEDBACK\_ID specified
+Retrieve a single feedback question. The **feedbackId** must be passed in to the endpoint as a path parameter.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="ID" type="string" required=true %}
-Specify ID of the feedback for which you need to get the details
+{% api-method-parameter name="feedbackId" type="integer" required=true %}
+The ID of the feedback
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
@@ -32,7 +28,7 @@ Bearer {{api\_key}}
 Specify the relations
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="select" type="string" required=false %}
+{% api-method-parameter name="select" type="array" required=false %}
 Specify the selected fields
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}

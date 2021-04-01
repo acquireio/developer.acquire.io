@@ -1,8 +1,4 @@
----
-description: API to add feedback to the list of available feedbacks.
----
-
-# Add Feedback
+# Add feedback
 
 {% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/feedback" path="" %}
 {% api-method-summary %}
@@ -10,7 +6,7 @@ Add Feedback
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to add a new feedback
+Create feedback. The body requires keys of `"question"`, `"status"`, `"type"`, `"config"`, `"departments"`, and `"channels"`.   
 {% endapi-method-description %}
 
 {% api-method-spec %}
