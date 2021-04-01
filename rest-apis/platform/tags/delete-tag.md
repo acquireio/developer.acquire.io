@@ -4,28 +4,28 @@ description: Delete a specific tag
 
 # Delete Tag
 
-{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/crm/tag?id=2" path="" %}
+{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/crm/tag?id={{tagId}}" path="" %}
 {% api-method-summary %}
 Delete
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to delete tags
+Delete a tag. The tagId must be passed in to the endpoint as a query parameter. Warning: This action cannot be undone. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="ids" type="array" required=true %}
-The array of tag ids to delete tags
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-query-parameters %}
+{% api-method-parameter name="tagId" type="integer" required=true %}
+The ID of the tag
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
