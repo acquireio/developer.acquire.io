@@ -1,17 +1,14 @@
 # Merge contact
 
-Using this API you can merge two contacts. The contact ID in the endpoint URL **\(primary\_contact\_id\)** is included in the primary and the contact ID **\(secondary\_contact\_ids\)** in the request body will indicate the contact to be merged. Secondary \(selected\) contact information such as conversation, chats, notes, views, etc. will be merged into primary contact.  
-**primary\_contact\_id:** will be placed in the path parameter within the endpoint.  
-**secordary\_contact\_id:** will be placed in the request body.
+Use this endpoint to merge two or more contacts. The secondary contacts **\(mergeIds\)** will be merged onto the primary contact \(**primary\_contact\_id\)**. Merge data includes conversation, chats, notes, views, etc. The primary contact ID in the endpoint URL **\(primary\_contact\_id\)** is required. Place the secondary\_contact\_ids  in the request body.
+
+**Contact Ids** can be found by going to the Acquire platform and hovering over a contact's name in `Contact List` or by using the endpoint Get All Contacts.
+
+If a secondary merge's contact details different from the primary contact details, both contact details will be preserved on the primary contact. For example, if a secondary merge contact has an email that differs from their primary email, both emails will be preserved on the primary contact after the merge.
 
 {% hint style="danger" %}
-Merged contact cannot be revert.
+Warning: merges cannot be reverted.
 {% endhint %}
-
-| ATTRIBUTE | TYPE | DESCRIPTION |
-| :--- | :--- | :--- |
-| primary\_contact\_id\(contactId\) | Integer | ID of the source contact |
-| secondary\_contact\_ids\(sourceIds\) | Array of integers | IDs of the secondary contacts |
 
 {% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/contact/merge/{{contactId}}" path="" %}
 {% api-method-summary %}
@@ -25,8 +22,8 @@ Merge Contact
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="contactId" type="string" required=true %}
-The Id of a contact. 
+{% api-method-parameter name="contactId" type="integer" required=true %}
+The ID of a contact. 
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
@@ -37,8 +34,8 @@ Bearer {{api\_key}}
 {% endapi-method-headers %}
 
 {% api-method-body-parameters %}
-{% api-method-parameter name="mergeId" type="string" required=true %}
- Contact ID that the contact has to merge.
+{% api-method-parameter name="mergeId" type="integer" required=true %}
+ The ID of the contact you want to merge.
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
 {% endapi-method-request %}
@@ -62,11 +59,15 @@ Bearer {{api\_key}}
 {% endapi-method-spec %}
 {% endapi-method %}
 
+| ATTRIBUTE | TYPE | DESCRIPTION |
+| :--- | :--- | :--- |
+| mergeId | Array of integers | IDs of the secondary contacts |
+
 ## Body\(raw\)
 
 ```text
 {
-  "sourceIds": [
+  "mergeId": [
     11
   ]
 }

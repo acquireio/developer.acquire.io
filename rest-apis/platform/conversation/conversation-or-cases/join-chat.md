@@ -1,6 +1,6 @@
 # Join Chat
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/messenger/chat/join" path="" %}
+{% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/messenger/chat/join" path="" %}
 {% api-method-summary %}
 Join a case/chat
 {% endapi-method-summary %}
