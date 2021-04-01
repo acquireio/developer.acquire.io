@@ -12,7 +12,7 @@ This endpoint allows you to update a company. The **companyId** must be passed i
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="companyId" type="string" required=true %}
+{% api-method-parameter name="companyId" type="integer" required=true %}
 The Id of the company.
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
