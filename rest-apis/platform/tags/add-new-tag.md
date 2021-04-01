@@ -6,7 +6,7 @@ Add a new tag
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Add a new tag. To choose a color, use hex colors codes and set them to the key of `"color"`. See example body below. 
+Add a new tag. To choose a color, use hex colors codes and set them to the key of `"color"`. Tags must have unique names. See example body below. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
