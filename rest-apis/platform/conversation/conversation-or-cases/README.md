@@ -15,7 +15,7 @@ The Case or Thread API can be used to send, retrieve, update messages\(Chat, Ema
 | description | String | Specify the case description. |
 | channel | String | Specify the case channel. |
 | status | String | Specify the case status like active, close, etc. |
-| threadId | Integer |  |
+| threadId | Integer | Specify the case threading id or parent id. |
 | closingState | String | Specify the operating system version. |
 | dateQueue | datetime | Specify the case queue date. |
 | datePending | datetime | Specify the case pending date. |
