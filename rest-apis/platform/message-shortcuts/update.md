@@ -4,20 +4,20 @@ description: API to update a specific message shortcut
 
 # Update
 
-{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/crm/message-shortcut/36?shortcut\_name=test&messageJson=test%20json" path="" %}
+{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/crm/message-shortcut/{{shortcutId}}" path="" %}
 {% api-method-summary %}
 Update Shortcut
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to update a specific shortcut
+Update a specific shortcut. The **shortcutId** must passed in to the endpoint as a path parameter.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="id" type="number" required=true %}
-Specify ID of shortcut to be updated
+{% api-method-parameter name="shortcutId" type="integer" required=true %}
+Shortcut's ID
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
