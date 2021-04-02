@@ -8,5 +8,5 @@ description: >-
 
 ### Permissions 
 
-
+To request a custom attribute endpoint, you will need a valid API Key with the Custom Attribute permissions enabled.
 
