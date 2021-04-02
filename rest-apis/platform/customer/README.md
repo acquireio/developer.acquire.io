@@ -38,7 +38,7 @@ To request a contact's endpoint, you will need a valid API key with the contact 
 
 ### **Relations between contact and other entities**
 
-A contact relates to company, case, notes.  
+Represents a relationship, which is a company, case, tags, timeline associated with the contact.  
   
 
 
