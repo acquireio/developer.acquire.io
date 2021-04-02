@@ -24,8 +24,8 @@ Bearer {{api\_key}}
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="relations" type="object" required=false %}
-
+{% api-method-parameter name="relations" type="string" required=false %}
+"contact" \| "case"
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="select" type="array" required=false %}
