@@ -36,3 +36,7 @@ The Case or Thread API can be used to send, retrieve, update messages\(Chat, Ema
 
 To request a case endpoint you will need a valid API key with the case access permissions.
 
+### **Relations between case and other entities**
+
+Represents a relationship, which is a message, contact, feedbacks, timeline associated with the case.
+
