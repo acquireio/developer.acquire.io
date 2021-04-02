@@ -22,7 +22,6 @@ The Contact API can be used to create, update, retrieve, and delete records in a
 | clientDeviceVendor | String | Specify the device vendor like Apple, Microsoft, etc. |
 | clientDeviceModel | String | Specify the device model like iPhone. |
 | clientDetails | JSON Object | Specify the user info in details like engine, CPU, WebKit, etc. |
-| meta | String |  |
 | archive | String | Specify the visibility of contact |
 | company | JSON Array Object \(Entity Relations\) | Information about contact's company. |
 | cases  | JSON Array Object \(Entity Relations\) | Specify the cases. |
