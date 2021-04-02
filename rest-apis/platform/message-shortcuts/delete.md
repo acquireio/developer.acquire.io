@@ -4,19 +4,19 @@ description: API to delete the shortcuts
 
 # Delete
 
-{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/crm/message-shortcut?id=35" path="" %}
+{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/crm/message-shortcut?id={{shortcutId}}" path="" %}
 {% api-method-summary %}
 Delete
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to delete message shortcuts
+Delete a message shortcut. The **shortcutId** must be passed in to the endpoint as a query parameter. **Warning**: This action cannot be undone. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="id" type="array" required=false %}
+{% api-method-parameter name="shortcutId" type="integer" required=true %}
 Array of shortcuts ids to be deleted
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
