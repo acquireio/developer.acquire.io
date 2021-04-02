@@ -10,7 +10,7 @@ List Message Shortcuts
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to get list of available message shortcuts
+Retrieve list of available message shortcuts
 {% endapi-method-description %}
 
 {% api-method-spec %}

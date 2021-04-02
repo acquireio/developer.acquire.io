@@ -1,16 +1,16 @@
 ---
-description: API to add a new message shortcut
+description: Add a new message shortcut
 ---
 
 # Add
 
-{% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/message-shortcut?shortcut\_name=test&message=test&messageJson=test%20json" path="" %}
+{% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/message-shortcut" path="" %}
 {% api-method-summary %}
 Add
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to add a new message shortcut
+Add a new message shortcut. During a conversation, the message is displayed when you hit the shortcut key. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -20,6 +20,16 @@ API to add a new message shortcut
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="shortcut\_name" type="string" required=false %}
+The shortcut's name
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="message" type="string" required=true %}
+The shortcut's message
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
