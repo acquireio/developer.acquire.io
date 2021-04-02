@@ -15,13 +15,13 @@ The Case or Thread API can be used to send, retrieve, update messages\(Chat, Ema
 | description | String | Specify the case description. |
 | channel | String | Specify the case channel. |
 | status | String | Specify the case status like active, close, etc. |
-| threadId | String |  |
+| threadId | Integer |  |
 | closingState | String | Specify the operating system version. |
 | dateQueue | datetime | Specify the case queue date. |
 | datePending | datetime | Specify the case pending date. |
 | dateActive | datetime | Specify the case active date. |
 | dateClosed | datetime | Specify the case close date. |
-| userId | String | Specify the visibility of contact |
+| userId | Integer | Specify the visibility of contact |
 | waitTime | String | Information about contact's company. |
 | contact | JSON Array Object \(Entity Relations\) | Specify the case contact. |
 | feedbacks | JSON Array Object \(Entity Relations\) | Specify the case feedbacks. |
