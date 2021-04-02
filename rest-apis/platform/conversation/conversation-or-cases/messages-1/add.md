@@ -14,7 +14,7 @@ Send a chat message to a conversation. To send a message to a contact, you must 
   
 `"type"`, `"message"`, ****and ****`"caseId"` are required keys in the message object. See example body below. You can also add `translateLangKey` to the message object for message translation.  
   
-**caseId** - You can retrieve caseId from a Webhook or from the conversation or chat API.  
+**caseId** - You can retrieve caseId from a Webhook or from the conversation or chat API or from the Acquire Dashboard.  
   
 **Type** - This indicates the type of message. There are three options: message, note, and event. Set `"type"` to `"message"` to send a chat message.  
 {% endapi-method-description %}
@@ -41,7 +41,7 @@ The chat message you would like to send.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="type" type="string" required=true %}
-"message" \| "note" \| "event"
+"message" 
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="message" type="object" required=true %}
@@ -615,7 +615,7 @@ Bearer {{api\_key}}
 
 {% api-method-body-parameters %}
 {% api-method-parameter name="htmlBody" type="string" required=false %}
-The email message
+the email message
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="type" type="string" required=true %}
