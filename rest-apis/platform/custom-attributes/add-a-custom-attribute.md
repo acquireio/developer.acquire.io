@@ -10,7 +10,7 @@ Add Custom Attribute
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to add new custom attributes to the list of custom attributes
+API to add new custom attribute to the list of custom attributes. An object must be passed in to the body of the request.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -20,6 +20,24 @@ API to add new custom attributes to the list of custom attributes
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="object" type="string" required=false %}
+The object that the custom attribute will map to
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="type" type="string" required=false %}
+The type of custom attribute
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="key" type="string" required=false %}
+Name and key of custom attribute
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="object" type="object" required=true %}
+Body object 
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
