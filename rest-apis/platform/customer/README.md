@@ -30,8 +30,8 @@ The Contact API can be used to create, update, retrieve, and delete records in a
 | visits | JSON Array Object \(Entity Relations\) | Specify the contact's visit history. |
 | timeline | JSON Array Object \(Entity Relations\) | Specify the contact's time details |
 | fields | JSON object \(Entity Relations\) | Information about contact such as name, email, phone & custom fields |
-| dateCreated | datetime | Company creation timestamp |
-| dateUpdated | datetime | Company updated timestamp |
+| dateCreated | datetime | Contact creation timestamp |
+| dateUpdated | datetime | Contact updated timestamp |
 
 ### **Permissions**
 
