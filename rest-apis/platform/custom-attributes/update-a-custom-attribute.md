@@ -1,23 +1,23 @@
 ---
-description: API to update a custom attribute fields based on it's ID
+description: API to update a custom attribute fields based on its ID
 ---
 
 # Update a custom attribute
 
-{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/object-field/33" path="" %}
+{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/object-field/{{custom\_attributeId}}" path="" %}
 {% api-method-summary %}
 Update Custom Attribute
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to update custom attribute fields
+Update a custom attribute. The **custom\_attributeId** must be passed in to the endpoint as a path parameter.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="id" type="string" required=true %}
-Specify the ID of custom attribute to update
+{% api-method-parameter name="custom\_attributeId" type="integer" required=true %}
+The ID of custom attribute
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
