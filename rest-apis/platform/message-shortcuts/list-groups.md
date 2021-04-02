@@ -10,7 +10,7 @@ List Message Shortcut Groups
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to list all the different shortcut groups
+Retrieve a list of shortcut groups.
 {% endapi-method-description %}
 
 {% api-method-spec %}
