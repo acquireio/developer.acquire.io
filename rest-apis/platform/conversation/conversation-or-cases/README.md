@@ -4,7 +4,7 @@ description: Any interaction with a contact creates a case in Acquire.
 
 # Cases
 
-The Case or Thread API can be used to send, retrieve, update messages\(Chat, Email, VOIP\) to a Conversation.
+The Case or Thread API can be used to send, retrieve, update, and delete messages \(Chat, Email, VOIP\) from a conversation.
 
 ### Attributes 
 
@@ -34,9 +34,9 @@ The Case or Thread API can be used to send, retrieve, update messages\(Chat, Ema
 
 ### **Permissions**
 
-To request a case endpoint you will need a valid API key with the case access permissions.
+To request a case endpoint, you will need a valid API key with the case access permissions.
 
 ### **Relations between case and other entities**
 
-Represents a relationship, which is a message, contact, feedbacks, timeline associated with the case.
+Cases are associated with message, contact, feedbacks, and timeline. 
 
