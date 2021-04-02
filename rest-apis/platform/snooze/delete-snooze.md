@@ -4,20 +4,20 @@ description: Delete a specific Snooze
 
 # Delete Snooze
 
-{% api-method method="delete" host="https://{{acount\_id}}.acquire.io/api/v1/crm/follow-up/1" path="" %}
+{% api-method method="delete" host="https://{{acount\_id}}.acquire.io/api/v1/crm/follow-up/{{snoozeId}}" path="" %}
 {% api-method-summary %}
 Delete Snooze
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to delete a specific snooze based on its ID
+Delete a specific snooze based on its ID. The **snoozeId** must be passed in to the endpoint as a path parameter. Snoozes may _only_ be deleted by the agent who created them. **Warning**: This action cannot be undone. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="id" type="integer" required=true %}
-ID of the snooze to be deleted
+{% api-method-parameter name="snoozeId" type="integer" required=true %}
+ID of the snooze 
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
