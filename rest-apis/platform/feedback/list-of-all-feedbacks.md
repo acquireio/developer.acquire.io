@@ -27,7 +27,7 @@ Object type where you can specify field name followed by a value. eg: {"search":
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="select" type="array" required=false %}
-
+An array of strings which includes the fields in return Eg: "id","type" etc.
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
