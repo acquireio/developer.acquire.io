@@ -1,3 +1,7 @@
+---
+description: Any interaction with a contact creates a case in Acquire.
+---
+
 # Cases
 
 The Case or Thread API can be used to send, retrieve, update messages\(Chat, Email, VOIP\) to a Conversation.
