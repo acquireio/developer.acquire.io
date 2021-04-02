@@ -10,7 +10,7 @@ List Message Shortcuts
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Retrieve list of available message shortcuts
+Retrieve list of available message shortcuts. Use the `"search"` query parameter to obtain a single shortcut. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -22,6 +22,10 @@ Bearer {{api\_key}}
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
+{% api-method-parameter name="search" type="string" required=false %}
+search by keyword
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="filterByDepartment" type="boolean" required=false %}
 Specify to true/false
 {% endapi-method-parameter %}
