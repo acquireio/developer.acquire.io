@@ -4,20 +4,20 @@ description: API to delete custom attributes
 
 # Delete a custom attribute
 
-{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/object-field/33" path="" %}
+{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/object-field/{{custom\_attributeId}}" path="" %}
 {% api-method-summary %}
 Delete a custom attribute
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to delete a specific custom attribute
+Delete a specific custom attribute. The custom\_attributeId must be passed in to the endpoint as a path parameter. **Warning:** This action can't be undone. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="id" type="string" required=true %}
-Specify custom attribute id to be deleted
+{% api-method-parameter name="custom\_attributeId" type="integer" required=true %}
+The custom attribute's ID
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
