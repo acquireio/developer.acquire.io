@@ -1,23 +1,19 @@
----
-description: API to get information of a specific custom attributes by ID
----
-
 # Get a custom Attribute
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/object-field/1" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/object-field/{{custom\_attributeId}}" path="" %}
 {% api-method-summary %}
 Get Custom Attribute
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to get details of a specific custom attribute
+Get details about a specific custom attribute.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="id" type="string" required=true %}
-Specify Id of the custom attribute
+{% api-method-parameter name="custom\_attributeId" type="integer" required=true %}
+The ID of the custom attribute
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
