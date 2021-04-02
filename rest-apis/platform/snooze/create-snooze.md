@@ -1,7 +1,7 @@
 ---
 description: >-
-  API to create a Snooze, Where Snooze can be created both at the Contact Level
-  and Case Levels as well
+  Create a snooze. A snooze can be created both at the contact level and case
+  level.
 ---
 
 # Create Snooze
@@ -12,7 +12,13 @@ Create Snooze
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to create a snooze
+Create a snooze. The body requires the following:   
+  
+`"contactId"` and/or `"caseId"`    
+  
+ `"objectType"` set to `"case"`    
+  
+`"scheduleDate"`  in `"YYYY-MM-DD HH:MM:SS"` format.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -22,6 +28,24 @@ API to create a snooze
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="scheduleDate" type="string" required=true %}
+Date when the snooze elapses. YYYY-MM-DD HH:MM:SS format. 
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="objectType" type="string" required=true %}
+"case"
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="caseId" type="integer" required=true %}
+The case ID \(not required if contactId is present\)
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="contactId" type="integer" required=true %}
+The contact ID \(not required if caseId is present\)
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -65,20 +89,9 @@ Bearer {{api\_key}}
 
 ```text
 {
-  "scheduleDate": "2020-05-28 12:30:00",
-  "message": "This is simple message",
-  "objectId": 53,
-  "contactId": 53,
-  "objectType": "case",
-  "users": [
-    {
-      "1": {
-        "id": 1,
-        "email": "user@gmail.com",
-        "name": "User Name"
-      }
-    }
-  ]
+   "contactId": 576,
+   "objectType": "case", 
+   "scheduleDate": "2021-04-04 12:30:00"
 }
 ```
 
