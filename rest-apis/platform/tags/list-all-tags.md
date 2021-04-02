@@ -18,12 +18,16 @@ Bearer {{api\_key}}
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
+{% api-method-parameter name="search" type="string" required=false %}
+search for key words
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="order" type="object" required=false %}
 Object type expects field name by which you want to order followed by values eg: {"id":"DESC"}
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="relations" type="object" required=false %}
-
+{% api-method-parameter name="relations" type="string" required=false %}
+"contact" \| "case"
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="select" type="array" required=false %}
@@ -115,4 +119,6 @@ Object type expects field name by which you want to order followed by values eg:
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+
+
 
