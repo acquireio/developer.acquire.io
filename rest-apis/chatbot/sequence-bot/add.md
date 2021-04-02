@@ -10,7 +10,13 @@ Add
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to add a new sequence
+Add a new sequence. The following are required in the body:   
+  
+`"greeting"` - set to `"active"`   
+  
+`"status"` - `"publish"` on your site or keep as a "draft" to work on later  
+  
+`"title"` - the name of the sequence
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -20,6 +26,20 @@ API to add a new sequence
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="greeting" type="string" required=true %}
+"active"
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="status" type="string" required=true %}
+"draft" \| "publish"
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="title" type="string" required=true %}
+Title of the sequence
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
