@@ -602,7 +602,7 @@ Send Mail Message
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Send an email message
+Send an email message. You must have an inbox connected to your Acquire account. The case \(`"caseId"`\) must have its channel set to email.  A `"data"` object with  `"caseId"`, `"contactId"`, `"to"`, `"from"`,  and  a key of `"type"` set to `"message"` are required body attributes. See body example below.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -612,6 +612,48 @@ Send an email message
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="htmlBody" type="string" required=false %}
+The email message
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="type" type="string" required=true %}
+"message"
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="subject" type="string" required=false %}
+the subject of the email
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="bcc" type="array" required=false %}
+blind carbon copy email addresses
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="cc" type="array" required=false %}
+carbon copy email addresses
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="from" type="string" required=true %}
+your Acquire-connected email address
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="to" type="array" required=true %}
+an array of recipients' email addresses
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="contactId" type="integer" required=true %}
+the contact's ID
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="caseId" type="integer" required=true %}
+the cases' ID
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="data" type="object" required=true %}
+data object
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -707,27 +749,17 @@ Bearer {{api\_key}}
 ```text
 {
     "data": {
-        "caseId": 90,
-        "originalRecipient": "developer@acquire.io",
+        "caseId": 575,
         "to": [
-            "developer@acquire.io"
+            "test@gmail.com"
         ],
-        "from": "surendra@acquire.io",
+        "from": "user@acquire.io",
         "cc": [],
         "bcc": [],
-        "replyTo": [],
         "subject": "test",
-        "textBody": "test api email\n\nOn Mon, Sep 14 2020, at 05:00 PM<\"surendra@acquire.io\"> wrote:test\n\nOn Mon, Sep 14 2020, at 04:36 PM<\"surendra@acquire.io\"> wrote:yrety",
-        "htmlBody": "<div class=\"content-writer\" data-reactroot=\"\">test api email</div><div class=\"acq-content hide\" data-reactroot=\"\"><br><br><div>On Mon, Sep 14 2020, at 05:00 PM&lt;\"surendra@acquire.io\"&gt; wrote:</div><blockquote><div class=\"content-writer\" data-reactroot=\"\">test</div><div class=\"acq-content hide\" data-reactroot=\"\"><br><br><div>On Mon, Sep 14 2020, at 04:36 PM&lt;\"surendra@acquire.io\"&gt; wrote:</div><blockquote>yrety</blockquote></div></blockquote></div>",
-        "mailboxInReplyTo": "<ed405ade-66fc-46e5-b387-9749358a7243@mtasv.net>",
-        "parentId": 14,
-        "isDraft": false,
-        "attachments": [],
-        "contactId": 83,
-        "inboxId": 1,
-        "caseParentId": 14,
-        "type": "message",
-        "delay": 0
+        "contactId": 597632,
+        "type": "message", 
+        "htmlBody": "This is the message body"
     }
 }
 ```
