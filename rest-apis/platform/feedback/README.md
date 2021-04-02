@@ -6,3 +6,7 @@ description: >-
 
 # Feedback
 
+### Permissions
+
+To request a feedback endpoint, you will need a valid API Key with the Feedback permissions enabled.
+
