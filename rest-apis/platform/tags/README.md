@@ -6,7 +6,7 @@ description: >-
 
 # Tags
 
-Tags API allows you to create, create, update, retrieve, and delete Tags.
+Tags API allows you to create, update, retrieve, and delete Tags.
 
 ### Attributes 
 
