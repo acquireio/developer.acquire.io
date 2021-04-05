@@ -27,6 +27,12 @@ Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 
+{% api-method-query-parameters %}
+{% api-method-parameter name="contactId" type="integer" required=true %}
+Specify the contact ID
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
+
 {% api-method-body-parameters %}
 {% api-method-parameter name="translateLangKey" type="string" required=false %}
 HTML ISO language code
