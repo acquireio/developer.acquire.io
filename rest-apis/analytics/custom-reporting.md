@@ -1,6 +1,6 @@
 # Custom Reporting
 
-{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/analytics/custom-reporting/edit-custom-report" path="" %}
+{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1​/analytics/custom-reporting/delete-custom-chart" path="" %}
 {% api-method-summary %}
 Delete Custom Chart
 {% endapi-method-summary %}
@@ -18,7 +18,7 @@ Bearer \*\*\*YOUR\_API\_KEY\*\*\*
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="chart\_id" type="string" required=true %}
+{% api-method-parameter name="report\_key" type="string" required=true %}
 Id of chart to delete
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
