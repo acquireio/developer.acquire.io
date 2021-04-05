@@ -89,9 +89,13 @@ The contact ID \(not required if caseId is present\)
 
 ```text
 {
-   "contactId": 576,
-   "objectType": "case", 
-   "scheduleDate": "2021-04-04 12:30:00"
+    caseId: null
+    contactId: 768
+    message: ""
+    objectId: 768
+    objectType: "contact"
+    scheduleDate: "2021-04-05T13:44:12.000Z",
+    users: []
 }
 ```
 
