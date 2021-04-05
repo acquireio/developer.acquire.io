@@ -4,7 +4,7 @@ description: API to delete users
 
 # Delete
 
-{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/account/user?id=24" path="" %}
+{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/account/user" path="" %}
 {% api-method-summary %}
 Delete
 {% endapi-method-summary %}
@@ -22,7 +22,7 @@ Bearer {api\_key}
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="id" type="array" required=false %}
+{% api-method-parameter name="id" type="array" required=true %}
 ID of users to delete
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
