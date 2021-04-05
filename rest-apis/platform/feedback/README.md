@@ -6,7 +6,7 @@ description: >-
 
 # Feedback
 
-This API allows you to retrieve, add and manage feedback.
+This API allows you to retrieve, add and manage questions to collect feedback after the conversation.
 
 ### Attributes 
 
