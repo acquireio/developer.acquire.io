@@ -4,7 +4,7 @@ description: View your team’s tagging frequency and your most popular tags.
 
 # Tags
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/chat/conversations-tagged?start\_date=2021-03-18%2005%3A50%3A55&end\_date=2021-03-19%2005%3A50%3A54&output=json&offset=%2B00%3A00" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api//v1/analytics/chat/conversations-tagged" path="" %}
 {% api-method-summary %}
 Conversations Tagged
 {% endapi-method-summary %}
@@ -143,7 +143,7 @@ json or csv
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/chat/tag-reporting?start\_date=2021-03-18%2005%3A50%3A55&end\_date=2021-03-19%2005%3A50%3A54&output=json&offset=%2B00%3A00" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/chat/tag-reporting" path="" %}
 {% api-method-summary %}
 Tag Reporting
 {% endapi-method-summary %}
@@ -230,7 +230,7 @@ json or csv
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/chat/most-common-tags?start\_date=2021-03-18%2005%3A50%3A55&end\_date=2021-03-19%2005%3A50%3A54&output=json&offset=%2B00%3A00" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/chat/most-common-tags" path="" %}
 {% api-method-summary %}
 Most Common Tags
 {% endapi-method-summary %}
