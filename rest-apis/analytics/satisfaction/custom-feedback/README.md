@@ -1,6 +1,6 @@
 # Custom Feedback
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/satisfaction/overview?start\_date=2021-03-16%2015%3A44%3A07&end\_date=2021-03-17%2015%3A44%3A06&output=json&offset=%2B00%3A00" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/satisfaction/overview" path="" %}
 {% api-method-summary %}
 Overview
 {% endapi-method-summary %}
@@ -238,7 +238,7 @@ json or csv
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/satisfaction/number-rating?start\_date=2020-03-16%2015%3A44%3A07&end\_date=2021-03-17%2015%3A44%3A06&output=json&offset=%2B00%3A00" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/satisfaction/number-rating" path="" %}
 {% api-method-summary %}
 Numbers Rating
 {% endapi-method-summary %}
@@ -319,7 +319,7 @@ json or csv
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/satisfaction/number-rating?start\_date=2020-03-16%2015%3A44%3A07&end\_date=2021-03-17%2015%3A44%3A06&output=json&offset=%2B00%3A00" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/satisfaction/star-rating" path="" %}
 {% api-method-summary %}
 Star Rating
 {% endapi-method-summary %}
@@ -450,56 +450,6 @@ json or csv
     }
   }
 }
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/satisfaction/number-rating?start\_date=2020-03-16%2015%3A44%3A07&end\_date=2021-03-17%2015%3A44%3A06&output=json&offset=%2B00%3A00" %}
-{% api-method-summary %}
-Numbers Rating
-{% endapi-method-summary %}
-
-{% api-method-description %}
-Reporting on all varieties of feedback implemented.
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter type="string" name="Authorization" required=true %}
-Bearer \*\*\*YOUR\_API\_KEY\*\*\*
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-
-{% api-method-query-parameters %}
-{% api-method-parameter name="start\_date" type="string" required=true %}
-Date From \(Date format = YYYY-MM-DD hh:mm:ss, e.g 2021-01-01 00:00:00\)
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="end\_date" required=true type="string" %}
-Date End \(Date Format = YYYY-MM-DD hh:mm:ss, e.g 2021-01-01 23:59:59\)
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="offset" type="string" %}
-This parameter is used for the timezone value and the default timezone will be "GMT". e.g. +05:30 for particular timezone. Default is +00:00
-{% endapi-method-parameter %}
-
-{% api-method-parameter type="string" name="output" %}
-json or csv
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```
-
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
