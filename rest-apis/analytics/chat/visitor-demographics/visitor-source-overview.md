@@ -1,6 +1,6 @@
 # Visitor Source Overview
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/chat/browser-overview" path="" %}
 {% api-method-summary %}
 Browser Overview
 {% endapi-method-summary %}

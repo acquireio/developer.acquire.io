@@ -395,6 +395,49 @@ json or csv
 {% endapi-method-response-example-description %}
 
 ```
+{
+  "data": {
+    "agentLeaderboard": {
+      "data": {
+        "responseData": [
+          {
+            "id": 12,
+            "email": "viswanath.sarma@acquire.io",
+            "departments": "voip,email",
+            "role": "Administrator",
+            "solvedCases": 21,
+            "totalTimeSpent": 127,
+            "avgTimeSpentPerCase": 6,
+            "averageResponseTime": 5,
+            "averageRatingFeedback": 0,
+            "agent": {
+              "name": "viswanath",
+              "photo": null
+            }
+          },
+          {
+            "id": 18,
+            "email": "checksum@gmail.com",
+            "departments": "voip",
+            "role": "Administrator",
+            "solvedCases": 0,
+            "totalTimeSpent": 0,
+            "avgTimeSpentPerCase": 0,
+            "averageResponseTime": 0,
+            "averageRatingFeedback": 0,
+            "agent": {
+              "name": "checksusms",
+              "photo": null
+            }
+          }
+        ],
+        "totalRecords": 2
+      },
+      "success": true,
+      "output": "json"
+    }
+  }
+}
 
 ```
 {% endapi-method-response-example %}
