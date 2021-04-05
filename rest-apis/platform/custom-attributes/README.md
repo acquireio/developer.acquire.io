@@ -27,12 +27,12 @@ Manage custom fields associated with different objects. This API allows you to d
     <tr>
       <td style="text-align:left">object</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">Specify the attribute key</td>
+      <td style="text-align:left">Specify the attribute for &apos;<b>case</b>&apos; or &apos;<b>contact</b>&apos;.</td>
     </tr>
     <tr>
       <td style="text-align:left">key</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">Specify the color of the Tag</td>
+      <td style="text-align:left">Specify the attribute key</td>
     </tr>
     <tr>
       <td style="text-align:left">type</td>

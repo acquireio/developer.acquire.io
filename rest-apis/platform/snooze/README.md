@@ -22,7 +22,7 @@ This API allows you to manage snooze for a specific day and time. That conversat
     <tr>
       <td style="text-align:left">id</td>
       <td style="text-align:left">Integer</td>
-      <td style="text-align:left">Specify the ID of the Custom Attributes</td>
+      <td style="text-align:left">Specify the ID of the Snooze</td>
     </tr>
     <tr>
       <td style="text-align:left">object</td>
@@ -32,7 +32,7 @@ This API allows you to manage snooze for a specific day and time. That conversat
     <tr>
       <td style="text-align:left">key</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">Specify the color of the Tag</td>
+      <td style="text-align:left">Specify the attribute key</td>
     </tr>
     <tr>
       <td style="text-align:left">type</td>
