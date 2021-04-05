@@ -4,7 +4,7 @@ description: Track Sequence Bot conversions and conversations.
 
 # Sequence Bot
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/bot/sequence-bot-overview?start\_date=2020-03-16%2015%3A44%3A04&end\_date=2021-03-17%2015%3A44%3A03&output=json&offset=%2B00%3A00" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/bot/sequence-bot-overview" path="" %}
 {% api-method-summary %}
 Overview
 {% endapi-method-summary %}
@@ -162,7 +162,7 @@ json or csv
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/bot/leads-generated?start\_date=2020-03-16%2015%3A44%3A04&end\_date=2021-03-17%2015%3A44%3A03&output=json&offset=%2B00%3A00" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/bot/leads-generated" path="" %}
 {% api-method-summary %}
 Leads Generated
 {% endapi-method-summary %}
@@ -238,7 +238,7 @@ json or csv
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/bot/leads-generated?start\_date=2020-03-16%2015%3A44%3A04&end\_date=2021-03-17%2015%3A44%3A03&output=json&offset=%2B00%3A00" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/bot/leads-generated" path="" %}
 {% api-method-summary %}
 Path Analysis
 {% endapi-method-summary %}
@@ -325,7 +325,7 @@ json or csv
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/bot/bot-lead-details" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/bot/bot-lead-details" path="" %}
 {% api-method-summary %}
 Lead Details
 {% endapi-method-summary %}
