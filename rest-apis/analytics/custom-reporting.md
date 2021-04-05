@@ -225,7 +225,12 @@ Name of report
 {% endapi-method-response-example-description %}
 
 ```
-
+{
+  "data": {
+    "success": true,
+    "url": "updating-the-custom-reports-name"
+  }
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
@@ -271,7 +276,12 @@ Name of report
 {% endapi-method-response-example-description %}
 
 ```
-
+{
+  "data": {
+    "success": true,
+    "url": "testing-the-new-custom-report"
+  }
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
