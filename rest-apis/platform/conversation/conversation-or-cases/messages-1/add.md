@@ -789,6 +789,10 @@ API to send a message through sms channel
 {% api-method-parameter name="Authorization" type="string" required=true %}
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
+
+{% api-method-parameter name="x-user-type" required=true type="string" %}
+Specifies the type user/contact if message needs to be added from agent then it is user and if it is to be added from agent then it is contact
+{% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
 
@@ -1962,7 +1966,7 @@ Bearer {{api\_key}}
 {
     "Body": "hi",
     "From": "+12513188609",
-    "To": "919666929552",
+    "To": "+919666929552",
     "contactId": 751069,
     "id": 2219,
     "isClosed": false,
