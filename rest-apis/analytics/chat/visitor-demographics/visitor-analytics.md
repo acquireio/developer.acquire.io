@@ -6,7 +6,7 @@ description: View visitor activity and location information.
 
 
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/chat/visitors-by-location?start\_date=2021-03-18%2005%3A50%3A55&end\_date=2021-03-19%2005%3A50%3A54&output=json&offset=%2B00%3A00" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/chat/visitors-by-location" path="" %}
 {% api-method-summary %}
 All Visitors by Location
 {% endapi-method-summary %}
@@ -183,7 +183,7 @@ json or csv
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/chat/most-active-visit-times?start\_date=2021-03-18%2005%3A50%3A55&end\_date=2021-03-19%2005%3A50%3A54&output=json&offset=%2B00%3A00" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/chat/most-active-visit-times" path="" %}
 {% api-method-summary %}
 Most Active Visit Times
 {% endapi-method-summary %}
@@ -606,7 +606,7 @@ json or csv
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/chat/pages-with-most-chats?start\_date=2021-03-18%2005%3A50%3A55&end\_date=2021-03-19%2005%3A50%3A54&output=json&offset=%2B00%3A00" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/chat/pages-with-most-chats" path="" %}
 {% api-method-summary %}
 Pages with Most Chats
 {% endapi-method-summary %}
@@ -679,7 +679,7 @@ json or csv
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/chat/visitor-reference?start\_date=2021-03-18%2005%3A50%3A55&end\_date=2021-03-19%2005%3A50%3A54&output=json&offset=%2B00%3A00" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/chat/visitor-reference" path="" %}
 {% api-method-summary %}
 Visitor Reference
 {% endapi-method-summary %}
