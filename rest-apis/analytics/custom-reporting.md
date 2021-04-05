@@ -82,7 +82,7 @@ Id of chart to delete
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/analytics/custom-reporting/edit-custom-report" path="" %}
+{% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/analytics/custom-reporting/generate-chart" path="" %}
 {% api-method-summary %}
 Create Custom Chart
 {% endapi-method-summary %}
@@ -107,7 +107,51 @@ Bearer \*\*\*YOUR\_API\_KEY\*\*\*
 {% endapi-method-response-example-description %}
 
 ```
-
+{
+  "data": {
+    "success": true,
+    "data": {
+      "title": "test chart",
+      "config": [
+        {
+          "key": "id",
+          "filters": [
+            {
+              "key": "id",
+              "conditions": [
+                {
+                  "key": "is",
+                  "searchValue": [
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "joinType": "AND",
+          "availableAggregation": [
+            "group_by",
+            "count",
+            "list"
+          ],
+          "label": "Id"
+        }
+      ],
+      "chartKey": "test-chart",
+      "chartType": "table",
+      "tenantId": "5mkg3t",
+      "id": 15,
+      "data": [
+        {
+          "main_case_id": 1,
+          "main_contact_id": 1,
+          "id": 1
+        }
+      ],
+      "totalCount": 1
+    }
+  }
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
