@@ -4,7 +4,7 @@ description: See an overview of your visitor and customer feedback.
 
 # Feedback
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/satisfaction/feedback?start\_date=2021-03-16%2015%3A44%3A07&end\_date=2021-03-17%2015%3A44%3A06&output=json&offset=%2B00%3A00" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/satisfaction/feedback" path="" %}
 {% api-method-summary %}
 Feedback Analytics
 {% endapi-method-summary %}
