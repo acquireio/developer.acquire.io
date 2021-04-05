@@ -22,7 +22,7 @@ Bearer {api\_key}
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="id" type="array" required=false %}
+{% api-method-parameter name="id" type="array" required=true %}
 Array of role id to delete
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
