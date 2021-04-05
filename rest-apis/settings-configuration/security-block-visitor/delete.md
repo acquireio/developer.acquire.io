@@ -17,11 +17,11 @@ API to delete the block visitor contact
 {% api-method-request %}
 {% api-method-query-parameters %}
 {% api-method-parameter name="contactid" type="array" required=false %}
-
+Ids of the contact which marked as block
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="id" type="array" required=false %}
-
+Id's which got created after block a contact which gets as blocked contact ID
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
@@ -57,4 +57,6 @@ API to delete the block visitor contact
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+
+
 
