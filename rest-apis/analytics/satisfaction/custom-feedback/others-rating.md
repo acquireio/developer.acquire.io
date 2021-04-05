@@ -1,6 +1,6 @@
 # Others Rating
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/satisfaction/radio-feedback?start\_date=2020-03-16%2015%3A44%3A07&end\_date=2021-03-17%2015%3A44%3A06&output=json&offset=%2B00%3A00" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/satisfaction/radio-feedback" path="" %}
 {% api-method-summary %}
 Radio
 {% endapi-method-summary %}
@@ -103,7 +103,7 @@ json or csv
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/satisfaction/checkbox-feedback?start\_date=2020-03-16%2015%3A44%3A07&end\_date=2021-03-17%2015%3A44%3A06&output=json&offset=%2B00%3A00" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/satisfaction/checkbox-feedback" path="" %}
 {% api-method-summary %}
 Checkbox
 {% endapi-method-summary %}
@@ -243,7 +243,7 @@ json or csv
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/satisfaction/text-feedback?start\_date=2020-03-16%2015%3A44%3A07&end\_date=2021-03-17%2015%3A44%3A06&output=json&offset=%2B00%3A00" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/satisfaction/text-feedback" path="" %}
 {% api-method-summary %}
 Text
 {% endapi-method-summary %}
