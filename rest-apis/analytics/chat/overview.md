@@ -1,6 +1,6 @@
 # Overview
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/chat/chat-overview" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/chat/chat-overview" path="" %}
 {% api-method-summary %}
 Overview
 {% endapi-method-summary %}
@@ -252,7 +252,7 @@ json or csv
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/chat/chat-handle-time" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/chat/chat-handle-time" path="" %}
 {% api-method-summary %}
 Chat Handle Time
 {% endapi-method-summary %}
@@ -496,7 +496,7 @@ json or csv
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/chat/busiest-periods-chats" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api//v1/analytics/chat/busiest-periods-chats" path="" %}
 {% api-method-summary %}
 Busiest Periods for Inbound Chats
 {% endapi-method-summary %}
