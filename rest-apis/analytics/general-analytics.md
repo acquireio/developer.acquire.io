@@ -1,6 +1,6 @@
 # General Analytics
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/general/cases-overview" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/general/cases-overview" path="" %}
 {% api-method-summary %}
 Overview
 {% endapi-method-summary %}
@@ -43,14 +43,233 @@ json or csv
 {% endapi-method-response-example-description %}
 
 ```
-
+{
+  "data": {
+    "casesOverview": {
+      "data": {
+        "graphRow": {
+          "labels": [
+            "05 PM",
+            "06 PM",
+            "07 PM",
+            "08 PM",
+            "09 PM",
+            "10 PM",
+            "11 PM",
+            "12 AM",
+            "01 AM",
+            "02 AM",
+            "03 AM",
+            "04 AM",
+            "05 AM",
+            "06 AM",
+            "07 AM",
+            "08 AM",
+            "09 AM",
+            "10 AM",
+            "11 AM",
+            "12 PM",
+            "01 PM",
+            "02 PM",
+            "03 PM",
+            "04 PM"
+          ],
+          "total": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            7,
+            0,
+            0,
+            4,
+            5,
+            6
+          ],
+          "pendingToActive": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            7,
+            0,
+            0,
+            4,
+            5,
+            6
+          ],
+          "activeToClose": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            6,
+            0,
+            0,
+            4,
+            5,
+            6
+          ],
+          "reopened": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "avgPendingToActiveTime": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            4.5714,
+            0,
+            0,
+            5.25,
+            3.8,
+            5
+          ],
+          "avgActiveToCloseTime": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            6,
+            6.4,
+            7.8333
+          ]
+        },
+        "summary": {
+          "total": {
+            "current": 22,
+            "previous": 0
+          },
+          "pendingToActive": {
+            "current": 22,
+            "previous": 0
+          },
+          "activeToClose": {
+            "current": 21,
+            "previous": 0
+          },
+          "reopened": {
+            "current": 0,
+            "previous": 0
+          },
+          "avgPendingToActiveTime": {
+            "current": 5,
+            "previous": 0
+          },
+          "avgActiveToCloseTime": {
+            "current": 6,
+            "previous": 0
+          }
+        }
+      },
+      "success": true,
+      "output": "json"
+    }
+  }
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/general/cases-by-channel" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/general/cases-by-channel" path="" %}
 {% api-method-summary %}
 By Channel
 {% endapi-method-summary %}
@@ -323,7 +542,7 @@ json or csv
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/general/busiest-periods-cases" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/general/busiest-periods-cases" path="" %}
 {% api-method-summary %}
 By Busiest Periods for Cases
 {% endapi-method-summary %}
