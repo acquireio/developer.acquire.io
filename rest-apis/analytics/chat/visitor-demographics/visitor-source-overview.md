@@ -67,7 +67,7 @@ json or csv
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/chat/os-overview?start\_date=2021-03-18%2005%3A50%3A55&end\_date=2021-03-19%2005%3A50%3A54&output=json&offset=%2B00%3A00" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/chat/os-overview" path="" %}
 {% api-method-summary %}
 OS Overview
 {% endapi-method-summary %}
@@ -138,7 +138,7 @@ json or csv
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/chat/device-overview?start\_date=2021-03-18%2005%3A50%3A55&end\_date=2021-03-19%2005%3A50%3A54&output=json&offset=%2B00%3A00" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/chat/device-overview" path="" %}
 {% api-method-summary %}
 Device Overview
 {% endapi-method-summary %}
