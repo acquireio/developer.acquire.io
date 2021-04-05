@@ -1,4 +1,10 @@
+---
+description: 'Note API is text which is linked to with object like a Contact, Case.'
+---
+
 # Notes
+
+Note API helps us creating a new note as a case or sending a note message under a particular case.
 
 ## Attributes
 
@@ -67,4 +73,8 @@
     </tr>
   </tbody>
 </table>
+
+## Permissions
+
+To request a case endpoint, you will need a valid API key with the case access permissions.
 
