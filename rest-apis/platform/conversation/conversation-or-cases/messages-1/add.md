@@ -28,7 +28,7 @@ Bearer {{api\_key}}
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="x-user-type" type="string" required=false %}
+{% api-method-parameter name="x-user-type" type="string" required=true %}
 Specifies the type user/contact if message needs to be added from agent then it is user and if it is to be added from agent then it is contact
 {% endapi-method-parameter %}
 
