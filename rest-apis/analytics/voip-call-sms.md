@@ -4,7 +4,7 @@ description: See an overview of all call and SMS interactions.
 
 # VoIP - Call SMS
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/voip/calls-overview?start\_date=2020-03-16%2015%3A44%3A07&end\_date=2021-03-17%2015%3A44%3A06&output=json&offset=%2B00%3A00" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/voip/calls-overview" path="" %}
 {% api-method-summary %}
 Calls Overview
 {% endapi-method-summary %}
@@ -162,7 +162,7 @@ json or csv
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/voip/sms-metrics?start\_date=2020-03-16%2015%3A44%3A07&end\_date=2021-03-17%2015%3A44%3A06&output=json&offset=%2B00%3A00" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/voip/sms-metrics" path="" %}
 {% api-method-summary %}
 SMS Metrics
 {% endapi-method-summary %}
@@ -316,7 +316,7 @@ json or csv
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/voip/calls-overview?start\_date=2020-03-16%2015%3A44%3A07&end\_date=2021-03-17%2015%3A44%3A06&output=json&offset=%2B00%3A00" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/voip/calls-overview" path="" %}
 {% api-method-summary %}
 Call Analysis
 {% endapi-method-summary %}

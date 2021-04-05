@@ -1,6 +1,6 @@
 # Agent Performance
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/agent/agent-list" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/agent/agent-list" path="" %}
 {% api-method-summary %}
 Agent List
 {% endapi-method-summary %}
@@ -68,7 +68,7 @@ Number of records you want in one call. If you are not passing limit or page the
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/agent/graph-data?start\_date=2021-03-16%2015%3A44%3A03&end\_date=2021-03-17%2015%3A44%3A02&output=json&offset=%2B00%3A00&agent\_id=1" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/agent/graph-data" path="" %}
 {% api-method-summary %}
 Agent Graph Data
 {% endapi-method-summary %}
@@ -322,7 +322,7 @@ json or csv
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/agent/agent-leaderboard?start\_date=2021-03-16%2015%3A44%3A03&end\_date=2021-03-17%2015%3A44%3A02&output=json&offset=%2B00%3A00" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/agent/agent-leaderboard" path="" %}
 {% api-method-summary %}
 Agent Leaderboard
 {% endapi-method-summary %}

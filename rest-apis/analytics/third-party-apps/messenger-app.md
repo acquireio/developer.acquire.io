@@ -4,7 +4,7 @@ description: View data from all your installed messenger apps.
 
 # Messenger App
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/app/messenger-apps-list?offset=%2B05%3A30" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/app/messenger-apps-list" path="" %}
 {% api-method-summary %}
 Apps Installed
 {% endapi-method-summary %}
@@ -92,7 +92,7 @@ This parameter is used for the timezone value and the default timezone will be "
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/app/messenger-app-graph-data?start\_date=2021-03-16%2015%3A44%3A04&end\_date=2021-03-17%2015%3A44%3A03&output=json&offset=%2B00%3A00&app\_id=article\_search" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/app/messenger-app-graph-data" path="" %}
 {% api-method-summary %}
 App Graph Data
 {% endapi-method-summary %}

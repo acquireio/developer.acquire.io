@@ -4,7 +4,7 @@ description: Track email metrics including response times and reader activity.
 
 # Email
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/mail/all-email-overview?start\_date=2020-03-16%2015%3A44%3A06&end\_date=2021-03-17%2015%3A44%3A05&output=json&offset=%2B00%3A00" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/mail/all-email-overview" path="" %}
 {% api-method-summary %}
 All Email Overview
 {% endapi-method-summary %}
@@ -162,7 +162,7 @@ json or csv
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/mail/email-activity?start\_date=2021-03-16%2015%3A44%3A06&end\_date=2021-03-17%2015%3A44%3A05&output=json&offset=%2B00%3A00" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/mail/email-activity" path="" %}
 {% api-method-summary %}
 Activity
 {% endapi-method-summary %}
@@ -401,7 +401,7 @@ json or csv
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/mail/all-email-overview?start\_date=2020-03-16%2015%3A44%3A06&end\_date=2021-03-17%2015%3A44%3A05&output=json&offset=%2B00%3A00" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/mail/all-email-overview" path="" %}
 {% api-method-summary %}
 Busiest Periods for Email
 {% endapi-method-summary %}
