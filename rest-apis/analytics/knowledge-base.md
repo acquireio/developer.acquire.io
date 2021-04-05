@@ -6,7 +6,7 @@ description: 'View article visits, reader satisfaction, and popular categories.'
 
 
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/kb/overview?start\_date=2021-03-16%2015%3A44%3A06&end\_date=2021-03-17%2015%3A44%3A05&output=json&offset=%2B00%3A00" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/kb/overview" path="" %}
 {% api-method-summary %}
 Overview
 {% endapi-method-summary %}
@@ -97,7 +97,7 @@ json or csv
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/kb/searches?start\_date=2021-03-16%2015%3A44%3A06&end\_date=2021-03-17%2015%3A44%3A05&output=json&offset=%2B00%3A00" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/kb/searches" path="" %}
 {% api-method-summary %}
 Searches
 {% endapi-method-summary %}
@@ -239,7 +239,7 @@ json or csv
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/kb/most-popular-searches?start\_date=2021-03-16%2015%3A44%3A06&end\_date=2021-03-17%2015%3A44%3A05&output=json&offset=%2B00%3A00" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/kb/most-popular-searches" path="" %}
 {% api-method-summary %}
 Most Popular Searches
 {% endapi-method-summary %}
@@ -306,7 +306,7 @@ json or csv
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api" path="/v1/analytics/kb/most-popular-searches?start\_date=2021-03-16%2015%3A44%3A06&end\_date=2021-03-17%2015%3A44%3A05&output=json&offset=%2B00%3A00" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/kb/all-questions-reporting" path="" %}
 {% api-method-summary %}
 All Questions Reporting
 {% endapi-method-summary %}
