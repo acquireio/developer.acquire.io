@@ -28,8 +28,12 @@ Bearer {{api\_key}}
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="contactId" type="integer" required=true %}
-Specify the contact ID
+{% api-method-parameter name="x-user-type" type="string" required=false %}
+Specifies the type user/contact if message needs to be added from agent then it is user and if it is to be added from agent then it is contact
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="contactId" type="integer" required=false %}
+Specify the contact ID if you were not an agent
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 
