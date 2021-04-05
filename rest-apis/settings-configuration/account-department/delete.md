@@ -4,7 +4,7 @@ description: API to delete the departments
 
 # Delete
 
-{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/account/department?id=14" path="" %}
+{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/account/department" path="" %}
 {% api-method-summary %}
 Delete
 {% endapi-method-summary %}
@@ -22,7 +22,7 @@ Bearer {api\_key}
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="id" type="array" required=false %}
+{% api-method-parameter name="id" type="array" required=true %}
 Array of department ids to delete
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
