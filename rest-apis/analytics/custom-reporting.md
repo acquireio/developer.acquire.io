@@ -237,6 +237,15 @@ Name of report
 {% endapi-method-spec %}
 {% endapi-method %}
 
+## Body\(raw\)
+
+```text
+{
+  "reportKey": "testconversation",
+  "reportName": "Updating the custom reports name"
+}
+```
+
 {% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/analytics/custom-reporting/generate-report" path="" %}
 {% api-method-summary %}
 Create Custom Report
@@ -287,6 +296,16 @@ Name of report
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+
+## Body\(raw\)
+
+```text
+{
+  "reportName": "testconversation",
+  "description": "Testing purpose",
+  "objectKey": "conversation"
+}
+```
 
 {% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/analytics/custom-reporting/delete-custom-report" path="" %}
 {% api-method-summary %}
