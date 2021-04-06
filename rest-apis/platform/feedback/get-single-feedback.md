@@ -25,7 +25,7 @@ Bearer {{api\_key}}
 
 {% api-method-query-parameters %}
 {% api-method-parameter name="relations" type="object" required=false %}
-Specify the relations
+Specify the relation to "case" or "contact"
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="select" type="array" required=false %}
