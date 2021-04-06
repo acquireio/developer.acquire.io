@@ -7,7 +7,7 @@ description: >-
 
 # Delete Article
 
-{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1" path="/kb/article/delete/{{articleId}}/?groupId={{groupdId}}" %}
+{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/kb/article/delete/{{id}}" path="" %}
 {% api-method-summary %}
 Delete Article
 {% endapi-method-summary %}
