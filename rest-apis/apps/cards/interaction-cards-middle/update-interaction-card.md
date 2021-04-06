@@ -1,8 +1,8 @@
-# Create Interaction Card
+# Update Interaction Card
 
-{% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/view" path="" %}
+{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/crm/view/17" path="" %}
 {% api-method-summary %}
-Create a Card
+Update card
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -29,40 +29,29 @@ Bearer {{api\_key}}
     "data": {
         "success": true,
         "data": {
-            "title": "this is canvas view",
-            "contactId": 96,
+            "id": 17,
             "view": {
                 "type": "ui_block",
                 "config": {
+                    "label": "mix sample",
                     "canvas": {
-                        "content": {
-                            "components": [
-                                {
-                                    "type": "text",
-                                    "text": "hello acquire",
-                                    "style": "heading"
-                                },
-                                {
-                                    "type": "input",
-                                    "label": "my input box",
-                                    "style": "paragraph",
-                                    "id": "my_input",
-                                    "value": "acquire"
-                                }
-                            ]
-                        }
-                    }
+                        "content_url": true
+                    },
+                    "action_key": "test-json",
+                    "action_type": "initialize_tab",
+                    "iconImageUrl": "./assets/app-store/acquire_saml.svg",
+                    "initialize_url": "https://0cd3f367b0ac.ngrok.io/mix1-initialize"
                 }
             },
             "meta": {
                 "iconImageUrl": "https://acquire.io/wp-content/themes/acquire/assets/images/common/acq-footer-black-logo.svg",
                 "iconFont": "icon-ticket"
             },
-            "userId": 24,
-            "dateCreated": "2020-09-16T13:04:38.268Z",
-            "id": 10
+            "title": "Update Interaction Cards",
+            "userId": null,
+            "dateCreated": null
         },
-        "message": "View added successfully."
+        "message": "View updated successfully."
     }
 }
 ```
@@ -75,7 +64,7 @@ Bearer {{api\_key}}
 
 ```text
 {
-    "title": "Interaction Cards",
+    "title": "Update Interaction Cards",
     "meta": {
         "iconImageUrl": "https://acquire.io/wp-content/themes/acquire/assets/images/common/acq-footer-black-logo.svg",
         "iconFont": "icon-ticket"
@@ -91,7 +80,8 @@ Bearer {{api\_key}}
         "action_key": "test-json",
         "action_type": "initialize_tab",
         "iconImageUrl": "./assets/app-store/acquire_saml.svg",
-        "initialize_url": "https://0ff32dabc277.ngrok.io/mix1-initialize"
+        "initialize_url": "https://0cd3f367b0ac.ngrok.io/mix1-initialize"
+    }
     }
 }
 ```

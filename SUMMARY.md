@@ -192,6 +192,7 @@
   * [Cards](rest-apis/apps/cards/README.md)
     * [Interaction-cards \(Middle\)](rest-apis/apps/cards/interaction-cards-middle/README.md)
       * [Create Interaction Card](rest-apis/apps/cards/interaction-cards-middle/create-interaction-card.md)
+      * [Update Interaction Card](rest-apis/apps/cards/interaction-cards-middle/update-interaction-card.md)
     * [General-cards \(Right-side\)](rest-apis/apps/cards/general-cards-right-side.md)
 * [Knowledgebase](rest-apis/knowledgebase/README.md)
   * [Knowledge Base](rest-apis/knowledgebase/knowledge-base/README.md)
