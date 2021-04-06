@@ -6,7 +6,7 @@ description: >-
 
 # Snooze
 
-This API allows you to manage snooze for a specific day and time. That conversation will be snooze marked on the specified day and time. 
+This API allows you to manage a snooze for a specific day and time. That conversation will be marked 'snoozed' on the specified day and time. 
 
 ### Attributes 
 
