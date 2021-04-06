@@ -357,23 +357,157 @@ json or csv
 ```
 {
   "data": {
-    "conversationalBotQuestionGroups": {
+    "questionsReport": {
       "data": {
         "graphRow": {
-          "data": [
-            {
-              "group_id": 1,
-              "title": "Primary Group",
-              "live": 23,
-              "suggested": 23
-            },
-            {
-              "group_id": 2,
-              "title": "Primary Group2",
-              "live": 32,
-              "suggested": 32
-            }
+          "labels": [
+            "12 PM",
+            "01 PM",
+            "02 PM",
+            "03 PM",
+            "04 PM",
+            "05 PM",
+            "06 PM",
+            "07 PM",
+            "08 PM",
+            "09 PM",
+            "10 PM",
+            "11 PM",
+            "12 AM",
+            "01 AM",
+            "02 AM",
+            "03 AM",
+            "04 AM",
+            "05 AM",
+            "06 AM",
+            "07 AM",
+            "08 AM",
+            "09 AM",
+            "10 AM",
+            "11 AM"
+          ],
+          "totalQuestionsAdded": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "totalQuestionsInUse": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "totalSuggestedQuestions": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "totalQuestionGroups": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
           ]
+        },
+        "summary": {
+          "totalQuestionsAdded": {
+            "current": 0,
+            "previous": 0
+          },
+          "totalQuestionsInUse": {
+            "current": 0,
+            "previous": 0
+          },
+          "totalSuggestedQuestions": {
+            "current": 0,
+            "previous": 0
+          },
+          "totalQuestionGroups": {
+            "current": 0,
+            "previous": 0
+          }
         }
       },
       "success": true,
