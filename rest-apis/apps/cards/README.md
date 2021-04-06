@@ -1,3 +1,9 @@
+---
+description: >-
+  Custom card can be defined as a custom element. We offer tons of system cards
+  along with custom Acquire UI. You can create and utilization your custom card.
+---
+
 # Cards
 
 Custom cards allow data display of other systems to be shown within the unified view of the Acquire. Acquire cards appear within the middle and right-hand positions of the dashboard. Using this feature, custom apps can create a card to display data info on contact.  
