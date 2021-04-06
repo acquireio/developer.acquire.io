@@ -1,12 +1,12 @@
 ---
 description: >-
-  Field for collecting and mapping data such as name and email in Acquire. Can
+  Fields for collecting and mapping data such as name and email in Acquire. Can
   be synced from other systems.
 ---
 
 # Custom Attributes
 
-Manage custom fields associated with different objects. This API allows you to define custom fields for your account using Custom Attributes API.
+Manage custom fields associated with different objects. This API allows you to define custom fields for your account using the Custom Attributes endpoints.
 
 ### Attributes 
 
@@ -27,7 +27,7 @@ Manage custom fields associated with different objects. This API allows you to d
     <tr>
       <td style="text-align:left">object</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">Specify the attribute for &apos;<b>case</b>&apos; or &apos;<b>contact</b>&apos;.</td>
+      <td style="text-align:left">Specify the attribute for a &apos;<b>case</b>&apos; or &apos;<b>contact</b>&apos;</td>
     </tr>
     <tr>
       <td style="text-align:left">key</td>
