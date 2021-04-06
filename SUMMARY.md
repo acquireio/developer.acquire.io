@@ -199,7 +199,7 @@
       * [Create general card](rest-apis/apps/cards/general-cards-right-side/add-card.md)
       * [Create app card - from other system](rest-apis/apps/cards/general-cards-right-side/create-app-card-from-other-system.md)
       * [Delete card](rest-apis/apps/cards/general-cards-right-side/delete-card.md)
-  * [List all installed apps](rest-apis/apps/list-all-installed-apps.md)
+  * [List Installed apps](rest-apis/apps/list-all-installed-apps.md)
   * [List all apps](rest-apis/apps/untitled.md)
 * [Knowledgebase](rest-apis/knowledgebase/README.md)
   * [Knowledge Base](rest-apis/knowledgebase/knowledge-base/README.md)

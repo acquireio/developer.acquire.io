@@ -1,2 +1,2 @@
-# List all installed apps
+# List Installed apps
 
