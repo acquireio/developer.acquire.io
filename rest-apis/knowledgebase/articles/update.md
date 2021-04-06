@@ -1,6 +1,6 @@
 # Update Article
 
-{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1" path="/kb/article/update/{{id}}" %}
+{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/kb/article/update/{{id}}" path="" %}
 {% api-method-summary %}
 Update Article
 {% endapi-method-summary %}
