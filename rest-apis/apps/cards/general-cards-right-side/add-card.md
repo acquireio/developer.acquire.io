@@ -1,4 +1,4 @@
-# Add card
+# Create general card
 
 {% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/ui-component" path="" %}
 {% api-method-summary %}
