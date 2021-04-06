@@ -1,8 +1,8 @@
-# Add card
+# Create app card - from other system
 
 {% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/ui-component" path="" %}
 {% api-method-summary %}
-Create general card
+ Create card
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -31,21 +31,23 @@ Bearer {{api\_key}}
         "data": {
             "type": "tab",
             "config": {
-                "label": "mix sample",
+                "label": "test stripe",
                 "canvas": {
                     "content_url": true
                 },
-                "action_key": "test-json",
+                "action_key": "test-form",
                 "action_type": "initialize_tab",
                 "iconImageUrl": "./assets/app-store/acquire_saml.svg",
-                "initialize_url": "https://0ff32dabc277.ngrok.io/mix2-initialize"
+                "initialize_url": "https://9adfb9433cf4.ngrok.io/initialize",
+                "submit_url": "https://9adfb9433cf4.ngrok.io/submit",
+                "configure_url": "https://9adfb9433cf4.ngrok.io/configure"
             },
             "displayScope": "contact_action",
             "area": "backend",
             "userId": 98,
-            "dateCreated": "2021-04-06T10:41:08.898Z",
+            "dateCreated": "2021-04-06T10:46:20.418Z",
             "order": 0,
-            "id": 573
+            "id": 574
         },
         "message": "UI component created successfully."
     }
@@ -56,20 +58,24 @@ Bearer {{api\_key}}
 {% endapi-method-spec %}
 {% endapi-method %}
 
+
+
 **Body \(raw\)**
 
 ```text
 {
     "type": "tab",
     "config": {
-        "label": "mix sample",
+        "label": "test stripe",
         "canvas": {
             "content_url": true
         },
-        "action_key": "test-json",
+        "action_key": "test-form",
         "action_type": "initialize_tab",
         "iconImageUrl": "./assets/app-store/acquire_saml.svg",
-        "initialize_url": "https://0ff32dabc277.ngrok.io/mix2-initialize"
+        "initialize_url": "https://9adfb9433cf4.ngrok.io/initialize",
+        "submit_url": "https://9adfb9433cf4.ngrok.io/submit",
+         "configure_url": "https://9adfb9433cf4.ngrok.io/configure"
     },
     "displayScope": "contact_action",
     "area": "backend"
