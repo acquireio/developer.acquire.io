@@ -96,8 +96,6 @@
       * [Add note message](rest-apis/platform/conversation/conversation-or-notes/note-message.md)
       * [Delete note](rest-apis/platform/conversation/conversation-or-notes/delete-note.md)
       * [Retrieve note messages](rest-apis/platform/conversation/conversation-or-notes/retrieve-note-messages.md)
-    * [Email](rest-apis/platform/conversation/cases-or-email/README.md)
-      * [Mail Messages](rest-apis/platform/conversation/cases-or-email/retrieve-email.md)
   * [Feedback](rest-apis/platform/feedback/README.md)
     * [List of all feedback](rest-apis/platform/feedback/list-of-all-feedbacks.md)
     * [Get single feedback](rest-apis/platform/feedback/get-single-feedback.md)
