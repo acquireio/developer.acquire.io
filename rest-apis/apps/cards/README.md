@@ -4,7 +4,7 @@ Custom cards allow data display of other systems to be shown within the unified 
 Acquire has 2 types of cards [app-custom-cards](https://github.com/acquireio/custom-cards#app-custom-card) and [manual-cards](https://github.com/acquireio/custom-cards#manual-card). Once the Acquire card is configured correctly, your external system information will appear in the Acquire Agent's dashboard.
 
 * [Interaction-cards](interaction-cards-middle/) \(Middle of agent dashboard\)
-* [General-cards](general-cards-right-side.md) \(Right-side of agent dashboard\)
+* [General-cards](general-cards-right-side/) \(Right-side of agent dashboard\)
 
 {% hint style="success" %}
 **See the** [**Acquire card**](https://github.com/acquireio/custom-cards) **documentation for more details and setting up cards.**
