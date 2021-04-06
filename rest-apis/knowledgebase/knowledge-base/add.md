@@ -30,17 +30,18 @@ Bearer {{API\_key}}
     "success": true,
     "message": "Knowledge base created successfully.",
     "data": {
-      "name": "KB2",
-      "slugKey": "kb2",
-      "createdBy": 1,
-      "updatedBy": 1,
-      "dateCreated": "2021-03-19T14:01:22.000Z",
-      "dateUpdated": "2021-03-19T14:01:22.000Z",
-      "id": 27,
+      "name": "KB Custom Group Acquire",
+      "slugKey": "kb-custom-group-acquire",
+      "createdBy": 28,
+      "updatedBy": 28,
+      "dateCreated": "2021-04-06T09:27:15.000Z",
+      "dateUpdated": "2021-04-06T09:27:15.000Z",
+      "id": 4,
       "isDefault": "no",
       "status": "draft",
       "internalApp": "no",
-      "widgetApp": "no"
+      "widgetApp": "no",
+      "scrapingToken": null
     }
   }
 }
@@ -54,9 +55,9 @@ Bearer {{API\_key}}
 
 ```javascript
 {
-  "name": "KB2",
-  "customDomain": "",
-  "languages": "en"
+  "name": "KB Custom Group Acquire",
+  "customDomain": "customkb-acquire.com",
+  "language": "en"
 }
 ```
 
