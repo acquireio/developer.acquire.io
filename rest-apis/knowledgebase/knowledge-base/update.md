@@ -37,7 +37,7 @@ Bearer {{API\_key}}
     "message": "Knowledge base updated successfully.",
     "data": {
       "id": 4,
-      "name": "Custom Group Articles of Acquire's KB",
+      "name": "Acquire's Customized KB Articles",
       "isDefault": "no",
       "slugKey": "kb-custom-group-acquire",
       "createdBy": 28,
@@ -46,7 +46,7 @@ Bearer {{API\_key}}
       "internalApp": "no",
       "widgetApp": "no",
       "dateCreated": "2021-04-06T09:27:15.000Z",
-      "dateUpdated": "2021-04-06T09:30:34.980Z",
+      "dateUpdated": "2021-04-06T09:32:38.203Z",
       "scrapingToken": null
     }
   }
@@ -61,8 +61,8 @@ Bearer {{API\_key}}
 
 ```javascript
 {
-  "name": "Custom Group Articles of Acquire's KB",
-  "customDomain": "custom-grp-articles.acquire.io",
+  "name": "Acquire's Customized KB Articles",
+  "customDomain": "custom-articles.acquire.io",
   "language": "en"
 }
 ```

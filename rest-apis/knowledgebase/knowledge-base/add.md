@@ -30,17 +30,17 @@ Bearer {{API\_key}}
     "success": true,
     "message": "Knowledge base created successfully.",
     "data": {
-      "name": "KB Custom Group Acquire",
+      "id": 4,
+      "name": "Custom Group Articles of Acquire's KB",
+      "isDefault": "no",
       "slugKey": "kb-custom-group-acquire",
       "createdBy": 28,
       "updatedBy": 28,
-      "dateCreated": "2021-04-06T09:27:15.000Z",
-      "dateUpdated": "2021-04-06T09:27:15.000Z",
-      "id": 4,
-      "isDefault": "no",
       "status": "draft",
       "internalApp": "no",
       "widgetApp": "no",
+      "dateCreated": "2021-04-06T09:27:15.000Z",
+      "dateUpdated": "2021-04-06T09:30:34.980Z",
       "scrapingToken": null
     }
   }
@@ -55,8 +55,8 @@ Bearer {{API\_key}}
 
 ```javascript
 {
-  "name": "KB Custom Group Acquire",
-  "customDomain": "customkb-acquire.com",
+  "name": "Custom Group Articles of Acquire's KB",
+  "customDomain": "custom-grp-articles.acquire.io",
   "language": "en"
 }
 ```
