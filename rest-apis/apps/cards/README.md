@@ -3,7 +3,7 @@
 Custom cards allow data display of other systems to be shown within the unified view of the Acquire. Acquire cards appear within the middle and right-hand positions of the dashboard. Using this feature, custom apps can create a card to display data info on contact.  
 Acquire has 2 types of cards [app-custom-cards](https://github.com/acquireio/custom-cards#app-custom-card) and [manual-cards](https://github.com/acquireio/custom-cards#manual-card). Once the Acquire card is configured correctly, your external system information will appear in the Acquire Agent's dashboard.
 
-* [Interaction-cards](interaction-cards-middle.md) \(Middle of agent dashboard\)
+* [Interaction-cards](interaction-cards-middle/) \(Middle of agent dashboard\)
 * [General-cards](general-cards-right-side.md) \(Right-side of agent dashboard\)
 
 {% hint style="success" %}
