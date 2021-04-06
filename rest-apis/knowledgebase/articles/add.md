@@ -1,6 +1,6 @@
 # Add Article
 
-{% api-method method="post" host="https://{{account\_uid}}.acquire.io/api/v1" path="/kb/article/add" %}
+{% api-method method="post" host="https://{{account\_uid}}.acquire.io/api/v1/kb/article/add" path="" %}
 {% api-method-summary %}
 Add New Article
 {% endapi-method-summary %}
@@ -42,9 +42,9 @@ Article successfully saved.
 ```text
 {
   "groupId": 1,
-  "articleSlug": "",
+  "articleSlug": "New",
   "featuresImage": "",
-  "title": "",
+  "title": "New Article samples",
   "description": "",
   "tags": [
     1
