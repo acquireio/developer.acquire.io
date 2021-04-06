@@ -1,6 +1,6 @@
 # Delete
 
-{% api-method method="delete" host="https://{{account\_uid}}.acquire.io/api/v1" path="/kb/group/delete/:id" %}
+{% api-method method="delete" host="https://{{account\_uid}}.acquire.io/api/v1/kb/group/delete/:id" path="" %}
 {% api-method-summary %}
 Delete Knowledge base
 {% endapi-method-summary %}
@@ -11,6 +11,12 @@ Delete Knowledge base
 
 {% api-method-spec %}
 {% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="id" type="number" required=true %}
+ID of the knowledge base group to be deleted
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
 Bearer {{API\_key}}
