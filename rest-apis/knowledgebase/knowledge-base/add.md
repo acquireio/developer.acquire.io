@@ -1,6 +1,6 @@
 # Add
 
-{% api-method method="post" host="https://{{account\_uid}}.acquire.io/api/v1" path="/kb/group/add" %}
+{% api-method method="post" host="https://{{account\_uid}}.acquire.io/api/v1/kb/group/add" path="" %}
 {% api-method-summary %}
 Add Knowledge base
 {% endapi-method-summary %}

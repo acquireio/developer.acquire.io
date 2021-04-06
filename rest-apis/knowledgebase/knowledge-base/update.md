@@ -1,6 +1,6 @@
 # Update
 
-{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1" path="/kb/group/update/{{id}}" %}
+{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/kb/group/update/{{id}}" path="" %}
 {% api-method-summary %}
 Update Knowledge base
 {% endapi-method-summary %}
@@ -36,17 +36,18 @@ Bearer {{API\_key}}
     "success": true,
     "message": "Knowledge base updated successfully.",
     "data": {
-      "id": 27,
-      "name": "KB2 New",
+      "id": 4,
+      "name": "Custom Group Articles of Acquire's KB",
       "isDefault": "no",
-      "slugKey": "kb2",
-      "createdBy": 1,
-      "updatedBy": 1,
+      "slugKey": "kb-custom-group-acquire",
+      "createdBy": 28,
+      "updatedBy": 28,
       "status": "draft",
       "internalApp": "no",
       "widgetApp": "no",
-      "dateCreated": "2021-03-19T14:01:22.000Z",
-      "dateUpdated": "2021-03-19T14:09:42.663Z"
+      "dateCreated": "2021-04-06T09:27:15.000Z",
+      "dateUpdated": "2021-04-06T09:30:34.980Z",
+      "scrapingToken": null
     }
   }
 }
@@ -60,9 +61,9 @@ Bearer {{API\_key}}
 
 ```javascript
 {
-  "name": "KB2 New",
-  "language": "en",
-  "customDomain": ""
+  "name": "Custom Group Articles of Acquire's KB",
+  "customDomain": "custom-grp-articles.acquire.io",
+  "language": "en"
 }
 ```
 
