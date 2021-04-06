@@ -210,6 +210,7 @@
     * [Update Article](rest-apis/knowledgebase/articles/update.md)
     * [Delete Article](rest-apis/knowledgebase/articles/delete.md)
     * [Get Articles](rest-apis/knowledgebase/articles/get.md)
+    * [Get Single Article](rest-apis/knowledgebase/articles/get-single-article.md)
   * [Category](rest-apis/knowledgebase/category/README.md)
     * [Add Category](rest-apis/knowledgebase/category/add-category.md)
     * [Update Category](rest-apis/knowledgebase/category/update-category.md)
