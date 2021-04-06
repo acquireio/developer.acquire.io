@@ -1,6 +1,6 @@
 # Update Interaction Card
 
-{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/crm/view/17" path="" %}
+{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/crm/view/{cardId}" path="" %}
 {% api-method-summary %}
 Update card
 {% endapi-method-summary %}
@@ -11,8 +11,14 @@ Update card
 
 {% api-method-spec %}
 {% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="cardId" type="string" required=true %}
+Id of the card
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+
 {% api-method-headers %}
-{% api-method-parameter name="Authorization" type="string" required=false %}
+{% api-method-parameter name="Authorization" type="string" required=true %}
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}

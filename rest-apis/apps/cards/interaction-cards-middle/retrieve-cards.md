@@ -1,4 +1,4 @@
-# Retrieve Cards
+# List all Cards
 
 {% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/view" path="" %}
 {% api-method-summary %}
