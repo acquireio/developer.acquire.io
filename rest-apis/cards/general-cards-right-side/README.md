@@ -1,4 +1,4 @@
-# General-cards \(Right-side\)
+# Exclusive cards
 
 This API allows extending the Acquire UI by replacing custom cards. These cards are mentioned on the dashboard as part of the app on the right, then requests to retrieve outer data when the contact is accessed by the agent.
 

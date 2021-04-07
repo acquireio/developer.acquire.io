@@ -186,7 +186,7 @@
     * [List all Cards](rest-apis/cards/interaction-cards-middle/retrieve-cards.md)
     * [Retrieve a card](rest-apis/cards/interaction-cards-middle/retrieve-a-card.md)
     * [Delete card](rest-apis/cards/interaction-cards-middle/delete-card.md)
-  * [General-cards \(Right-side\)](rest-apis/cards/general-cards-right-side/README.md)
+  * [Exclusive cards](rest-apis/cards/general-cards-right-side/README.md)
     * [Create general card](rest-apis/cards/general-cards-right-side/add-card.md)
     * [Create app card - from other system](rest-apis/cards/general-cards-right-side/create-app-card-from-other-system.md)
     * [Delete card](rest-apis/cards/general-cards-right-side/delete-card.md)
