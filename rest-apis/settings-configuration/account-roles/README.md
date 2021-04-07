@@ -18,5 +18,5 @@ Account Role API endpoints helps in getting the information related to the roles
 
 ### **Permissions**
 
-To request a company endpoint you will need a valid API Key with the company access permissions enabled.
+To request this endpoint you will need a valid API Key with the roles to access permissions enabled.
 

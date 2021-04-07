@@ -23,3 +23,7 @@ This section allows you to see all interaction sequences the Sequence Bot can us
 | dateUpdated | datetime | Specify the update of the Sequence date stamp |
 | bots | JSON Array Object  \(Entity Relations\) | Specify the identity of linked bot. |
 
+### **Permissions**
+
+To request this endpoint you will need a valid API Key with the chatbot access permissions enabled.
+

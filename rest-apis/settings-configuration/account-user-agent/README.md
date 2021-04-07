@@ -19,7 +19,7 @@ Account User contains the information of the available users in that particular 
 
 ### **Permissions**
 
-To request a company endpoint you will need a valid API Key with the company access permissions enabled.
+To request this endpoint you will need a valid API Key with the account access permissions enabled.
 
 ### **Relations between Users and other entities**
 

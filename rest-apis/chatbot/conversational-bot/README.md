@@ -16,3 +16,7 @@ Conversational bot API allows you to view, add, and edit questions in the group.
 | dateCreated | datetime | Specify the group creation timestamp. |
 | dateUpdated | datetime | Specify the group updated timestamp. |
 
+### **Permissions**
+
+To request this endpoint you will need a valid API Key with the chatbot access permissions enabled.
+
