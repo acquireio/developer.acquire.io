@@ -1,19 +1,23 @@
+---
+description: Delete a Knowledge Base.
+---
+
 # Delete
 
-{% api-method method="delete" host="https://{{account\_uid}}.acquire.io/api/v1/kb/group/delete/:id" path="" %}
+{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/kb/group/delete/{{KnowledgeBaseId}}" path="" %}
 {% api-method-summary %}
 Delete Knowledge base
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Delete a Knowledge Base. The Knowledge\_BaseId must be passed in to the endpoint as a path parameter. **Warning**: This action cannot be undone. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="id" type="number" required=true %}
-ID of the knowledge base group to be deleted
+{% api-method-parameter name="KnowledgeBaseId" type="integer" required=true %}
+ID of the Knowledge Base group to be deleted
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
