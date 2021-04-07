@@ -1,3 +1,7 @@
+---
+description: Articles are pages in a Knowledge Base.
+---
+
 # Articles
 
 ### Attributes 
@@ -85,7 +89,7 @@
     <tr>
       <td style="text-align:left">createdBy</td>
       <td style="text-align:left">Integer</td>
-      <td style="text-align:left">Specify the useId created the article</td>
+      <td style="text-align:left">Specify the userId of the person who created the article</td>
     </tr>
   </tbody>
 </table>
