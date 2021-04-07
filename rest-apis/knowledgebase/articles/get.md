@@ -1,6 +1,6 @@
 # Get Articles
 
-{% api-method method="get" host="https://{{account\_uid}}.acquire.io/api/v1" path="/kb/article" %}
+{% api-method method="get" host="https://{{account\_uid}}.acquire.io/api/v1/kb/article" path="" %}
 {% api-method-summary %}
 Get All Articles
 {% endapi-method-summary %}
