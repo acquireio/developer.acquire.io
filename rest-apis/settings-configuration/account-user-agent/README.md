@@ -10,12 +10,50 @@ Account User contains the information of the available users in that particular 
 
 ### Attributes 
 
-| ATTRIBUTE | TYPE | DESCRIPTION |
-| :--- | :--- | :--- |
-| count | Integer | Represents the number of records exists |
-| data | JSON object | Information about the user which contains the details as firstname,lastname,id,type,status,name,email,phone,photo,language |
-| roles | JSON Array Object | Specify the User roles which has the properties id,rolename,permissions,permissionType |
-| departments | JSON Array Object | Specify the departments to which the User belongs to and the department properties |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">ATTRIBUTE</th>
+      <th style="text-align:left">TYPE</th>
+      <th style="text-align:left">DESCRIPTION</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">count</td>
+      <td style="text-align:left">Integer</td>
+      <td style="text-align:left">Represents the number of records exists</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">data</td>
+      <td style="text-align:left">JSON object</td>
+      <td style="text-align:left">
+        <p>Information about the user</p>
+        <p>which contains the details as firstname,</p>
+        <p>lastname,id,type,status,</p>
+        <p>name,email,phone,photo,language</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">roles</td>
+      <td style="text-align:left">JSON Array Object</td>
+      <td style="text-align:left">
+        <p>Specify the User roles</p>
+        <p>which has the properties id,rolename,</p>
+        <p>permissions,permissionType</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">departments</td>
+      <td style="text-align:left">JSON Array Object</td>
+      <td style="text-align:left">
+        <p>Specify the departments to</p>
+        <p>which the User belongs to and</p>
+        <p>the department properties</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### **Permissions**
 
