@@ -190,7 +190,6 @@
     * [Create general card](rest-apis/cards/general-cards-right-side/add-card.md)
     * [Create app card - from other system](rest-apis/cards/general-cards-right-side/create-app-card-from-other-system.md)
     * [Delete card](rest-apis/cards/general-cards-right-side/delete-card.md)
-* [Apps](rest-apis/apps.md)
 * [Knowledgebase](rest-apis/knowledgebase/README.md)
   * [Knowledge Base](rest-apis/knowledgebase/knowledge-base/README.md)
     * [Add](rest-apis/knowledgebase/knowledge-base/add.md)
