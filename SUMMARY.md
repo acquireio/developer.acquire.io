@@ -144,7 +144,7 @@
       * [Push QnA To Suggestions](rest-apis/chatbot/conversational-bot/question-and-answer/push-qna-to-suggestions.md)
       * [Import QnA](rest-apis/chatbot/conversational-bot/question-and-answer/import-qna.md)
   * [Sequence Bot](rest-apis/chatbot/sequence-bot/README.md)
-    * [List](rest-apis/chatbot/sequence-bot/list.md)
+    * [Sequence List](rest-apis/chatbot/sequence-bot/list.md)
     * [Get Single Sequence](rest-apis/chatbot/sequence-bot/get-single-sequence.md)
     * [Count](rest-apis/chatbot/sequence-bot/count.md)
     * [Add](rest-apis/chatbot/sequence-bot/add.md)

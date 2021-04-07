@@ -2,7 +2,7 @@
 description: API to list the bot sequences available
 ---
 
-# List
+# Sequence List
 
 {% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/bot/lead" path="" %}
 {% api-method-summary %}
