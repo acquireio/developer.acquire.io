@@ -1,3 +1,7 @@
+---
+description: Add new article.
+---
+
 # Add Article
 
 {% api-method method="post" host="https://{{account\_uid}}.acquire.io/api/v1/kb/article/add" path="" %}
@@ -6,7 +10,13 @@ Add New Article
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Add a new article to a Knowledge Base. The body must have the required keys:   
+   
+`"groupId"` - The Knowledge Base ID   
+  
+`"title"` - Title of the article   
+  
+`"slug"` - The slug for the article
 {% endapi-method-description %}
 
 {% api-method-spec %}
