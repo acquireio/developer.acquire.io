@@ -126,7 +126,6 @@
 * [Chatbot](rest-apis/chatbot/README.md)
   * [Configuration](rest-apis/chatbot/configuration.md)
   * [Conversational bot](rest-apis/chatbot/conversational-bot/README.md)
-    * [Untitled](rest-apis/chatbot/conversational-bot/untitled.md)
     * [Groups](rest-apis/chatbot/conversational-bot/groups/README.md)
       * [Get Default Group](rest-apis/chatbot/conversational-bot/groups/get-default-group.md)
       * [List](rest-apis/chatbot/conversational-bot/groups/list.md)
