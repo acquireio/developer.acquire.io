@@ -10,7 +10,7 @@ Add Group
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to add a new bot group
+Add a new bot group
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -20,6 +20,24 @@ API to add a new bot group
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="askFeedback" type="string" required=false %}
+Have the bot ask for feedback \("active" \| "disabled"\)
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="isDefault" type="string" required=false %}
+Make this group the default \("yes" \| "no"\)
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="description" type="string" required=false %}
+Description of your bot group
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="title" type="string" required=true %}
+Title for your bot group
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
