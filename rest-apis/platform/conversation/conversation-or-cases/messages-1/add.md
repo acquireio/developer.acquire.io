@@ -202,19 +202,12 @@ message object
 ```text
 {
   "channel": "chat",
-  "mentionUsers": [
-    "00"
-  ],
-  "meta": {
-    "additionalProp1": {}
-  },
   "message": {
     "type": "message",
     "message": "Hey added from the api",
     "translateLangKey": "en"
   },
-  "delay": 1000,
-  "caseId": 2069
+  "caseId": 9
 }
 ```
 
