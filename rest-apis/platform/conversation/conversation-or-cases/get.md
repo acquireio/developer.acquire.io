@@ -69,7 +69,6 @@ contact
                     "speed": "18"
                 }
             },
-            "meta": {},
             "archive": "no",
             "companyId": null
         },

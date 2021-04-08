@@ -65,7 +65,6 @@ Contact's ID. All cases must have a contactId.
                     "speed": "1.71"
                 }
             },
-            "meta": {},
             "archive": "no",
             "fields": [
                 {
@@ -301,7 +300,6 @@ Contact's ID. All cases must have a contactId.
         "closedBy": null,
         "closingState": null,
         "dateClosed": null,
-        "meta": {},
         "id": 2071,
         "threadId": 1683,
         "fields": [],
@@ -320,9 +318,6 @@ Contact's ID. All cases must have a contactId.
 
 ```text
 {
-  "meta": {
-    "additionalProp1": {}
-  },
   "title": "string",
   "source": "firstMessage",
   "mentionUsers": [

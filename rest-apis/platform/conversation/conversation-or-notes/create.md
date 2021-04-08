@@ -82,10 +82,6 @@ The contact's ID
         "email": "surendra@acquire.io",
         "clientId": "",
         "parentId": 0,
-        "metaDetails": {
-          "isBotClient": false,
-          "label": ""
-        },
         "type": "user",
         "accessLevel": null
       }

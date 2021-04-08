@@ -129,9 +129,6 @@ Can be one of company \| cases \| tags \| visits \| timeline \| fields
                         "photo": "",
                         "email": "surendra@acquire.io",
                         "clientId": "",
-                        "meta": {
-                            "fields": {}
-                        },
                         "parentId": 0,
                         "title": "Surendra Suthar",
                         "url": "",
@@ -625,9 +622,6 @@ Can be one of company \| cases \| tags \| visits \| timeline \| fields
                         "photo": "",
                         "email": "surendra@acquire.io",
                         "clientId": "",
-                        "meta": {
-                            "fields": {}
-                        },
                         "parentId": 0,
                         "title": "Surendra Suthar",
                         "url": "",

@@ -72,7 +72,6 @@ You can pass multiple relations along with the case. Allowed relations : contact
                             "speed": "2.52"
                         }
                     },
-                    "meta": {},
                     "archive": "no",
                     "companyId": 1
                 },
@@ -104,7 +103,6 @@ You can pass multiple relations along with the case. Allowed relations : contact
                             "speed": "2.52"
                         }
                     },
-                    "meta": {},
                     "archive": "no",
                     "companyId": 1
                 },

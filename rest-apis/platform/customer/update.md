@@ -45,7 +45,6 @@ Bearer {{api\_key}}
         "clientDeviceVendor": null,
         "clientDeviceModel": null,
         "clientDetails": {},
-        "meta": {},
         "archive": "no",
         "companyId": 5,
         "fields": {

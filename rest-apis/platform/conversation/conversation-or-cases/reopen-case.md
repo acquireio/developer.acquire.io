@@ -59,7 +59,6 @@ ID of the contact
                     "speed": "1.71"
                 }
             },
-            "meta": {},
             "archive": "no",
             "fields": [
                 {
@@ -295,7 +294,6 @@ ID of the contact
         "closedBy": null,
         "closingState": null,
         "dateClosed": null,
-        "meta": {},
         "id": 1694,
         "threadId": 1683,
         "fields": [],
@@ -314,9 +312,6 @@ ID of the contact
 
 ```text
 {
-  "meta": {
-    "additionalProp1": {}
-  },
   "title": "string",
   "source": "firstMessage",
   "mentionUsers": [

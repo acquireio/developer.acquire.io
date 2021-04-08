@@ -69,7 +69,6 @@ Can be one of company \| cases \| fields \| tags \| visits \| timeline
                 "speed": "2.52"
             }
         },
-        "meta": {},
         "archive": "no",
         "company": {
             "dateCreated": "2020-08-11T07:26:24.000Z",
@@ -100,9 +99,6 @@ Can be one of company \| cases \| fields \| tags \| visits \| timeline
                 "dateClosed": null,
                 "queueId": null,
                 "queueOrder": null,
-                "meta": {
-                    "_routes": {}
-                },
                 "parentId": null,
                 "userId": null,
                 "waitTime": 0,
@@ -116,8 +112,7 @@ Can be one of company \| cases \| fields \| tags \| visits \| timeline
                         "status": "active",
                         "dateCreated": "2020-08-11T07:26:22.000Z",
                         "dateLastAssigned": "2020-10-15T09:01:54.000Z",
-                        "closed": "no",
-                        "meta": null
+                        "closed": "no"
                     },
                     {
                         "id": 3,
@@ -128,8 +123,7 @@ Can be one of company \| cases \| fields \| tags \| visits \| timeline
                         "status": "rejected",
                         "dateCreated": "2020-08-11T07:26:22.000Z",
                         "dateLastAssigned": "2020-10-15T09:01:54.000Z",
-                        "closed": "no",
-                        "meta": null
+                        "closed": "no"
                     },
                     {
                         "id": 4,
@@ -140,8 +134,7 @@ Can be one of company \| cases \| fields \| tags \| visits \| timeline
                         "status": "rejected",
                         "dateCreated": "2020-08-11T07:26:22.000Z",
                         "dateLastAssigned": "2020-10-15T09:01:54.000Z",
-                        "closed": "no",
-                        "meta": null
+                        "closed": "no"
                     },
                     {
                         "id": 5,
@@ -152,8 +145,7 @@ Can be one of company \| cases \| fields \| tags \| visits \| timeline
                         "status": "rejected",
                         "dateCreated": "2020-08-11T07:26:22.000Z",
                         "dateLastAssigned": "2020-10-15T09:01:54.000Z",
-                        "closed": "no",
-                        "meta": null
+                        "closed": "no"
                     },
                     {
                         "id": 6,
@@ -164,8 +156,7 @@ Can be one of company \| cases \| fields \| tags \| visits \| timeline
                         "status": "rejected",
                         "dateCreated": "2020-08-11T07:26:22.000Z",
                         "dateLastAssigned": "2020-10-15T09:01:54.000Z",
-                        "closed": "no",
-                        "meta": null
+                        "closed": "no"
                     },
                     {
                         "id": 7,
@@ -176,8 +167,7 @@ Can be one of company \| cases \| fields \| tags \| visits \| timeline
                         "status": "rejected",
                         "dateCreated": "2020-08-11T07:26:22.000Z",
                         "dateLastAssigned": "2020-10-15T09:01:54.000Z",
-                        "closed": "no",
-                        "meta": null
+                        "closed": "no"
                     },
                     {
                         "id": 1,
@@ -188,8 +178,7 @@ Can be one of company \| cases \| fields \| tags \| visits \| timeline
                         "status": "active",
                         "dateCreated": "2020-08-11T07:26:22.000Z",
                         "dateLastAssigned": "2020-10-15T09:01:54.000Z",
-                        "closed": "no",
-                        "meta": null
+                        "closed": "no"
                     }
                 ],
                 "threadId": 1
@@ -211,10 +200,7 @@ Can be one of company \| cases \| fields \| tags \| visits \| timeline
                 "dateActive": "2020-08-11T07:27:18.000Z",
                 "dateClosed": null,
                 "queueId": null,
-                "queueOrder": null,
-                "meta": {
-                    "_routes": {}
-                },
+                "queueOrder": null
                 "parentId": null,
                 "userId": null,
                 "waitTime": 0,
@@ -228,8 +214,7 @@ Can be one of company \| cases \| fields \| tags \| visits \| timeline
                         "status": "active",
                         "dateCreated": "2020-08-11T07:27:13.000Z",
                         "dateLastAssigned": "2020-10-15T09:01:54.000Z",
-                        "closed": "no",
-                        "meta": null
+                        "closed": "no"
                     },
                     {
                         "id": 10,
@@ -240,8 +225,7 @@ Can be one of company \| cases \| fields \| tags \| visits \| timeline
                         "status": "rejected",
                         "dateCreated": "2020-08-11T07:27:13.000Z",
                         "dateLastAssigned": "2020-10-15T09:01:54.000Z",
-                        "closed": "no",
-                        "meta": null
+                        "closed": "no"
                     },
                     {
                         "id": 11,
@@ -252,8 +236,7 @@ Can be one of company \| cases \| fields \| tags \| visits \| timeline
                         "status": "rejected",
                         "dateCreated": "2020-08-11T07:27:13.000Z",
                         "dateLastAssigned": "2020-10-15T09:01:54.000Z",
-                        "closed": "no",
-                        "meta": null
+                        "closed": "no"
                     },
                     {
                         "id": 12,
@@ -264,8 +247,7 @@ Can be one of company \| cases \| fields \| tags \| visits \| timeline
                         "status": "rejected",
                         "dateCreated": "2020-08-11T07:27:13.000Z",
                         "dateLastAssigned": "2020-10-15T09:01:54.000Z",
-                        "closed": "no",
-                        "meta": null
+                        "closed": "no"
                     },
                     {
                         "id": 13,
@@ -276,8 +258,7 @@ Can be one of company \| cases \| fields \| tags \| visits \| timeline
                         "status": "rejected",
                         "dateCreated": "2020-08-11T07:27:13.000Z",
                         "dateLastAssigned": "2020-10-15T09:01:54.000Z",
-                        "closed": "no",
-                        "meta": null
+                        "closed": "no"
                     },
                     {
                         "id": 14,
@@ -288,8 +269,7 @@ Can be one of company \| cases \| fields \| tags \| visits \| timeline
                         "status": "rejected",
                         "dateCreated": "2020-08-11T07:27:13.000Z",
                         "dateLastAssigned": "2020-10-15T09:01:54.000Z",
-                        "closed": "no",
-                        "meta": null
+                        "closed": "no"
                     },
                     {
                         "id": 8,
@@ -300,8 +280,7 @@ Can be one of company \| cases \| fields \| tags \| visits \| timeline
                         "status": "active",
                         "dateCreated": "2020-08-11T07:27:13.000Z",
                         "dateLastAssigned": "2020-10-15T09:01:54.000Z",
-                        "closed": "no",
-                        "meta": null
+                        "closed": "no"
                     }
                 ],
                 "threadId": 2

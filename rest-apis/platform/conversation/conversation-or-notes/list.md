@@ -144,10 +144,6 @@ The maximum number of results to display per page.
                             "email": "surendra@acquire.io",
                             "clientId": "",
                             "parentId": 0,
-                            "metaDetails": {
-                                "isBotClient": false,
-                                "label": ""
-                            },
                             "type": "user",
                             "accessLevel": null
                         }
@@ -187,10 +183,6 @@ The maximum number of results to display per page.
                             "email": "surendra@acquire.io",
                             "clientId": "",
                             "parentId": 0,
-                            "metaDetails": {
-                                "isBotClient": false,
-                                "label": ""
-                            },
                             "type": "user",
                             "accessLevel": null
                         }

@@ -66,41 +66,6 @@ Object type expects field name by which you want to order followed by values eg:
           "photo": "",
           "email": "vivek@acquire.io",
           "clientId": "",
-          "meta": {
-            "fields": {
-              "onboard_setup": {
-                "structValue": {
-                  "fields": {
-                    "install": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    },
-                    "welcome": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    },
-                    "setupMail": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    },
-                    "setupVoip": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    },
-                    "setupAppStore": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    },
-                    "setupSocialApp": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    }
-                  }
-                },
-                "kind": "structValue"
-              }
-            }
-          },
           "parentId": 0,
           "metaDetails": {
             "isBotClient": false,
