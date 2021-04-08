@@ -16,7 +16,7 @@ API to update a specific bot group
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="id" type="number" required=true %}
+{% api-method-parameter name="id" type="integer" required=true %}
 GroupID to be updated
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
@@ -26,6 +26,24 @@ GroupID to be updated
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="askFeedback" type="string" required=false %}
+Have the bot ask for feedback \("active" \| "disabled"\)
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="isDefault" type="string" required=false %}
+Make group the default \("yes" \| "no"\)
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="description" type="string" required=false %}
+Description for group
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="title" type="string" required=false %}
+Title for group
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
