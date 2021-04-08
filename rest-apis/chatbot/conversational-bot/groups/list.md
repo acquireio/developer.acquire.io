@@ -10,7 +10,7 @@ List Groups
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to list all the available groups
+Retrieve a list all the available groups.
 {% endapi-method-description %}
 
 {% api-method-spec %}

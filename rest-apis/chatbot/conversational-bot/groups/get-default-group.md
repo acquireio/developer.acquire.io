@@ -25,9 +25,11 @@ Bearer {{api\_key}}
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-
+ 
 {% endapi-method-response-example-description %}
 
+{% tabs %}
+{% tab title="Plain Text" %}
 ```
 {
   "data": {
@@ -44,6 +46,8 @@ Bearer {{api\_key}}
   }
 }
 ```
+{% endtab %}
+{% endtabs %}
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
