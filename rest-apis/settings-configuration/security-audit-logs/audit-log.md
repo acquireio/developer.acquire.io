@@ -115,17 +115,7 @@ Specify an object which have a key value pairs where key with be name and value 
           "clientPermissions": null,
           "stateId": null,
           "countryId": null,
-          "dateCreated": "2021-04-01T05:55:37.000Z",
-          "meta": {
-            "onboard_setup": {
-              "install": false,
-              "welcome": false,
-              "setupMail": false,
-              "setupVoip": false,
-              "setupAppStore": false,
-              "setupSocialApp": false
-            }
-          }
+          "dateCreated": "2021-04-01T05:55:37.000Z"
         }
       },
       {
@@ -164,17 +154,7 @@ Specify an object which have a key value pairs where key with be name and value 
           "clientPermissions": null,
           "stateId": null,
           "countryId": null,
-          "dateCreated": "2021-04-01T05:55:37.000Z",
-          "meta": {
-            "onboard_setup": {
-              "install": false,
-              "welcome": false,
-              "setupMail": false,
-              "setupVoip": false,
-              "setupAppStore": false,
-              "setupSocialApp": false
-            }
-          }
+          "dateCreated": "2021-04-01T05:55:37.000Z"
         }
       },
       {
@@ -213,17 +193,7 @@ Specify an object which have a key value pairs where key with be name and value 
           "clientPermissions": null,
           "stateId": null,
           "countryId": null,
-          "dateCreated": "2021-04-01T05:55:37.000Z",
-          "meta": {
-            "onboard_setup": {
-              "install": false,
-              "welcome": false,
-              "setupMail": false,
-              "setupVoip": false,
-              "setupAppStore": false,
-              "setupSocialApp": false
-            }
-          }
+          "dateCreated": "2021-04-01T05:55:37.000Z"
         }
       },
       {
@@ -269,17 +239,7 @@ Specify an object which have a key value pairs where key with be name and value 
           "clientPermissions": null,
           "stateId": null,
           "countryId": null,
-          "dateCreated": "2021-04-01T05:55:37.000Z",
-          "meta": {
-            "onboard_setup": {
-              "install": false,
-              "welcome": false,
-              "setupMail": false,
-              "setupVoip": false,
-              "setupAppStore": false,
-              "setupSocialApp": false
-            }
-          }
+          "dateCreated": "2021-04-01T05:55:37.000Z"
         }
       },
       {
@@ -322,17 +282,7 @@ Specify an object which have a key value pairs where key with be name and value 
           "clientPermissions": null,
           "stateId": null,
           "countryId": null,
-          "dateCreated": "2021-04-01T05:55:37.000Z",
-          "meta": {
-            "onboard_setup": {
-              "install": false,
-              "welcome": false,
-              "setupMail": false,
-              "setupVoip": false,
-              "setupAppStore": false,
-              "setupSocialApp": false
-            }
-          }
+          "dateCreated": "2021-04-01T05:55:37.000Z"
         }
       },
       {
@@ -372,17 +322,7 @@ Specify an object which have a key value pairs where key with be name and value 
           "clientPermissions": null,
           "stateId": null,
           "countryId": null,
-          "dateCreated": "2021-04-01T05:55:37.000Z",
-          "meta": {
-            "onboard_setup": {
-              "install": false,
-              "welcome": false,
-              "setupMail": false,
-              "setupVoip": false,
-              "setupAppStore": false,
-              "setupSocialApp": false
-            }
-          }
+          "dateCreated": "2021-04-01T05:55:37.000Z"
         }
       },
       {
@@ -428,17 +368,7 @@ Specify an object which have a key value pairs where key with be name and value 
           "clientPermissions": null,
           "stateId": null,
           "countryId": null,
-          "dateCreated": "2021-04-01T05:55:37.000Z",
-          "meta": {
-            "onboard_setup": {
-              "install": false,
-              "welcome": false,
-              "setupMail": false,
-              "setupVoip": false,
-              "setupAppStore": false,
-              "setupSocialApp": false
-            }
-          }
+          "dateCreated": "2021-04-01T05:55:37.000Z"
         }
       },
       {
@@ -483,17 +413,7 @@ Specify an object which have a key value pairs where key with be name and value 
           "clientPermissions": null,
           "stateId": null,
           "countryId": null,
-          "dateCreated": "2021-04-01T05:55:37.000Z",
-          "meta": {
-            "onboard_setup": {
-              "install": false,
-              "welcome": false,
-              "setupMail": false,
-              "setupVoip": false,
-              "setupAppStore": false,
-              "setupSocialApp": false
-            }
-          }
+          "dateCreated": "2021-04-01T05:55:37.000Z"
         }
       },
       {
@@ -533,17 +453,7 @@ Specify an object which have a key value pairs where key with be name and value 
           "clientPermissions": null,
           "stateId": null,
           "countryId": null,
-          "dateCreated": "2021-04-01T05:55:37.000Z",
-          "meta": {
-            "onboard_setup": {
-              "install": false,
-              "welcome": false,
-              "setupMail": false,
-              "setupVoip": false,
-              "setupAppStore": false,
-              "setupSocialApp": false
-            }
-          }
+          "dateCreated": "2021-04-01T05:55:37.000Z"
         }
       },
       {
@@ -583,17 +493,7 @@ Specify an object which have a key value pairs where key with be name and value 
           "clientPermissions": null,
           "stateId": null,
           "countryId": null,
-          "dateCreated": "2021-04-01T05:55:37.000Z",
-          "meta": {
-            "onboard_setup": {
-              "install": false,
-              "welcome": false,
-              "setupMail": false,
-              "setupVoip": false,
-              "setupAppStore": false,
-              "setupSocialApp": false
-            }
-          }
+          "dateCreated": "2021-04-01T05:55:37.000Z"
         }
       }
     ]

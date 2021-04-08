@@ -65,66 +65,15 @@ Bearer {api\_key}
         "blockBy": 1,
         "type": "contact",
         "user": {
-          "departments": [],
-          "roles": [],
-          "id": 1,
-          "name": "David Guetta",
-          "firstName": "David Guetta",
-          "lastName": "",
-          "photo": "",
-          "email": "user@example.com",
-          "clientId": "",
-          "meta": {
-            "fields": {
-              "onboard_setup": {
-                "structValue": {
-                  "fields": {
-                    "install": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    },
-                    "welcome": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    },
-                    "setupMail": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    },
-                    "setupVoip": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    },
-                    "setupAppStore": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    },
-                    "setupSocialApp": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    }
-                  }
-                },
-                "kind": "structValue"
-              },
-              "productUpdate": {
-                "structValue": {
-                  "fields": {
-                    "data": {
-                      "listValue": {
-                        "values": []
-                      },
-                      "kind": "listValue"
-                    },
-                    "lastSeenArticleLength": {
-                      "numberValue": 0,
-                      "kind": "numberValue"
-                    }
-                  }
-                },
-                "kind": "structValue"
-              }
-            }
+            "departments": [],
+            "roles": [],
+            "id": 1,
+            "name": "David Guetta",
+            "firstName": "David Guetta",
+            "lastName": "",
+            "photo": "",
+            "email": "user@example.com",
+            "clientId": ""
           },
           "parentId": 0,
           "metaDetails": {
@@ -148,66 +97,15 @@ Bearer {api\_key}
         "blockBy": 1,
         "type": "contact",
         "user": {
-          "departments": [],
-          "roles": [],
-          "id": 1,
-          "name": "David Guetta",
-          "firstName": "David Guetta",
-          "lastName": "",
-          "photo": "",
-          "email": "user@example.com",
-          "clientId": "",
-          "meta": {
-            "fields": {
-              "onboard_setup": {
-                "structValue": {
-                  "fields": {
-                    "install": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    },
-                    "welcome": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    },
-                    "setupMail": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    },
-                    "setupVoip": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    },
-                    "setupAppStore": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    },
-                    "setupSocialApp": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    }
-                  }
-                },
-                "kind": "structValue"
-              },
-              "productUpdate": {
-                "structValue": {
-                  "fields": {
-                    "data": {
-                      "listValue": {
-                        "values": []
-                      },
-                      "kind": "listValue"
-                    },
-                    "lastSeenArticleLength": {
-                      "numberValue": 0,
-                      "kind": "numberValue"
-                    }
-                  }
-                },
-                "kind": "structValue"
-              }
-            }
+            "departments": [],
+            "roles": [],
+            "id": 1,
+            "name": "David Guetta",
+            "firstName": "David Guetta",
+            "lastName": "",
+            "photo": "",
+            "email": "user@example.com",
+            "clientId": ""
           },
           "parentId": 0,
           "metaDetails": {
@@ -231,66 +129,15 @@ Bearer {api\_key}
         "blockBy": 1,
         "type": "contact",
         "user": {
-          "departments": [],
-          "roles": [],
-          "id": 1,
-          "name": "David Guetta",
-          "firstName": "David Guetta",
-          "lastName": "",
-          "photo": "",
-          "email": "user@example.com",
-          "clientId": "",
-          "meta": {
-            "fields": {
-              "onboard_setup": {
-                "structValue": {
-                  "fields": {
-                    "install": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    },
-                    "welcome": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    },
-                    "setupMail": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    },
-                    "setupVoip": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    },
-                    "setupAppStore": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    },
-                    "setupSocialApp": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    }
-                  }
-                },
-                "kind": "structValue"
-              },
-              "productUpdate": {
-                "structValue": {
-                  "fields": {
-                    "data": {
-                      "listValue": {
-                        "values": []
-                      },
-                      "kind": "listValue"
-                    },
-                    "lastSeenArticleLength": {
-                      "numberValue": 0,
-                      "kind": "numberValue"
-                    }
-                  }
-                },
-                "kind": "structValue"
-              }
-            }
+            "departments": [],
+            "roles": [],
+            "id": 1,
+            "name": "David Guetta",
+            "firstName": "David Guetta",
+            "lastName": "",
+            "photo": "",
+            "email": "user@example.com",
+            "clientId": ""
           },
           "parentId": 0,
           "metaDetails": {
@@ -314,66 +161,15 @@ Bearer {api\_key}
         "blockBy": 1,
         "type": "contact",
         "user": {
-          "departments": [],
-          "roles": [],
-          "id": 1,
-          "name": "David Guetta",
-          "firstName": "David Guetta",
-          "lastName": "",
-          "photo": "",
-          "email": "user@example.com",
-          "clientId": "",
-          "meta": {
-            "fields": {
-              "onboard_setup": {
-                "structValue": {
-                  "fields": {
-                    "install": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    },
-                    "welcome": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    },
-                    "setupMail": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    },
-                    "setupVoip": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    },
-                    "setupAppStore": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    },
-                    "setupSocialApp": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    }
-                  }
-                },
-                "kind": "structValue"
-              },
-              "productUpdate": {
-                "structValue": {
-                  "fields": {
-                    "data": {
-                      "listValue": {
-                        "values": []
-                      },
-                      "kind": "listValue"
-                    },
-                    "lastSeenArticleLength": {
-                      "numberValue": 0,
-                      "kind": "numberValue"
-                    }
-                  }
-                },
-                "kind": "structValue"
-              }
-            }
+            "departments": [],
+            "roles": [],
+            "id": 1,
+            "name": "David Guetta",
+            "firstName": "David Guetta",
+            "lastName": "",
+            "photo": "",
+            "email": "user@example.com",
+            "clientId": ""
           },
           "parentId": 0,
           "metaDetails": {
@@ -397,66 +193,15 @@ Bearer {api\_key}
         "blockBy": 1,
         "type": "contact",
         "user": {
-          "departments": [],
-          "roles": [],
-          "id": 1,
-          "name": "David Guetta",
-          "firstName": "David Guetta",
-          "lastName": "",
-          "photo": "",
-          "email": "user@example.com",
-          "clientId": "",
-          "meta": {
-            "fields": {
-              "onboard_setup": {
-                "structValue": {
-                  "fields": {
-                    "install": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    },
-                    "welcome": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    },
-                    "setupMail": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    },
-                    "setupVoip": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    },
-                    "setupAppStore": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    },
-                    "setupSocialApp": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    }
-                  }
-                },
-                "kind": "structValue"
-              },
-              "productUpdate": {
-                "structValue": {
-                  "fields": {
-                    "data": {
-                      "listValue": {
-                        "values": []
-                      },
-                      "kind": "listValue"
-                    },
-                    "lastSeenArticleLength": {
-                      "numberValue": 0,
-                      "kind": "numberValue"
-                    }
-                  }
-                },
-                "kind": "structValue"
-              }
-            }
+            "departments": [],
+            "roles": [],
+            "id": 1,
+            "name": "David Guetta",
+            "firstName": "David Guetta",
+            "lastName": "",
+            "photo": "",
+            "email": "user@example.com",
+            "clientId": ""
           },
           "parentId": 0,
           "metaDetails": {
@@ -478,66 +223,15 @@ Bearer {api\_key}
         "blockBy": 1,
         "type": "email",
         "user": {
-          "departments": [],
-          "roles": [],
-          "id": 1,
-          "name": "David Guetta",
-          "firstName": "David Guetta",
-          "lastName": "",
-          "photo": "",
-          "email": "user@example.com",
-          "clientId": "",
-          "meta": {
-            "fields": {
-              "onboard_setup": {
-                "structValue": {
-                  "fields": {
-                    "install": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    },
-                    "welcome": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    },
-                    "setupMail": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    },
-                    "setupVoip": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    },
-                    "setupAppStore": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    },
-                    "setupSocialApp": {
-                      "boolValue": false,
-                      "kind": "boolValue"
-                    }
-                  }
-                },
-                "kind": "structValue"
-              },
-              "productUpdate": {
-                "structValue": {
-                  "fields": {
-                    "data": {
-                      "listValue": {
-                        "values": []
-                      },
-                      "kind": "listValue"
-                    },
-                    "lastSeenArticleLength": {
-                      "numberValue": 0,
-                      "kind": "numberValue"
-                    }
-                  }
-                },
-                "kind": "structValue"
-              }
-            }
+            "departments": [],
+            "roles": [],
+            "id": 1,
+            "name": "David Guetta",
+            "firstName": "David Guetta",
+            "lastName": "",
+            "photo": "",
+            "email": "user@example.com",
+            "clientId": ""
           },
           "parentId": 0,
           "metaDetails": {

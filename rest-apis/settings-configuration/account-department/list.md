@@ -89,17 +89,7 @@ Bearer {api\_key}
             "clientPermissions": null,
             "stateId": null,
             "countryId": null,
-            "dateCreated": "2021-02-03T17:00:26.000Z",
-            "meta": {
-              "onboard_setup": {
-                "install": false,
-                "welcome": false,
-                "setupMail": false,
-                "setupVoip": false,
-                "setupAppStore": false,
-                "setupSocialApp": false
-              }
-            }
+            "dateCreated": "2021-02-03T17:00:26.000Z"
           }
         ]
       },
@@ -129,17 +119,7 @@ Bearer {api\_key}
             "clientPermissions": null,
             "stateId": null,
             "countryId": null,
-            "dateCreated": "2021-02-03T16:59:45.000Z",
-            "meta": {
-              "onboard_setup": {
-                "install": false,
-                "welcome": false,
-                "setupMail": false,
-                "setupVoip": false,
-                "setupAppStore": false,
-                "setupSocialApp": false
-              }
-            }
+            "dateCreated": "2021-02-03T16:59:45.000Z"
           }
         ]
       },

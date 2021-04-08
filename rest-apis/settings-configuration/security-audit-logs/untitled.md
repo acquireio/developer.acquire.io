@@ -89,21 +89,7 @@ Bearer {{api\_key}}
             "clientPermissions": null,
             "stateId": null,
             "countryId": null,
-            "dateCreated": null,
-            "meta": {
-              "onboard_setup": {
-                "install": false,
-                "welcome": false,
-                "setupMail": false,
-                "setupVoip": false,
-                "setupAppStore": false,
-                "setupSocialApp": false
-              },
-              "productUpdate": {
-                "data": [],
-                "lastSeenArticleLength": 0
-              }
-            }
+            "dateCreated": null
           }
         },
         "firstName": "David Guetta",
@@ -126,22 +112,7 @@ Bearer {{api\_key}}
         "clientPermissions": null,
         "stateId": null,
         "countryId": null,
-        "dateCreated": null,
-        "meta": {
-          "onboard_setup": {
-            "install": false,
-            "welcome": false,
-            "setupMail": false,
-            "setupVoip": false,
-            "setupAppStore": false,
-            "setupSocialApp": false
-          },
-          "productUpdate": {
-            "data": [],
-            "lastSeenArticleLength": 0
-          }
-        },
-        "tenantId": "5mkg3t"
+        "dateCreated": null
       },
       {
         "auditUser": {
@@ -154,17 +125,7 @@ Bearer {{api\_key}}
           "actionOwnerType": "user",
           "dataBefore": {},
           "dataAfter": {
-            "id": 19,
-            "meta": {
-              "onboard_setup": {
-                "install": false,
-                "welcome": false,
-                "setupMail": false,
-                "setupVoip": false,
-                "setupAppStore": false,
-                "setupSocialApp": false
-              }
-            },
+            "id": 19
             "name": "hello user1",
             "type": "user",
             "email": "hello@acquire.io",
@@ -207,17 +168,7 @@ Bearer {{api\_key}}
             "clientPermissions": null,
             "stateId": null,
             "countryId": null,
-            "dateCreated": "2021-02-03T16:59:45.000Z",
-            "meta": {
-              "onboard_setup": {
-                "install": false,
-                "welcome": false,
-                "setupMail": false,
-                "setupVoip": false,
-                "setupAppStore": false,
-                "setupSocialApp": false
-              }
-            }
+            "dateCreated": "2021-02-03T16:59:45.000Z"
           }
         },
         "firstName": "hello user1",
@@ -240,17 +191,7 @@ Bearer {{api\_key}}
         "clientPermissions": null,
         "stateId": null,
         "countryId": null,
-        "dateCreated": "2021-02-03T16:59:45.000Z",
-        "meta": {
-          "onboard_setup": {
-            "install": false,
-            "welcome": false,
-            "setupMail": false,
-            "setupVoip": false,
-            "setupAppStore": false,
-            "setupSocialApp": false
-          }
-        },
+        "dateCreated": "2021-02-03T16:59:45.000Z"
         "tenantId": "5mkg3t"
       },
       {
@@ -265,16 +206,6 @@ Bearer {{api\_key}}
           "dataBefore": {},
           "dataAfter": {
             "id": 20,
-            "meta": {
-              "onboard_setup": {
-                "install": false,
-                "welcome": false,
-                "setupMail": false,
-                "setupVoip": false,
-                "setupAppStore": false,
-                "setupSocialApp": false
-              }
-            },
             "name": "set2",
             "type": "user",
             "email": "set2@acquire.io",
@@ -318,17 +249,7 @@ Bearer {{api\_key}}
             "clientPermissions": null,
             "stateId": null,
             "countryId": null,
-            "dateCreated": "2021-02-03T17:00:26.000Z",
-            "meta": {
-              "onboard_setup": {
-                "install": false,
-                "welcome": false,
-                "setupMail": false,
-                "setupVoip": false,
-                "setupAppStore": false,
-                "setupSocialApp": false
-              }
-            }
+            "dateCreated": "2021-02-03T17:00:26.000Z"
           }
         },
         "firstName": "set2",
@@ -352,16 +273,6 @@ Bearer {{api\_key}}
         "stateId": null,
         "countryId": null,
         "dateCreated": "2021-02-03T17:00:26.000Z",
-        "meta": {
-          "onboard_setup": {
-            "install": false,
-            "welcome": false,
-            "setupMail": false,
-            "setupVoip": false,
-            "setupAppStore": false,
-            "setupSocialApp": false
-          }
-        },
         "tenantId": "5mkg3t"
       },
       {
@@ -482,10 +393,6 @@ Bearer {{api\_key}}
             "stateId": null,
             "countryId": null,
             "dateCreated": "2021-03-18T12:31:46.000Z",
-            "meta": {
-              "label": "Conversational Bot : Primary Group (copy)",
-              "isBotClient": true
-            }
           }
         },
         "firstName": "Virtual Assistant",
@@ -514,10 +421,6 @@ Bearer {{api\_key}}
         "stateId": null,
         "countryId": null,
         "dateCreated": "2021-03-18T12:31:46.000Z",
-        "meta": {
-          "label": "Conversational Bot : Primary Group (copy)",
-          "isBotClient": true
-        },
         "tenantId": "5mkg3t"
       },
       {
@@ -532,93 +435,6 @@ Bearer {{api\_key}}
           "dataBefore": {},
           "dataAfter": {
             "id": 26,
-            "meta": {
-              "type": "custom",
-              "value": {
-                "bot": [
-                  "home",
-                  "conversational-bot",
-                  "sequence-bot",
-                  "configurations"
-                ],
-                "chat": [
-                  "cobrowse",
-                  "screen-share",
-                  "video-calls",
-                  "audio-calls"
-                ],
-                "voIP": [
-                  "default",
-                  "event",
-                  "setup",
-                  "setting"
-                ],
-                "email": [
-                  "inbox",
-                  "template",
-                  "smtp",
-                  "signature"
-                ],
-                "media": [
-                  "media"
-                ],
-                "settings": [
-                  "web-widget",
-                  "account-settings",
-                  "profile",
-                  "roles",
-                  "departments",
-                  "apps",
-                  "custom-attributes",
-                  "shortcuts",
-                  "tags",
-                  "feedbacks",
-                  "audit-logs",
-                  "spam",
-                  "translations",
-                  "api-keys",
-                  "webhooks"
-                ],
-                "triggers": [
-                  "business-rules",
-                  "triggers"
-                ],
-                "analytics": [
-                  "agent",
-                  "app",
-                  "bot",
-                  "chat",
-                  "cobrowse",
-                  "custom-reporting",
-                  "feedback",
-                  "general",
-                  "kb",
-                  "liveDashboard",
-                  "mail",
-                  "voip"
-                ],
-                "app-store": [
-                  "home"
-                ],
-                "dashboard": [
-                  "contact-list",
-                  "company",
-                  "campaign",
-                  "delete-conversation"
-                ],
-                "access-level": [
-                  "account"
-                ],
-                "knowledge-base": [
-                  "kb-setup",
-                  "add",
-                  "edit",
-                  "delete",
-                  "edit-theme"
-                ],
-                "cobrowse-access-url": []
-              }
-            },
             "name": "asd",
             "type": "client",
             "email": null,
@@ -734,17 +550,7 @@ Bearer {{api\_key}}
             "clientPermissions": null,
             "stateId": null,
             "countryId": null,
-            "dateCreated": "2021-04-01T05:55:37.000Z",
-            "meta": {
-              "onboard_setup": {
-                "install": false,
-                "welcome": false,
-                "setupMail": false,
-                "setupVoip": false,
-                "setupAppStore": false,
-                "setupSocialApp": false
-              }
-            }
+            "dateCreated": "2021-04-01T05:55:37.000Z"
           }
         },
         "firstName": "myuser",
@@ -768,16 +574,6 @@ Bearer {{api\_key}}
         "stateId": null,
         "countryId": null,
         "dateCreated": "2021-04-01T05:55:37.000Z",
-        "meta": {
-          "onboard_setup": {
-            "install": false,
-            "welcome": false,
-            "setupMail": false,
-            "setupVoip": false,
-            "setupAppStore": false,
-            "setupSocialApp": false
-          }
-        },
         "tenantId": "5mkg3t"
       },
       {
@@ -817,17 +613,7 @@ Bearer {{api\_key}}
             "clientPermissions": null,
             "stateId": null,
             "countryId": null,
-            "dateCreated": "2021-04-02T08:57:02.000Z",
-            "meta": {
-              "onboard_setup": {
-                "install": false,
-                "welcome": false,
-                "setupMail": false,
-                "setupVoip": false,
-                "setupAppStore": false,
-                "setupSocialApp": false
-              }
-            }
+            "dateCreated": "2021-04-02T08:57:02.000Z"
           }
         },
         "firstName": "Jagrut",
@@ -851,16 +637,6 @@ Bearer {{api\_key}}
         "stateId": null,
         "countryId": null,
         "dateCreated": "2021-04-02T08:57:02.000Z",
-        "meta": {
-          "onboard_setup": {
-            "install": false,
-            "welcome": false,
-            "setupMail": false,
-            "setupVoip": false,
-            "setupAppStore": false,
-            "setupSocialApp": false
-          }
-        },
         "tenantId": "5mkg3t"
       },
       {
