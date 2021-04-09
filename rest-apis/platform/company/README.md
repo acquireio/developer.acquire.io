@@ -20,7 +20,7 @@ The Company API can be used to create, update, retrieve, and delete records in a
 
 ### **Permissions**
 
-To request a company endpoint you will need a valid API Key with the company access permissions enabled.
+To request a company endpoint you will need a valid API Key with company access permissions.
 
 ### **Relations between companies and other entities**
 
