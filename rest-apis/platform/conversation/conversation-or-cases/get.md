@@ -4,7 +4,7 @@ description: Retrieve a single case.
 
 # Single Case
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/case/{caseId}?relations=contact&select=status" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/case/{{caseId}}" path="" %}
 {% api-method-summary %}
 Get a case
 {% endapi-method-summary %}
