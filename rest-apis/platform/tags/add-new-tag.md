@@ -23,15 +23,15 @@ Bearer {{api\_key}}
 
 {% api-method-body-parameters %}
 {% api-method-parameter name="type" type="array" required=false %}
-Array of strings. Indicate case and, or contact that the tag will be attached to. 
+Array of strings. Indicate if the tag will be attached to a contact or case.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="color" type="string" required=false %}
-Hex color code 
+Hex color code.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="name" type="string" required=false %}
-Tag name \(must be unique\)
+Tag name. Must be unique 
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
 {% endapi-method-request %}
@@ -71,6 +71,38 @@ Tag name \(must be unique\)
     }
   }
 }
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/crm/tag/{{tagId}}" path="" %}
+{% api-method-summary %}
+
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-body-parameters %}
+{% api-method-parameter name="type" type="array" required=false %}
+ Indicate if a tag will be attached to a case or contact.
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
