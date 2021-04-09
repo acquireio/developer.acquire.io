@@ -1,12 +1,12 @@
 ---
 description: >-
-  Tags are used to label conversations. Agents may attach tags to cases and/or
+  Tags are used to label conversations. Agents may attach tags to cases and
   conversations.
 ---
 
 # Tags
 
-Tags API allows you to create, update, retrieve, and delete Tags.
+The tag endpoints allows you to create, update, retrieve, and delete Tags.
 
 ### Attributes 
 
@@ -16,11 +16,11 @@ Tags API allows you to create, update, retrieve, and delete Tags.
 | name | String | Specify the name of the Tag. |
 | color | String | Specify the color of the Tag |
 | userId | Integer | Specify the owner id of the Tag |
-| type | String | Specify the type like tag for contact or case |
+| type | String | Specify the type of tag for contact or case |
 | user | JSON Array Object \(Entity Relations\) | Specify the owner details |
 | dateCreated | datetime | Tag creation timestamp |
 
 ### Permissions
 
-To request a tag endpoint, you will need a valid API Key with the Tag permissions enabled.
+To request a tag endpoint, you will need a valid API Key with Tag permissions enabled.
 
