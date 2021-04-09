@@ -29,7 +29,7 @@ The number of results e.g. 20 to return.
 {% api-method-parameter name="where" type="array" required=false %}
 id\|eq\|12  
   
-Format like :  
+Format :  
 **column\|expression\|value** **columns**
 {% endapi-method-parameter %}
 
