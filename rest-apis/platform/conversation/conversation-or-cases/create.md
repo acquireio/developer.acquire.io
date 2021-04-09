@@ -1,5 +1,5 @@
 ---
-description: API to create a new case
+description: Create a new case
 ---
 
 # Create
