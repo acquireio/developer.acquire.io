@@ -23,7 +23,7 @@ Bearer {{api\_key}}
 
 {% api-method-query-parameters %}
 {% api-method-parameter name="where" type="array" %}
-Specifies the condition to filter, Condition with the column name followed by the expression and the value. For eg: status\|eq\|active
+Specifies the condition to filter. Set condition with the column name followed by the expression and the value. For eg: status\|eq\|active
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="select" type="string" required=false %}
@@ -31,7 +31,7 @@ dateCreated\|dateUpdated\|id\|contactId\| closedBy\|visitId\|title\|description\
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="relations" type="string" required=false %}
-You can pass multiple relations along with the case. Allowed relations : contact\|messages\|cases\|users \|fields\|tags\|feedbacks\|timeline\|parent\| datePending\|queueOrder\|userId\|waitTime
+You can pass multiple relations along with the case. Available relations : contact\|messages\|cases\|users \|fields\|tags\|feedbacks\|timeline\|parent\| datePending\|queueOrder\|userId\|waitTime
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
