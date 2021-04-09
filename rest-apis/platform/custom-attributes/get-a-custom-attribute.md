@@ -1,3 +1,7 @@
+---
+description: Retrieve a single custom attributeGe
+---
+
 # Get a custom Attribute
 
 {% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/object-field/{{custom\_attributeId}}" path="" %}
