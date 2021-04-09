@@ -6,7 +6,7 @@ description: >-
 
 # Custom Attributes
 
-Manage custom fields associated with different objects. This API allows you to define custom fields for your account using the Custom Attributes endpoints.
+Manage custom fields associated with different objects. These endpoints allow you to define custom fields for your account using the Custom Attributes endpoints.
 
 ### Attributes 
 

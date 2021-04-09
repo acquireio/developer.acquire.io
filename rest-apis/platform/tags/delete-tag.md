@@ -10,7 +10,7 @@ Delete
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Delete a tag. The tagId must be passed in to the endpoint as a query parameter. Warning: This action cannot be undone. 
+Delete a tag. The `tagId` must be passed in to the endpoint as a query parameter. **Warning**: This action cannot be undone. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
