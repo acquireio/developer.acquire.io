@@ -1,5 +1,5 @@
 ---
-description: Block the existing contact from the contact list.
+description: Block an existing contact from the contact list and widget.
 ---
 
 # Block Contact
@@ -10,7 +10,7 @@ Block a contact
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Use this endpoint to block a contact. Contacts are blocked by their ID. To find a contact's Id, log in to Acquire and hover over their name in the `Contact List`.
+Use this endpoint to block a contact. Contacts are blocked by their ID. To find a contact's Id, log in to Acquire and hover over their name in the Contact List or send a GET to List all contacts.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -40,7 +40,7 @@ Bearer {{api\_key}}
 
 | ATTRIBUTE | TYPE | DESCRIPTION |
 | :--- | :--- | :--- |
-| data | Array of integers | Required: ID of the contacts that will block |
+| data | Array of integers | Required: ID of the contacts that will be blocked |
 | type | string | "contact" |
 | blockTill | string | Contact block till date. |
 
