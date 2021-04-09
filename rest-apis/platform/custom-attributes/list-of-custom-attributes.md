@@ -27,7 +27,7 @@ Array type with selected fields to be retrieved Available values: id, object, ke
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="relations" type="array" required=false %}
-
+Indicate if the custom attribute is attached to a contact or case
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="where" type="array" required=false %}
