@@ -1,3 +1,7 @@
+---
+description: Retrieve a single case.
+---
+
 # Single Case
 
 {% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/case/{caseId}?relations=contact&select=status" path="" %}
@@ -25,7 +29,7 @@ Bearer {{api\_key}}
 
 {% api-method-query-parameters %}
 {% api-method-parameter name="select" type="string" required=false %}
-channel \| status \| dateCreated \| dateUpdated \| id \| contactId \| closedBy \| visitId \| title \| description \| closingState \| dateQueue \| datePending \| dateActive \| dateClosed \| queueId \| queueOrder \| meta \| parentId \| userId \| waitTime
+Available filters: channel \| status \| dateCreated \| dateUpdated \| id \| contactId \| closedBy \| visitId \| title \| description \| closingState \| dateQueue \| datePending \| dateActive \| dateClosed \| queueId \| queueOrder \| meta \| parentId \| userId \| waitTime
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="relations" type="string" required=false %}
