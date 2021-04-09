@@ -1,3 +1,7 @@
+---
+description: Add a feedback question
+---
+
 # Add feedback
 
 {% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/feedback" path="" %}
@@ -16,6 +20,32 @@ Create feedback. The body requires keys of `"question"`, `"status"`, `"type"`, `
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="channels" type="string" required=true %}
+The channel that feedback will display on: "sms", "email", "chat"
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="departments" type="array" required=true %}
+Array of integers. The departments that will receive the feedback. 
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="config" type="string" required=true %}
+The values, requirements, and error messages for the feedback
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="type" type="string" required=true %}
+The type of feedback question: "rating","text", "multiple\_radio", "multiple\_checkbox"
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="status" type="string" required=true %}
+"active" \| "disabled"
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="question" type="string" required=true %}
+The question for the feedback
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
