@@ -1,3 +1,7 @@
+---
+description: Add a tag
+---
+
 # Add New Tag
 
 {% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/tag" path="" %}
@@ -16,6 +20,20 @@ Add a new tag. To choose a color, use hex colors codes and set them to the key o
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="type" type="array" required=false %}
+Array of strings. Indicate case and, or contact that the tag will be attached to. 
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="color" type="string" required=false %}
+Hex color code 
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="name" type="string" required=false %}
+Tag name \(must be unique\)
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
