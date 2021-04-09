@@ -1,3 +1,7 @@
+---
+description: Delete a feedback question.
+---
+
 # Delete feedback
 
 {% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/crm/feedback?id={{id}}" path="" %}
