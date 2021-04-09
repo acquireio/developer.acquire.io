@@ -21,8 +21,8 @@ The Case or Thread API can be used to send, retrieve, update, and delete message
 | datePending | datetime | Specify the case pending date. |
 | dateActive | datetime | Specify the case active date. |
 | dateClosed | datetime | Specify the case close date. |
-| userId | Integer |  |
-| waitTime | String |  |
+| userId | Integer | Specify the owner of the case. |
+| waitTime | String | Specify the case wait time. |
 | contact | JSON Array Object \(Entity Relations\) | Specify the case contact. |
 | feedbacks | JSON Array Object \(Entity Relations\) | Specify the case feedbacks. |
 | messages | JSON Array Object \(Entity Relations\) | Specify the case messages. |
