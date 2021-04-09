@@ -1,5 +1,5 @@
 ---
-description: Lists the contacts for an Account
+description: Lists all the contacts for an account
 ---
 
 # List all contacts
@@ -23,11 +23,11 @@ Get contacts
 
 {% api-method-query-parameters %}
 {% api-method-parameter name="limit" type="string" required=false %}
-The number of results e.g. 20 to return.
+Limits the number of results
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="select" type="array" required=false %}
-
+dateCreate \| dateUpdated \| id \| parent
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="where" type="array" required=false %}
