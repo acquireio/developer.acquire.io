@@ -1,3 +1,7 @@
+---
+description: Delete a company.
+---
+
 # Delete company
 
 {% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/company/{companyId}" path="" %}
@@ -6,7 +10,7 @@ Delete a Company
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to delete a company. Deleting companies doesn't delete related objects such as contact, case. **Warning:** This action cannot be undone.
+This endpoint allows you to delete a company. Deleting companies doesn't delete related objects such as contacts or cases. **Warning:** This action cannot be undone.
 {% endapi-method-description %}
 
 {% api-method-spec %}
