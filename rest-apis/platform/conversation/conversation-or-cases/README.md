@@ -10,11 +10,11 @@ The Case or Thread API can be used to send, retrieve, update, and delete message
 
 | ATTRIBUTE | TYPE | DESCRIPTION |
 | :--- | :--- | :--- |
-| id | Integer | Specify the ID of the case |
+| id | Integer | Specify the ID of the case. |
 | title | String | Specify the case title. |
 | description | String | Specify the case description. |
 | channel | String | Specify the case channel. |
-| status | String | Specify the case status like active, close, etc. |
+| status | String | Specify the case status such as active, close, etc. |
 | threadId | Integer | Specify the case threading id or parent id. |
 | closingState | String | Specify the operating system version. |
 | dateQueue | datetime | Specify the case queue date. |
@@ -34,7 +34,7 @@ The Case or Thread API can be used to send, retrieve, update, and delete message
 
 ### **Permissions**
 
-To request a case endpoint, you will need a valid API key with the case access permissions.
+To request a case endpoint, you will need a valid API key with case access permissions.
 
 ### **Relations between case and other entities**
 

@@ -1,5 +1,5 @@
 ---
-description: API to add a new message
+description: Add a new message via a channel
 ---
 
 # Send a message
@@ -14,7 +14,7 @@ Send a chat message to a conversation. To send a message to a contact, you must 
   
 `"type"`, `"message"`, ****and ****`"caseId"` are required keys in the message object. See example body below. You can also add `translateLangKey` to the message object for message translation.  
   
-**caseId** - You can retrieve caseId from a Webhook or from the conversation or chat API or from the Acquire Dashboard.  
+**caseId** - You can retrieve caseId from a Webhook, by sending a GET request to the Retrieve a list of messages endpoint or from the Acquire Dashboard.  
   
 **Type** - This indicates the type of message. There are three options: message, note, and event. Set `"type"` to `"message"` to send a chat message.  
 {% endapi-method-description %}
@@ -385,7 +385,7 @@ Send SMS
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to send a message through sms channel
+Send a message through an SmS channel. You must have a phone number connected to your Acquire account. To find the threadId and timelineId, send a GET rquest to Retrieve a list of messages or to Case List where ID={{contactId}}. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -399,6 +399,32 @@ Bearer {{api\_key}}
 Specifies the type user/contact if message needs to be added from agent then it is user and if it is to be added from agent then it is contact
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="From" type="string" required=true %}
+The phone number in your Acquire platform \(must include country and area code\)
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="To" type="string" required=true %}
+The contact's phone number \(must include country and area code\)
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="contactId" type="integer" required=true %}
+The contact's ID
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="Body" type="string" required=true %}
+The message you intend to send
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="threadId" type="integer" required=true %}
+The case ID
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="timelineId" type="integer" required=true %}
+The thread's timeline ID
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}

@@ -10,7 +10,7 @@ Get contacts
 {% endapi-method-summary %}
 
 {% api-method-description %}
- Retrieve a list of all contacts from the `Contact List`. 
+ Retrieve a list of all contacts from the platform's `Contact List`. 
 {% endapi-method-description %}
 
 {% api-method-spec %}

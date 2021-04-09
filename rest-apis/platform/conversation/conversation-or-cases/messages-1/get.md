@@ -4,19 +4,19 @@ description: Get a single message based on its ID
 
 # Retrieve a message
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/case-message/{MessageId}" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/case-message/{{messageId}}" path="" %}
 {% api-method-summary %}
 Get
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Retrieve a single message by passing its **MessageId** in to the endpoint as a path parameter. 
+Retrieve a single message by passing its **messageId** in to the endpoint as a path parameter. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="MessageId" type="integer" required=true %}
+{% api-method-parameter name="messageId" type="integer" required=true %}
 ID of the message 
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}

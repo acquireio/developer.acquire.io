@@ -1,3 +1,7 @@
+---
+description: Delete a contact.
+---
+
 # Delete contact
 
 {% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/contact/{{contactId}}" path="" %}
@@ -6,7 +10,7 @@ Delete contact
 {% endapi-method-summary %}
 
 {% api-method-description %}
- Delete a customer. The **contactId** must be passed in to the endpoint as a path parameter. **Warning**: This action cannot be undone.
+Delete a customer. The **contactId** must be passed in to the endpoint as a path parameter. **Warning**: This action cannot be undone.
 {% endapi-method-description %}
 
 {% api-method-spec %}

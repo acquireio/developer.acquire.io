@@ -1,3 +1,7 @@
+---
+description: Retrieve a single contact.
+---
+
 # Retrieve a contact
 
 {% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/contact/{{contactId}}" path="" %}

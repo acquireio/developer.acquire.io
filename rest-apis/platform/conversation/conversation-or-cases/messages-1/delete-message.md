@@ -1,6 +1,10 @@
+---
+description: Delete a message.
+---
+
 # Delete Message
 
-{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/case-message/{messageId}" path="" %}
+{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/case-message/{{messageId}}" path="" %}
 {% api-method-summary %}
 Delete a message
 {% endapi-method-summary %}

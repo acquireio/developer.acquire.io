@@ -1,3 +1,7 @@
+---
+description: Retrieve a list of messages.
+---
+
 # Retrieve a list of messages
 
 {% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/messenger/chat/messages?contactId={{contactId}}&threadId={{threadId}}" path="" %}
@@ -19,7 +23,7 @@ Bearer {{api\_key}}
 
 {% api-method-query-parameters %}
 {% api-method-parameter name="-x-user-type" type="string" required=false %}
-
+Send this parameter with a value of "contact" to send messages to Acquire.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="threadId" type="integer" required=true %}

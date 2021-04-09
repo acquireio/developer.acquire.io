@@ -1,5 +1,5 @@
 ---
-description: API to update a message based on its ID
+description: Update a message
 ---
 
 # Update message
@@ -29,6 +29,24 @@ The message's ID
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="translateLangKey" type="string" required=false %}
+Within the message object. ISO language code
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="message" type="string" required=false %}
+Within the message object. The message you intend to send.
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="type" type="string" required=false %}
+Within the message object. "message"
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="message" type="object" required=true %}
+The message object
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}

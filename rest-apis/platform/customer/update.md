@@ -1,3 +1,7 @@
+---
+description: Update a contact.
+---
+
 # Update contact
 
 {% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/contact/{{contactId}}" path="" %}
@@ -22,6 +26,24 @@ The ID of a contact.
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="phone" type="string" required=false %}
+Contact's phone
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="email" type="string" required=false %}
+Contact's email
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="name" type="string" required=false %}
+Contact's name
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="fields" type="object" required=false %}
+field object
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
