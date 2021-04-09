@@ -1,3 +1,7 @@
+---
+description: Update a feedback question.
+---
+
 # Update Feedback
 
 {% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/crm/feedback/{{feedbackId}}" path="" %}
@@ -22,6 +26,12 @@ The feedback's ID
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="question" type="string" required=true %}
+The feedback question
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
