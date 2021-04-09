@@ -1,6 +1,10 @@
+---
+description: Retrieve a single tag.
+---
+
 # Get Single Tag
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/tag/{{TAG\_ID}}" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/tag/{{tagId}}" path="" %}
 {% api-method-summary %}
 Get single tag
 {% endapi-method-summary %}
@@ -12,7 +16,7 @@ Retrieve a single tag. The **TAG\_ID** must be passed in to the endpoint as a pa
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="TAG\_ID" type="integer" required=true %}
+{% api-method-parameter name="tagId" type="integer" required=true %}
 The tag's ID
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
