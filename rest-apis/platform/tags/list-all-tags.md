@@ -1,3 +1,7 @@
+---
+description: List all tags
+---
+
 # List All Tags
 
 {% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/tag" path="" %}
@@ -31,7 +35,7 @@ Object type expects field name by which you want to order followed by values eg:
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="select" type="array" required=false %}
-
+Specify the selected fields
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
@@ -78,6 +82,38 @@ Object type expects field name by which you want to order followed by values eg:
     ]
   }
 }
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/feedback/{{feedbackId}}" path="" %}
+{% api-method-summary %}
+
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-query-parameters %}
+{% api-method-parameter name="select" type="array" required=false %}
+selected
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
 
 ```
 {% endapi-method-response-example %}
