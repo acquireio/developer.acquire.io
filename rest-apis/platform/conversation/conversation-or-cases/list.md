@@ -23,7 +23,7 @@ Bearer {{api\_key}}
 
 {% api-method-query-parameters %}
 {% api-method-parameter name="where" type="array" %}
-Specifies the condition to filter. Set condition with the column name followed by the expression and the value. For eg: status\|eq\|active
+Specifies the condition to filter. Set condition with the column name followed by the expression and its value e.g., status\|eq\|active
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="select" type="string" required=false %}
