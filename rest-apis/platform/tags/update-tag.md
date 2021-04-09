@@ -1,5 +1,5 @@
 ---
-description: API to Update a specific tag details
+description: Update details for a tag
 ---
 
 # Update Tag
@@ -26,6 +26,20 @@ ID of tag
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="type" type="array" required=false %}
+Array of strings. Indicate if a tag will be attached to a case or contact.
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="color" type="string" required=false %}
+Hex color code.
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="name" type="string" required=false %}
+Tag name. Must be unique.
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
