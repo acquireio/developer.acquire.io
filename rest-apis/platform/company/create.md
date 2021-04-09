@@ -1,3 +1,7 @@
+---
+description: Add a company.
+---
+
 # Add company
 
 {% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/company" path="" %}
@@ -18,16 +22,32 @@ Bearer {{api\_key}}
 {% endapi-method-headers %}
 
 {% api-method-body-parameters %}
+{% api-method-parameter name="description" type="string" required=false %}
+A short description of the company
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="industry" type="string" required=false %}
+The company's industry
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="website" type="string" required=false %}
+The company website
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="name" type="string" required=false %}
+The company name
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="fields" type="object" required=true %}
+fields object
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="dateUpdated" type="string" required=false %}
 2020-09-10T11:44:05.143Z
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="dateCreated" type="string" required=false %}
 2020-09-10T11:44:05.143Z
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="fields" type="object" required=true %}
- 
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
 {% endapi-method-request %}
