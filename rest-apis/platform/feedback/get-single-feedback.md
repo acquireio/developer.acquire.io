@@ -1,6 +1,10 @@
+---
+description: Retrieve a single feedback question
+---
+
 # Get single feedback
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/feedback/{feedbackId}" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/feedback/{{feedbackId}}" path="" %}
 {% api-method-summary %}
 Get Single Feedback
 {% endapi-method-summary %}
