@@ -1,3 +1,7 @@
+---
+description: Create a note.
+---
+
 # Create
 
 {% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/note/create?contactId={{contactId}}" path="" %}
@@ -23,6 +27,28 @@ Bearer {{api\_key}}
 The contact's ID
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="mentionUsers" type="array" required=false %}
+Array of integers. Mention userIds in the note. 
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="message" type="string" required=false %}
+Message of the note
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="description" type="string" required=false %}
+A description for the note
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="title" type="string" required=false %}
+Title for the note
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="type" type="string" required=true %}
+"note"
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}

@@ -1,3 +1,7 @@
+---
+description: Retrieve a list of note messages
+---
+
 # Retrieve note messages
 
 {% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/note/messages?noteId=8" path="" %}

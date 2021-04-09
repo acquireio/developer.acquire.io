@@ -1,3 +1,7 @@
+---
+description: Retrieve all notes.
+---
+
 # List all notes
 
 {% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/note?lcontact\_id={{contact\_id}}" path="" %}

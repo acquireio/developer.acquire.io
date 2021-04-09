@@ -1,10 +1,10 @@
 ---
-description: 'Note API is text which is linked to with object like a Contact, Case.'
+description: Notes are texts that are linked to case and contact objects.
 ---
 
 # Notes
 
-Note API helps us creating a new note as a case or sending a note message under a particular case.
+Create, retrieve, update or delete notes for a particular contact or case.
 
 ## Attributes
 
@@ -20,61 +20,61 @@ Note API helps us creating a new note as a case or sending a note message under 
     <tr>
       <td style="text-align:left">id</td>
       <td style="text-align:left">Integer</td>
-      <td style="text-align:left">Specifies ID of the note</td>
+      <td style="text-align:left">Specifies ID of the note.</td>
     </tr>
     <tr>
       <td style="text-align:left">contactId</td>
       <td style="text-align:left">Integer</td>
       <td style="text-align:left">
         <p>Specifies the contactID of the note</p>
-        <p>under which it is been created</p>
+        <p>under which it was created.</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">type</td>
       <td style="text-align:left">String</td>
       <td style="text-align:left">
-        <p>Specifies the type of the note weather</p>
-        <p>it&apos;s a separate note or a note message</p>
+        <p>Specifies the type of note and whether or not</p>
+        <p>it&apos;s a separate note or a note message.</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">title</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">Specifies the title of the note which got created</td>
+      <td style="text-align:left">Specifies the title of the note which was created.</td>
     </tr>
     <tr>
       <td style="text-align:left">description</td>
       <td style="text-align:left">String</td>
-      <td style="text-align:left">Specifies the title of the description which got created</td>
+      <td style="text-align:left">Specifies the description of the note.</td>
     </tr>
     <tr>
       <td style="text-align:left">userId</td>
       <td style="text-align:left">Integer</td>
-      <td style="text-align:left">Specifies the ID of the user created the note</td>
+      <td style="text-align:left">Specifies the ID of the user who created the note.</td>
     </tr>
     <tr>
       <td style="text-align:left">dateCreated</td>
       <td style="text-align:left">Date</td>
-      <td style="text-align:left">Specifies the date on which the note got created</td>
+      <td style="text-align:left">Specifies the date on which the note was created.</td>
     </tr>
     <tr>
       <td style="text-align:left">users</td>
       <td style="text-align:left">Object</td>
       <td style="text-align:left">
         <p>Specifies the details of the users</p>
-        <p>involved in the notes</p>
+        <p>involved in the notes.</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">lastMessage</td>
       <td style="text-align:left">Object</td>
-      <td style="text-align:left">Specifies the details of the last Message on the note section</td>
+      <td style="text-align:left">Specifies the last, or most recent, message in the note section</td>
     </tr>
   </tbody>
 </table>
 
 ## Permissions
 
-To request a case endpoint, you will need a valid API key with the case access permissions.
+To request a case endpoint, you will need a valid API key with note access permissions.
 

@@ -1,3 +1,7 @@
+---
+description: Add a message to a note.
+---
+
 # Add note message
 
 {% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/note/add-message" path="" %}
@@ -16,6 +20,20 @@ Add a message to a note. The body must contain the **note\_id, contact\_id,** an
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="type" type="string" required=true %}
+message
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="contact\_id" type="integer" required=true %}
+The contact's ID that the note is attached to
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="note\_id" type="integer" required=true %}
+The note's ID
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}

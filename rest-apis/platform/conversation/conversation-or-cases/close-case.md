@@ -1,5 +1,5 @@
 ---
-description: API to close a case
+description: Close a case
 ---
 
 # Close Case
@@ -20,6 +20,12 @@ Closes a case. The **caseId** must be passed in the body of the request.
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="caseId" type="integer" required=true %}
+The case ID
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}

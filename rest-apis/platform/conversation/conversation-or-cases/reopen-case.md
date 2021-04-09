@@ -1,3 +1,7 @@
+---
+description: Reopen a close case.
+---
+
 # Reopen Case
 
 {% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/messenger/chat/create?contactId={{contactId}}" path="" %}

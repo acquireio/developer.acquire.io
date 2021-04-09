@@ -2,7 +2,7 @@
 description: Delete a specific Snooze
 ---
 
-# Delete Snooze
+# \[Under Construction\] Delete Snooze
 
 {% api-method method="delete" host="https://{{acount\_id}}.acquire.io/api/v1/crm/follow-up/{{snoozeId}}" path="" %}
 {% api-method-summary %}
@@ -10,6 +10,8 @@ Delete Snooze
 {% endapi-method-summary %}
 
 {% api-method-description %}
+**This endpoint is under construction**   
+  
 Delete a specific snooze based on its ID. The **snoozeId** must be passed in to the endpoint as a path parameter. Snoozes may _only_ be deleted by the agent who created them. **Warning**: This action cannot be undone. 
 {% endapi-method-description %}
 

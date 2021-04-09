@@ -90,7 +90,7 @@
       * [Reopen Case](rest-apis/platform/conversation/conversation-or-cases/reopen-case.md)
       * [Invite Agent](rest-apis/platform/conversation/conversation-or-cases/invite-agent.md)
     * [Snooze](rest-apis/platform/conversation/snooze/README.md)
-      * [Delete Snooze](rest-apis/platform/conversation/snooze/delete-snooze.md)
+      * [\[Under Construction\] Delete Snooze](rest-apis/platform/conversation/snooze/delete-snooze.md)
       * [Create Snooze](rest-apis/platform/conversation/snooze/create-snooze.md)
     * [Notes](rest-apis/platform/conversation/conversation-or-notes/README.md)
       * [List all notes](rest-apis/platform/conversation/conversation-or-notes/list.md)

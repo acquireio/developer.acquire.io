@@ -1,3 +1,7 @@
+---
+description: Delete a note
+---
+
 # Delete note
 
 {% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/crm/note/{{noteId}}" path="" %}
@@ -42,4 +46,6 @@ Bearer {{api\_key}}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+
+
 
