@@ -28,7 +28,7 @@ Bearer {{api\_key}}
 {% endapi-method-headers %}
 
 {% api-method-body-parameters %}
-{% api-method-parameter name="type" type="array" required=false %}
+{% api-method-parameter name="type" type="array" required=true %}
 Array of strings. Indicate if a tag will be attached to a case or contact.
 {% endapi-method-parameter %}
 
