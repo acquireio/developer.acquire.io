@@ -1,5 +1,5 @@
 ---
-description: API to delete custom attributes
+description: Delete a custom attribute.
 ---
 
 # Delete a custom attribute

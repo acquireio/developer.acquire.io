@@ -1,5 +1,5 @@
 ---
-description: API to add a new custom attribute to the list of available custom attributes
+description: Add a new custom attribute.
 ---
 
 # Add a custom attribute

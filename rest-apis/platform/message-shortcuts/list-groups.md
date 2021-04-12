@@ -1,5 +1,5 @@
 ---
-description: API to list all the different shortcut groups available
+description: API to list all the different shortcut groups available.
 ---
 
 # List Groups

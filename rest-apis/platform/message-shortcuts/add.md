@@ -1,5 +1,5 @@
 ---
-description: Add a new message shortcut
+description: Add a new message shortcut.
 ---
 
 # Add

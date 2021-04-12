@@ -6,7 +6,7 @@ description: >-
 
 # Message Shortcuts
 
-This API allows you to manage message shortcuts, and provides a faster way to type your message. The message shortcut API can be used to create,  retrieve, update, and delete shortcuts.
+These endpoints allows you to manage message shortcuts and provides a faster way to type your messages. These endpoints can be used to create, retrieve, update, and delete shortcuts.
 
 ### Attributes 
 
@@ -39,7 +39,7 @@ This API allows you to manage message shortcuts, and provides a faster way to ty
       <td style="text-align:left">JSON Array Object</td>
       <td style="text-align:left">
         <p>Specify the JSON conversion of</p>
-        <p>the Actual message</p>
+        <p>the actual message</p>
       </td>
     </tr>
     <tr>
@@ -65,5 +65,5 @@ This API allows you to manage message shortcuts, and provides a faster way to ty
 
 ### Permissions
 
-To request a message shortcuts endpoint, you will need a valid API Key with the Message Shortcuts permissions enabled.
+To request a message shortcuts endpoint, you will need a valid API Key with Message Shortcuts permissions enabled.
 

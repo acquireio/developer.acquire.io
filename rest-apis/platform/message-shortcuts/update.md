@@ -1,5 +1,5 @@
 ---
-description: API to update a specific message shortcut
+description: Update a specific message shortcut.
 ---
 
 # Update
@@ -55,8 +55,8 @@ Bearer {{api\_key}}
 
 ```text
 {
-    "shortcut_name":"New shorts Whistle",
-    "message":"Hello New Meessages Shortcuts"
+    "shortcut_name":"New Whistle",
+    "message":"Hello New Messages Shortcuts"
 }
 ```
 

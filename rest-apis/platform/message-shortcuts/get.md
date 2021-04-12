@@ -1,5 +1,5 @@
 ---
-description: API to get all the shortcuts available
+description: Retrieve all the shortcuts available
 ---
 
 # Get
@@ -38,7 +38,7 @@ List of fields to get
 Specify the relations
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="Order" type="object" required=false %}
+{% api-method-parameter name="order" type="object" required=false %}
 Object specifying field name to sort followed by value. eg: {"id":"DESC"}
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}

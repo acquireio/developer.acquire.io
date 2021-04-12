@@ -1,5 +1,5 @@
 ---
-description: API to update a custom attribute fields based on its ID
+description: Update a custom attribute
 ---
 
 # Update a custom attribute
@@ -10,7 +10,7 @@ Update Custom Attribute
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Update a custom attribute. The **custom\_attributeId** must be passed in to the endpoint as a path parameter.
+Update a custom attribute. The **custom\_attributeId** must be passed in to the endpoint as a path parameter. An object must be passed in to the body of the request.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -64,7 +64,7 @@ Body object
   "data": {
     "id": 33,
     "object": "string",
-    "key": "hello",
+    "key": "loyalty_number",
     "type": "text",
     "config": {},
     "system": "string"
