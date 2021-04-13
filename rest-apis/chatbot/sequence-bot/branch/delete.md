@@ -1,5 +1,5 @@
 ---
-description: API to delete sequence branch
+description: Delete sequence branch
 ---
 
 # Delete
@@ -10,14 +10,14 @@ Delete
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to delete sequence branch
+API to delete sequence branch. The branch ID must be passed in to the endpoint as a path parameter. **Warning**: This action cannot be undone. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="id" type="number" required=true %}
-
+{% api-method-parameter name="id" type="integer" required=true %}
+The ID of the branch you would like to delete
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
