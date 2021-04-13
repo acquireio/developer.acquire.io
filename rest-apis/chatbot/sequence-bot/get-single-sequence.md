@@ -1,23 +1,23 @@
 ---
-description: APi to get details of a specific sequence
+description: Retrieve details for a specific sequence
 ---
 
 # Get Single Sequence
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/bot/lead/{id}" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/bot/lead/{{id}}" path="" %}
 {% api-method-summary %}
 Get Single Sequence
 {% endapi-method-summary %}
 
 {% api-method-description %}
-APi to get details of a specific sequence
+Retrieve details for a specific sequence. The sequence id must be passed in to the endpoint as a path parameter.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="id" type="number" required=true %}
-Specify Sequence id
+{% api-method-parameter name="id" type="integer" required=true %}
+Specify sequence ID
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
