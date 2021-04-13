@@ -57,58 +57,6 @@ Bearer {{api\_key}}
       "photo": "",
       "email": "user@example.com",
       "clientId": "",
-      "meta": {
-        "fields": {
-          "onboard_setup": {
-            "structValue": {
-              "fields": {
-                "install": {
-                  "boolValue": false,
-                  "kind": "boolValue"
-                },
-                "welcome": {
-                  "boolValue": false,
-                  "kind": "boolValue"
-                },
-                "setupMail": {
-                  "boolValue": false,
-                  "kind": "boolValue"
-                },
-                "setupVoip": {
-                  "boolValue": false,
-                  "kind": "boolValue"
-                },
-                "setupAppStore": {
-                  "boolValue": false,
-                  "kind": "boolValue"
-                },
-                "setupSocialApp": {
-                  "boolValue": false,
-                  "kind": "boolValue"
-                }
-              }
-            },
-            "kind": "structValue"
-          },
-          "productUpdate": {
-            "structValue": {
-              "fields": {
-                "data": {
-                  "listValue": {
-                    "values": []
-                  },
-                  "kind": "listValue"
-                },
-                "lastSeenArticleLength": {
-                  "numberValue": 0,
-                  "kind": "numberValue"
-                }
-              }
-            },
-            "kind": "structValue"
-          }
-        }
-      },
       "parentId": 0,
       "type": "user",
       "accessLevel": null
