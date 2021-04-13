@@ -1,22 +1,22 @@
 ---
-description: API to get the QnA by ID
+description: Retrieve a single QnA
 ---
 
 # Get
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/bot/qna/detail/{id}" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/bot/qna/detail/{{id}}" path="" %}
 {% api-method-summary %}
 Get
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to get QnA By ID
+Retrieve a single QnA. The QnA id must be passed in to the endpoint as a path parameter.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="id" type="number" required=true %}
+{% api-method-parameter name="id" type="integer" required=true %}
 Specify ID for the QnA to get the details
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
