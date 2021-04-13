@@ -1,23 +1,23 @@
 ---
-description: API to reorder branch sequence
+description: Reorder branch sequence
 ---
 
 # Reorder Branch In Sequence
 
-{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/bot/lead/reorder/{id}" path="" %}
+{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/bot/lead/reorder/{{id}}" path="" %}
 {% api-method-summary %}
 Reorder Branch In Sequence
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to reorder branch sequence
+Reorder branch sequence. The Sequence Bot `id` must be passed in to the endpoint as a path parameter. The body must contain a `data` object. To reorder the branches, set the opening  branch ID at position 0 of the data array. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="id" type="number" required=true %}
-Specify Id of the branch
+{% api-method-parameter name="id" type="integer" required=true %}
+Sequence bot ID
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
@@ -26,6 +26,12 @@ Specify Id of the branch
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="data" type="array" required=true %}
+Array of branch IDs.
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
