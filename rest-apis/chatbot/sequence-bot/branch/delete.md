@@ -4,7 +4,7 @@ description: Delete sequence branch
 
 # Delete
 
-{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/bot/lead/branch/{id}" path="" %}
+{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/bot/lead/branch/{{id}}" path="" %}
 {% api-method-summary %}
 Delete
 {% endapi-method-summary %}

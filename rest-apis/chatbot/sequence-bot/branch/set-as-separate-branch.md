@@ -1,23 +1,23 @@
 ---
-description: API to set the parent branch
+description: Set the parent branch
 ---
 
 # Set as Parent Branch
 
-{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/bot/lead/parent-branch/{branchId}" path="" %}
+{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/bot/lead/parent-branch/{{branchId}}" path="" %}
 {% api-method-summary %}
 Set as Parent Branch
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to set the parent branch
+Set the parent branch. The child branch \(`branchId`\) must be passed through the endpoint as a path parameter. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="branchId" type="string" required=true %}
-Specify branch id
+{% api-method-parameter name="branchId" type="integer" required=true %}
+Specify branch id for child branch
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
@@ -26,6 +26,12 @@ Specify branch id
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="leadId" type="integer" required=true %}
+Specify branch id for parent branch
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
