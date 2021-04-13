@@ -1,23 +1,23 @@
 ---
-description: API to update specific sequence by it's ID
+description: Update a Sequence Bot's details
 ---
 
 # Update
 
-{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/bot/lead/{id}" path="" %}
+{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/bot/lead/{{id}}" path="" %}
 {% api-method-summary %}
 Update
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to update specific sequence by it's ID
+Update a sequence bot's description. The id must be passed into the endpont as a path parameter.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="id" type="number" required=true %}
-Specify ID of the sequence to be updated
+{% api-method-parameter name="id" type="integer" required=true %}
+Specify the ID of the sequence to be updated
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
