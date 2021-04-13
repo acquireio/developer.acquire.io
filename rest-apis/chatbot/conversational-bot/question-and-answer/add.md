@@ -1,5 +1,5 @@
 ---
-description: API to add a new QnA
+description: Add a new QnA
 ---
 
 # Add
@@ -10,7 +10,15 @@ Add QnA
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to add a new API
+Create a new QnA. The body must contain the following parameters:   
+  
+qnaGroupId - The ID of the group the QnA will be added to.   
+  
+qnaMainQuestions - An array of objects. Each question object must have a key of "question" with a value of the question you intend to add. Questions may be separated by a comma.   
+  
+qnaMainAnswers -  An array of objects. Each answer object must have a key of "answer" with a value of the answer you intend to add. Answers may be separated by a comma.   
+  
+qnaMainActions - An array with a single object. Must have the keys "actionType" and "actionVal". 
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -20,6 +28,24 @@ API to add a new API
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="qnaMainActions" type="array" required=true %}
+Array of objects. 
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="qnaMainAnswers" type="array" required=true %}
+Array of objects. Each answer should be written as a string. 
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="qnaMainQuestions" type="array" required=true %}
+Array of objects. Each question should be written as a string.
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="qnaGroupId" type="integer" required=true %}
+Group ID that the QnA will be added to
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
