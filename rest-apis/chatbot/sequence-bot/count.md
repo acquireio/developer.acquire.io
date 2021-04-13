@@ -1,5 +1,5 @@
 ---
-description: API to get the count of sequences
+description: Retrieve the count of sequences
 ---
 
 # Count
@@ -10,17 +10,11 @@ Sequence Count
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to get the count of sequences
+Retrieve the number of sequences. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" required=true type="string" %}
 Bearer {{api\_key}}

@@ -1,5 +1,5 @@
 ---
-description: API to add a new sequence
+description: Add a new sequence
 ---
 
 # Add
@@ -12,9 +12,9 @@ Add
 {% api-method-description %}
 Add a new sequence. The following are required in the body:   
   
-`"greeting"` - set to `"active"`   
+`"greeting"` - set to `"active"` to include the greeting or set to `"disabled"` to skip the greeting.    
   
-`"status"` - `"publish"` on your site or keep as a "draft" to work on later  
+`"status"` - `"publish"` on your site or keep as a `"draft"` to work on later.   
   
 `"title"` - the name of the sequence
 {% endapi-method-description %}
@@ -29,11 +29,11 @@ Bearer {{api\_key}}
 
 {% api-method-body-parameters %}
 {% api-method-parameter name="greeting" type="string" required=true %}
-"active"
+Include a greeting. Choose from "active" or "disabled".
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="status" type="string" required=true %}
-"draft" \| "publish"
+Set the status of the sequence. Choose from "draft" or "publish".
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="title" type="string" required=true %}
