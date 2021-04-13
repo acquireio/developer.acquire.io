@@ -28,7 +28,7 @@
     * [onAgentAssign](widget/functioning-customization/events-callbacks/onagentassign.md)
     * [onAgentStateChange \(Available/Unavailable\)](widget/functioning-customization/events-callbacks/onagentstatechange-available-unavailable.md)
   * [Link resources](widget/functioning-customization/link-support/README.md)
-    * [Share channels](widget/functioning-customization/link-support/channel-links.md)
+    * [Share channel link](widget/functioning-customization/link-support/channel-links.md)
 
 ## SDK
 
