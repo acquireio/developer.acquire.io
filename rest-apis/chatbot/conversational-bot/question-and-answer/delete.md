@@ -1,23 +1,23 @@
 ---
-description: API to delete the QnA
+description: Delete a QnA
 ---
 
 # Delete
 
-{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/bot/qna/{id}" path="" %}
+{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/bot/qna/{{id}}" path="" %}
 {% api-method-summary %}
 Delete QnA
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to delete a specific QnA
+Delete a QnA. The QnA `"id"` must be passed in to the endpoint as a path parameter. **Warning**: This action cannot be undone. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="id" type="number" required=true %}
-Specify QnA ID to delete
+{% api-method-parameter name="id" type="integer" required=true %}
+Specify the QnA id to delete
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
