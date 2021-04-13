@@ -1,5 +1,5 @@
 ---
-description: API to take bulk action on QnA
+description: Take bulk action on QnAs
 ---
 
 # Bulk Action
