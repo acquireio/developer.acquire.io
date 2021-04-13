@@ -1,5 +1,5 @@
 ---
-description: API to update the branch position
+description: Update the branch position
 ---
 
 # Update Branch Position

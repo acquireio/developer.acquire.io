@@ -4,13 +4,13 @@ description: API to update a parent branch
 
 # Update as Parent branch
 
-{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/bot/lead/parent-branch/{id}" path="" %}
+{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/bot/lead/parent-branch/{{id}}" path="" %}
 {% api-method-summary %}
 Update as Parent branch
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to update a parent branch. The child branch `id` must be passed in to the endpoint as a path parameter.
+API to update a parent branch. The child branch `id` must be passed in to the endpoint as a path parameter. The parent branch must be passed through the body as `leadId`. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -28,7 +28,7 @@ Bearer {{api\_key}}
 {% endapi-method-headers %}
 
 {% api-method-body-parameters %}
-{% api-method-parameter name="id" type="integer" required=true %}
+{% api-method-parameter name="leadId" type="integer" required=true %}
 Parent branch ID
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
@@ -55,7 +55,7 @@ Parent branch ID
 
 ```text
 {
-  "id": 926,
+  "leadId": 926,
   "currentPos": {
     "x": 22,
     "y": 30
