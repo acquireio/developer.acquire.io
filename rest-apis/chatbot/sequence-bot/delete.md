@@ -1,22 +1,22 @@
 ---
-description: API to delete sequence
+description: Delete a sequence
 ---
 
 # Delete
 
-{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/bot/lead/{id}" path="" %}
+{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/bot/lead/{{id}}" path="" %}
 {% api-method-summary %}
 Delete
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to delete sequence
+Delete a sequence. The `id` must be passed in to the endpoint as a path parameter. **Warning**: This action cannot be undone. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="Id" type="number" required=true %}
+{% api-method-parameter name="id" type="integer" required=true %}
 ID of the sequence to be deleted
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
