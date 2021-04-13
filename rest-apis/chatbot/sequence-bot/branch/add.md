@@ -1,5 +1,5 @@
 ---
-description: API to add a new Sequence branch
+description: Add a new Sequence branch
 ---
 
 # Add
@@ -10,7 +10,7 @@ Add
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to add a new Sequence branch
+Add a new Sequence branch. The Sequence ID must be passed in to body. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -20,6 +20,28 @@ API to add a new Sequence branch
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="y" type="string" required=false %}
+The location that the branch will be placed on the y-axis
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="x" type="string" required=false %}
+The location that the branch will be placed on the x-axis
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="position" type="object" required=false %}
+position object
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="title" type="string" required=false %}
+The title of the branch
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="id" type="integer" required=true %}
+The Sequence ID that the branch will be part of
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}

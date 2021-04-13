@@ -1,23 +1,23 @@
 ---
-description: API to get the details of the branch sequence by id
+description: Retrieve the details of a branch sequence.
 ---
 
 # Get Single Branch
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/bot/lead/branch/{id}" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/bot/lead/branch/{{id}}" path="" %}
 {% api-method-summary %}
 Get Single Branch
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to get the details of the branch sequence by id
+Retrieve the details of a single branch. The bran
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="id" type="string" required=true %}
- Sequence Id
+{% api-method-parameter name="id" type="integer" required=true %}
+ The branch Id
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
