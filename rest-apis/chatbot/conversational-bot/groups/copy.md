@@ -1,5 +1,5 @@
 ---
-description: API to copy a group
+description: Copy a group
 ---
 
 # Copy
@@ -10,7 +10,7 @@ Copy
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to copy a group
+Copy a group. The id of the group must be passed in to the endpoint as body parameter. Current questions and answers will be copied into the new group. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -20,6 +20,12 @@ API to copy a group
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="id" type="integer" required=true %}
+The ID of the group you are copying
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
