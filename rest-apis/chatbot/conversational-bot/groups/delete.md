@@ -1,22 +1,22 @@
 ---
-description: API to delete a bot group
+description: Delete a Conversational Bot group
 ---
 
 # Delete
 
-{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/bot/group/{id}" path="" %}
+{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/bot/group/{{id}}" path="" %}
 {% api-method-summary %}
 Delete Group
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to delete a specific bot group
+API to delete a specific bot Delete a Conversational Bot group. The id must be passed in to the endpoint as a path parameter. **Warning:** This action cannot be undone.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="id" type="number" required=true %}
+{% api-method-parameter name="id" type="integer" required=true %}
 GroupID to be deleted
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
