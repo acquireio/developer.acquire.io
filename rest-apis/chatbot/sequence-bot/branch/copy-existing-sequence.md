@@ -1,23 +1,23 @@
 ---
-description: API to create copy of the existing sequence
+description: Copy an existing sequence
 ---
 
 # Copy Existing Sequence
 
-{% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/bot/lead/clone/{id}" path="" %}
+{% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/bot/lead/clone/{{id}}" path="" %}
 {% api-method-summary %}
 Copy Existing Sequence
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to create copy of the existing sequence
+Create  a copy of the existing sequence. The Sequence id must be passed in the endpoint as a path parameter.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="id" type="number" required=true %}
-Sequence id
+{% api-method-parameter name="id" type="integer" required=true %}
+The ID of the Sequence you intend to copy
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
