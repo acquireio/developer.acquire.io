@@ -1,5 +1,5 @@
 ---
-description: API to list the bot sequences available
+description: List the bot sequences available
 ---
 
 # Sequence List
@@ -10,7 +10,7 @@ List Sequence
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to list the bot sequences available
+List the bot sequences available
 {% endapi-method-description %}
 
 {% api-method-spec %}
