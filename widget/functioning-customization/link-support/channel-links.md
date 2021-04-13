@@ -1,2 +1,2 @@
-# Channel links
+# Share channels
 
