@@ -1,23 +1,23 @@
 ---
-description: API to update QnA by it's ID
+description: Update a QnA
 ---
 
 # Update
 
-{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/bot/qna/{id}" path="" %}
+{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/bot/qna/{{id}}" path="" %}
 {% api-method-summary %}
 Update QnA
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Update QnA
+Update a QnA. The QnA id must be passed in to the endpoint as a path parameter. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="id" type="number" required=true %}
-Specify QnA id
+{% api-method-parameter name="id" type="integer" required=true %}
+QnA ID
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
