@@ -1,16 +1,16 @@
 ---
-description: API to list the QnA available
+description: List the questions and answers in a group.
 ---
 
 # List
 
-{% api-method method="get" host="https://{account\_id}.acquire.io/api/v1/bot/qna?type=all&groupId=1" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/bot/qna?type={{type}}&groupId={{groupId}}" path="" %}
 {% api-method-summary %}
-
+List all questions and answers
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to list the QnA
+Retrieve a list of questions and answers for a group. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -23,11 +23,11 @@ Bearer {{api\_key}}
 
 {% api-method-query-parameters %}
 {% api-method-parameter name="type" type="string" required=true %}
-Specify the type available options: all,live,suggested
+Specify the type of question/answer: all, live, or suggested
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="groupid" type="number" required=true %}
-Specify groups Id
+{% api-method-parameter name="groupId" type="integer" required=true %}
+Specify the group's ID
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
