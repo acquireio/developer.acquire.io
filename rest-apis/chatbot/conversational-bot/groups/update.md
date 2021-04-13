@@ -1,5 +1,5 @@
 ---
-description: API to update bot group
+description: Update bot group
 ---
 
 # Update
@@ -10,7 +10,7 @@ Update Group
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to update a specific bot group
+Update a Conversational Bot group's details.
 {% endapi-method-description %}
 
 {% api-method-spec %}
