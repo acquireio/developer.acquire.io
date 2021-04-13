@@ -10,7 +10,7 @@ List all questions and answers
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Retrieve a list of questions and answers for a group. 
+Retrieve a list of questions and answers for a group. You must choose the type of questions and answers you'd like to retrieve \(all, live, or suggested\) and specify the groupId as query parameters.
 {% endapi-method-description %}
 
 {% api-method-spec %}
