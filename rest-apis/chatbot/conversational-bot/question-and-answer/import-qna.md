@@ -1,5 +1,5 @@
 ---
-description: API to import QnA
+description: Import QnA
 ---
 
 # Import QnA
@@ -10,7 +10,7 @@ Importing QnA
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to import QnA
+Import QnA
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -20,6 +20,16 @@ API to import QnA
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="qnaGroupId" type="integer" required=true %}
+
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="qnaSource" type="string" required=true %}
+
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
