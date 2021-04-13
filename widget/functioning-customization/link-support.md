@@ -1,2 +1,2 @@
-# Link Support
+# Link resources
 

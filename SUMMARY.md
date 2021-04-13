@@ -27,7 +27,7 @@
     * [onChatClosed](widget/functioning-customization/events-callbacks/onchatclosed.md)
     * [onAgentAssign](widget/functioning-customization/events-callbacks/onagentassign.md)
     * [onAgentStateChange \(Available/Unavailable\)](widget/functioning-customization/events-callbacks/onagentstatechange-available-unavailable.md)
-  * [Link Support](widget/functioning-customization/link-support.md)
+  * [Link resources](widget/functioning-customization/link-support.md)
 
 ## SDK
 
