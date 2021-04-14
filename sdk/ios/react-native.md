@@ -1,8 +1,6 @@
 # React Native
 
-
-
-## AcquireIOSupport SDK
+## AcquireIO Support SDK
 
 There are 2 variants for this SDK
 
