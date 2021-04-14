@@ -42,6 +42,7 @@
   * [Theme Setting](sdk/ios/theme-setting.md)
   * [Acquire SDK Delegates](sdk/ios/acquire-sdk-delegates.md)
   * [Widget customization](sdk/ios/widget-customization.md)
+  * [React Native](sdk/ios/react-native.md)
 * [Android](sdk/android/README.md)
   * [Getting Started](sdk/android/getting-started/README.md)
     * [Integration Guide \(Core\)](sdk/android/getting-started/integration-guide.md)
