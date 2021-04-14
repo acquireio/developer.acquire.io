@@ -4,7 +4,8 @@
 
 There are 2 variants for this SDK
 
-1\) **AcquireIO support \(Core\)** for real-time chat and audio/video calls. 2\) **AcquireIO support \(Lite\)** for real-time chat.
+1\) **AcquireIO support \(Core\)** for real-time chat and audio/video calls.   
+2\) **AcquireIO support \(Lite\)** for real-time chat.
 
 > **Note**: Lite version supports only chat feature. To use audio/video calls, Core version is available.
 
