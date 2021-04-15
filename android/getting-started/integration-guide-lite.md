@@ -26,7 +26,7 @@ Module build.gradle :
 
 ```javascript
 dependencies {
-    implementation 'com.acquireio:lite-beta:3.+'
+    implementation 'com.acquireio:lite:3.+'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.10"
     implementation("org.jetbrains.kotlin:kotlin-reflect:1.4.20")
     implementation 'androidx.appcompat:appcompat:1.2.0'
