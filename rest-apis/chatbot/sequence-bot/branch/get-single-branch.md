@@ -37,8 +37,28 @@ Bearer {{api\_key}}
 ```
 {
   "data": {
-    "success": true,
-    "message": "Branch updated successfully"
+    "branch": {
+      "id": 926,
+      "title": "Demo Branch",
+      "visibleOrder": 8,
+      "position": {
+        "x": 22,
+        "y": 30
+      },
+      "isParent": "no",
+      "leadEdges": [
+        {
+          "id": 1628,
+          "type": "auto_followup",
+          "typeVal": null,
+          "followupFalsefallback": "Hello from Bot!",
+          "followupFalsefallbackJson": null,
+          "visibleOrder": 0,
+          "leadEdgeActions": [],
+          "leadEdgeBubbles": []
+        }
+      ]
+    }
   }
 }
 
