@@ -10,7 +10,7 @@ Add
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Add a new Sequence branch. The Sequence ID must be passed in to body. 
+Add a new Sequence branch. The Sequence ID must be passed into the body. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
