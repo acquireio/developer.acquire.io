@@ -4,7 +4,7 @@ description: Update the branch position
 
 # Update Branch Position
 
-{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/bot/lead/parent-branch/{{id}}" path="" %}
+{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/bot/lead/branch-coords/{branchId}" path="" %}
 {% api-method-summary %}
 Update Branch Position
 {% endapi-method-summary %}
@@ -16,7 +16,7 @@ Update the branch position.
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="id" type="integer" required=true %}
+{% api-method-parameter name="branchId" type="integer" required=true %}
 Specify the branch ID you'd like to update
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
@@ -26,12 +26,6 @@ Specify the branch ID you'd like to update
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
-
-{% api-method-body-parameters %}
-{% api-method-parameter name="leadId" type="integer" required=true %}
-Parent branch ID
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
