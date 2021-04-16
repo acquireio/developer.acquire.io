@@ -2,7 +2,7 @@
 description: Perform bulk actions on bots
 ---
 
-# Bulk Action on bots
+# Bulk Action
 
 {% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/bot/lead/bulk" path="" %}
 {% api-method-summary %}
