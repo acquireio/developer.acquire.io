@@ -47,14 +47,13 @@ Bearer {{api\_key}}
 
 ```text
 {
-  "actionType": "delete",
-  "recordIds": [
-    3773, 3752
-  ],
-  "targetGroup": [
-    "1"
-  ]
+   "actionType":"delete",
+   "groupId":1,
+   "recordIds":[
+      2,
+      1
+   ],
+   "tab":"qna"
 }
-
 ```
 
