@@ -22,11 +22,11 @@ Bearer {{api\_key}}
 {% endapi-method-headers %}
 
 {% api-method-body-parameters %}
-{% api-method-parameter name="qnaGroupId" type="integer" required=true %}
+{% api-method-parameter name="qnaGroupId" type="integer" required=false %}
 
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="qnaSource" type="string" required=true %}
+{% api-method-parameter name="qnaSource" type="string" required=false %}
 
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
