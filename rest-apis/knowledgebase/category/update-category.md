@@ -1,3 +1,9 @@
+---
+description: >-
+  This endpoint allows you to update the details of existing category in the
+  knowledge base.
+---
+
 # Update Category
 
 {% api-method method="put" host="https://{{account\_uid}}.acquire.io/api/v1/kb/category/update/{{id}}" path="" %}
@@ -6,7 +12,7 @@ Update Category
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+This endpoint allows you to update the details of existing category in the knowledge base.
 {% endapi-method-description %}
 
 {% api-method-spec %}

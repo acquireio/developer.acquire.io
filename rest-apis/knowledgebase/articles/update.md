@@ -1,3 +1,9 @@
+---
+description: >-
+  This endpoint allows you to update the details of an existing article in the
+  knowledge base.
+---
+
 # Update Article
 
 {% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/kb/article/update/{{id}}" path="" %}
@@ -6,7 +12,7 @@ Update Article
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+This endpoint allows you to update the details of an existing article in the knowledge base.
 {% endapi-method-description %}
 
 {% api-method-spec %}

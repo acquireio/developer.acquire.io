@@ -1,3 +1,7 @@
+---
+description: This endpoint allows you to add a new category in the knowledge base.
+---
+
 # Add Category
 
 {% api-method method="post" host="https://{{account\_uid}}.acquire.io/api/v1/kb/category/add" path="" %}
@@ -6,7 +10,7 @@ Add New Category
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+This endpoint allows you to add a new category in the knowledge base.
 {% endapi-method-description %}
 
 {% api-method-spec %}

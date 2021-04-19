@@ -13,7 +13,7 @@ Delete Article
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Delete an article. The id must be passed in the endpoint as a path parameter. The groupId must be passed in the endpoint as a query parameter. Warning: This action cannot be undone.
 {% endapi-method-description %}
 
 {% api-method-spec %}

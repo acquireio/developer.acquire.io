@@ -1,3 +1,9 @@
+---
+description: >-
+  This endpoint allows you to get all existing article groups in the knowledge
+  base.
+---
+
 # Get
 
 {% api-method method="get" host="https://{{account\_uid}}.acquire.io/api/v1/kb/group" path="" %}
@@ -6,7 +12,7 @@ Get All Knowledge base
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+This endpoint allows you to get all existing article groups in the knowledge base.
 {% endapi-method-description %}
 
 {% api-method-spec %}

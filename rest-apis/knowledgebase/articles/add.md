@@ -1,5 +1,5 @@
 ---
-description: Add new article.
+description: Add a new article to a Knowledge Base
 ---
 
 # Add Article

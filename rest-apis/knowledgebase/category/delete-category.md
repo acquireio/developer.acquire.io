@@ -1,3 +1,7 @@
+---
+description: This endpoint allows you to delete a category from the knowledge base
+---
+
 # Delete Category
 
 {% api-method method="delete" host="https://{{account\_uid}}.acquire.io/api/v1/kb/category/delete/{{id}}" path="" %}
@@ -6,7 +10,7 @@ Delete Category
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+This endpoint allows you to delete a category from the knowledge base
 {% endapi-method-description %}
 
 {% api-method-spec %}
