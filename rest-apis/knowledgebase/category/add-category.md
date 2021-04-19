@@ -1,6 +1,6 @@
 # Add Category
 
-{% api-method method="post" host="https://{{account\_uid}}.acquire.io/api/v1" path="/kb/category/add" %}
+{% api-method method="post" host="https://{{account\_uid}}.acquire.io/api/v1/kb/category/add" path="" %}
 {% api-method-summary %}
 Add New Category
 {% endapi-method-summary %}

@@ -1,6 +1,6 @@
 # Get Category
 
-{% api-method method="get" host="https://{{account\_uid}}.acquire.io/api/v1" path="/kb/category" %}
+{% api-method method="get" host="https://{{account\_uid}}.acquire.io/api/v1/kb/category" path="" %}
 {% api-method-summary %}
 Get All Categories
 {% endapi-method-summary %}

@@ -1,6 +1,6 @@
 # Delete Category
 
-{% api-method method="delete" host="https://{{account\_uid}}.acquire.io/api/v1" path="/kb/category/delete/:id" %}
+{% api-method method="delete" host="https://{{account\_uid}}.acquire.io/api/v1/kb/category/delete/{{id}}" path="" %}
 {% api-method-summary %}
 Delete Category
 {% endapi-method-summary %}

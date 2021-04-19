@@ -1,6 +1,6 @@
 # Update Category
 
-{% api-method method="put" host="https://{{account\_uid}}.acquire.io/api/v1" path="/kb/category/update/:id" %}
+{% api-method method="put" host="https://{{account\_uid}}.acquire.io/api/v1/kb/category/update/{{id}}" path="" %}
 {% api-method-summary %}
 Update Category
 {% endapi-method-summary %}
