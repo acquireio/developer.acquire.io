@@ -1,3 +1,9 @@
+---
+description: >-
+  This endpoint allows you to get all the available categories in the knowledge
+  base.
+---
+
 # Get Category
 
 {% api-method method="get" host="https://{{account\_uid}}.acquire.io/api/v1/kb/category" path="" %}
@@ -6,7 +12,7 @@ Get All Categories
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+This endpoint allows you to get all the available categories in the knowledge base.
 {% endapi-method-description %}
 
 {% api-method-spec %}
