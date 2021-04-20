@@ -10,7 +10,7 @@ Bulk Update
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to take bulk action on QnA
+Perform a bulk action on multiple QnAs. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -20,6 +20,24 @@ API to take bulk action on QnA
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="tab" type="string" required=true %}
+Specify the section. Current sections: "qna"
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="recordIds" type="array" required=true %}
+Array of integers. The IDs of the QnAs.  
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="groupId" type="integer" required=true %}
+The QnA's group
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="actionType" type="string" required=true %}
+Specify which action to take. Current actions: "delete".
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
