@@ -1,5 +1,19 @@
 # Bot resources
 
+### Acquire Bots
+
+{% tabs %}
+{% tab title="Conversational Bots" %}
+Answer visitor questions in the absence of live operators. 
+
+Source instruction guide, [click here](https://help.acquire.io/chatbots/which-bot-type).
+{% endtab %}
+
+{% tab title="Sequence Bots" %}
+Predefined sequences to collect visitor details. Source instruction guide, [click here](https://help.acquire.io/chatbots/which-bot-type).
+{% endtab %}
+{% endtabs %}
+
 ### Third-party Bots
 
 Integrate a third-party bot to your Acquire account. Once installed, the bot will be available for use in the Trigger settings.
