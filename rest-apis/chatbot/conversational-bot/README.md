@@ -6,6 +6,8 @@ description: The Conversational Bot uses AI to respond to visitors.
 
 Conversational bot API allows you to view, add, and edit questions in the group.
 
+Source instruction guide, [click here](https://help.acquire.io/chatbots/build-conversational-bot). 
+
 ### Attributes 
 
 | ATTRIBUTE | TYPE | DESCRIPTION |

@@ -8,6 +8,8 @@ description: >-
 
 This section allows you to retrieve, create, delete, and update the sequences the Sequence Bot uses in structured conversations with contacts.
 
+Source instruction guide, [click here](https://help.acquire.io/chatbots/build-sequence-bot). 
+
 ### Attributes 
 
 | ATTRIBUTE | TYPE | DESCRIPTION |
