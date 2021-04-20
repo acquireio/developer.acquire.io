@@ -1,3 +1,9 @@
+---
+description: >-
+  Integrate a third-party bot to your Acquire account. Once installed, the bot
+  will be available for use in the Trigger settings.
+---
+
 # Third-party Bots
 
 <table>
