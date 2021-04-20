@@ -127,7 +127,7 @@
     * [Update](rest-apis/platform/message-shortcuts/update.md)
     * [Delete](rest-apis/platform/message-shortcuts/delete.md)
 * [Chatbot](rest-apis/chatbot/README.md)
-  * [Conversational bot](rest-apis/chatbot/conversational-bot/README.md)
+  * [Conversational Bot](rest-apis/chatbot/conversational-bot/README.md)
     * [Groups](rest-apis/chatbot/conversational-bot/groups/README.md)
       * [Get Default Group](rest-apis/chatbot/conversational-bot/groups/get-default-group.md)
       * [List](rest-apis/chatbot/conversational-bot/groups/list.md)

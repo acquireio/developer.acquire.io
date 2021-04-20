@@ -1,4 +1,8 @@
-# Conversational bot
+---
+description: The Conversational Bot uses AI to respond to visitors.
+---
+
+# Conversational Bot
 
 Conversational bot API allows you to view, add, and edit questions in the group.
 
