@@ -1,3 +1,7 @@
+---
+description: Custom report endpoints.
+---
+
 # Custom Reporting
 
 {% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1​/analytics/custom-reporting/delete-custom-chart" path="" %}
@@ -6,7 +10,7 @@ Delete Custom Chart
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Delete a custom report. Warning: This action cannot be undone.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -88,7 +92,7 @@ Create Custom Chart
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Create a custom chart. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -98,6 +102,20 @@ Create Custom Chart
 Bearer \*\*\*YOUR\_API\_KEY\*\*\*
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="config" type="array" required=true %}
+Array of object. The configuration of your chart. See example below.
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="chartType" type="string" required=true %}
+Specify the type of chart. Available charts: "table"
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="title" type="string" required=true %}
+Chart title
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -192,7 +210,7 @@ Edit Custom Report
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Edit a custom report.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -205,15 +223,15 @@ Bearer \*\*\*YOUR\_API\_KEY\*\*\*
 
 {% api-method-body-parameters %}
 {% api-method-parameter name="reportKey" type="string" required=true %}
-Key for report which you want to edit.
+Key for report which you want to edit. This is the report's current name.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="description" type="string" required=false %}
-Add description for report
+Add a description for the report
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="reportName" type="string" required=false %}
-Name of report
+Name of the report
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
 {% endapi-method-request %}
@@ -252,7 +270,7 @@ Create Custom Report
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Create a custom report.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -265,11 +283,11 @@ Bearer \*\*\*YOUR\_API\_KEY\*\*\*
 
 {% api-method-body-parameters %}
 {% api-method-parameter name="objectKey" type="string" required=true %}
-Selected object type. You can object key by calling Get Data Points API mentioned below.
+Selected object type. You can get object keys by calling the Get Data Points endpoint mentioned below.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="description" type="string" required=false %}
-
+A short description of the chart
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="reportName" type="string" required=true %}
@@ -313,7 +331,7 @@ Delete Custom Report details
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Delete a custom report's details. Warning: This action cannot be undone. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -326,7 +344,7 @@ Bearer \*\*\*YOUR\_API\_KEY\*\*\*
 
 {% api-method-query-parameters %}
 {% api-method-parameter name="report\_key" type="string" required=true %}
-Key of report which you want to delete.You can get report key by calling Get All Custom Reports API.
+The current name of the report which you want to delete.You can get report key by calling Get All Custom Reports API. 
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
@@ -355,7 +373,7 @@ Get Custom Report details
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Retrieve all custom report details.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -531,7 +549,7 @@ Get All custom reports
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Get list of all custom reports with name, description and report key.Report key will be used to get details of custom report.
+Get list of all custom reports with name, description and report key. Report key will be used to get details of custom report.
 {% endapi-method-description %}
 
 {% api-method-spec %}
