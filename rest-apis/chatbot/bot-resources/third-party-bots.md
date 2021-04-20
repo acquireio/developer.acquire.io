@@ -18,8 +18,8 @@ description: >-
       <td style="text-align:left"><a href="https://help.acquire.io/chatbots/amazon-lex-bot">Amazon Lex Bot</a>
       </td>
       <td style="text-align:left">
-        <p>The Amazon Lex Bot is designed to provide life</p>
-        <p>like conversations to users by</p>
+        <p>The Amazon Lex Bot is designed to provide life-like</p>
+        <p>conversations to users by</p>
         <p>understanding speech.</p>
       </td>
     </tr>
@@ -42,10 +42,12 @@ description: >-
     <tr>
       <td style="text-align:left"><a href="https://help.acquire.io/chatbots/ibm-watson">IBM Watson</a>
       </td>
-      <td style="text-align:left">Now let&apos;s get started</td>
+      <td style="text-align:left">
+        <p>Bots created by Watson Assistant can understand natural</p>
+        <p>language and respond to requests.</p>
+        <p>You can train and customize these bots with your own data.</p>
+      </td>
     </tr>
   </tbody>
 </table>
-
-
 
