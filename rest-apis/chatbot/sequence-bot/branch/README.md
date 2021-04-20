@@ -31,7 +31,7 @@ The Branch endpoints allow you to create, retrieve, update, and delete branches 
       <td style="text-align:left">visibleOrder</td>
       <td style="text-align:left">Integer</td>
       <td style="text-align:left">
-        <p>The order in which branch will execute on</p>
+        <p>The order in which the branch will execute on the</p>
         <p>widget side (as a lead can have multiple branches)</p>
       </td>
     </tr>
@@ -46,7 +46,7 @@ The Branch endpoints allow you to create, retrieve, update, and delete branches 
         <br />(Entity Relations)</td>
       <td style="text-align:left">
         <p>A branch will have multiple edges,</p>
-        <p>these edges can be &quot;bubble&quot;, &quot;action&quot; or simple</p>
+        <p>these edges can be &quot;bubble&quot;, &quot;action&quot; or</p>
         <p>&quot;text message&quot;</p>
       </td>
     </tr>
