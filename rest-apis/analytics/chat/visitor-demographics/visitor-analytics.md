@@ -4,15 +4,13 @@ description: View visitor activity and location information.
 
 # Visitor Analytics
 
-
-
 {% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/chat/visitors-by-location" path="" %}
 {% api-method-summary %}
 All Visitors by Location
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Retrieve counts of visitor interactions by country. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -189,7 +187,7 @@ Most Active Visit Times
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Retrieve data for most active visit times.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -612,7 +610,7 @@ Pages with Most Chats
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Retrieve data for pages with the most chats.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -685,7 +683,7 @@ Visitor Reference
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Retrieve data for the pages visitors were on before visiting your site \(also known as reference pages\). 
 {% endapi-method-description %}
 
 {% api-method-spec %}
