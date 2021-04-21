@@ -1,3 +1,7 @@
+---
+description: General analytics endpoints.
+---
+
 # General Analytics
 
 {% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/general/cases-overview" path="" %}
@@ -6,7 +10,7 @@ Overview
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Retrieve an data for cases including "Pending To Active", "Active To Close ", "Reopened", "Avg Pending To Active Time", "Avg Active To Close Time"
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -275,7 +279,7 @@ By Channel
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Retrieve the amount of cases that occurred during a time period by channel: total, chats, mail, voip, private form, social media. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -548,7 +552,7 @@ By Busiest Periods for Cases
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Retrieve the amount of cases that occurred during specified time periods.
 {% endapi-method-description %}
 
 {% api-method-spec %}
