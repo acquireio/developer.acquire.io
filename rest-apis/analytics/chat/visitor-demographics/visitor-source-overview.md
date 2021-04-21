@@ -1,3 +1,7 @@
+---
+description: Retrieve information about the technology that visitors use.
+---
+
 # Visitor Source Overview
 
 {% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/chat/browser-overview" path="" %}
@@ -6,7 +10,7 @@ Browser Overview
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Retrieve data about visitors' browsers. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -73,7 +77,7 @@ OS Overview
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Retrieve data about visitors' operating systems.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -144,7 +148,7 @@ Device Overview
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Retrieve data about visitors' devices.
 {% endapi-method-description %}
 
 {% api-method-spec %}
