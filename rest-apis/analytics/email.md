@@ -10,7 +10,7 @@ All Email Overview
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+View email data including total sent, received, and average response time.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -168,7 +168,7 @@ Activity
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+View most active times for emails that were read, unread, delivered, and replied to, and bounced.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -407,7 +407,7 @@ Busiest Periods for Email
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Time frames with the most emails sent and received.
+View time frames with the most emails sent and received.
 {% endapi-method-description %}
 
 {% api-method-spec %}
