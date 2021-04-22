@@ -10,7 +10,7 @@ Overview
 {% endapi-method-summary %}
 
 {% api-method-description %}
-View how many conversations your Sequence Bot handles.
+View how many conversations your Sequence Bot handles, including counts for initiated, completed, live hand offs, and abandoned conversations.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -168,7 +168,7 @@ Leads Generated
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Retrieve a list of Sequence Bot details including times initiated, completed, transferred, or incomplete. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -331,7 +331,7 @@ Lead Details
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Retrieve a list of sequence bot and branch details, including their IDs. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
