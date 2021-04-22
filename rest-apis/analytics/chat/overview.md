@@ -6,7 +6,7 @@ Overview
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Retrieve overview data for chat.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -258,7 +258,7 @@ Chat Handle Time
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Retrieve data for chat handle time.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -502,7 +502,7 @@ Busiest Periods for Inbound Chats
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Retrieve data for busiest period for inbound chats.
 {% endapi-method-description %}
 
 {% api-method-spec %}
