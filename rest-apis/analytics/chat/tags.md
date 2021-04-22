@@ -10,7 +10,7 @@ Conversations Tagged
 {% endapi-method-summary %}
 
 {% api-method-description %}
-The number of conversation your team tagged vs total number of conversations.
+Retrieve he number of conversation your team tagged vs total number of conversations.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -149,7 +149,7 @@ Tag Reporting
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Retrieve a list of the most frequently used tags.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -236,7 +236,7 @@ Most Common Tags
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Retrieve a list of the most common tags.
 {% endapi-method-description %}
 
 {% api-method-spec %}
