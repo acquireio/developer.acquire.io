@@ -164,7 +164,7 @@ Questions Report
 {% endapi-method-summary %}
 
 {% api-method-description %}
-View how many View the number of questions added, used, and suggested to Conversational Bot. and conversations your Conversational Bot handles.
+View how many questions were added, used, and suggested to the Conversational Bot.
 {% endapi-method-description %}
 
 {% api-method-spec %}
