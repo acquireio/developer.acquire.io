@@ -1,3 +1,7 @@
+---
+description: Retrieve chat general data.
+---
+
 # Overview
 
 {% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/chat/chat-overview" path="" %}
