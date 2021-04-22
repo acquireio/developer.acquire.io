@@ -10,7 +10,7 @@ Overview
 {% endapi-method-summary %}
 
 {% api-method-description %}
-A comprehensive view of all cobrowse metrics, including sessions, durations, visited pages.
+Retrieve a comprehensive view of all cobrowse metrics, including sessions, durations, and visited pages.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -193,7 +193,7 @@ Cobrowse with Chat
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Retrieve a list of session data, including average session time, for cobrowse chat sessions.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -376,7 +376,7 @@ Cobrowse Page Source
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Retrieve a list and count of the urls visited during cobrowse sessions. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
