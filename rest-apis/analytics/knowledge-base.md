@@ -4,15 +4,13 @@ description: 'View article visits, reader satisfaction, and popular categories.'
 
 # Knowledge Base
 
-
-
 {% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/kb/overview" path="" %}
 {% api-method-summary %}
 Overview
 {% endapi-method-summary %}
 
 {% api-method-description %}
-View data on content creation, search volume and article feedback.
+View data on content creation, search volume, and article feedback.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -103,7 +101,7 @@ Searches
 {% endapi-method-summary %}
 
 {% api-method-description %}
-An overview of how easily searchable your knowledge Base is.
+An overview of how easily searchable your Knowledge Base is.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -245,7 +243,7 @@ Most Popular Searches
 {% endapi-method-summary %}
 
 {% api-method-description %}
-The most frequently searched terms in your knowledge base.
+The most frequently searched terms in your Knowledge Base.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -312,7 +310,7 @@ All Questions Reporting
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Retrieve view count and reaction data for articles.
 {% endapi-method-description %}
 
 {% api-method-spec %}
