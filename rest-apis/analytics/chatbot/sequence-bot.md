@@ -244,7 +244,7 @@ Path Analysis
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Retrieve branch data for a Sequence Bot. The leadId must be passed in to the endpoint as a query parameter.
 {% endapi-method-description %}
 
 {% api-method-spec %}
