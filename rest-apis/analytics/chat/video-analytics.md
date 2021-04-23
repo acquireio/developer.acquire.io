@@ -10,7 +10,7 @@ Video Sessions
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Retrieve data for your video sessions.
+Retrieve data for video sessions.
 {% endapi-method-description %}
 
 {% api-method-spec %}
