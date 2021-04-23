@@ -1,12 +1,16 @@
+---
+description: Retrieve a single card.
+---
+
 # Retrieve a card
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/view/{cardId}" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/view/{{cardId}}" path="" %}
 {% api-method-summary %}
 Get single card
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Retrieve data for a single card. The cardId must be passed in to the endpoint as a path parameter.
 {% endapi-method-description %}
 
 {% api-method-spec %}
