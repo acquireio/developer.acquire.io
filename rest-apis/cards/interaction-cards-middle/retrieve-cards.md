@@ -22,11 +22,11 @@ Bearer {{api\_key}}
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="page" type="string" required=false %}
+{% api-method-parameter name="page" type="integer" required=false %}
 Specify the page number e.g. 2 to return.
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="limit" type="string" required=false %}
+{% api-method-parameter name="limit" type="integer" required=false %}
 The number of results e.g. 20 to return
 {% endapi-method-parameter %}
 
