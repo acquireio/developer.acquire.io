@@ -22,7 +22,7 @@ Bearer {{api\_key}}
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="cardId" type="string" required=true %}
+{% api-method-parameter name="cardId" type="integer" required=true %}
 Id of the card.
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
