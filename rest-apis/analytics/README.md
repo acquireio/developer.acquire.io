@@ -4,7 +4,7 @@ description: View data for the various metrics tracked in Acquire.
 
 # Analytics
 
-Acquire Analytics provides you with the necessary resources to gain a deeper understanding of your agent and customer behavior on your system. These endpoints allow you to export data into JSON or CSV and import that data into other systems. 
+Acquire Analytics provides you with the necessary resources to gain a deeper understanding of agent and customer behavior on your system. These endpoints allow you to export data into JSON or CSV and import that data into other systems. 
 
 ### **Mandatory parameters**
 
