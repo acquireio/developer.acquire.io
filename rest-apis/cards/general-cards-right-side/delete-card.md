@@ -1,18 +1,22 @@
+---
+description: Delete a custom card.
+---
+
 # Delete card
 
-{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/crm/ui-component/{cardId}" path="" %}
+{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/crm/ui-component/{{cardId}}" path="" %}
 {% api-method-summary %}
 Delete card
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Delete a Custom Card. The cardId must be passed in to the endpoint as a path parameter. Warning: This action cannot be undone. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="cardId" type="string" required=true %}
+{% api-method-parameter name="cardId" type="integer" required=true %}
 Id of the card
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
@@ -31,10 +35,17 @@ Bearer {{api\_key}}
 {% endapi-method-response-example-description %}
 
 ```
-
+{
+    "data": {
+        "success": true,
+        "message": "UI component has been deleted successfully."
+    }
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+
+
 
