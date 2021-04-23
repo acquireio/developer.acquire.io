@@ -10,7 +10,7 @@ Conversations Tagged
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Retrieve he number of conversation your team tagged vs total number of conversations.
+Retrieve the number of conversations your team tagged vs. total number of conversations.
 {% endapi-method-description %}
 
 {% api-method-spec %}
