@@ -1,19 +1,23 @@
+---
+description: Update an interaction card.
+---
+
 # Update Interaction Card
 
-{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/crm/view/{cardId}" path="" %}
+{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/crm/view/{{cardId}}" path="" %}
 {% api-method-summary %}
 Update card
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Update an interaction card. The cardId must be passed in to the endpoint as a path parameter. A view object must be passed in to the body. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="cardId" type="string" required=true %}
-Id of the card
+ID of the card
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
@@ -22,6 +26,16 @@ Id of the card
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="title" type="string" required=false %}
+Title for the card.
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="view" type="object" required=true %}
+View object. The card configuration.
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
