@@ -35,7 +35,7 @@ This parameter is used for the timezone value and the default timezone will be "
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="output" type="string" required=false %}
-json or csv
+JSON or CSV
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
@@ -308,7 +308,7 @@ meter is used for the timezone value and the default timezone will be "GMT". e.g
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="output" type="string" required=false %}
-json or csv
+JSON or CSV
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
@@ -577,7 +577,7 @@ This parameter is used for the timezone value and the default timezone will be "
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="output" type="string" required=false %}
-json or csv
+JSON or CSV
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
