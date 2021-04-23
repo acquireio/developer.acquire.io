@@ -1,3 +1,7 @@
+---
+description: Retrieve a list of all custom cards.
+---
+
 # List all Cards
 
 {% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/view" path="" %}
@@ -6,7 +10,7 @@ Get cards
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Retrieve a list of all custom cards. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -26,7 +30,7 @@ Specify the page number e.g. 2 to return.
 The number of results e.g. 20 to return
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="contact\_id" type="string" required=true %}
+{% api-method-parameter name="contact\_id" type="integer" required=false %}
 Id of the contact.
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
