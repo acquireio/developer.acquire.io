@@ -1,5 +1,5 @@
 ---
-description: Cobrowse Analytics
+description: Retrieve data for your cobrowse sessions.
 ---
 
 # Cobrowse
@@ -10,7 +10,7 @@ Overview
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Retrieve a comprehensive view of all cobrowse metrics, including sessions, durations, and visited pages.
+Retrieve a  a list of cobrowse metrics, including sessions, durations, and visited pages.
 {% endapi-method-description %}
 
 {% api-method-spec %}
