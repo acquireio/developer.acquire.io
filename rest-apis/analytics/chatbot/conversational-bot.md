@@ -1,5 +1,5 @@
 ---
-description: Track Conversation Bot engagement and effectiveness.
+description: Track Conversational Bot engagement and effectiveness.
 ---
 
 # Conversational Bot
@@ -10,7 +10,7 @@ Overview
 {% endapi-method-summary %}
 
 {% api-method-description %}
-View how many customers and conversations your Conversational Bot handles.
+View how many contacts and conversations your Conversational Bot handles.
 {% endapi-method-description %}
 
 {% api-method-spec %}
