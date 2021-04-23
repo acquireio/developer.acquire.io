@@ -316,7 +316,7 @@ json or csv
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/voip/calls-overview" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/voip/call-analysis" path="" %}
 {% api-method-summary %}
 Call Analysis
 {% endapi-method-summary %}

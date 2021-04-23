@@ -25,15 +25,15 @@ Bearer \*\*\*YOUR\_API\_KEY\*\*\*
 
 {% api-method-query-parameters %}
 {% api-method-parameter name="search" type="string" required=false %}
-Search an agent by name or email. 
+Search for an agent by name or email. 
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="page" type="string" %}
-Page number for which you want agent records if you are using pagination. If you are not passing limit or page then it will retrieve all records.
+Page number for which you want agent records if you are using pagination. If you are not passing a limit or page then it will retrieve all records.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="limit" type="string" required=false %}
-Number of records you want in one call. If you are not passing limit or page then it will retrieve all records.
+Number of records you want in one call. If you are not passing a limit or page then it will retrieve all records.
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
@@ -93,7 +93,7 @@ Bearer \*\*\*YOUR\_API\_KEY\*\*\*
 
 {% api-method-query-parameters %}
 {% api-method-parameter name="agent\_id" type="string" required=true %}
-Pass the id of an agent for which you want to get data.You can get the agent\_id by calling agent list endpoint mentioned above.
+Pass the ID of an agent for which you want to get data.You can get the agent\_id by calling agent list endpoint mentioned above.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="start\_date" required=true type="string" %}
@@ -346,14 +346,14 @@ Bearer \*\*\*YOUR\_API\_KEY\*\*\*
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="filter.role" type="string" %}
-List of role ids for which API will return details of cases for agent.  
+{% api-method-parameter name="filter.role" type="array" %}
+Array of integers. List of role ids for which API will return details of cases for agent.  
   
 Ex. \[1,2\]
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="filter.departments" type="string" %}
-List of department ids for which API will return details of cases for agent.  
+{% api-method-parameter name="filter.departments" type="array" %}
+Array of integers. List of department ids for which API will return details of cases for agent.  
   
 Ex. \[1,2\]
 {% endapi-method-parameter %}
@@ -369,11 +369,11 @@ You can pass text that will be applicable to search in agent name or email.
 {% endapi-method-parameter %}
 
 {% api-method-parameter type="string" name="limit" %}
-Number of records you want in one call. If you are not passing limit or page then it will retrieve all records.
+Number of records you want in one call. If you are not passing a limit or page then it will retrieve all records.
 {% endapi-method-parameter %}
 
 {% api-method-parameter type="string" name="page" %}
-Page number for which you want agent records if you are using pagination. If you are not passing limit or page then it will retrieve all records.
+Page number for which you want agent records if you are using pagination. If you are not passing a limit or page then it will retrieve all records.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="start\_date" required=false type="string" %}
