@@ -10,7 +10,7 @@ Overview
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Retrieve an data for cases including "Pending To Active", "Active To Close ", "Reopened", "Avg Pending To Active Time", "Avg Active To Close Time"
+Retrieve data for cases including "Pending to Active", "Active to Closed ", "Reopened", "Avg Pending to Active Time", "Avg Active to Close Time".
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -279,7 +279,7 @@ By Channel
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Retrieve the amount of cases that occurred during a time period by channel: total, chats, mail, voip, private form, social media. 
+Retrieve the amount of cases that occurred during a time period by channel: total, chats, mail, voip, private form, and social media. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -552,7 +552,7 @@ By Busiest Periods for Cases
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Retrieve the amount of cases that occurred during specified time periods.
+Retrieve the amount of cases that occurred during a specified time period.
 {% endapi-method-description %}
 
 {% api-method-spec %}
