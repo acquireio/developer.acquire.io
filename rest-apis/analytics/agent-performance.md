@@ -1,3 +1,9 @@
+---
+description: >-
+  See how your agents are doing including their average response time and
+  rating.
+---
+
 # Agent Performance
 
 {% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/agent/agent-list" path="" %}
@@ -6,7 +12,7 @@ Agent List
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Retrieve a list of agent data including their name, ID, department, role, rating, online status, and channel access.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -19,7 +25,7 @@ Bearer \*\*\*YOUR\_API\_KEY\*\*\*
 
 {% api-method-query-parameters %}
 {% api-method-parameter name="search" type="string" required=false %}
-You can pass text that will be applicable to search in agent name or email.
+Search an agent by name or email. 
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="page" type="string" %}
@@ -74,7 +80,7 @@ Agent Graph Data
 {% endapi-method-summary %}
 
 {% api-method-description %}
-View agent metrics, ratings, and response times across all channels.
+View agent metrics, including ratings, response times, and total conversations across all channels. The `agent_id` must be passed in to the endpoint as a query parameter. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -87,7 +93,7 @@ Bearer \*\*\*YOUR\_API\_KEY\*\*\*
 
 {% api-method-query-parameters %}
 {% api-method-parameter name="agent\_id" type="string" required=true %}
-Pass the id of an agent for which you want to get data.You can get agent id by calling agent list API mentioned above.
+Pass the id of an agent for which you want to get data.You can get the agent\_id by calling agent list endpoint mentioned above.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="start\_date" required=true type="string" %}
@@ -328,7 +334,7 @@ Agent Leaderboard
 {% endapi-method-summary %}
 
 {% api-method-description %}
-A large board for displaying the ranking of the Agents.
+Retrieve a list of agent rankings. Agents are ranked by rating and number of cases solved.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -370,11 +376,11 @@ Number of records you want in one call. If you are not passing limit or page the
 Page number for which you want agent records if you are using pagination. If you are not passing limit or page then it will retrieve all records.
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="start\_date" required=true type="string" %}
+{% api-method-parameter name="start\_date" required=false type="string" %}
 Date From \(Date format = YYYY-MM-DD hh:mm:ss, e.g 2021-01-01 00:00:00\)
 {% endapi-method-parameter %}
 
-{% api-method-parameter type="string" name="end\_date" required=true %}
+{% api-method-parameter type="string" name="end\_date" required=false %}
 Date End \(Date Format = YYYY-MM-DD hh:mm:ss, e.g 2021-01-01 23:59:59\)
 {% endapi-method-parameter %}
 
