@@ -1,3 +1,7 @@
+---
+description: Create an Interaction Custom Card.
+---
+
 # Create Interaction Card
 
 {% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/view" path="" %}
@@ -6,7 +10,7 @@ Create a Card
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Create an Interaction Custom Card. A contact\_id with the contact's ID and a view object must be passed in to the body. See the body example for more information. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -16,6 +20,16 @@ Create a Card
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="view" type="object" required=true %}
+View object. The card configuration.
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="contact\_id" type="integer" required=true %}
+Contact ID.
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
