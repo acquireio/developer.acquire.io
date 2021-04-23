@@ -101,7 +101,7 @@ Searches
 {% endapi-method-summary %}
 
 {% api-method-description %}
-An overview of how easily searchable your Knowledge Base is.
+Retrieve an overview of how easily searchable your Knowledge Base is.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -243,7 +243,7 @@ Most Popular Searches
 {% endapi-method-summary %}
 
 {% api-method-description %}
-The most frequently searched terms in your Knowledge Base.
+Retrieve a list of the most frequently searched terms in your Knowledge Base.
 {% endapi-method-description %}
 
 {% api-method-spec %}
