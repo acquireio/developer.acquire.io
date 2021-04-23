@@ -1,3 +1,7 @@
+---
+description: Create a general card.
+---
+
 # Create general card
 
 {% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/ui-component" path="" %}
@@ -6,7 +10,7 @@ Create general card
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Create a general Custom Card.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -16,6 +20,24 @@ Create general card
 Bearer {{api\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="type" type="string" required=true %}
+"tab"
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="config" type="object" required=true %}
+Config objet. The configuration of your card.
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="displayScope" type="string" required=true %}
+
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="area" type="string" required=true %}
+
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
