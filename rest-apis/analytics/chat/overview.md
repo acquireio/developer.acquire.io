@@ -1,5 +1,5 @@
 ---
-description: Retrieve chat general data.
+description: Retrieve general chat data.
 ---
 
 # Overview
@@ -23,11 +23,7 @@ Bearer \*\*\*YOUR\_API\_KEY\*\*\*
 
 {% api-method-query-parameters %}
 {% api-method-parameter name="start\_date" type="string" required=true %}
-Date From \(Date format = YYYY-MM-
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="start\_date" type="string" required=true %}
-DD hh:mm:ss, e.g 2021-01-01 00:00:00\)
+Date From \(Date format = YYYY-MM-DD hh:mm:ss, e.g. 2021-01-01 00:00:00\)
 {% endapi-method-parameter %}
 
 {% api-method-parameter type="string" name="end\_date" required=true %}
@@ -506,7 +502,7 @@ Busiest Periods for Inbound Chats
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Retrieve data for busiest period for inbound chats.
+Retrieve data for busiest inbound chat periods.
 {% endapi-method-description %}
 
 {% api-method-spec %}
