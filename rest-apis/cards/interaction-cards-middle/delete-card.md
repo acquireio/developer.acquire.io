@@ -16,7 +16,7 @@ Delete a custom card. The cardId must be passed in to the endpoint as a path par
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="cardId" type="string" required=true %}
+{% api-method-parameter name="cardId" type="integer" required=true %}
 Id of the card.
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
