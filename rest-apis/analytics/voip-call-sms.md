@@ -10,7 +10,7 @@ Calls Overview
 {% endapi-method-summary %}
 
 {% api-method-description %}
-View call metrics including number of calls and duration.
+View call metrics including number of calls and the average call duration per time period. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -168,7 +168,7 @@ SMS Metrics
 {% endapi-method-summary %}
 
 {% api-method-description %}
-See how many SMS messages your team receives and responds to.
+See how many SMS messages your team receives and responds to as well as their average response time.
 {% endapi-method-description %}
 
 {% api-method-spec %}
