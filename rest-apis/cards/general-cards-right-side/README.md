@@ -1,7 +1,17 @@
+---
+description: Create exclusive Custom Cards to pull in information to a contact's profile.
+---
+
 # Exclusive cards
 
-This API allows extending the Acquire UI by replacing custom cards. These cards are mentioned on the dashboard as part of the app on the right, then requests to retrieve outer data when the contact is accessed by the agent.
+These endpoints allow you to customize the Acquire UI by replacing custom cards. These cards are visible in the Dashboard as part of the app view in the right panel. Agents may retrieve data
 
-You want to display your data inside Acquire, but no JSON object or UI is relevant to your necessity, so you can customize the JSON object relevant to your needs, or you can also present the data using an iframe.  
+Use exclusive cards when you want to display data inside Acquire, but JSON objects and UIs aren't relevant to your use case. You may customize the JSON object to your needs, or you  may present the data using an iframe.  
+
+
+### Permissions
+
+To request a Custom Card endpoint, you will need a valid API Key with Custom Card access permissions.
+
 
 
