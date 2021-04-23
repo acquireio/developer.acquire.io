@@ -168,7 +168,7 @@ Activity
 {% endapi-method-summary %}
 
 {% api-method-description %}
-View most active times for emails that were read, unread, delivered, and replied to, and bounced.
+View the most active times for emails that were read, unread, delivered, and replied to, and bounced.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -407,7 +407,7 @@ Busiest Periods for Email
 {% endapi-method-summary %}
 
 {% api-method-description %}
-View time frames with the most emails sent and received.
+View periods when emails were sent and received.
 {% endapi-method-description %}
 
 {% api-method-spec %}
