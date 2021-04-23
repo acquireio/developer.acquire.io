@@ -105,7 +105,7 @@ Bearer \*\*\*YOUR\_API\_KEY\*\*\*
 
 {% api-method-body-parameters %}
 {% api-method-parameter name="config" type="array" required=true %}
-Array of object. The configuration of your chart. See example below.
+Array of objects. The configuration of your chart. See example below.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="chartType" type="string" required=true %}
@@ -344,7 +344,7 @@ Bearer \*\*\*YOUR\_API\_KEY\*\*\*
 
 {% api-method-query-parameters %}
 {% api-method-parameter name="report\_key" type="string" required=true %}
-The current name of the report which you want to delete.You can get report key by calling Get All Custom Reports API. 
+The current name of the report which you want to delete.You can get report key by calling Get All Custom Reports. 
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
@@ -386,7 +386,7 @@ Bearer \*\*\*YOUR\_API\_KEY\*\*\*
 
 {% api-method-query-parameters %}
 {% api-method-parameter name="report\_key" type="string" required=true %}
-Key of report which you want to get data.You can get report key by calling Get All Custom Reports API.
+Key of report which you want to get data. You can get report key by calling Get All Custom Reports API.
 {% endapi-method-parameter %}
 
 {% api-method-parameter type="string" name="offset" %}
@@ -593,7 +593,7 @@ Get All Datapoints
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API will give you all available datapoints for available objects.
+Retrieve a list of all available data points for available objects.
 {% endapi-method-description %}
 
 {% api-method-spec %}
