@@ -10,7 +10,7 @@ Calls Overview
 {% endapi-method-summary %}
 
 {% api-method-description %}
-View call metrics including number of calls and the average call duration per time period. 
+View call metrics including number of calls and the average duration per time period. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -322,7 +322,7 @@ Call Analysis
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Retrieve a list of IVR and hold time data.
 {% endapi-method-description %}
 
 {% api-method-spec %}
