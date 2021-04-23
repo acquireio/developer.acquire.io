@@ -1,12 +1,16 @@
+---
+description: Delete a card.
+---
+
 # Delete card
 
-{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/crm/view/{cardId}" path="" %}
+{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/crm/view/{{cardId}}" path="" %}
 {% api-method-summary %}
 Delete card
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Delete a custom card. The cardId must be passed in to the endpoint as a path parameter. Warning: This action cannot be undone.
 {% endapi-method-description %}
 
 {% api-method-spec %}
