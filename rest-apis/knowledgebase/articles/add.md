@@ -26,6 +26,20 @@ Add a new article to a Knowledge Base. The body must have the required keys:
 Bearer {{API\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="slug" type="string" required=true %}
+The URL slug of the article
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="title" type="string" required=true %}
+The title of the article
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="groupId" type="integer" required=true %}
+The ID of the Knowledge Base you want to add the article to
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
