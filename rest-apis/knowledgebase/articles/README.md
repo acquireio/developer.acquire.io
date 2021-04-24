@@ -4,6 +4,8 @@ description: Articles are pages in a Knowledge Base.
 
 # Articles
 
+Use these endpoints do create, retrieve, edit, and delete articles.
+
 ### Attributes 
 
 <table>
@@ -96,5 +98,5 @@ description: Articles are pages in a Knowledge Base.
 
 ### **Permissions**
 
-To request this endpoint you will need a valid API Key with the knowledge-base access permissions enabled.
+To request this endpoint you will need a valid API Key with the Knowledge Base access permissions enabled.
 
