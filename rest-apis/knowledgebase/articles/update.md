@@ -12,13 +12,13 @@ Update Article
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to update the details of an existing article in the knowledge base.
+This endpoint allows you to update the details of an existing article in the knowledge base. The article ID must be passed in to the endpoint as a path parameter. The Knowledge Base groupId must be passed in to the body.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="id" type="number" required=true %}
+{% api-method-parameter name="id" type="integer" required=true %}
 Article ID
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
@@ -28,6 +28,12 @@ Article ID
 Bearer {{API\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="groupId" type="integer" required=true %}
+ID of the Knowledge Base that the article belongs to
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -56,7 +62,7 @@ Article successfully updated.
   "articleSlug": "string",
   "featuresImage": "string",
   "groupId": 0,
-  "title": "",
+  "title": "New Title",
   "tags": [
     0
   ],
