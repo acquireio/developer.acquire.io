@@ -1,5 +1,5 @@
 ---
-description: This endpoint allows you to add a new article group in the knowledge base.
+description: This endpoint allows you to add a new article group in the Knowledge Base.
 ---
 
 # Add
@@ -10,7 +10,7 @@ Add Knowledge base
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to add a new article group in the knowledge base.
+This endpoint allows you to add a new article group in the Knowledge Base.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -20,6 +20,12 @@ This endpoint allows you to add a new article group in the knowledge base.
 Bearer {{API\_key}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="name" type="string" required=true %}
+Knowledge Base name
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
