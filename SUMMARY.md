@@ -194,6 +194,7 @@
     * [Add](rest-apis/knowledgebase/groups/add.md)
     * [Update](rest-apis/knowledgebase/groups/update.md)
     * [Get](rest-apis/knowledgebase/groups/get.md)
+    * [Get Single](rest-apis/knowledgebase/groups/get-single.md)
     * [Delete](rest-apis/knowledgebase/groups/delete.md)
   * [Articles](rest-apis/knowledgebase/articles/README.md)
     * [Add Article](rest-apis/knowledgebase/articles/add.md)
