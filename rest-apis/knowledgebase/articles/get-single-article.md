@@ -1,29 +1,35 @@
 ---
-description: API to get a single article by the article id
+description: Retrieve a single article by the article ID
 ---
 
 # Get Single Article
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/kb/article/single/1/86" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/kb/article/single/{{groupId}}/{{articleId}}" path="" %}
 {% api-method-summary %}
 Get Single Article
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to get a single article by the article id
+Get a single article by the article ID. The groupId and articleId must be passed into the endpoint as path parameters.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="groupId" type="number" required=true %}
+{% api-method-parameter name="groupId" type="integer" required=true %}
 Specify the group id of the article
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="id" type="number" required=true %}
+{% api-method-parameter name="articleId" type="integer" required=true %}
 Specify the id of the article
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
+
+{% api-method-headers %}
+{% api-method-parameter name="Authorization " type="string" required=true %}
+Bearer {{API\_Key}}
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
 {% endapi-method-request %}
 
 {% api-method-response %}

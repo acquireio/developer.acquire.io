@@ -4,7 +4,7 @@ description: View your team’s video usage across conversations.
 
 # Video Analytics
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api//v1/analytics/chat/video-analytics" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/chat/video-analytics" path="" %}
 {% api-method-summary %}
 Video Sessions
 {% endapi-method-summary %}

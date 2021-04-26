@@ -18,8 +18,8 @@ This endpoint allows you to update the details of existing category in the knowl
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="id" type="number" required=true %}
-1
+{% api-method-parameter name="id" type="integer" required=true %}
+The category
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 

@@ -4,20 +4,20 @@ description: This endpoint allows you to delete a category from the knowledge ba
 
 # Delete Category
 
-{% api-method method="delete" host="https://{{account\_uid}}.acquire.io/api/v1/kb/category/delete/{{id}}" path="" %}
+{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/kb/category/delete/{{articleId}}?groupId={{groupId}}" path="" %}
 {% api-method-summary %}
 Delete Category
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to delete a category from the knowledge base
+This endpoint allows you to delete a category from the Knowledge Base. The article ID must be passed in to the endpoint as a path parameter. Warning: This action cannot be undone.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="id" type="number" required=true %}
-1
+{% api-method-parameter name="articleId" type="integer" required=true %}
+The article ID
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
@@ -28,8 +28,8 @@ Bearer {{API\_key}}
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="groupId" type="number" required=true %}
-1
+{% api-method-parameter name="groupId" type="integer" required=true %}
+The Knowledge Base group ID
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}

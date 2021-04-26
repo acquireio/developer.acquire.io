@@ -1,16 +1,16 @@
 ---
-description: This endpoint allows you to get all the existing articles in knowledge base.
+description: This endpoint allows you to get all the existing articles in Knowledge Base.
 ---
 
 # Get Articles
 
-{% api-method method="get" host="https://{{account\_uid}}.acquire.io/api/v1/kb/article" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/kb/article?groupdId={{groupId}}" path="" %}
 {% api-method-summary %}
 Get All Articles
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get all the existing articles in knowledge base.
+This endpoint allows you to get all the existing articles in Knowledge Base.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -22,40 +22,40 @@ Bearer {{API\_key}}
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="groupId" type="number" required=true %}
-1
+{% api-method-parameter name="groupId" type="integer" required=true %}
+The Knowledge Base group ID
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="page" type="number" required=false %}
-1
+{% api-method-parameter name="page" type="integer" required=false %}
+Limit the number of pages you receive if you are using pagination. 
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="limit" type="number" required=false %}
-50
+Limit the number of articles you receive.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="search" type="string" required=false %}
-Hello
+Search for article keywords. 
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="categoryId" type="number" required=false %}
-1
+{% api-method-parameter name="categoryId" type="integer" required=false %}
+Retrieve articles from a category with its  categoryId.  
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="ids" type="array" required=false %}
-\[1, 2, 3\]
+Array of integers. Retrieve articles by their Ids. Example: \[1, 2, 3\]
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="author" type="number" required=false %}
-1
+{% api-method-parameter name="author" type="integer" required=false %}
+Retrieve articles written by an author with the author's ID. Example: 1
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="access" type="string" required=false %}
-internal **\[internal, protected, active\]**
+Indicate article permissions: **\[internal, protected, active\]**
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="status" type="string" required=false %}
-draft **\[draft, active, archive\]**
+Indicate draft status: **\[draft, active, archive\]**
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}

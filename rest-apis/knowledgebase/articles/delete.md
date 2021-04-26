@@ -1,13 +1,10 @@
 ---
-description: >-
-  Delete an article. The id must be passed in the endpoint as a path parameter.
-  The groupId must be passed in the endpoint as a query parameter. Warning: This
-  action cannot be undone.
+description: Delete an article.
 ---
 
 # Delete Article
 
-{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/kb/article/delete/{{id}}" path="" %}
+{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/kb/article/delete/{{articleId}}?groupId={{groupdId}}" path="" %}
 {% api-method-summary %}
 Delete Article
 {% endapi-method-summary %}
@@ -19,7 +16,7 @@ Delete an article. The id must be passed in the endpoint as a path parameter. Th
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="articleId" type="number" required=true %}
+{% api-method-parameter name="articleId" type="integer" required=true %}
 Article's ID
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
@@ -31,8 +28,8 @@ Authentication token to track down who is emptying our stocks.
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="groupId" type="number" required=true %}
-1
+{% api-method-parameter name="groupId" type="integer" required=true %}
+The group the article belongs to. 
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
