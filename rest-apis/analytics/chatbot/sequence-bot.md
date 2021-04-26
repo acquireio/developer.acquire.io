@@ -238,7 +238,7 @@ json or csv
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/bot/leads-generated" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/bot/bot-path-analysis" path="" %}
 {% api-method-summary %}
 Path Analysis
 {% endapi-method-summary %}
