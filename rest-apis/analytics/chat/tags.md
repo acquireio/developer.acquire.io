@@ -4,7 +4,7 @@ description: View your team’s tagging frequency and your most popular tags.
 
 # Tags
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api//v1/analytics/chat/conversations-tagged" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/chat/conversations-tagged" path="" %}
 {% api-method-summary %}
 Conversations Tagged
 {% endapi-method-summary %}
