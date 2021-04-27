@@ -256,8 +256,8 @@ Bearer \*\*\*YOUR\_API\_KEY\*\*\*
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="leadId" type="string" required=true %}
-Lead id of lead to get details of lead. You can get lead i by calling bot-lead-details api mentioned below.
+{% api-method-parameter name="leadId" type="integer" required=true %}
+The ID for a Sequence bot lead. You can get lead i by calling bot-lead-details endpoint.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="start\_date" type="string" required=true %}

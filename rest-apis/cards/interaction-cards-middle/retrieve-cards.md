@@ -30,7 +30,7 @@ Specify the page number e.g. 2 to return.
 The number of results e.g. 20 to return
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="contact\_id" type="integer" required=false %}
+{% api-method-parameter name="contact\_id" type="integer" required=true %}
 Id of the contact.
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}

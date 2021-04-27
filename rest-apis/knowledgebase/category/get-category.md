@@ -4,7 +4,7 @@ description: Retrieve all the available categories in the Knowledge Base.
 
 # Get Category
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/kb/category" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/kb/category?groupId={{groupId}}" path="" %}
 {% api-method-summary %}
 Get All Categories
 {% endapi-method-summary %}
