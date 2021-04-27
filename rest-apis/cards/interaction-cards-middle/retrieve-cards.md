@@ -4,7 +4,7 @@ description: Retrieve a list of all custom cards.
 
 # List all Cards
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/view" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/view?contact\_id={{contact\_id}}" path="" %}
 {% api-method-summary %}
 Get cards
 {% endapi-method-summary %}
