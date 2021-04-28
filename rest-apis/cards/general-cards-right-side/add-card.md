@@ -27,7 +27,7 @@ Bearer {{api\_key}}
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="config" type="object" required=true %}
-Config objet. The configuration of your card.
+Config object. The configuration of your card.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="displayScope" type="string" required=true %}
