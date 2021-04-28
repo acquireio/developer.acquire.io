@@ -98,3 +98,44 @@ Config object. The configuration of your card.
 }
 ```
 
+### Attributes 
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">ATTRIBUTE</th>
+      <th style="text-align:left">TYPE</th>
+      <th style="text-align:left">DESCRIPTION</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">type</td>
+      <td style="text-align:left">String</td>
+      <td style="text-align:left">Specify the type of card. <b><br />block</b> | <b>action</b> | <b>tab</b> | <b>script_tags</b> | <b>style</b>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">config</td>
+      <td style="text-align:left">JSON object</td>
+      <td style="text-align:left">Specify the card configuration. Value for config is a JSON object according
+        to type.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">displayScope</td>
+      <td style="text-align:left">String</td>
+      <td style="text-align:left">
+        <p>Specify the card display scope.</p>
+        <p><b>home</b>(For frontend widget home app list) |
+          <br /><b>contact_action</b> | <b>case_action</b> | <b>message_action</b> |
+          <br /><b>picker</b> | <b>main</b> (for other)</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">area</td>
+      <td style="text-align:left">String</td>
+      <td style="text-align:left"></td>
+    </tr>
+  </tbody>
+</table>
+
