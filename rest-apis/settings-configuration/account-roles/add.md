@@ -1,5 +1,5 @@
 ---
-description: API to add a new role
+description: Add a new role
 ---
 
 # Add
@@ -10,7 +10,7 @@ Add
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to add a new role
+Add a new role
 {% endapi-method-description %}
 
 {% api-method-spec %}
