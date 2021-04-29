@@ -1,5 +1,5 @@
 ---
-description: API to list the account roles
+description: List all account roles
 ---
 
 # List
@@ -10,7 +10,7 @@ List
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to list the account roles
+Retrieve a list of the account's roles
 {% endapi-method-description %}
 
 {% api-method-spec %}
