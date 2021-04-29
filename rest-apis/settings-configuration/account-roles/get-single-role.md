@@ -1,5 +1,5 @@
 ---
-description: API to get the single role
+description: Retrieve a single role
 ---
 
 # Get Single Role
@@ -10,13 +10,13 @@ Get Single Role
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to get the single role
+Retrieve a single role
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="id" type="number" required=true %}
+{% api-method-parameter name="id" type="integer" required=true %}
 ID for the role
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
