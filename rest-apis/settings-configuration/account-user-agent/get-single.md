@@ -1,29 +1,29 @@
 ---
-description: API to get the user information by ID
+description: Retrieve information for a single user
 ---
 
 # Get Single
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/account/user/{id}" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/account/user/{{userId}}" path="" %}
 {% api-method-summary %}
 Get Single User
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to get the user information by ID
+Retrieve information for a single user. A userId must be passed in to the endpoint as a path parameter. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="id" type="integer" required=true %}
+{% api-method-parameter name="userId" type="integer" required=true %}
 ID of the user
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" required=true type="string" %}
-Bearer {api\_key}
+Bearer {{API\_KEY}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 
