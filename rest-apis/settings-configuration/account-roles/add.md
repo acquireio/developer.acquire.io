@@ -10,16 +10,26 @@ Add
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Add a new role
+Add a new role. The body must contain the keys `roleName` and `permissions`. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
-Bearer {api\_Key}
+Bearer {{API\_KEY}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="permissions" type="object" required=true %}
+Permissions object. Give permission to access features in the platform. 
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="roleName" type="string" required=true %}
+Name of the role
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -47,7 +57,7 @@ Bearer {api\_Key}
 
 ```text
 {
-  "roleName": "MyMaster",
+  "roleName": "Agent",
   "permissions": {},
   "meta": {}
 }
