@@ -1,5 +1,5 @@
 ---
-description: API to list out the blocked visitors
+description: List all blocked visitors
 ---
 
 # List
@@ -10,14 +10,14 @@ List
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to list out the blocked visitors
+List all blocked visitors
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-headers %}
-{% api-method-parameter name="Authorization" type="string" required=false %}
-Bearer {api\_key}
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Bearer {{API\_KEY}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 

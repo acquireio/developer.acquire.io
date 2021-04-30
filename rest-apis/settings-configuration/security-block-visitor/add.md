@@ -1,5 +1,5 @@
 ---
-description: API to add a new block-visitor
+description: Block a contact from the contact list and widget
 ---
 
 # Add
@@ -10,16 +10,30 @@ Add
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to add a new block-visitor
+Use this endpoint to block a contact. Contacts are blocked by their ID. To find a contact's ID, log in to Acquire and hover their name or send a GET request to List all contacts. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-query-parameters %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
-Bearer {api\_token}
+Bearer {{API\_KEY}}
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="blockTill" type="string" required=true %}
+Contact block end date.
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="data" type="array" required=true %}
+ID of the contacts that will be blocked
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="type" type="string" required=true %}
+Block type: "contact"
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -77,11 +91,10 @@ Bearer {api\_token}
 ```text
 {
   "data": [
-    "10.10.10.10",
-    "11.11.11.11"
+    872
   ],
   "blockTill": "2020-03-26T08:19:24.627Z",
-  "type": "email"
+  "type": "contact"
 }
 ```
 
