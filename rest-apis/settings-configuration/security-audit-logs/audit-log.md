@@ -1,3 +1,7 @@
+---
+description: Retrieve a log of user activities
+---
+
 # Audit Log
 
 {% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/account/audit-log" path="" %}
@@ -6,7 +10,7 @@ Get Audit log
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Retrieve a log of user activities 
 {% endapi-method-description %}
 
 {% api-method-spec %}
