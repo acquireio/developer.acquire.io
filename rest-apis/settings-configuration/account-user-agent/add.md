@@ -1,5 +1,5 @@
 ---
-description: API to add a new user
+description: Add a new user
 ---
 
 # Add
@@ -10,16 +10,38 @@ Add
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to add a new user
+Add a new user. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
-Bearer {api\_key}
+Bearer {{API\_KEY}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="name" type="string" required=true %}
+Name of the user.
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="email" type="string" required=true %}
+Email of the user. Must be unique.
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="password" type="string" required=true %}
+Password of the user \(can be changed later\).
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="roles" type="array" required=true %}
+Array of integers. The role ID\(s\) the user will be assigned to. 
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="department" type="array" required=false %}
+Array of integers. The department ID\(s\) the user will be assigned to. 
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
