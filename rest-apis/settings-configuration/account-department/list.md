@@ -1,5 +1,5 @@
 ---
-description: API to list the available departments
+description: List the available departments
 ---
 
 # List
@@ -10,7 +10,7 @@ List
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to list the available departments
+List all departments and users who belong to those departments.
 {% endapi-method-description %}
 
 {% api-method-spec %}
