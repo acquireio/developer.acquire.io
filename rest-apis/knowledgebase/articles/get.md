@@ -4,7 +4,7 @@ description: This endpoint allows you to get all the existing articles in Knowle
 
 # Get Articles
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/kb/article?groupdId={{groupId}}" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/kb/article?groupId={{groupId}}" path="" %}
 {% api-method-summary %}
 Get All Articles
 {% endapi-method-summary %}
@@ -158,4 +158,6 @@ Indicate draft status: **\[draft, active, archive\]**
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+
+
 
