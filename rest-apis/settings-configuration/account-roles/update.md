@@ -26,6 +26,16 @@ ID of the role to be updated
 Bearer {{API\_KEY}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="permissions" type="object" required=true %}
+Permissions object. The features the role will have access to. 
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="roleName" type="string" required=true %}
+Name of the role
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
