@@ -1,5 +1,5 @@
 ---
-description: API to list the available users
+description: List all available users
 ---
 
 # List
@@ -10,14 +10,14 @@ List
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to list the available users
+List all available users.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
-Bearer {api\_key}
+Bearer {{API\_KEY}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 
