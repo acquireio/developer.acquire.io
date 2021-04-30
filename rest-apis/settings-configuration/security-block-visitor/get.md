@@ -1,16 +1,16 @@
 ---
-description: API to get the blocked visitor by id
+description: Retrieve information about a blocked visitor
 ---
 
 # Get
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/block-visitor/1" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/block-visitor/{{id}}" path="" %}
 {% api-method-summary %}
 Get
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to get the blocked visitor by id
+Retrieve information about a blocked visitor. The blocked visitor's ID must be passed in to the endpoint as a path parameter.
 {% endapi-method-description %}
 
 {% api-method-spec %}
