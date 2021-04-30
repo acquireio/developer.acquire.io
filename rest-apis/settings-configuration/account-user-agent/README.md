@@ -1,12 +1,10 @@
 ---
-description: >-
-  Account User contains the information of the available users in that
-  particular account and it's details.
+description: Retrieve and manipulate details for users (also known as agents).
 ---
 
 # Account - User / Agent
 
-Account User contains the information of the available users in that particular account and it's details. 
+These endpoints can be used to retrieve, create, update, and delete account users and their details.  
 
 ### Attributes 
 
@@ -61,5 +59,5 @@ To request this endpoint you will need a valid API Key with the account access p
 
 ### **Relations between Users and other entities**
 
-A user can be a part of many departments and has multiple roles.
+A user can be a part of many departments and have multiple roles.
 
