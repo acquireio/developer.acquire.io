@@ -1,29 +1,29 @@
 ---
-description: Update specific role by it's ID
+description: Update a role
 ---
 
 # Update
 
-{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/account/role/{id}" path="" %}
+{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/account/role/{{roleId}}" path="" %}
 {% api-method-summary %}
 Update
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Update specific role by it's ID
+Update a role. The roleId must be passed in to the endpoint as a path parameter.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="id" type="integer" required=true %}
+{% api-method-parameter name="roleId" type="integer" required=true %}
 ID of the role to be updated
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
-Bearer {api\_key}
+Bearer {{API\_KEY}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 {% endapi-method-request %}
@@ -55,7 +55,7 @@ Bearer {api\_key}
 
 ```text
 {
-  "roleName": "Higher Master",
+  "roleName": "Admin",
   "permissions": {},
   "meta": {},
   "additionalProp1": {}
