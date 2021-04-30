@@ -1,29 +1,29 @@
 ---
-description: API to delete users
+description: Delete a user
 ---
 
 # Delete
 
-{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/account/user" path="" %}
+{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/account/user?userId={{userId}}" path="" %}
 {% api-method-summary %}
 Delete
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to delete users
+Delete a user. The user's ID must be passed in to the endpoint as a query parameter. Warning: This action cannot be undone.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
-Bearer {api\_key}
+Bearer {{API\_KEY}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="id" type="array" required=true %}
-ID of users to delete
+{% api-method-parameter name="userId" type="integer" required=true %}
+Delete a user
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
