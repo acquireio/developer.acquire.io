@@ -1,27 +1,29 @@
 ---
-description: API to delete the block visitor contact
+description: Unblock a visitor
 ---
 
 # Delete
 
-{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/crm/block-visitor?contactId=111&id=111" path="" %}
+{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/crm/block-visitor?id={{id}}" path="" %}
 {% api-method-summary %}
 Delete
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to delete the block visitor contact
+Unblock a visitor \(remove a visitor from the block list\). The id must be passed in to the endpoint as a path parameter. To find the id, send a Get request to the Block Visitor List endpoint. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-query-parameters %}
-{% api-method-parameter name="contactid" type="array" required=false %}
-Ids of the contact which marked as block
+{% api-method-headers %}
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Bearer {{API\_KEY}}
 {% endapi-method-parameter %}
+{% endapi-method-headers %}
 
-{% api-method-parameter name="id" type="array" required=false %}
-Id's which got created after block a contact which gets as blocked contact ID
+{% api-method-query-parameters %}
+{% api-method-parameter name="id" type="integer" required=true %}
+Visitor's block ID.
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
