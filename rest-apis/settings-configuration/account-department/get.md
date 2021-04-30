@@ -1,10 +1,10 @@
 ---
-description: API to get a single department by it's ID
+description: Retrieve a single department
 ---
 
 # Get
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/account/department/{id}" path="" %}
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/account/department/{{departmentId}}" path="" %}
 {% api-method-summary %}
 Get
 {% endapi-method-summary %}
@@ -16,14 +16,14 @@ API to get a single department by it's ID
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="id" type="integer" required=true %}
-ID of the department for which we need to get the details
+{% api-method-parameter name="departmentId" type="integer" required=true %}
+ID of the department
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
-Bearer {api\_key}
+Bearer {API\_KEY}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 
