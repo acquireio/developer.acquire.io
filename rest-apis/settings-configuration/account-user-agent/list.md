@@ -35,7 +35,7 @@ Specify relations with other entities
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="order" type="object" required=false %}
-Specify the descending or ascending order
+Specify descending or ascending order
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
