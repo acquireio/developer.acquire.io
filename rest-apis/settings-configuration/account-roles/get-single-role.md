@@ -28,12 +28,12 @@ Bearer {{API\_KEY}}
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="select" type="array" required=false %}
-
+{% api-method-parameter name="select" type="array" %}
+Specify the array of fields which wants as response
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="relations" type="object" required=false %}
-
+{% api-method-parameter name="relations" type="object" %}
+Specify the relation with other entities
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
