@@ -10,7 +10,7 @@ Get Single Role
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Retrieve a single role. The roleId must be passed in to the endpont as a path parameter. 
+Retrieve a single role. The `roleId` must be passed in to the endpoint as a path parameter. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -29,11 +29,11 @@ Bearer {{API\_KEY}}
 
 {% api-method-query-parameters %}
 {% api-method-parameter name="select" type="array" %}
-Specify the array of fields which wants as response
+Specify which fields you'd like in the response
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="relations" type="object" %}
-Specify the relation with other entities
+Specify relations with other entities 
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
