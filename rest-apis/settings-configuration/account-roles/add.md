@@ -57,9 +57,10 @@ Name of the role
 
 ```text
 {
-  "roleName": "Agent",
-  "permissions": {},
-  "meta": {}
+    "roleName" : "testing permissions",
+    "permissions" : {
+        "chat": ["cobrowse"]
+    }
 }
 ```
 
