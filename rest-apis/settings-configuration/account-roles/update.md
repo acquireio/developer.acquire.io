@@ -10,7 +10,7 @@ Update
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Update a role. The roleId must be passed in to the endpoint as a path parameter.
+Update a role. The `roleId` must be passed in to the endpoint as a path parameter.
 {% endapi-method-description %}
 
 {% api-method-spec %}
