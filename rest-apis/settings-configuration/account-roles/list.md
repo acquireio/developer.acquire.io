@@ -23,19 +23,19 @@ Bearer {{api\_key}}
 
 {% api-method-query-parameters %}
 {% api-method-parameter name="select" type="array" required=false %}
-
+Specify the array of fields which wants as response
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="relations" type="string" required=false %}
-
+Specify the relation with other entities
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="where" type="object" required=false %}
-
+Specify the condition to narrow the response.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="order" type="object" required=false %}
-
+Specify the order which is an object with descending or ascending order.
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
