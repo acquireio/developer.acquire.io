@@ -10,7 +10,7 @@ Get
 {% endapi-method-summary %}
 
 {% api-method-description %}
-API to get a single department by it's ID
+Retrieve a single department. The departmentId must be passed in to the endpoint as a path parameter.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -23,17 +23,17 @@ ID of the department
 
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
-Bearer {API\_KEY}
+Bearer {{API\_KEY}}
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
 {% api-method-parameter name="select" type="array" required=false %}
-
+Specify which fields you'd like in the response
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="relations" type="object" required=false %}
-
+Specify relations with other entities 
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}

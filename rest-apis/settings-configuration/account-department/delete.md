@@ -10,7 +10,7 @@ Delete
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Delete a department. The department's id must be passed in to the endpoint as a query parameter.
+Delete a department. The department's `id` must be passed in to the endpoint as a query parameter.
 {% endapi-method-description %}
 
 {% api-method-spec %}

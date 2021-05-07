@@ -10,7 +10,7 @@ Update
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Update a department. The department's ID must be passed in to the endpoint as a path parameter.
+Update a department. The `departmentId` must be passed in to the endpoint as a path parameter.
 {% endapi-method-description %}
 
 {% api-method-spec %}

@@ -38,8 +38,8 @@ Password of the user \(can be changed later\).
 Array of integers. The role ID\(s\) the user will be assigned to. 
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="department" type="array" required=false %}
-Array of integers. The department ID\(s\) the user will be assigned to. 
+{% api-method-parameter name="department" type="array" required=true %}
+Array of integers. The department ID\(s\) the user will be assigned to. Pass empty array if not assigning any department to it
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
 {% endapi-method-request %}

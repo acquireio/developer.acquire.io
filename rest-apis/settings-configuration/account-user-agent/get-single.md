@@ -10,7 +10,7 @@ Get Single User
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Retrieve information for a single user. A userId must be passed in to the endpoint as a path parameter. 
+Retrieve information for a single user. A `userId` must be passed in to the endpoint as a path parameter. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -29,11 +29,11 @@ Bearer {{API\_KEY}}
 
 {% api-method-query-parameters %}
 {% api-method-parameter name="select" type="array" required=false %}
-
+Specify which fields you'd like in the response
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="relations" type="string" required=false %}
-
+Specify the relations with other entities 
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}

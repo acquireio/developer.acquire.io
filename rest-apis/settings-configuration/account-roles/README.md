@@ -1,12 +1,12 @@
 ---
 description: >-
-  Account Role API endpoints helps in getting the information related to the
-  roles of the account and add or delete a role from the account.
+  Retrieve and manipulate information related to the roles of the account and
+  add or delete a role from an account.
 ---
 
 # Account - Roles
 
-Account Role API endpoints helps in getting the information related to the roles of the account and add or delete a role from the account.
+Retrieve, edit, create, or delete information in account roles.
 
 ### Attributes 
 
