@@ -160,6 +160,7 @@
       * [Delete](rest-apis/chatbot/sequence-bot/branch/delete.md)
       * [Set as Parent Branch](rest-apis/chatbot/sequence-bot/branch/set-as-separate-branch.md)
   * [Bot resources](rest-apis/chatbot/bot-resources.md)
+  * [Webhooks in chatbot](rest-apis/chatbot/webhooks-in-chatbot.md)
 * [Analytics](rest-apis/analytics/README.md)
   * [Custom Reporting](rest-apis/analytics/custom-reporting.md)
   * [General Analytics](rest-apis/analytics/general-analytics.md)
