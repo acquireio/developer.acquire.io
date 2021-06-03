@@ -1,5 +1,5 @@
 ---
-description: This endpoint allows you to capture data while call end.
+description: Capture data when a call ends.
 ---
 
 # Call end
@@ -10,7 +10,7 @@ Create an end call
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Create an end call
+Create an ended call.
 {% endapi-method-description %}
 
 {% api-method-spec %}
