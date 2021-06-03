@@ -1,5 +1,5 @@
 ---
-description: This endpoint allows you to capture data while call answered.
+description: Capture data while a call is answered.
 ---
 
 # Answered
@@ -10,7 +10,7 @@ Create an answered call
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Create an answered call
+Create an answered call.
 {% endapi-method-description %}
 
 {% api-method-spec %}
