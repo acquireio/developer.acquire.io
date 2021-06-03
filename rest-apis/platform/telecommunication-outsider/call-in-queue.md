@@ -1,5 +1,5 @@
 ---
-description: This endpoint allows you to log calls while calling in a queue.
+description: This endpoint allows you to capture data while call in a queue.
 ---
 
 # Call in queue

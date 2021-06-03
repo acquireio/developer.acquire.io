@@ -1,3 +1,7 @@
+---
+description: This endpoint allows you to capture data while ringing.
+---
+
 # Ringing
 
 {% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/voip/call-ringing" path="" %}

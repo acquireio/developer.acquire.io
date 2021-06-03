@@ -1,12 +1,16 @@
+---
+description: This endpoint allows you to capture data while call end.
+---
+
 # Call end
 
 {% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/voip/call-answered" path="" %}
 {% api-method-summary %}
-Create an ended call
+Create an end call
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Create an ended call
+Create an end call
 {% endapi-method-description %}
 
 {% api-method-spec %}
