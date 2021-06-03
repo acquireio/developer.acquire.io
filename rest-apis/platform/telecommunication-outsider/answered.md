@@ -29,7 +29,7 @@ Id of the call
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="Email" type="string" required=true %}
-Email of the callee. Email is optional for incoming.
+Email of the callee.
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
 {% endapi-method-request %}
