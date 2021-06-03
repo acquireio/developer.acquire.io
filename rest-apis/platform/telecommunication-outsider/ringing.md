@@ -25,7 +25,7 @@ The direction of the call 'outgoing/incoming'
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="CallId" type="string" required=true %}
-Id of the call.
+Id of the call
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="To" type="string" required=true %}
