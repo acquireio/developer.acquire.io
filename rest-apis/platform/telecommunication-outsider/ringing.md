@@ -11,31 +11,25 @@ Create a call ringing
 
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-headers %}
-{% api-method-parameter name="Authorization" type="string" required=true %}
-Bearer {{api\_key}}
-{% endapi-method-parameter %}
-{% endapi-method-headers %}
-
 {% api-method-body-parameters %}
-{% api-method-parameter name="email" type="string" required=false %}
-Email of the callee. 
+{% api-method-parameter name="email" type="string" required=true %}
+Email of the callee. Email isn't required for incoming calls.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="Direction" type="string" required=true %}
-The direction of the caller 'outgoing/incoming'
+The direction of the call 'outgoing/incoming'
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="CallId" type="string" required=true %}
-Id of the caller
+Id of the call.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="To" type="string" required=true %}
-Phone number of the caller 'To'
+Specify the phone number of the callee 'To'
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="From" type="string" required=true %}
-Phone number of the caller 'From'
+Specify the phone number of the caller 'From'
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
 {% endapi-method-request %}

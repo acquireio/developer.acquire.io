@@ -11,15 +11,9 @@ Create an ended call
 
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-headers %}
-{% api-method-parameter name="Authorization" type="string" required=true %}
-Bearer {{api\_key}}
-{% endapi-method-parameter %}
-{% endapi-method-headers %}
-
 {% api-method-body-parameters %}
 {% api-method-parameter name="Email" type="string" required=false %}
-Email of the callee.
+Email of the callee. Email is optional for the incoming call.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="From" type="string" required=true %}
@@ -27,11 +21,11 @@ Phone number of the caller 'From'
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="To" type="string" required=true %}
-Phone number of the caller 'To'
+Phone number of the callee 'To'
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="CallId" type="string" required=true %}
-Specify the Id of the caller.
+Specify the Id of the call.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="CallStatus" type="string" required=true %}
@@ -43,12 +37,12 @@ Specify the status of the call.
 'completed'\]
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="RecordingUrl" type="string" required=true %}
+{% api-method-parameter name="RecordingUrl" type="string" required=false %}
 Specify the URL of the recording.
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="Duration" type="string" required=true %}
-Specify the call duration. 
+{% api-method-parameter name="Duration" type="string" required=false %}
+Specify the call duration \(sec\). 
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="Direction" type="string" required=true %}

@@ -15,19 +15,13 @@ Create a call in queue.
 
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-headers %}
-{% api-method-parameter name="Authorization" type="string" required=true %}
-Bearer {{api\_key}}
-{% endapi-method-parameter %}
-{% endapi-method-headers %}
-
 {% api-method-body-parameters %}
 {% api-method-parameter name="CallId" type="string" required=true %}
-Id of the caller
+Id of the call
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="To" type="string" required=true %}
-Caller phone number 'To'
+Callee phone number 'To'
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="From" type="string" required=true %}
