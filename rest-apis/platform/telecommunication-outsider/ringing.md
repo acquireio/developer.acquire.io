@@ -1,16 +1,16 @@
 ---
-description: Capture data while ringing.
+description: Capture data while a call is ringing.
 ---
 
 # Ringing
 
 {% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/voip/call-ringing" path="" %}
 {% api-method-summary %}
-Create a call ringing
+Create a ringing call
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Create a call ringing
+Create a ringing call. 
 {% endapi-method-description %}
 
 {% api-method-spec %}
