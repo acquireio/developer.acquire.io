@@ -1,10 +1,10 @@
 ---
-description: Let you interpolate a voice calling data into Acquire.
+description: Interpolate voice data into Acquire.
 ---
 
 # Telecommunication - Outsider
 
-Telecommunication - outsider is helping to integrate voice calling data into Acquire. These endpoints allow you to monitor and analyze their data. Integrate a powerful voice call platform an aspect of how you and your company interact with other Telecom service providers. 
+Integrate voice data into Acquire. These endpoints allow you to monitor and analyze audio data and integrate and interact with other telephony services. 
 
 ![](../../../.gitbook/assets/call.gif)
 
@@ -23,5 +23,5 @@ Telecommunication - outsider is helping to integrate voice calling data into Acq
 
 ### Permissions
 
-To request a telecommunication-outsider endpoint, permissions or api\_key not required. 
+Permission and API Keys are not required to request a telecommunication-outsider endpoint.
 
