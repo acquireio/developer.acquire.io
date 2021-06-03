@@ -1,5 +1,5 @@
 ---
-description: This endpoint allows you to capture data while ringing.
+description: Capture data while ringing.
 ---
 
 # Ringing
