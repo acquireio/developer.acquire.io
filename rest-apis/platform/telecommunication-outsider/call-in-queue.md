@@ -1,5 +1,5 @@
 ---
-description: This endpoint allows you to capture data while call in a queue.
+description: Capture data while calls are in the queue.
 ---
 
 # Call in queue
@@ -10,7 +10,7 @@ Create a call in queue
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Create a call in queue.
+Create a call in the queue.
 {% endapi-method-description %}
 
 {% api-method-spec %}
