@@ -4,7 +4,7 @@ description: Capture data when a call ends.
 
 # Call end
 
-{% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/voip/call-answered" path="" %}
+{% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/voip/call-end" path="" %}
 {% api-method-summary %}
 Create an end call
 {% endapi-method-summary %}
