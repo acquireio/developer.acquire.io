@@ -6,7 +6,7 @@
 
 * [Overview](widget/overview.md)
 * [Installation](widget/installation.md)
-* [Functioning / Customization](widget/functioning-customization/README.md)
+* [Customization](widget/functioning-customization/README.md)
   * [Settings](widget/functioning-customization/settings/README.md)
     * [Greeting](widget/functioning-customization/settings/greeting.md)
     * [Greeting Introduction](widget/functioning-customization/settings/introduction-string.md)
