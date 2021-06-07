@@ -60,9 +60,9 @@
 
 ## REST APIs
 
-* [Introduction](rest-apis/introduction.md)
+* [Introduction](rest-apis/introduction/README.md)
+  * [Request Types, Permissions, Errors, & Limits](rest-apis/introduction/interrelated.md)
 * [Authorization](rest-apis/authorization.md)
-* [Interrelated](rest-apis/interrelated.md)
 * [Conversation](rest-apis/conversation/README.md)
   * [Cases](rest-apis/conversation/conversation-or-cases/README.md)
     * [Messages](rest-apis/conversation/conversation-or-cases/messages-1/README.md)

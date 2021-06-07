@@ -43,7 +43,7 @@ The [Acquire](https://acquire.io/) Developer Portal is unified into four differe
       </td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="rest-apis/introduction.md">REST APIs</a>
+      <td style="text-align:left"><a href="rest-apis/introduction/">REST APIs</a>
       </td>
       <td style="text-align:left">
         <p>REST API allows you to retrieve, engage,</p>
