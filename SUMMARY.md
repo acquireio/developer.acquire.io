@@ -203,7 +203,7 @@
       * [Add](rest-apis/settings/account-settings/account-roles/add.md)
       * [Update](rest-apis/settings/account-settings/account-roles/update.md)
       * [Delete](rest-apis/settings/account-settings/account-roles/delete.md)
-    * [Department](rest-apis/settings/account-settings/account-department/README.md)
+    * [Departments](rest-apis/settings/account-settings/account-department/README.md)
       * [List](rest-apis/settings/account-settings/account-department/list.md)
       * [Get](rest-apis/settings/account-settings/account-department/get.md)
       * [Add](rest-apis/settings/account-settings/account-department/add-1.md)

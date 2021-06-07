@@ -2,7 +2,7 @@
 description: Retrieve and manipulate information for departments.
 ---
 
-# Department
+# Departments
 
 Department endpoints allow you to get department related information and make updates to departments.
 
