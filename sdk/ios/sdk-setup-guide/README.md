@@ -1,4 +1,6 @@
-# SDK Setup Guide
+# iOS Setup Guide
+
+
 
 {% page-ref page="getting-started.md" %}
 
