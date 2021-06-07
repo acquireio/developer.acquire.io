@@ -4,7 +4,7 @@ description: >-
   conversations.
 ---
 
-# Message Shortcuts
+# Shortcuts
 
 These endpoints allows you to manage message shortcuts and provides a faster way to type your messages. These endpoints can be used to create, retrieve, update, and delete shortcuts.
 
