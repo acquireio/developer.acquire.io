@@ -41,9 +41,18 @@ Once you've configured an inbound webhook in another system, you’ll need to cr
 
 Provide a new name for your webhook in the ‘Webhook Name’ field. Then, select **Outbound** in the ‘Webhook Flow’ section. 
 
-Next, set your format, status, and security preferences as well as an email address. Should your webhook fail, a notification will be sent to the email address provided.  
-[![Y4HOdBdM5r5CyV2OzfcQD\_vxo3LzT1ukJ1iknqufwysDTTmHKJoavUweKcMQiJptWIm0tG0fAz\_gzCp-JxemrKBn\_uTI-qcruz9KCg82sGBWIGGJtVtZ2ciQKn2A4qfld9sXR1Wt](https://lh6.googleusercontent.com/Y4HOdBdM5r5CyV2OzfcQD_vxo3LzT1ukJ1iknqufwysDTTmHKJoavUweKcMQiJptWIm0tG0fAz_gzCp-JxemrKBn_uTI-qcruz9KCg82sGBWIGGJtVtZ2ciQKn2A4qfld9sXR1Wt)](https://lh6.googleusercontent.com/Y4HOdBdM5r5CyV2OzfcQD_vxo3LzT1ukJ1iknqufwysDTTmHKJoavUweKcMQiJptWIm0tG0fAz_gzCp-JxemrKBn_uTI-qcruz9KCg82sGBWIGGJtVtZ2ciQKn2A4qfld9sXR1Wt)
+Next, set your format, status, and security preferences as well as an email address. Should your webhook fail, a notification will be sent to the email address provided.
 
-Paste the webhook URL. Once pasted, you’ll see a list of the available variables.   
-[![ecbijG0r4UzXAbTUGeftAIhrngvTQQs7umWwPHVr4pQxazFN3wHSLsofRRJirwqDP9\_nBmFNQ7RWVQzbh8m7Wz-pPvkCoIOjA61HVAKd3\_i6up8jjgcXalb8whSuyewciZAgv8cD](https://lh4.googleusercontent.com/ecbijG0r4UzXAbTUGeftAIhrngvTQQs7umWwPHVr4pQxazFN3wHSLsofRRJirwqDP9_nBmFNQ7RWVQzbh8m7Wz-pPvkCoIOjA61HVAKd3_i6up8jjgcXalb8whSuyewciZAgv8cD)](https://lh4.googleusercontent.com/ecbijG0r4UzXAbTUGeftAIhrngvTQQs7umWwPHVr4pQxazFN3wHSLsofRRJirwqDP9_nBmFNQ7RWVQzbh8m7Wz-pPvkCoIOjA61HVAKd3_i6up8jjgcXalb8whSuyewciZAgv8cD)
+![Select Outbound in &apos;Webhook Flow&apos;. ](../.gitbook/assets/edit-webhook-outbound-selected-from-webhook-flow-section.png)
+
+Paste your webhook URL. The Case and Operator Trigger Events sections will appear. Select the events that you'd like to set your webhook triggers to. The trigger events are: 
+
+* Case new - triggers on new case 
+* Case status is set to Active - triggers when the case status is changed to active
+* Case status is set to Closed - triggers when the case status is changed to closed 
+* On Agent status change - triggers when agents change their status to active/inactive
+
+Press **‘Create’.**
+
+Your outbound webhook is now ready!
 
