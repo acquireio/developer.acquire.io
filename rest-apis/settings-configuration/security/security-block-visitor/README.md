@@ -4,7 +4,7 @@ description: >-
   period of time or for some reason.
 ---
 
-# Security - Block Visitor
+# Block Visitor
 
 Block Visitor contains a particular contact gets blocked until a certain period of time or for some reason.
 
