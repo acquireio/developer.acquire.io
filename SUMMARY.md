@@ -55,7 +55,7 @@
 ## Webhooks <a id="webhook-api"></a>
 
 * [Introduction](webhook-api/introduction.md)
-* [Webhook Subscribe](webhook-api/webhook-subscribe.md)
+* [Getting Started](webhook-api/webhook-subscribe.md)
 * [Securing Webhook](webhook-api/securing-webhook.md)
 * [Webhook Events](webhook-api/webhook-events-1.md)
 
