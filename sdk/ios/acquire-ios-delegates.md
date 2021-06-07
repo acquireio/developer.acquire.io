@@ -1,4 +1,4 @@
-# Acquire SDK Delegates
+# Acquire Delegates for iOS
 
 To add listeners provided by AcquireIOSupport SDK, add the following line on your class where you want to listen to our SDK events
 

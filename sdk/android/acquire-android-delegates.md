@@ -1,4 +1,4 @@
-# Acquire Delegates
+# Acquire Delegates for Android
 
 ### Session Delegates 
 

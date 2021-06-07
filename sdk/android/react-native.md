@@ -89,7 +89,7 @@ All the above **permissions** need to be mentioned in your **AndroidManifest** f
 
 You can download our demo react native [source code](https://drive.google.com/file/d/1Ga7vgi5Zg2BKSIDfc9FG-np8j5IqEFRR/view?usp=sharing).
 
-To know more about initialization options [click here](acquire-apis.md). 
+To know more about initialization options [click here](acquire-sdk-apis.md). 
 
-To get session events [click here](acquire-delegates.md). 
+To get session events [click here](acquire-android-delegates.md). 
 

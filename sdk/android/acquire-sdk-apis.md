@@ -1,4 +1,4 @@
-# Acquire APIs
+# Acquire SDK APIs
 
 ### SDK APIs:
 

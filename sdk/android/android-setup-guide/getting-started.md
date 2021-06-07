@@ -22,5 +22,5 @@ We are providing two types of build variants :
 
 {% page-ref page="integration-guide-lite.md" %}
 
-{% page-ref page="../acquire-delegates.md" %}
+{% page-ref page="../acquire-android-delegates.md" %}
 
