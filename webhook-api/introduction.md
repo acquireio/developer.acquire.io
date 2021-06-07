@@ -1,9 +1,9 @@
 # Introduction
 
-The webhooks will assist you to subscribe to real-time HTTP notification of changes to specific objects that occur during an Acquire account with a configured endpoint. Instead of making an API call during an event that occurs in the account, Acquire can send a request to the endpoint you configure.
+Instead of making an API call during an event, Acquire can send a request to the endpoint you configured. Respond with dynamic data or record data in other platforms by using webhooks. 
 
 {% hint style="info" %}
- **Note**: The Settings section has the option to view, update and log all your webhooks from the Acquire webhooks dashboard.
+ **Note**: The Settings section has the option to view, update and log all your webhooks. In Acquire, go to **Settings &gt; For Developers &gt; Webhooks** to get started**.**
 {% endhint %}
 
 
