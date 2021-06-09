@@ -12,11 +12,11 @@ With events, you can filter what kind of events you want to subscribe. These eve
   <tbody>
     <tr>
       <td style="text-align:left">Chat status is set to Pending</td>
-      <td style="text-align:left"><em>Coming soon!</em> Activates when chat state is Pending.</td>
+      <td style="text-align:left">Activates when chat state is Pending.</td>
     </tr>
     <tr>
       <td style="text-align:left">Chat status is set to Active</td>
-      <td style="text-align:left">Activates when chat state is Active.</td>
+      <td style="text-align:left"><em>Coming Soon! </em>Activates when chat state is Active.</td>
     </tr>
     <tr>
       <td style="text-align:left">Chat status is set to Queue</td>
