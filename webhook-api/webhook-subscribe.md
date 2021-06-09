@@ -35,7 +35,7 @@ Your inbound webhook is now ready!
 
 ### Outbound
 
-Once you've configured an inbound webhook in another system, you’ll need to create a reference to it in Acquire. To create a new webhook, go to **Settings &gt; For Developers &gt; Webhooks** and click on the **‘Create Webhook’** button.  
+Once you've configured an outbound webhook in another system, you’ll need to create a reference to it in Acquire. To create a new webhook, go to **Settings &gt; For Developers &gt; Webhooks** and click on the **‘Create Webhook’** button.  
   
 [![3zk0ZP84f0U7G1sEpKw995NNpUU4cmAxrI6O-oiqEx0\_\_5AUxzUJ-BOG\_H3mhm28LLBMsZb5Rm7YvhhBYDDLd-YFdw6BHvUC6WNcdOa0i68gNdL7\_d5S7sfrnS4WQcK375uLJfCE](https://lh6.googleusercontent.com/3zk0ZP84f0U7G1sEpKw995NNpUU4cmAxrI6O-oiqEx0__5AUxzUJ-BOG_H3mhm28LLBMsZb5Rm7YvhhBYDDLd-YFdw6BHvUC6WNcdOa0i68gNdL7_d5S7sfrnS4WQcK375uLJfCE)](https://lh6.googleusercontent.com/3zk0ZP84f0U7G1sEpKw995NNpUU4cmAxrI6O-oiqEx0__5AUxzUJ-BOG_H3mhm28LLBMsZb5Rm7YvhhBYDDLd-YFdw6BHvUC6WNcdOa0i68gNdL7_d5S7sfrnS4WQcK375uLJfCE)
 
