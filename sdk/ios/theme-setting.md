@@ -147,5 +147,5 @@ These attributes applies on default bottom right support button notification bad
 
 Set AcquireIOConfig with `@"ThemeOptions" -> @"ACQUIREIO_GLOBAL" ->@"FONT_NAME""` , wherever necessary
 
-![Add To config in your code](https://gblobscdn.gitbook.com/assets%2F-LMa9C05MmCnAr03_v9O%2F-LNxYVHfRlIavnBiPh8X%2F-LNxeuBmaeWBQyOh1kJq%2Fimage-sample-code-config-dict.png?alt=media&token=7828300b-bc6c-407b-b495-a7ae334b7996)
+![Add custom font in your themeOptions](https://gblobscdn.gitbook.com/assets%2F-LMa9C05MmCnAr03_v9O%2F-LNxYVHfRlIavnBiPh8X%2F-LNxeuBmaeWBQyOh1kJq%2Fimage-sample-code-config-dict.png?alt=media&token=7828300b-bc6c-407b-b495-a7ae334b7996)
 
