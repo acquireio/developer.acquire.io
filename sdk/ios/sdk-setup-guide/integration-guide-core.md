@@ -92,5 +92,5 @@ To allow your AcquireIOSupport SDK to play audio in the background, Enable it us
 
 1\) Select your project file in the Navigator of Xcode. 2\) From the Capabilities section, switch on the **Background Modes** subsection 3\) Switch **ON** the Background Modes subsection. After background modes are listed, tick on the _Audio, Airplay & picture in the picture_
 
-![](../../../.gitbook/assets/new_enablebackgroundcapability.png)
+![](../../../.gitbook/assets/enablebackgroundcapability.png)
 

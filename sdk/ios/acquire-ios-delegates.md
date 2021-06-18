@@ -1,14 +1,16 @@
 # Acquire Delegates for iOS
 
-To add listeners provided by AcquireIOSupport SDK, add the following line on your class where you want to listen to our SDK events
+## AcquireIOSupport iOS SDK Delegates
+
+To add listeners provided by AcquireIOSupport SDK, add following line on your class where you want to listen to our SDK events
 
 ```text
- AcquireIO.support.delegate = self
+AcquireIO.support.delegate = self
 ```
 
-#### CONNECTIONSTATUSCHANGE <a id="connectionstatuschange"></a>
+#### ConnectionStatusChange
 
-This method will be called by SDK when connection status will change. The details of the status that was updated during the connection will be available in the argument.
+This method will be called by SDK when connection status will change. The details of status that was updated during the connection will be available in the argument.
 
 ```text
 func didChangeConnectionStatus(status: AcquireIOConnectionStatus)
@@ -31,17 +33,17 @@ public enum AcquireIOConnectionStatus : Int {
 }
 ```
 
-Once a connection is established with Acquire server, the delegate will receive either didChangeConnectionStatus: or onError;.
+Once connection is established with Acquire server, the delegate will receive either didChangeConnectionStatus: or onError:.
 
-#### ONERROR <a id="onerror"></a>
+#### onError
 
-This function will provide connection-related errors i.e. invalid input data, expire data etc. To get more details about the error encountered while establishing a connection, Implement below delegate method
+This function will provide connection related error i.e. invalid input data, expire data etc. To get more details about the error encountered while establishing connection, Implement below delegate method
 
 ```text
 func onError(error: Error)
 ```
 
-#### ONCALLSUPPORTSTATUSCHANGE <a id="oncallsupportstatuschange"></a>
+#### onCallSupportStatusChange
 
 When status of Audio/Video call with Agent changes SDK will call below method. The details of call status that was updated during the connection will be available in the arguments along with the optional message string. To get the call connection status, use
 
@@ -60,7 +62,7 @@ public enum AcquireIOCallSupportStatus : Int {
 }
 ```
 
-#### ONAGENTCONNECTED <a id="onagentconnected"></a>
+#### onAgentConnected
 
 This will be called when agent is connected.
 
@@ -68,7 +70,7 @@ This will be called when agent is connected.
 func onAgentConnected()
 ```
 
-#### DIDCHANGEAGENTSTATUS <a id="didchangeagentstatus"></a>
+#### didChangeAgentStatus
 
 This optional method will be called by SDK when Agent status changes. The details of agent `status` that was updated during the connection will be available in the argument along with `Agent ID`.
 
@@ -89,7 +91,7 @@ public enum AcquireIOAgentStatus : Int {
 }
 ```
 
-#### DIDUSERINTERACTED <a id="diduserinteracted"></a>
+#### didUserInteracted
 
 This will be called when user interacts with events.
 
@@ -97,7 +99,7 @@ This will be called when user interacts with events.
 func didUserInteracted(withEvent type: AcquireIOInteractionEventType, withData data: [String : Any]?)
 ```
 
-Event Types - SDK events recevied
+Event Types available are listed below:
 
 ```text
 public enum AcquireIOInteractionEventType : Int {
@@ -126,9 +128,11 @@ public enum AcquireIOInteractionEventType : Int {
 
 > Note: For Lite version, only following events will be received
 
-1\) conversationStart 2\) conversationEnd 3\) conversationFeedbackSubmit
+1. conversationStart
+2. conversationEnd
+3. conversationFeedbackSubmit
 
-#### DIDRECEIVETRIGGEREVENT <a id="didreceivetriggerevent"></a>
+#### didReceiveTriggerEvent
 
 This optional method will be called when fire rule matched for created Triggers from the agent panel. It will receive `eventName` as parameter
 
@@ -136,11 +140,21 @@ This optional method will be called when fire rule matched for created Triggers 
 func didReceiveTriggerEvent(_ eventName: String)
 ```
 
-#### HIDESUPPORT <a id="hidesupport"></a>
+#### hideSupport
 
 This optional method will be received when support view controller is set hidden.
 
 ```text
 func hideSupport()
+```
+
+
+
+#### didReceiveNewMessage
+
+This optional method will be called by SDK when a new message has been received. The details of the message received will be available in the argument.
+
+```text
+func didReceiveNewMessage(_ message: Any)
 ```
 
