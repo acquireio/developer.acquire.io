@@ -1,12 +1,12 @@
 # Getting Started
 
-Welcome to Acquire developer document. This document provides powerful resources for interacting with Acquire and explains how to use API and Webhooks. API support Email: [developer@acquire.io](mailto:developer@acquire.io)  
+Welcome to Acquire's developer documentation. This document provides powerful resources for interacting with Acquire and explains how to use API and Webhooks. Please contact us at: [developer@acquire.io](mailto:developer@acquire.io)  
   
-Acquire Developer Portal enables you to cultivate the facility of Acquire's real-time, historic conversation and communicate within your application. You'll find guides and community support to help you start working as quickly as possible!
+The Acquire Developer Portal enables you to utilize Acquire's real-time and historic conversation data, and communicate within your application. You'll find guides and community support to help you start working as quickly as possible!
 
 ## What do you want to do?
 
-The [Acquire](https://acquire.io/) Developer Portal is unified into four different resources. The Developer Portal can be accustomed to perform a large array of tasks.
+The [Acquire](https://acquire.io/) Developer Portal is divided into four different resources. These resources may be used to perform a wide range of tasks.
 
 <table>
   <thead>
@@ -22,33 +22,24 @@ The [Acquire](https://acquire.io/) Developer Portal is unified into four differe
       <td style="text-align:left"><a href="widget/overview.md">WIDGET</a>
       </td>
       <td style="text-align:left">
-        <p>Widget resources empower you to embed into</p>
-        <p>your web page, customizations, etc...</p>
+        <p>Embed the widget into</p>
+        <p>your web page, customize it and more.</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left"><a href="sdk/overview.md">SDK</a>
       </td>
-      <td style="text-align:left">
-        <p>The SDKs that are used to building a unified</p>
-        <p>app experience.</p>
-      </td>
+      <td style="text-align:left">Build a unified experience for your mobile customers</td>
     </tr>
     <tr>
       <td style="text-align:left"><a href="webhook-api/introduction.md">WEBHOOKS</a>
       </td>
-      <td style="text-align:left">
-        <p>Webhooks allow your application to be notified</p>
-        <p>when an event occurring within your Acquire account.</p>
-      </td>
+      <td style="text-align:left">Perform dynamic actions with webhooks.</td>
     </tr>
     <tr>
       <td style="text-align:left"><a href="rest-apis/introduction/">REST APIs</a>
       </td>
-      <td style="text-align:left">
-        <p>REST API allows you to retrieve, engage,</p>
-        <p>create a spread of various endpoints.</p>
-      </td>
+      <td style="text-align:left">Retrieve, update, delete, and create resources based on various endpoints.</td>
     </tr>
   </tbody>
 </table>
