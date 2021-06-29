@@ -4,7 +4,7 @@ description: Update a contact.
 
 # Update contact
 
-{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/contact/{{contactId}}" path="" %}
+{% api-method method="put" host="https://{{account\_id}}.acquire.io/api/v1/crm/objects/contact/{{contactId}}" path="" %}
 {% api-method-summary %}
 Update a contact
 {% endapi-method-summary %}
