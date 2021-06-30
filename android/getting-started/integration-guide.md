@@ -26,30 +26,31 @@ Module build.gradle :
 
 ```javascript
 dependencies {
-    implementation 'com.acquireio:core-beta:3.+'
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.10"
-    implementation 'androidx.appcompat:appcompat:1.2.0'
-    implementation 'com.google.android.material:material:1.2.1'
-    implementation 'androidx.core:core-ktx:1.3.2'
+    implementation 'com.acquireio:core:3.+'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.5.20"
+    implementation 'androidx.appcompat:appcompat:1.3.0'
+    implementation 'com.google.android.material:material:1.3.0'
+    implementation 'androidx.core:core-ktx:1.5.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.9"
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9"
-    implementation 'com.squareup.okhttp3:okhttp:4.8.1'
-    implementation ('io.socket:socket.io-client:1.0.0') {
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.2"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.2"
+    implementation 'com.squareup.okhttp3:okhttp:4.9.0'
+    api('io.socket:socket.io-client:1.0.1') {
         exclude group: 'org.json', module: 'json'
     }
     implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.beust:klaxon:5.0.1'
     implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
-    implementation "androidx.fragment:fragment-ktx:1.2.5"
-    implementation "androidx.room:room-runtime:2.2.5"
-    kapt "androidx.room:room-compiler:2.2.5"
-    implementation "androidx.room:room-ktx:2.2.5"
+    implementation "androidx.fragment:fragment-ktx:1.3.5"
+    implementation "androidx.room:room-runtime:$room_version"
+    kapt "androidx.room:room-compiler:$room_version"
+    implementation "androidx.room:room-ktx:$room_version"
     implementation 'org.greenrobot:eventbus:3.2.0'
     implementation 'org.webrtc:google-webrtc:1.0.32006'
     implementation 'com.squareup.picasso:picasso:2.71828'
-    implementation 'androidx.emoji:emoji-appcompat:1.1.0'
-    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.20'
-    implementation 'androidx.browser:browser:1.2.0'
+    api 'androidx.emoji:emoji-appcompat:1.1.0'
+    api 'pl.droidsonroids.gif:android-gif-drawable:1.2.20'
+    api 'androidx.browser:browser:1.3.0'
 }
 ```
 
