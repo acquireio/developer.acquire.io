@@ -10,7 +10,12 @@ Add a contact
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Add a contact. Contacts may be created with attributes such as `"name"`, `"email"`, `"phone"`, `"city"`, etc. See example body below. 
+Add a contact. Contacts may be created with attributes such as `"name"`, `"email"`, `"phone"`, `"city"`, etc. See example body below.   
+  
+You may use Custom Attributes during a POST request. If you're using radio or drop-down fields, ensure that the input matches the options. Use the Custom Attribute key in the fields body. You may find the Custom Attribute key in **Settings &gt; Account Settings &gt; Custom Attributes**. For example:   
+`"fields":{  
+   "custom attribute key": "my custom attribute"  
+}`
 {% endapi-method-description %}
 
 {% api-method-spec %}
