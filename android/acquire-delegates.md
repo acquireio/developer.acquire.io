@@ -18,4 +18,6 @@ AcquireApp.getInstance().setSessionListener(this);
 8. **`noAgentAvailable();`** executed when no agent is available.
 9. **`onWaitDialogAppear();`**executed when visitor sends a call request.
 10. **`onWaitDialogDisappear();`** executed when agent accepts call request.
+11. **`onCoBrowseConnect();`**executed when cobrowse session is connected.
+12. **`onCoBrowseDisconnect();`** executed when cobrowse session is disconnected.
 
