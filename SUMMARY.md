@@ -110,6 +110,7 @@
 * [Operating Hours](rest-apis/operating-hours/README.md)
   * [Save Operating Hours](rest-apis/operating-hours/save-operating-hours.md)
   * [Get Operating Hours](rest-apis/operating-hours/get-operating-hours.md)
+* [Cobrowse](rest-apis/cobrwose-endpoints.md)
 
 ## Chatbot API
 
