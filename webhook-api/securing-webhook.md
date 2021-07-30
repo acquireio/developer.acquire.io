@@ -4,6 +4,8 @@
 
 When a webhook is configured, a unique signature key is generated and given in the webhook response. The value of this header is an HMAC-SHA256. This signature key is used to sign the webhook payloads, which are sent to your endpoint with the signature key name `x-acquire-signature`.
 
+[See the Getting Started Guide in our Help Docs.](https://help.acquire.io/for-developers/hmac-for-webhooks)
+
 **Your HMAC/Secret Key**
 
 When you create a new webhook you have to allocate/add HMAC/Secret Key.
