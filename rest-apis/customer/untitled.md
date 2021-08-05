@@ -680,3 +680,165 @@ Can be one of company \| cases \| tags \| visits \| timeline \| fields
 {% endapi-method-spec %}
 {% endapi-method %}
 
+{% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/crm/contact/list" path="" %}
+{% api-method-summary %}
+Filter Contact List
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Filters the contact list based on the search results or apply filters to it
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-body-parameters %}
+{% api-method-parameter name="search" type="string" required=false %}
+Specify the string value to search
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+{
+    "data": {
+        "list": [
+            {
+                "id": 6545537,
+                "meta": {},
+                "archive": "no",
+                "field_id": 2,
+                "value": "viswanath.sarma@acquire.io",
+                "owner": "contact",
+                "object": "contact",
+                "key": "email",
+                "type": "text",
+                "config": "{\"input\": {\"type\": \"text\", \"label\": \"Email!!!!\", \"required\": false, \"placeholder\": \"\", \"validationType\": \"format\", \"validationFormat\": \"email\", \"requiredErrorMessage\": \"Unfortunately this cannot be blank.\", \"validationErrorMessage\": \"Oops! Looks like format you entered is wrong. Can you please recheck your email?\"}, \"label\": \"Email!!!!\", \"backend\": {\"list\": false}, \"capture\": [\"api\"], \"online_order\": 9, \"offline_order\": 8492}",
+                "system": "yes",
+                "mainContactId": 6545537,
+                "contactId": 6545537,
+                "clientType": null,
+                "clientName": null,
+                "clientVersion": null,
+                "clientOsName": null,
+                "clientOsVersion": null,
+                "clientDeviceType": null,
+                "clientDeviceVendor": null,
+                "clientDeviceModel": null,
+                "companyId": 149,
+                "dateCreated": "2021-07-16 11:49:24",
+                "dateUpdated": "2021-07-16 11:49:51",
+                "clientDetails": null,
+                "fields": {
+                    "email": "viswanath.sarma@acquire.io",
+                    "city": "",
+                    "state": null,
+                    "country": {
+                        "name": "United States",
+                        "name_official": "United States of America",
+                        "cca2": "US",
+                        "ccn3": "84",
+                        "cca3": "USA",
+                        "calling_code1": 1,
+                        "region_id": 496,
+                        "lat": "38",
+                        "lng": "-97",
+                        "voip_enable": true
+                    },
+                    "countryId": "517",
+                    "ip": "2405:201:c032:1014:76e9:781c:e56d:ebc",
+                    "calling_code": "1",
+                    "contact_country_flag": "USA"
+                },
+                "tags": [],
+                "company": {
+                    "fields": {
+                        "name": "Acquire",
+                        "website": "acquire.io",
+                        "logo": "https://organization.uat.env.acquire.io/logo/acquire.io.png",
+                        "industry": null,
+                        "description": "",
+                        "source": null,
+                        "employees": "100",
+                        "foundation": null,
+                        "address": ""
+                    },
+                    "id": 149,
+                    "dateCreated": "2021-05-20 09:57:31",
+                    "dateUpdated": "2021-05-25 06:04:13"
+                }
+            },
+            {
+                "id": 57,
+                "meta": {},
+                "archive": "no",
+                "field_id": 2,
+                "value": "viswanath.sarma@acquire.io",
+                "owner": "contact",
+                "object": "contact",
+                "key": "email",
+                "type": "text",
+                "config": "{\"input\": {\"type\": \"text\", \"label\": \"Email!!!!\", \"required\": false, \"placeholder\": \"\", \"validationType\": \"format\", \"validationFormat\": \"email\", \"requiredErrorMessage\": \"Unfortunately this cannot be blank.\", \"validationErrorMessage\": \"Oops! Looks like format you entered is wrong. Can you please recheck your email?\"}, \"label\": \"Email!!!!\", \"backend\": {\"list\": false}, \"capture\": [\"api\"], \"online_order\": 9, \"offline_order\": 8492}",
+                "system": "yes",
+                "mainContactId": 57,
+                "contactId": 57,
+                "clientType": "web",
+                "clientName": "Chrome",
+                "clientVersion": "84.0",
+                "clientOsName": "Windows",
+                "clientOsVersion": "8.1",
+                "clientDeviceType": null,
+                "clientDeviceVendor": null,
+                "clientDeviceModel": null,
+                "companyId": null,
+                "dateCreated": "2020-08-05 10:48:24",
+                "dateUpdated": "2021-07-05 06:29:13",
+                "clientDetails": {
+                    "ua": "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36",
+                    "engine": {
+                        "name": "Blink",
+                        "version": "84.0.4147.105"
+                    },
+                    "network": {
+                        "type": "3g",
+                        "speed": "2.52"
+                    }
+                },
+                "fields": {
+                    "name": "Viswanath Sarma",
+                    "email": "viswanath.sarma@acquire.io",
+                    "phone": "7412356890"
+                },
+                "tags": [],
+                "company": {
+                    "fields": {}
+                }
+            }
+        ],
+        "counts": {
+            "filteredCount": 2
+        }
+    }
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+## Body\(raw\)
+
+```text
+{
+  "payload": {},
+  "page": 0,
+  "limit": 0,
+  "search": "viswanath.sarma@acquire.io"
+}
+```
+
