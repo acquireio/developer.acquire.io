@@ -140,7 +140,7 @@ This optional method will be called when fire rule matched for created Triggers 
 func didReceiveTriggerEvent(_ eventName: String)
 ```
 
-#### openAcquireSupport
+#### openSupport
 
 This optional method will be called when support view controller is open.
 
