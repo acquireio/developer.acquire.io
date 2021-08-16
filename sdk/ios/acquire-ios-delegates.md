@@ -140,9 +140,17 @@ This optional method will be called when fire rule matched for created Triggers 
 func didReceiveTriggerEvent(_ eventName: String)
 ```
 
+#### openAcquireSupport
+
+This optional method will be called when support view controller is open.
+
+```text
+func didOpenAcquireSupport()
+```
+
 #### hideSupport
 
-This optional method will be received when support view controller is set hidden.
+This optional method will be called when support view controller is dismissed.
 
 ```text
 func hideSupport()

@@ -4003,5 +4003,184 @@ Bearer \*\*\*YOUR\_API\_KEY\*\*\*
 {% endapi-method-spec %}
 {% endapi-method %}
 
+{% api-method method="get" host="https://{{account\_id}}.acquire.io/api/v1/analytics/custom-reporting/get-custom-chart" path="" %}
+{% api-method-summary %}
+Get Custom Chart with data
+{% endapi-method-summary %}
 
+{% api-method-description %}
+Retrieve data of chart with pagination enabled.
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-headers %}
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Bearer \*\*\*YOUR\_API\_KEY\*\*\*
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+
+{% api-method-query-parameters %}
+{% api-method-parameter name="limit" type="string" required=true %}
+Define limit how many records you want per page out of total records
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="page" type="string" required=true %}
+Page number for which you want data
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="preview" type="string" required=true %}
+If you want total count in response then send its value as false else true.
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="offset" type="string" %}
+This parameter is used for the timezone value and the default timezone will be "GMT". e.g. +05:30 for particular timezone. Default is +00:00
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="chart\_id" type="string" required=true %}
+Id of chart for which you want data.You can get chart id from get\_custom\_report api.
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="post" host="https://{{account\_id}}.acquire.io/api/v1/analytics/custom-reporting/schedule-mail" path="" %}
+{% api-method-summary %}
+Schedule Chart
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Schedule a chart
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-headers %}
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Bearer \*\*\*YOUR\_API\_KEY\*\*\*
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="offset" type="string" %}
+This parameter is used for the timezone value and the default timezone will be "GMT". e.g. +05:30 for particular timezone. Default is +00:00
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="schedulePeriod" type="object" required=true %}
+Object for configuration.  
+  
+period =&gt; "monthly" or "weekly" or "daily",  
+daysOfWeek =&gt; "monday"
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="emails" type="array" required=true %}
+Comma separated emails to which you want to send report
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="chartId" type="string" required=true %}
+ID of chart which you want schedule
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+{
+  "data": {
+    "success": true,
+    "data": {
+      "id": 19,
+      "chartId": 107,
+      "emails": [
+        "kaushalm@acquire.io"
+      ],
+      "schedulePeriod": {
+        "period": "monthly",
+        "daysOfWeek": [
+          "monday"
+        ]
+      },
+    },
+    "message": "Report Mail scheduled successfully"
+  }
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+#### Body
+
+```text
+{
+  "chartId": 107,
+  "emails": [
+    "kaushalm@acquire.io"
+  ],
+  "schedulePeriod": {
+    "period": "monthly",
+    "daysOfWeek": [
+      "monday"
+    ]
+  },
+  "offset": "+00:00"
+}
+```
+
+{% api-method method="delete" host="https://{{account\_id}}.acquire.io/api/v1/analytics/custom-reporting/delete-schedule-mail" path="" %}
+{% api-method-summary %}
+Remove Scheduled Chart
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Remove already scheduled chart
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-headers %}
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Bearer \*\*\*YOUR\_API\_KEY\*\*\*
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+
+{% api-method-query-parameters %}
+{% api-method-parameter name="scheduleMailId" type="number" required=true %}
+Id of scheduled chart.You can get this id using get-custom-chart API.
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
 
