@@ -65,9 +65,3 @@ The response body shows the success status, error messages, and data array.
 {% endapi-method-spec %}
 {% endapi-method %}
 
-### Sample Response
-
-```text
-
-```
-
